@@ -1,0 +1,63 @@
+html {
+    font-family: sans-serif;
+    background: #eee;
+    padding: 1rem;
+    background-image: url('/static/images/bg5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    color: white;
+    /* background: rgba(123, 73, 73, 0.571); */
+    background-color: transparent;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.flex-container>div {
+    background-color: transparent;
+    width: 32%;
+    margin: 5px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    z-index: 10;
+    display: none;
+    /* bottom: 0;  */
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container-perks:hover .overlay {
+    display: block;
+    opacity: 1;
+}
+
+.container-addons:hover .overlay {
+    display: block;
+    opacity: 1;
+}

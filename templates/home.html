@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+{% block content %}
+<ul class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
+    <button class="tablinks" onclick="openTab(event, 'Killer-Perks')">Killer Perks</button>
+    <button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
+</ul>
+{% for cat, perks in Perks.items() %}
+<div class="tabcontent" id={{ cat }}>
+    <div class="flex-container">
+        {% for key, perk in perks.items() %}
+        <div class="container-perks">
+            <img class="perk-image lozad" draggable="true" ondragstart="drag(event)" id={{ key }}
+                data-src={{ perk.image }} height="100" width="100">
+            <img class="back-img lozad" src={{ perk['image_alt'] }} alt="Card Front" height="100" width="100"
+                credit="u/LynxRecruit">
+            <figcaption>{{ perk.name }}</figcaption>
+            <div class="overlay">
+                <p>{{ perk.description }}</p>
+            </div>
+            <!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+<div class="tabcontent" id="Killer-Addons">
+    <ul class="subtab">
+        {% for name,info in Killer_Addons.items() %}
+        <button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); dimElem(event, 'subtablinks');">
+			<img class="lozad" data-src={{ info['killer-image-alt'] }} height="125" width="125" 
+				credit="@WholeyeetRye">
+            <figcaption>{{ name }}</figcaption>
+        </button>
+        {% endfor %}
+    </ul>
+    {% for name,info in Killer_Addons.items() %}
+    <div class="subtabcontent" id='{{ name }}'>
+        <center>
+            <h2>{{ info.power }}</h2>
+            <img id="power-image lozad" data-src={{ info['power-image'] }}>
+            <p>{{ info['power-description'] }}</p>
+        </center>
+        {% for rarity,addons in info['addons'].items() %}
+        <h3>
+            <center>{{ rarity }}</center>
+        </h3>
+        <div class="flex-container" id={{ rarity }}>
+            {% for addon in addons %}
+            <div class="container-addons" id={{ addon['addon-rarity'] }}>
+                <img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80" width="80"
+                    credit="u/ambieobambie">
+                <figcaption>{{ addon['addon-name'] }}</figcaption>
+                <div class="overlay">
+                    <p>{{ addon['addon-description'] }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+<script>
+    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+    observer.observe();
+</script>
+<script>
+    document.getElementById("defaultOpen").click();
+</script>
+{% endblock content %}

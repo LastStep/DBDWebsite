@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href={{"static/style_main.css"}}>
+  {% if css %}
+    <link rel="stylesheet" type="text/css" href={{"static/" + css}}>
+  {% endif %}
+
+  {% if title %}
+      <title>DBD Website - {{ title }}</title>
+  {% else %}
+      <title>DBD Website</title>
+  {% endif %}
+
+  <script type="text/javascript" src="{{ url_for('static', filename = 'functions.js') }}"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+</html>

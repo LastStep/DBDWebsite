@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content">
+	<div>
+		<div class="slot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)">
+			<input type="image" onclick="clearSlot('div1')"
+			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		</div>
+		<div class="slot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)">
+			<input type="image" onclick="clearSlot('div2')"
+			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		</div>
+		<div class="slot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)">
+			<input type="image" onclick="clearSlot('div3')"
+			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		</div>
+		<div class="slot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)">
+			<input type="image" onclick="clearSlot('div4')"
+			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		</div>
+	</div>
+	<div class="content-main">
+		{% for key,perk in perks.items() %}
+			<div class="container">
+				<img class="image" draggable="true" ondragstart="drag(event)" id={{ key }} src={{ perk.image }}>
+				<div class="overlay">
+					<font color="red"><a style="font-size: 25px">{{ perk.name }}</a></font>
+					<p>{{ perk.description }}</p>
+				</div>
+				<!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
+			</div>
+		{% endfor %}
+	</div>
+</div>
+{% endblock content %}

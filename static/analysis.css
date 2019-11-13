@@ -1,0 +1,24 @@
+.content-main{
+		display: flex;
+		flex-wrap: wrap;
+}
+.content-main> div {
+  background-color: transparent;
+  width: 32%;
+  margin: 5px;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+		float: left;
+		width: 120px;
+		height: 100px;
+		margin: 10px;
+		padding: top right bottom left;
+		border: 1px solid white;
+}
