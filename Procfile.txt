@@ -1,1 +1,1 @@
-web: gunicorn app:dbdwebsite
+web: gunicorn app:app
