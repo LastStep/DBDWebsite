@@ -5,7 +5,7 @@
         "versions": {
             "Uncommon": [{
                 "name": "Flashlight",
-                "description": "A standard Flashlight.<br/>Can be used to light your way in the darkness.<br/>'Most of the battery life was wastefully used by the previous owner.'",
+                "description": "A standard Flashlight. Can be used to light your way in the darkness. 'Most of the battery life was wastefully used by the previous owner.'",
                 "image-alt": "/static/images/Items-alt/iconItems_flashlight.png",
                 "image": "/static/images/Items/iconItems_flashlight.png"
             }],
@@ -23,7 +23,7 @@
             }],
             "Event": [{
                 "name": "Will O' Wisp",
-                "description": "A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam.<br/>'Happy Trick or Treating!'",
+                "description": "A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam. 'Happy Trick or Treating!'",
                 "image-alt": "/static/images/Items-alt/iconItems_flashlightHalloween.png",
                 "image": "/static/images/Items/iconItems_flashlightHalloween.png"
             }]
