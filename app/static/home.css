@@ -70,6 +70,23 @@
     transform: scale(1.6);
 }
 
+/* Items */
+.container-items {
+    position: relative;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.container-items img {
+    pointer-events: auto;
+    transition: transform .5s ease;
+    min-height: 80;
+}
+
+.container-items:hover img {
+    transform: scale(1.6);
+}
+
 /* Tabs */
 .tab {
     overflow: hidden;

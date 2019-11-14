@@ -3,7 +3,9 @@
 <ul class="tab">
     <button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
     <button class="tablinks" onclick="openTab(event, 'Killer-Perks')">Killer Perks</button>
-    <button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
+    <button class="tablinks" onclick="openTab(event, 'Killer-Addons')">Killer Addons</button>
+    <button class="tablinks" onclick="openTab(event, 'Items')" id="defaultOpen">Items</button>
+
 </ul>
 {% for cat, perks in Perks.items() %}
 <div class="tabcontent" id={{ cat }}>
@@ -28,8 +30,7 @@
     <ul class="subtab">
         {% for name,info in Killer_Addons.items() %}
         <button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); dimElem(event, 'subtablinks');">
-			<img class="lozad" data-src={{ info['killer-image-alt'] }} height="125" width="125" 
-				credit="@WholeyeetRye">
+            <img class="lozad" data-src={{ info['killer-image-alt'] }} height="125" width="125" credit="@WholeyeetRye">
             <figcaption>{{ name }}</figcaption>
         </button>
         {% endfor %}
@@ -47,12 +48,47 @@
         </h3>
         <div class="flex-container" id={{ rarity }}>
             {% for addon in addons %}
-            <div class="container-addons" id={{ addon['addon-rarity'] }}>
-                <img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80" width="80"
-                    credit="u/ambieobambie">
+            <div class="container-addons">
+                <img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80"
+                    width="80" credit="u/ambieobambie">
                 <figcaption>{{ addon['addon-name'] }}</figcaption>
                 <div class="overlay">
                     <p>{{ addon['addon-description'] }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
+<div class="tabcontent" id="Items">
+    <ul class="subtab">
+        {% for name,info in Items.items() %}
+        <button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); dimElem(event, 'subtablinks');">
+            <img class="lozad" data-src={{ info.image }} height="125" width="125">
+            <figcaption>{{ name }}</figcaption>
+        </button>
+        {% endfor %}
+    </ul>
+    {% for name,info in Items.items() %}
+    <div class="subtabcontent" id='{{ name }}'>
+        <center>
+            <h2>{{ name }}</h2>
+            <p>{{ info['description'] }}</p>
+        </center>
+        {% for rarity,items in info['versions'].items() %}
+        <h3>
+            <center>{{ rarity }}</center>
+        </h3>
+        <div class="flex-container" id={{ rarity }}>
+            {% for item in items %}
+            <div class="container-items">
+                <img class="item-image lozad" data-src={{ item["image-alt"] }} height="80"
+                    width="80" credit="u/ambieobambie">
+                <figcaption>{{ item.name }}</figcaption>
+                <div class="overlay">
+                    <p>{{ item.description }}</p>
                 </div>
             </div>
             {% endfor %}

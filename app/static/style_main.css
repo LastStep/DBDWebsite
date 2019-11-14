@@ -61,3 +61,8 @@ body {
     display: block;
     opacity: 1;
 }
+
+.container-items:hover .overlay {
+    display: block;
+    opacity: 1;
+}

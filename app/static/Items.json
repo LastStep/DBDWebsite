@@ -1,0 +1,154 @@
+{
+    "Flashlights": {
+        "image": "/static/images/Items/iconItems_flashlight.png",
+        "description": "The Flashlight is an Item that is used to blind the Killer. If they are carrying a Survivor on their shoulder, getting blinded will make them drop that Survivor and be stunned for a few seconds.",
+        "versions": {
+            "Uncommon": [{
+                "name": "Flashlight",
+                "description": "A standard Flashlight.<br/>Can be used to light your way in the darkness.<br/>'Most of the battery life was wastefully used by the previous owner.'",
+                "image-alt": "/static/images/Items-alt/iconItems_flashlight.png",
+                "image": "/static/images/Items/iconItems_flashlight.png"
+            }],
+            "Rare": [{
+                "name": "Sport Flashlight",
+                "description": "A very portable Flashlight with a good grip. Its efficient technology produces a powerful light while consuming less power.",
+                "image-alt": "/static/images/Items-alt/iconItems_flashlightSport.png",
+                "image": "/static/images/Items/iconItems_flashlightSport.png"
+            }],
+            "Very Rare": [{
+                "name": "Utility Flashlight",
+                "description": "A sturdy but heavy Flashlight that packs a lot of power.",
+                "image-alt": "/static/images/Items-alt/iconItems_flashlightUtility.png",
+                "image": "/static/images/Items/iconItems_flashlightUtility.png"
+            }],
+            "Event": [{
+                "name": "Will O' Wisp",
+                "description": "A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam.<br/>'Happy Trick or Treating!'",
+                "image-alt": "/static/images/Items-alt/iconItems_flashlightHalloween.png",
+                "image": "/static/images/Items/iconItems_flashlightHalloween.png"
+            }]
+        }
+    },
+    "Keys": {
+        "image": "/static/images/Items/iconItems_key.png",
+        "description": "The Key is an Item that can be used to open the Hatch when it spawns. It can also be used with Add-ons to enhance its power and show the user different Auras, such as those of other Survivors in their vicinity or that of the Killer. The Broken Key cannot be used to open to Hatch and is of no use without Add-ons.",
+        "versions": {
+            "Rare": [{
+                "name": "Broken Key",
+                "description": "The bow and shank of a key, vibrating with power. The Broken Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Broken Key's power into various effects.",
+                "image-alt": "/static/images/Items-alt/iconItems_brokenKey.png",
+                "image": "/static/images/Items/iconItems_brokenKey.png"
+            }],
+            "Very Rare": [{
+                "name": "Dull Key",
+                "description": "A bent and dull Key that once held great power. The Dull Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Dull Key's remaining power into various effects.",
+                "image-alt": "/static/images/Items-alt/iconItems_dullKey.png",
+                "image": "/static/images/Items/iconItems_dullKey.png"
+            }],
+            "Ultra Rare": [{
+                "name": "Skeleton Key",
+                "description": "A tarnished and crooked Key, vibrating with ominous power. The Skeleton Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Skeleton Key's power into various effects.",
+                "image-alt": "/static/images/Items-alt/iconItems_key.png",
+                "image": "/static/images/Items/iconItems_key.png"
+            }]
+        }
+    },
+    "Maps": {
+        "image": "/static/images/Items/iconItems_map.png",
+        "description": "The Map is an Item that is used to track and mark props in the World. The standard map can only track Generators, but can track different props as well with the use of Add-ons that enhance its power. You can even make the tracked Auras visible to other Survivors and create markers that look like a pillar of bright light.",
+        "versions": {
+            "Rare": [{
+                "name": "Map",
+                "description": "An old piece of parchment made out of a skin-like material. Is rolled and sealed with an uncoloured leather string. Holding and channelling the Map unlocks great potential in one's Aura-reading ability which slowly burns the Map. Generators' Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
+                "image-alt": "/static/images/Items-alt/iconItems_map.png",
+                "image": "/static/images/Items/iconItems_map.png"
+            }],
+            "Ultra Rare": [{
+                "name": "Rainbow Map",
+                "description": "A piece of parchment made out of oddly fresh skin. Blood on its edge has yet to dry. It is rolled and sealed with multiple coloured ropes and cords. Holding and channelling the Map unlocks a great potential in one's Aura-reading ability which slowly burns up the Map. Objects with Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
+                "image-alt": "/static/images/Items-alt/iconItems_rainbowMap.png",
+                "image": "/static/images/Items/iconItems_rainbowMap.png"
+            }]
+        }
+    },
+    "Med-Kits": {
+        "image": "/static/images/Items/iconItems_medkit.png",
+        "description": "The Med-Kit is an Item that is used to heal yourself and other Survivors. Other Survivors can also be healed without the use of a Med-Kit, but it takes considerably longer. Without the use of Self - Care, a Survivor cannot heal themselves without one.Different Add - ons can be equipped that enhance its healing speed or durability.",
+        "versions": {
+            "Common": [{
+                "name": "Camping Aid Kit",
+                "description": "A rudimentary Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.",
+                "image-alt": "/static/images/Items-alt/iconItems_rundownAidKit.png",
+                "image": "/static/images/Items/iconItems_rundownAidKit.png"
+            }],
+            "Uncommon": [{
+                "name": "First Aid Kit",
+                "description": "A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.",
+                "image-alt": "/static/images/Items-alt/iconItems_firstAidKit.png",
+                "image": "/static/images/Items/iconItems_firstAidKit.png"
+            }],
+            "Rare": [{
+                "name": "Emergency Med-Kit",
+                "description": "A sturdy and well organised Med-Kit equipped with top condition emergency supplies.",
+                "image-alt": "/static/images/Items-alt/iconItems_medkit.png",
+                "image": "/static/images/Items/iconItems_medkit.png"
+            }],
+            "Very Rare": [{
+                "name": "Ranger Med-Kit",
+                "description": "A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.",
+                "image-alt": "/static/images/Items-alt/iconItems_rangersAidKit.png",
+                "image": "/static/images/Items/iconItems_rangersAidKit.png"
+            }],
+            "Event": [{
+                "name": "All Hallows' Eve Lunchbox",
+                "description": "A plastic lunchbox with phosphorescent Halloween Stickers that has been packed with first-aid equipment.",
+                "image-alt": "/static/images/Items-alt/iconItems_medkitHalloween.png",
+                "image": "/static/images/Items/iconItems_medkitHalloween.png"
+            }]
+        }
+    },
+    "Toolboxes": {
+        "image": "/static/images/Items/iconItems_toolbox.png",
+        "description": "The Toolbox is an Item that can be used to repair Generators more quickly or sabotage hooks. Different Toolboxes have different uses and not all of them are good for both uses. Add-ons can be equipped to enhance their speed and durability.",
+        "versions": {
+            "Common": [{
+                "name": "Worn-Out Tools",
+                "description": "A metal box containing out of condition tools that could break at any moment. Even without training, can be used to repair or break various mechanical components.",
+                "image-alt": "/static/images/Items-alt/iconItems_toolboxWornOut.png",
+                "image": "/static/images/Items/iconItems_toolboxWornOut.png"
+            }],
+            "Uncommon": [{
+                "name": "Toolbox",
+                "description": "A metal box containing a set of basic tools. Even without training, can be used to repair or break various mechanical components.",
+                "image-alt": "/static/images/Items-alt/iconItems_toolbox.png",
+                "image": "/static/images/Items/iconItems_toolbox.png"
+            }],
+            "Rare": [{
+                    "name": "Mechanic's Toolbox",
+                    "description": "A metal box with specialised mechanics tools. Even without training, can be used to repair or break various mechanical components.",
+                    "image-alt": "/static/images/Items-alt/iconItems_toolboxMechanics.png",
+                    "image": "/static/images/Items/iconItems_toolboxMechanics.png"
+                },
+                {
+                    "name": "Commodious Toolbox",
+                    "description": "A large metal box containing basic tool and extra mechanical parts. Even without training, can be used to repair or break various mechanical components.",
+                    "image-alt": "/static/images/Items-alt/iconItems_toolboxCommodious.png",
+                    "image": "/static/images/Items/iconItems_toolboxCommodious.png"
+                }
+            ],
+            "Very Rare": [{
+                    "name": "Engineer's Toolbox",
+                    "description": "A metal box with highly specialised tools meant for engineering. Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.",
+                    "image-alt": "/static/images/Items-alt/iconItems_toolboxEngineers.png",
+                    "image": "/static/images/Items/iconItems_toolboxEngineers.png"
+                },
+                {
+                    "name": "Alex's Toolbox",
+                    "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools. Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.",
+                    "image-alt": "/static/images/Items-alt/iconItems_toolboxAlexs.png",
+                    "image": "/static/images/Items/iconItems_toolboxAlexs.png"
+                }
+            ]
+        }
+    }
+}
