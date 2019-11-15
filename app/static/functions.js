@@ -2,9 +2,11 @@
 function allowDrop(ev) {
     ev.preventDefault();
 }
+
 function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
 }
+
 function drop(ev, slot) {
     clearSlot(slot);
     ev.preventDefault();
@@ -66,5 +68,9 @@ function dimElem(evt, targetClass) {
     evt.currentTarget.className += " opaque";
 }
 
+//Loading
+window.onload = function () {
 
-
+    var ele = document.getElementsByClassName("loading")[0];
+    ele.remove();
+}
