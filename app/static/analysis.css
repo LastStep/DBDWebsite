@@ -176,6 +176,7 @@
 	transition: transform .5s ease;
 	font-size: 15px;
 	color: white;
+	border-radius: 25px;
 }
 
 .subtablinks:hover {
