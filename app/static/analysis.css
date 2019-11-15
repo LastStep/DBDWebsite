@@ -146,6 +146,30 @@
 	width: 80px;
 }
 
+.container-stats {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.container-stats button {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	width: 250px;
+	cursor: pointer;
+	padding: 20px 20px;
+	font-size: 15px;
+	color: white;
+	position: relative;
+	/* background: var(--color1); */
+}
+
+.stats:hover {
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+}
+
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;

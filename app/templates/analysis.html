@@ -56,6 +56,17 @@
 			<h1 style="color: crimson; font-weight: 600; letter-spacing: 2px;">
 				<center>{{ name }}</center>
 			</h1>
+		</br>
+		</br>
+			<div class="container-stats">
+				{% for col,stat in Killers['Hillbilly'].items() %}
+				<button class="stats">
+					<center>{{ col }}</center>
+				</br>
+					<center>{{ stat.Base }}</center>
+				</button>
+				{% endfor %}
+			</div>
 			<div class="addonsMain">
 				<div class="addonsContent">
 					{% for rarity,addons in info['addons'].items() %}

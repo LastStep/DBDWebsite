@@ -1,0 +1,21 @@
+,Chainsaw Sprint Speed,Cooldown Time,Charge Time,Noise,Bump Penalty Time,Steering (Yaw Speed),Additional Effects
+Base,230%,3,2.5,60,3,58%,
+Vegetable Oil,,-14%,,,,,
+Spark Plug,,,-12%,,,,
+Chainsaw File,,,,-30%,,,
+Spiked Boots,,,,,,28%,
+Speed Limiter,,,,,,,"Chainsaw does not trigger the Dying State, Get 25% more BP for Chainsaw Score Events in the Deviousness Category"
+Shop Lubricant,,-18%,,,,,
+Primer Bulb,,,-18%,,,,
+Long Guide Bar,,,,,,,Slightly increases the reach of the Chainsaw attack
+Homemade Muffler,,,,-35%,,,
+Grisly Chains,,,,,,,Decreases the action speed by 9% for 90 seconds
+Depth Gauge Rake,,,,,-20%,,
+Death Engravings,15%,,12%,,,,
+The Thompson's Mix,,-20%,-12%,,,,
+Rusted Chains,,,,,,,Applied the Mangled Status Effect for 120 seconds
+Light Chassis,,,,,-28%,,
+Doom Engravings,20%,,12%,,,,
+Carburettor Tuning Guide,,-14%,-18%,-30%,-12%,,
+Thompson's Moonshine,,,,,28%,44%,
+Begrimed Chains,,,,,,,"Decreases the Repar speed by 9%, Applied the Mangled Status Effect for 120 seconds, Applied the Haemorrhage Status Effect until healed"

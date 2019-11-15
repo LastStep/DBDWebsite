@@ -71,5 +71,5 @@ function dimElem(evt, targetClass) {
 //Loading
 window.onload = function () {
     var ele = document.getElementsByClassName("loading")[0];
-    ele.remove();
+    ele.style.display = "none";
 }
