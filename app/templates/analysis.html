@@ -1,35 +1,101 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="content">
-	<div>
-		<div class="slot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)">
-			<input type="image" onclick="clearSlot('div1')"
-			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+<ul class="tab">
+	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
+
+</ul>
+
+<div class="tabcontent" id="Survivor-Perks">
+	<div class="perksSlots">
+		<div class="perkSlot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)">
+			<input class="clear-img" type="image" onclick="clearSlot('div1')" src="static/images/clearbtn.png" alt="Clear" width="20"
+				height="20" align="right">
 		</div>
-		<div class="slot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)">
-			<input type="image" onclick="clearSlot('div2')"
-			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		<div class="perkSlot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)">
+			<input class="clear-img" type="image" onclick="clearSlot('div2')" src="static/images/clearbtn.png" alt="Clear" width="20"
+				height="20" align="right">
 		</div>
-		<div class="slot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)">
-			<input type="image" onclick="clearSlot('div3')"
-			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		<div class="perkSlot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)">
+			<input class="clear-img" type="image" onclick="clearSlot('div3')" src="static/images/clearbtn.png" alt="Clear" width="20"
+				height="20" align="right">
 		</div>
-		<div class="slot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)">
-			<input type="image" onclick="clearSlot('div4')"
-			src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+		<div class="perkSlot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)">
+			<input class="clear-img" type="image" onclick="clearSlot('div4')" src="static/images/clearbtn.png" alt="Clear" width="20"
+				height="20" align="right">
 		</div>
 	</div>
-	<div class="content-main">
+	<div class="perksContent">
 		{% for key,perk in perks.items() %}
-			<div class="container">
-				<img class="image" draggable="true" ondragstart="drag(event)" id={{ key }} src={{ perk.image }}>
-				<div class="overlay">
-					<font color="red"><a style="font-size: 25px">{{ perk.name }}</a></font>
-					<p>{{ perk.description }}</p>
-				</div>
-				<!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
+		<div class="container">
+			<img class="image lozad" draggable="true" ondragstart="drag(event)" id={{ key }} data-src={{ perk.image }}>
+			<div class="overlay">
+				<font color="red"><a style="font-size: 25px">{{ perk.name }}</a></font>
+				<p>{{ perk.description }}</p>
 			</div>
+			<!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
+		</div>
 		{% endfor %}
 	</div>
 </div>
+
+<div class="tabcontent" id="Killer-Addons">
+	<div class="killerTab">
+		<ul class="subtab">
+			{% for name,info in Killer_Addons.items() %}
+			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}')">
+				<!-- <div>{{ name }}</div> -->
+				<img class="lozad" data-src={{ info['killer-image-alt'] }} height="80" width="80"
+					credit="@WholeyeetRye">
+				<figcaption>{{ name }}</figcaption>
+			</button>
+			{% endfor %}
+		</ul>
+
+		{% for name,info in Killer_Addons.items() %}
+		<div class="subtabcontent" id='{{ name }}'>
+			<div class="addonsMain">
+				<div class="addonsSlots">
+					<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
+						ondrop="drop(event, `{{ name + '-slot1' }}`)" ondragover="allowDrop(event)">
+						<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`)"
+							src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+					</div>
+					<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
+						ondrop="drop(event, `{{ name + '-slot2' }}`)" ondragover="allowDrop(event)">
+						<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`)"
+							src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+					</div>
+				</div>
+
+				<div class="addonsContent">
+					{% for rarity,addons in info['addons'].items() %}
+					<div class="flex-container">
+						{% for addon in addons %}
+						<div class="container-addons">
+							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }}
+								draggable="true" ondragstart="drag(event)" id={{ addon['addon-name'] }} 
+								height="100" width="100" credit="u/ambieobambie">
+							<figcaption>{{ addon['addon-name'] }}</figcaption>
+							<div class="overlay">
+								<p>{{ addon['addon-description'] }}</p>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<script>
+	const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+	observer.observe();
+</script>
+<script>
+	document.getElementById("defaultOpen").click();
+</script>
 {% endblock content %}

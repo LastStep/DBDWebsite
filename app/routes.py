@@ -18,15 +18,18 @@ with open(os.path.join(APP_STATIC, 'Killer_Addons.json'), "r") as f:
 with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
     items = json.load(f)
 
+
 @app.route("/")
 @app.route("/home")
 def home():
     return render_template('home.html',
-                           Perks={'Survivor-Perks': survivor_perks, 'Killer-Perks': killer_perks}, 
-                           Killer_Addons=killer_addons,
-                           Items=items, css='home.css')
+                            Perks={'Survivor-Perks': survivor_perks,
+                                  'Killer-Perks': killer_perks},
+                            Killer_Addons=killer_addons,
+                            Items=items, css='home.css')
 
 
 @app.route("/analysis")
 def analysis():
-    return render_template('analysis.html', perks=survivor_perks, css='analysis.css')
+    return render_template('analysis.html', perks=survivor_perks,
+                            Killer_Addons=killer_addons, css='analysis.css')
