@@ -9,25 +9,25 @@
 <div class="tabcontent" id="Survivor-Perks">
 	<div class="perksSlots">
 		<div class="perkSlot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div1')" src="static/images/clearbtn.png" alt="Clear" width="20"
-				height="20" align="right">
+			<input class="clear-img" type="image" onclick="clearSlot('div1')" src="static/images/clearbtn.png"
+				alt="Clear" width="20" height="20" align="right">
 		</div>
 		<div class="perkSlot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div2')" src="static/images/clearbtn.png" alt="Clear" width="20"
-				height="20" align="right">
+			<input class="clear-img" type="image" onclick="clearSlot('div2')" src="static/images/clearbtn.png"
+				alt="Clear" width="20" height="20" align="right">
 		</div>
 		<div class="perkSlot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div3')" src="static/images/clearbtn.png" alt="Clear" width="20"
-				height="20" align="right">
+			<input class="clear-img" type="image" onclick="clearSlot('div3')" src="static/images/clearbtn.png"
+				alt="Clear" width="20" height="20" align="right">
 		</div>
 		<div class="perkSlot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div4')" src="static/images/clearbtn.png" alt="Clear" width="20"
-				height="20" align="right">
+			<input class="clear-img" type="image" onclick="clearSlot('div4')" src="static/images/clearbtn.png"
+				alt="Clear" width="20" height="20" align="right">
 		</div>
 	</div>
 	<div class="perksContent">
 		{% for key,perk in perks.items() %}
-		<div class="container">
+		<div class="container-perks">
 			<img class="image lozad" draggable="true" ondragstart="drag(event)" id={{ key }} data-src={{ perk.image }}>
 			<div class="overlay">
 				<font color="red"><a style="font-size: 25px">{{ perk.name }}</a></font>
@@ -44,18 +44,38 @@
 		<ul class="subtab">
 			{% for name,info in Killer_Addons.items() %}
 			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}')">
-				<!-- <div>{{ name }}</div> -->
+				<div>{{ name }}</div>
 				<img class="lozad" data-src={{ info['killer-image-alt'] }} height="80" width="80"
 					credit="@WholeyeetRye">
-				<figcaption>{{ name }}</figcaption>
 			</button>
 			{% endfor %}
 		</ul>
 
 		{% for name,info in Killer_Addons.items() %}
 		<div class="subtabcontent" id='{{ name }}'>
+			<h1 style="color: crimson; font-weight: 600; letter-spacing: 2px;">
+				<center>{{ name }}</center>
+			</h1>
 			<div class="addonsMain">
-				<div class="addonsSlots">
+				<div class="addonsContent">
+					{% for rarity,addons in info['addons'].items() %}
+					<div class="flex-container">
+						{% for addon in addons %}
+						<div class="container-addons">
+							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }}
+								draggable="true" ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
+							<figcaption>
+								<span>{{ addon['addon-name'] }}</span>
+							</figcaption>
+							<div class="overlay">
+								<p>{{ addon['addon-description'] }}</p>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+					{% endfor %}
+				</div>
+				<div class="addonsSlots" id="addonsSlots">
 					<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
 						ondrop="drop(event, `{{ name + '-slot1' }}`)" ondragover="allowDrop(event)">
 						<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`)"
@@ -67,30 +87,11 @@
 							src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 					</div>
 				</div>
-
-				<div class="addonsContent">
-					{% for rarity,addons in info['addons'].items() %}
-					<div class="flex-container">
-						{% for addon in addons %}
-						<div class="container-addons">
-							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }}
-								draggable="true" ondragstart="drag(event)" id={{ addon['addon-name'] }} 
-								height="100" width="100" credit="u/ambieobambie">
-							<figcaption>{{ addon['addon-name'] }}</figcaption>
-							<div class="overlay">
-								<p>{{ addon['addon-description'] }}</p>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-					{% endfor %}
-				</div>
 			</div>
 		</div>
 		{% endfor %}
 	</div>
 </div>
-
 <script>
 	const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 	observer.observe();

@@ -10,11 +10,16 @@ html {
 }
 
 body {
-    max-width: 960px;
+    /* max-width: 960px; */
     margin: 0 auto;
     color: white;
     /* background: rgba(123, 73, 73, 0.571); */
     background-color: transparent;
+}
+
+.page {
+    width: 70%;
+    margin: auto;
 }
 
 .flex-container {
@@ -85,6 +90,7 @@ body {
 }
 
 .dropdown:hover .menu-img {
+    transition: transform .3s ease;
     /* display: none; */
     transform: scale(1.4);
 }
@@ -98,7 +104,7 @@ body {
     position: relative;
     display: inline-block;
     top: 0px;
-    left: -250px;
+    left: 0px;
     align-items: center;
 }
 
