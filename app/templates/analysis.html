@@ -58,15 +58,19 @@
 			</h1>
 		</br>
 		</br>
+			{% if name == 'Hillbilly' %}
 			<div class="container-stats">
-				{% for col,stat in Killers['Hillbilly'].items() %}
+				{% for col,stat in Killers[name].items() %}
 				<button class="stats">
-					<center>{{ col }}</center>
-				</br>
-					<center>{{ stat.Base }}</center>
+					<center><p class="stats-addon">{{ col }}</p></center>
+					<center><p class="stats-value" value={{ stat['Base-Hillbilly'] }}>{{ stat['Base-Hillbilly'] }}</p></center>
+					{% for addon,val in stat.items() %}
+						<center><p class="stats-addons" name="{{ addon }}-stat">{{ val }}</p></center>
+					{% endfor %}
 				</button>
 				{% endfor %}
 			</div>
+			{% endif %}
 			<div class="addonsMain">
 				<div class="addonsContent">
 					{% for rarity,addons in info['addons'].items() %}

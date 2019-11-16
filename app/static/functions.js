@@ -13,6 +13,59 @@ function drop(ev, slot) {
     var data = ev.dataTransfer.getData("text");
     var nodeCopy = document.getElementById(data).cloneNode(true);
     document.getElementById(slot).appendChild(nodeCopy);
+    imgIds.push(nodeCopy.id);
+    calcAddon();
+}
+
+var imgIds = [];
+//Calculate Addon
+function calcAddon() {
+    var ele1 = document.getElementsByName(imgIds[0]+"-stat");
+    var ele2 = document.getElementsByName(imgIds[1]+"-stat");
+    for (i = 0; i < ele1.length; i++) {
+
+        var elem = ele1[i].parentNode.parentNode;
+        var val1 = ele1[i].textContent;
+
+        try { 
+            var val2 = ele2[i].textContent;
+            var val = '';
+            if (val1 == 'None') {
+                val = val2;
+            }
+            else if (val2 == 'None') {
+                val = val1;
+            }
+            else if (val1.slice(-1) == '%' && val2.slice(-1) == '%') {
+                val = +val1.slice(0,-1) + +val2.slice(0,-1) + '%';
+            }
+            else {
+                val = val1 + '\n' + val2;
+            }
+            assignVal(elem, val);
+        }
+        catch(TypeError) {
+            assignVal(elem, val1);
+        }
+    }
+}
+
+function assignVal(elem, val) {
+    elem = elem.getElementsByClassName('stats-value')[0];
+    elemVal = elem.getAttribute("value");
+
+    if (elemVal.slice(-1) == '%' && val != 'None') {
+        elem.textContent = +elemVal.slice(0,-1) + +val.slice(0,-1) + '%';
+    }
+    else if (val != 'None' && val.slice(-1) == '%') {
+        elem.textContent = +elemVal + +elemVal*+val.slice(0,-1)/100;
+    }
+    else if (val != 'None') {
+        elem.textContent = val;
+    }
+    else {
+        elem.textContent = elemVal;
+    }
 }
 
 //Clearing Slot
@@ -20,10 +73,12 @@ function clearSlot(slot) {
     var elems = document.getElementById(slot).children;
     for (i = 0; i < elems.length; i++) {
         if (elems[i].nodeName != "INPUT") {
-            elems[i].parentNode.removeChild(elems[i]);
+            imgIds = imgIds.filter(item => item !== elems[i].id);
+            elems[i].parentNode.removeChild(elems[i])
             i--;
         }
     }
+    
 }
 
 //Switch tabs
