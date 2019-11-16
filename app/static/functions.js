@@ -13,6 +13,7 @@ function drop(ev, slot) {
     var data = ev.dataTransfer.getData("text");
     var nodeCopy = document.getElementById(data).cloneNode(true);
     document.getElementById(slot).appendChild(nodeCopy);
+    checkRepeat(ev, nodeCopy.id);
     imgIds.push(nodeCopy.id);
     calcAddon();
 }
@@ -20,31 +21,29 @@ function drop(ev, slot) {
 var imgIds = [];
 //Calculate Addon
 function calcAddon() {
-    var ele1 = document.getElementsByName(imgIds[0]+"-stat");
-    var ele2 = document.getElementsByName(imgIds[1]+"-stat");
+    var ele1 = document.getElementsByName(imgIds[0] + "-stat");
+    // console.log(ele1);
+    var ele2 = document.getElementsByName(imgIds[1] + "-stat");
+    // console.log(ele2);
     for (i = 0; i < ele1.length; i++) {
 
         var elem = ele1[i].parentNode.parentNode;
         var val1 = ele1[i].textContent;
 
-        try { 
+        try {
             var val2 = ele2[i].textContent;
             var val = '';
-            if (val1 == 'None') {
+            if (val1 === 'None') {
                 val = val2;
-            }
-            else if (val2 == 'None') {
+            } else if (val2 === 'None') {
                 val = val1;
-            }
-            else if (val1.slice(-1) == '%' && val2.slice(-1) == '%') {
-                val = +val1.slice(0,-1) + +val2.slice(0,-1) + '%';
-            }
-            else {
+            } else if (val1.slice(-1) === '%' && val2.slice(-1) === '%') {
+                val = +val1.slice(0, -1) + +val2.slice(0, -1) + '%';
+            } else {
                 val = val1 + '\n' + val2;
             }
             assignVal(elem, val);
-        }
-        catch(TypeError) {
+        } catch (TypeError) {
             assignVal(elem, val1);
         }
     }
@@ -54,17 +53,35 @@ function assignVal(elem, val) {
     elem = elem.getElementsByClassName('stats-value')[0];
     elemVal = elem.getAttribute("value");
 
-    if (elemVal.slice(-1) == '%' && val != 'None') {
-        elem.textContent = +elemVal.slice(0,-1) + +val.slice(0,-1) + '%';
-    }
-    else if (val != 'None' && val.slice(-1) == '%') {
-        elem.textContent = +elemVal + +elemVal*+val.slice(0,-1)/100;
-    }
-    else if (val != 'None') {
+    if (elemVal.slice(-1) === '%' && val !== 'None') {
+        elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + '%';
+    } else if (val !== 'None' && val.slice(-1) === '%') {
+        elem.textContent = (+elemVal + +elemVal * +val.slice(0, -1) / 100).toFixed(2);
+    } else if (val !== 'None') {
         elem.textContent = val;
-    }
-    else {
+    } else {
         elem.textContent = elemVal;
+    }
+}
+
+function assignDefaultVal(elem) {
+    var ele1 = document.getElementsByName(elem + "-stat");
+    for (j = 0; j < ele1.length; j++) {
+        parentElem = ele1[j].parentNode.parentNode;
+        var val1 = ele1[j].textContent;
+        statElem = parentElem.getElementsByClassName('stats-value')[0];
+        elemVal = statElem.textContent;
+        elemDefVal = statElem.getAttribute("value");
+
+        if (elemVal.slice(-1) === '%' && val1 !== 'None') {
+            statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + '%';
+        } else if (val1 !== 'None' && val1.slice(-1) === '%') {
+            statElem.textContent = (+elemVal + +elemDefVal * -val1.slice(0, -1) / 100).toFixed(2);
+        } else if (val1 !== 'None') {
+            statElem.textContent = elemDefVal;
+        } else {
+            statElem.textContent = elemVal;
+        }
     }
 }
 
@@ -72,13 +89,31 @@ function assignVal(elem, val) {
 function clearSlot(slot) {
     var elems = document.getElementById(slot).children;
     for (i = 0; i < elems.length; i++) {
-        if (elems[i].nodeName != "INPUT") {
+        if (elems[i].nodeName !== "INPUT") {
+            assignDefaultVal(elems[i].id);
             imgIds = imgIds.filter(item => item !== elems[i].id);
             elems[i].parentNode.removeChild(elems[i])
             i--;
         }
     }
-    
+}
+
+function checkRepeat(ev, addonId) {
+    currSlot = ev.currentTarget;
+
+    if (currSlot.id.slice(-1) === '1') {
+        otherSlotId = currSlot.id.slice(0, -1) + '2';
+    } else if (currSlot.id.slice(-1) === '2') {
+        otherSlotId = currSlot.id.slice(0, -1) + '1';
+    }
+
+    var otherSlotElems = document.getElementById(otherSlotId).children;
+
+    for (i = 0; i < otherSlotElems.length; i++) {
+        if (addonId === otherSlotElems[i].id) {
+            clearSlot(otherSlotId);
+        }
+    }
 }
 
 //Switch tabs
