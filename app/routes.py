@@ -21,6 +21,8 @@ with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
 with open(os.path.join(APP_STATIC, 'Hillbilly.json'), "r") as f:
     Hillbilly = json.load(f)
 
+with open(os.path.join(APP_STATIC, 'Trapper.json'), "r") as f:
+    Trapper = json.load(f)
 
 @app.route("/")
 @app.route("/home")
@@ -36,4 +38,4 @@ def home():
 def analysis():
     return render_template('analysis.html', perks=survivor_perks,
                             Killer_Addons=killer_addons,
-                            Killers={'Hillbilly': Hillbilly}, css='analysis.css')
+                            Killers={'Hillbilly': Hillbilly, 'Trapper': Trapper}, css='analysis.css')

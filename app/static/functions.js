@@ -40,7 +40,7 @@ function calcAddon() {
             } else if (val1.slice(-1) === '%' && val2.slice(-1) === '%') {
                 val = +val1.slice(0, -1) + +val2.slice(0, -1) + '%';
             } else {
-                val = val1 + ', ' + val2;
+                val = val1 + '.' + val2;
             }
             assignVal(elem, val);
         } catch (TypeError) {
@@ -55,17 +55,32 @@ function assignVal(elem, val) {
 
     if (elemVal.slice(-1) === '%' && val !== 'None') {
         elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + '%';
+        assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
     } else if (val !== 'None' && val.slice(-1) === '%') {
-        elem.textContent = (+elemVal + +elemVal * +val.slice(0, -1) / 100).toFixed(2);
+        elem.textContent = Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200)/ 200;
+        assignColor(elem, +elem.textContent, +elemVal);
     } else if (val !== 'None') {
         elem.innerHTML = '';
-        val = val.split(', ');
+        val = val.split('.');
         val = Array.from(new Set(val));
         for (var v of val) {
             elem.innerHTML += "</br>" + v + "</br>";
         }
     } else {
         elem.textContent = elemVal;
+    }
+}
+
+function assignColor(elem, newVal, prevVal) {
+    console.log(prevVal);
+    if (newVal > prevVal) {
+        elem.style.color = 'green';
+    }
+    else if (newVal < prevVal) {
+        elem.style.color = 'red';
+    }
+    else {
+        elem.style.color = 'white';
     }
 }
 
@@ -80,10 +95,12 @@ function assignDefaultVal(elem) {
 
         if (elemVal.slice(-1) === '%' && val1 !== 'None') {
             statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + '%';
+            assignColor(statElem, +statElem.textContent.slice(0, -1), +elemDefVal.slice(0, -1));
         } else if (val1 !== 'None' && val1.slice(-1) === '%') {
-            statElem.textContent = (+elemVal + +elemDefVal * -val1.slice(0, -1) / 100).toFixed(2);
+            statElem.textContent = Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200;
+            assignColor(statElem, +statElem.textContent, +elemDefVal);
         } else if (val1 !== 'None') {
-            val1 = val1.split(', ');
+            val1 = val1.split('.');
             for (var v of val1) {
                 statElem.innerHTML = statElem.innerHTML.replace("<br>" + v + "<br>", '');
                 if (statElem.innerHTML === "") {
