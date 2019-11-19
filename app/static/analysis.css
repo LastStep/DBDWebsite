@@ -78,6 +78,7 @@
 .fade {
 	opacity: 1;
 	max-height: 150px;
+	/* max-width: 180px; */
 }
 
 .addon-image {
@@ -202,7 +203,7 @@
 	align-content: space-between;
 }
 
-.stas-temp {
+.stats-temp {
 	/* display: none; */
 }
 
@@ -304,6 +305,10 @@
 
 .killerTab {
 	display: flex;
+}
+
+.hidden {
+	display: none;
 }
 
 /* Animations */

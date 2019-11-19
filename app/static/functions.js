@@ -157,7 +157,7 @@ function clearSlots(name) {
         ele.click();
     }
     try {
-        var ele = document.getElementById(prevKiller+"-move");
+        var ele = document.getElementById(prevKiller + "-move");
         if (ele.classList.contains('active')) {
             ele.click();
         }
@@ -173,7 +173,13 @@ function moveSlot(slotName) {
             elems[i].classList.toggle('fade');
         }
     }
-    var ele = document.getElementById(slotName+"-move");
+    var tempElems = document.getElementsByClassName("stats-temp");
+    for (i = 0; i < tempElems.length; i++) {
+        if (tempElems[i].id.includes(slotName)) {
+            tempElems[i].classList.toggle('hidden');
+        }
+    }
+    var ele = document.getElementById(slotName + "-move");
     ele.classList.toggle('active');
 }
 
