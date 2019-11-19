@@ -51,15 +51,33 @@
 	margin-bottom: 50px;
 }
 
-.addonsSlots {
+.mainAddonSlots {
 	display: flex;
-	/* flex-wrap: wrap; */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.addonsSlots {
+	display: flex;
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	/* margin: 50px; */
-	margin-left: 50px;
-	margin-right: -120px;
+	/* margin-left: 50px;
+	margin-right: -120px; */
+}
+
+.tempSlot {
+	opacity: 0;
+	max-height: 0;
+	transition: max-height 1s, opacity 1s;
+}
+
+.fade {
+	opacity: 1;
+	max-height: 150px;
 }
 
 .addon-image {
@@ -75,7 +93,6 @@
 	top: -12px;
 	left: 90px;
 }
-
 
 /* Tabs */
 .tab {
@@ -133,9 +150,9 @@
 }
 
 .container-addons {
-    position: relative;
-    display: inline-block;
-    pointer-events: none;
+	position: relative;
+	display: inline-block;
+	pointer-events: none;
 }
 
 .container-addons img {
@@ -178,6 +195,17 @@
 	/* color: hsla(0, 69%, 45%, 0.9); */
 }
 
+.stats-tabs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: space-between;
+}
+
+.stas-temp {
+	/* display: none; */
+}
+
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -203,8 +231,8 @@
 }
 
 .container-perks img {
-    pointer-events: auto;
-    min-height: 100;
+	pointer-events: auto;
+	min-height: 100;
 }
 
 .perksContent {
@@ -276,4 +304,15 @@
 
 .killerTab {
 	display: flex;
+}
+
+/* Animations */
+@keyframes fadeEffect {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }

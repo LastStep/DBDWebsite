@@ -7,24 +7,33 @@ function drag(ev) {
     ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev, slot) {
-    clearSlot(slot);
+function drop(ev, slot, temp) {
+    clearSlot(slot, temp);
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     var nodeCopy = document.getElementById(data).cloneNode(true);
     document.getElementById(slot).appendChild(nodeCopy);
     checkRepeat(ev, nodeCopy.id);
-    imgIds.push(nodeCopy.id);
-    calcAddon();
+    if (temp) {
+        imgTempIds.push(nodeCopy.id);
+    } else {
+        imgIds.push(nodeCopy.id);
+    }
+    calcAddon(temp);
 }
 
 var imgIds = [];
+var imgTempIds = [];
+var prevKiller = '';
 //Calculate Addon
-function calcAddon() {
-    var ele1 = document.getElementsByName(imgIds[0] + "-stat");
-    // console.log(ele1);
-    var ele2 = document.getElementsByName(imgIds[1] + "-stat");
-    // console.log(ele2);
+function calcAddon(temp) {
+    if (temp) {
+        var ele1 = document.getElementsByName(imgTempIds[0] + "-stat-temp");
+        var ele2 = document.getElementsByName(imgTempIds[1] + "-stat-temp");
+    } else {
+        var ele1 = document.getElementsByName(imgIds[0] + "-stat");
+        var ele2 = document.getElementsByName(imgIds[1] + "-stat");
+    }
     for (i = 0; i < ele1.length; i++) {
 
         var elem = ele1[i].parentNode.parentNode;
@@ -42,22 +51,26 @@ function calcAddon() {
             } else {
                 val = val1 + '.' + val2;
             }
-            assignVal(elem, val);
+            assignVal(elem, val, temp);
         } catch (TypeError) {
-            assignVal(elem, val1);
+            assignVal(elem, val1, temp);
         }
     }
 }
 
-function assignVal(elem, val) {
-    elem = elem.getElementsByClassName('stats-value')[0];
+function assignVal(elem, val, temp) {
+    if (temp) {
+        elem = elem.getElementsByClassName('stats-value-temp')[0];
+    } else {
+        elem = elem.getElementsByClassName('stats-value')[0];
+    }
     elemVal = elem.getAttribute("value");
 
     if (elemVal.slice(-1) === '%' && val !== 'None') {
         elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + '%';
         assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
     } else if (val !== 'None' && val.slice(-1) === '%') {
-        elem.textContent = Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200)/ 200;
+        elem.textContent = Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200;
         assignColor(elem, +elem.textContent, +elemVal);
     } else if (val !== 'None') {
         elem.innerHTML = '';
@@ -72,24 +85,30 @@ function assignVal(elem, val) {
 }
 
 function assignColor(elem, newVal, prevVal) {
-    console.log(prevVal);
+    // console.log(prevVal);
     if (newVal > prevVal) {
         elem.style.color = 'green';
-    }
-    else if (newVal < prevVal) {
+    } else if (newVal < prevVal) {
         elem.style.color = 'red';
-    }
-    else {
+    } else {
         elem.style.color = 'white';
     }
 }
 
-function assignDefaultVal(elem) {
-    var ele1 = document.getElementsByName(elem + "-stat");
+function assignDefaultVal(elem, temp) {
+    if (temp) {
+        var ele1 = document.getElementsByName(elem + "-stat-temp");
+    } else {
+        var ele1 = document.getElementsByName(elem + "-stat");
+    }
     for (j = 0; j < ele1.length; j++) {
         parentElem = ele1[j].parentNode.parentNode;
         var val1 = ele1[j].textContent;
-        statElem = parentElem.getElementsByClassName('stats-value')[0];
+        if (temp) {
+            statElem = parentElem.getElementsByClassName('stats-value-temp')[0];
+        } else {
+            statElem = parentElem.getElementsByClassName('stats-value')[0];
+        }
         elemVal = statElem.textContent;
         elemDefVal = statElem.getAttribute("value");
 
@@ -116,16 +135,46 @@ function assignDefaultVal(elem) {
 }
 
 //Clearing Slot
-function clearSlot(slot) {
+function clearSlot(slot, temp) {
     var elems = document.getElementById(slot).children;
     for (i = 0; i < elems.length; i++) {
         if (elems[i].nodeName !== "INPUT") {
-            assignDefaultVal(elems[i].id);
-            imgIds = imgIds.filter(item => item !== elems[i].id);
+            assignDefaultVal(elems[i].id, temp);
+            if (temp) {
+                imgTempIds = imgTempIds.filter(item => item !== elems[i].id);
+            } else {
+                imgIds = imgIds.filter(item => item !== elems[i].id);
+            }
             elems[i].parentNode.removeChild(elems[i])
             i--;
         }
     }
+}
+
+function clearSlots(name) {
+    var elems = document.getElementsByClassName("clear-img");
+    for (var ele of elems) {
+        ele.click();
+    }
+    try {
+        var ele = document.getElementById(prevKiller+"-move");
+        if (ele.classList.contains('active')) {
+            ele.click();
+        }
+    } catch (TypeError) {}
+    prevKiller = name;
+}
+
+//Move SLot
+function moveSlot(slotName) {
+    var elems = document.getElementsByClassName("tempSlot");
+    for (i = 0; i < elems.length; i++) {
+        if (elems[i].id.includes(slotName)) {
+            elems[i].classList.toggle('fade');
+        }
+    }
+    var ele = document.getElementById(slotName+"-move");
+    ele.classList.toggle('active');
 }
 
 function checkRepeat(ev, addonId) {
