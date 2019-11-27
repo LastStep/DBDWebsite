@@ -65,12 +65,21 @@ function assignVal(elem, val, temp) {
         elem = elem.getElementsByClassName('stats-value')[0];
     }
     elemVal = elem.getAttribute("value");
+    staticVal = elem.parentNode.parentNode.getElementsByClassName('stats-addons')[1].textContent;
 
     if (elemVal.slice(-1) === '%' && val !== 'None') {
         elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + '%';
+        if (staticVal !== 'None') {
+            elem.textContent = +elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + '%';
+            elemVal = +elemVal.slice(0,-1) + +staticVal.slice(0,-1) + '%';
+        }
         assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
     } else if (val !== 'None' && val.slice(-1) === '%') {
         elem.textContent = Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200;
+        if (staticVal !== 'None') {
+            elem.textContent = +elem.textContent + +staticVal;
+            elemVal = +elemVal + +staticVal;
+        }
         assignColor(elem, +elem.textContent, +elemVal);
     } else if (val !== 'None') {
         elem.innerHTML = '';
@@ -85,7 +94,8 @@ function assignVal(elem, val, temp) {
 }
 
 function assignColor(elem, newVal, prevVal) {
-    // console.log(prevVal);
+    console.log(newVal, prevVal);
+    console.log(elem);
     if (newVal > prevVal) {
         elem.style.color = 'green';
     } else if (newVal < prevVal) {
@@ -204,8 +214,6 @@ function checkRepeat(ev, addonId) {
 
 function calcVal(ele, val1, val2) {
     var val;
-    val1 = val1.toString();
-    val2 = val2.toString();
     if (val2 === "None") {
         val = val1;
     }
@@ -216,7 +224,7 @@ function calcVal(ele, val1, val2) {
         val = val1 + "+" + val2;
         val = eval(val);
     }
-    ele.setAttribute("value", val);
+    ele.setAttribute("value", val1);
     ele.textContent = val;
 }
 
