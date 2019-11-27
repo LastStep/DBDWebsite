@@ -201,6 +201,25 @@ function checkRepeat(ev, addonId) {
     }
 }
 
+
+function calcVal(ele, val1, val2) {
+    var val;
+    val1 = val1.toString();
+    val2 = val2.toString();
+    if (val2 === "None") {
+        val = val1;
+    }
+    else if (val1.slice(-1) === "%") {
+        val = +val1.slice(0,-1) + +val2.slice(0,-1) + "%";
+    }
+    else {
+        val = val1 + "+" + val2;
+        val = eval(val);
+    }
+    ele.setAttribute("value", val);
+    ele.textContent = val;
+}
+
 //Switch tabs
 function openTab(evt, sectionName) {
     var i, tabcontent, tablinks;
@@ -247,4 +266,12 @@ function dimElem(evt, targetClass) {
 window.onload = function () {
     var ele = document.getElementsByClassName("loading")[0];
     ele.style.display = "none";
+    var elems = this.document.getElementsByClassName("stats-value");
+    for (var elem of elems) {
+        elem.click();
+    }
+    var elems = this.document.getElementsByClassName("stats-value-temp");
+    for (var elem of elems) {
+        elem.click();
+    }
 }

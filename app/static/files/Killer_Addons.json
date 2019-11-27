@@ -815,118 +815,137 @@
                 "addon-name": "Vegetable Oil",
                 "addon-description": "A rancid oil used as a poor quality lubricant.\nSlightly decreases the Chainsaw's cool-down.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_vegetableOil.png",
-                "addon-id": "Vegetable-Oil-Hillbilly"
+                "addon-id": "Vegetable-Oil-Hillbilly",
+                "addon-effect": "Cooldown Time: -14%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/df/FulliconAddon_sparkPlug.png/64px-FulliconAddon_sparkPlug.png?version=9aca3c3cc6d68642405fc8c03e7430b1",
                 "addon-name": "Spark Plug",
                 "addon-description": "A clean spark plug fitted for a Chainsaw.\nSlightly decreases the Chainsaw's charge time.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_sparkPlug.png",
-                "addon-id": "Spark-Plug-Hillbilly"
+                "addon-id": "Spark-Plug-Hillbilly",
+                "addon-effect": "Charge Time: -12%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/39/FulliconAddon_chainsawFile.png/64px-FulliconAddon_chainsawFile.png?version=8b3ce67b7f03cf953a8eddda890437b1",
                 "addon-name": "Chainsaw File",
                 "addon-description": "A file whose purpose is to hone Chainsaw chains.\nSlightly reduces the noise made by the Chainsaw.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_chainsawFile.png",
-                "addon-id": "Chainsaw-File-Hillbilly"
+                "addon-id": "Chainsaw-File-Hillbilly",
+                "addon-effect": "Noise: -30%"
             }],
             "Uncommon": [{
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8f/FulliconAddon_spikedBoots.png/64px-FulliconAddon_spikedBoots.png?version=ca0680d183bc2796a12055258ccd55b9",
                 "addon-name": "Spiked Boots",
                 "addon-description": "Boots with metal spikes protruding from the soles, which provide more stability and control when walking on slippery soil.\nModerately increases steering while using the Chainsaw.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_spikedBoots.png",
-                "addon-id": "Spiked-Boots-Hillbilly"
+                "addon-id": "Spiked-Boots-Hillbilly",
+                "addon-effect": "Steering (Yaw Speed): 28%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/FulliconAddon_speedLimiter.png/64px-FulliconAddon_speedLimiter.png?version=3499bca6e4f556453a3632d122727826",
                 "addon-name": "Speed Limiter",
                 "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_speedLimiter.png",
-                "addon-id": "Speed-Limiter-Hillbilly"
+                "addon-id": "Speed-Limiter-Hillbilly",
+                "addon-effect": "Chainsaw does not trigger the Dying State. Get 25% more BP for Chainsaw Score Events in the Deviousness Category"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5e/FulliconAddon_shopLubricant.png/64px-FulliconAddon_shopLubricant.png?version=8d4328ba43cd0c512af4a8d09a77fd12",
                 "addon-name": "Shop Lubricant",
                 "addon-description": "An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.\nModerately decreases the Chainsaw's cool-down.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_shopLubricant.png",
-                "addon-id": "Shop-Lubricant-Hillbilly"
+                "addon-id": "Shop-Lubricant-Hillbilly",
+                "addon-effect": "Cooldown Time: -18%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/23/FulliconAddon_primerBulb.png/64px-FulliconAddon_primerBulb.png?version=6b673cd54dc1a24ddd3211908b84eb8e",
                 "addon-name": "Primer Bulb",
                 "addon-description": "Pumps more gas in the ignition system to ensure a quick and powerful start.\nModerately decreases the Chainsaw's charge time.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_primerBulb.png",
-                "addon-id": "Primer-Bulb-Hillbilly"
+                "addon-id": "Primer-Bulb-Hillbilly",
+                "addon-effect": "Charge Time: -18%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/70/FulliconAddon_longGuideBar.png/64px-FulliconAddon_longGuideBar.png?version=35aca55462acae62e6a28001efaf128c",
                 "addon-name": "Long Guide Bar",
                 "addon-description": "A sturdy iron replacement bar for long chains.\nSlightly increases the reach of the Chainsaw attack.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_longGuideBar.png",
-                "addon-id": "Long-Guide-Bar-Hillbilly"
+                "addon-id": "Long-Guide-Bar-Hillbilly",
+                "addon-effect": "Slightly increases the reach of the Chainsaw attack"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_homemadeMuffler.png/64px-FulliconAddon_homemadeMuffler.png?version=603098f5d2da98b81dc18da5cce23f5d",
                 "addon-name": "Homemade Muffler",
                 "addon-description": "A makeshift exhaust system made of black gas pipes.\nModerately reduces the noise made by the Chainsaw.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_homemadeMuffler.png",
-                "addon-id": "Homemade-Muffler-Hillbilly"
+                "addon-id": "Homemade-Muffler-Hillbilly",
+                "addon-effect": "Noise: -35%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0f/FulliconAddon_grislyChains.png/64px-FulliconAddon_grislyChains.png?version=5124be1fd32be77970ef4b85992255f9",
                 "addon-name": "Grisly Chains",
                 "addon-description": "A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.\nModerately decreases the Repair speed of Survivors injured by the Chainsaw for 90 seconds.\nDoes not stack.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_chainsGrisly.png",
-                "addon-id": "Grisly-Chains-Hillbilly"
+                "addon-id": "Grisly-Chains-Hillbilly",
+                "addon-effect": "Decreases the action speed by 9% for 90 seconds"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/38/FulliconAddon_depthGaugeRake.png/64px-FulliconAddon_depthGaugeRake.png?version=51651fccfa4e097a512152103116b994",
                 "addon-name": "Depth Gauge Rake",
                 "addon-description": "Tool that increases the angle of the depth gauge, making the chain eat more \"wood\".\nModerately reduces the time penalty when bumping into objects.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_depthGaugeRake.png",
-                "addon-id": "Depth-Gauge-Rake-Hillbilly"
+                "addon-id": "Depth-Gauge-Rake-Hillbilly",
+                "addon-effect": "Bump Penalty Time: -20%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1c/FulliconAddon_deathEngravings.png/64px-FulliconAddon_deathEngravings.png?version=046926c89213fd065252d330e37e7b15",
                 "addon-name": "Death Engravings",
                 "addon-description": "Engravings found on the Chainsaw body counting the amount of lives it took. Fills the user with determination.\nSlightly increases the Chainsaw's movement speed.\nSlightly increases charge time.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_deathEngravings.png",
-                "addon-id": "Death-Engravings-Hillbilly"
+                "addon-id": "Death-Engravings-Hillbilly",
+                "addon-effect": "Chainsaw Sprint Speed: 15% \n\nCharge Time: 12%"
             }],
             "Rare": [{
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7d/FulliconAddon_theThompsonsMix.png/64px-FulliconAddon_theThompsonsMix.png?version=0aba2acb780470a0f22b25a7a9d4cd02",
                 "addon-name": "The Thompson's Mix",
                 "addon-description": "A special oily substance used in the lubrication of all machinery concocted by the Thompson's themselves.\nConsiderably decreases the Chainsaw's cool-down.\nSlightly decreases the Chainsaw's charge time.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_theThompsonsMix.png",
-                "addon-id": "The-Thompsons-Mix-Hillbilly"
+                "addon-id": "The-Thompsons-Mix-Hillbilly",
+                "addon-effect": "Cooldown Time: -20% \n\nCharge Time: -12%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/61/FulliconAddon_rustedChains.png/64px-FulliconAddon_rustedChains.png?version=0290fc39785aed3986a655b9988971b0",
                 "addon-name": "Rusted Chains",
                 "addon-description": "This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nSurvivors injured by the Chainsaw suffer considerably from the Mangled  Status Effect.\nDoes not stack.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_chainsRusted.png",
-                "addon-id": "Rusted-Chains-Hillbilly"
+                "addon-id": "Rusted-Chains-Hillbilly",
+                "addon-effect": "Applied the Mangled Status Effect for 120 seconds"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0e/FulliconAddon_lightChassis.png/64px-FulliconAddon_lightChassis.png?version=20539d873b4a1f8ad27cfe24a8bd4aa1",
                 "addon-name": "Light Chassis",
                 "addon-description": "A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.\nConsiderably reduces the time penalty when bumping into objects.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_lightChassis.png",
-                "addon-id": "Light-Chassis-Hillbilly"
+                "addon-id": "Light-Chassis-Hillbilly",
+                "addon-effect": "Bump Penalty Time: -28%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/94/FulliconAddon_doomEngravings.png/64px-FulliconAddon_doomEngravings.png?version=ecf235fbb60ea3656695f2584b6ebfab",
                 "addon-name": "Doom Engravings",
                 "addon-description": "Engravings found on the Chainsaw body representing the dark beast that lives in the Fog. Fills the user with determination.\nModerately increases the Chainsaw's movement speed.\nSlightly increases charge time.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_doomEngravings.png",
-                "addon-id": "Doom-Engravings-Hillbilly"
+                "addon-id": "Doom-Engravings-Hillbilly",
+                "addon-effect": "Chainsaw Sprint Speed: 20% \n\nCharge Time: 12%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/72/FulliconAddon_carburettorTuningGuide.png/64px-FulliconAddon_carburettorTuningGuide.png?version=5027000103ac61ad6677c01516de8f39",
                 "addon-name": "Carburettor Tuning Guide",
                 "addon-description": "A crudely drawn guide to properly adjust and tune a Chainsaw carburetor.\nModerately decreases the Chainsaw's charge time.\nSlightly decreases the Chainsaw's cool-down.\nSlightly reduces the time penalty when bumping into objects.\nSlightly reduces the noise made by the Chainsaw.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_carburetorTuningGuide.png",
-                "addon-id": "Carburettor-Tuning-Guide-Hillbilly"
+                "addon-id": "Carburettor-Tuning-Guide-Hillbilly",
+                "addon-effect": "Cooldown Time: -14% \n\nCharge Time: -18% \n\nNoise: -30% \n\nBump Penalty Time: -12%"
             }],
             "Very Rare": [{
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/46/FulliconAddon_thompsonsMoonshine.png/64px-FulliconAddon_thompsonsMoonshine.png?version=a8b7d11d9fd062d2d51685ceb61881d2",
                 "addon-name": "Thompson's Moonshine",
                 "addon-description": "A strong beverage made from corn and a recipe passed down in the Thompson's family. Instils rage and headache.\nTremendously increases steering while using the Chainsaw.\nConsiderably increases the time penalty when bumping into objects.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_thompsonsMoonshine.png",
-                "addon-id": "Thompsons-Moonshine-Hillbilly"
+                "addon-id": "Thompsons-Moonshine-Hillbilly",
+                "addon-effect": "Bump Penalty Time: 28% \n\nSteering (Yaw Speed): 44%"
             }, {
                 "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/84/FulliconAddon_begrimedChains.png/64px-FulliconAddon_begrimedChains.png?version=60cdfc79354629c0e474d737cb02f4b5",
                 "addon-name": "Begrimed Chains",
                 "addon-description": "This chain is stained with a foul substance that debilitates anyone it touches.\nModerately decreases the Repair speed on Survivors injured by the Chainsaw.\nSurvivors injured by the Chainsaw suffer considerably from the Mangled  Status Effect.\nDoes not stack.",
                 "addon-image-alt": "/static/images/Addons/iconAddon_chainsBloody.png",
-                "addon-id": "Begrimed-Chains-Hillbilly"
+                "addon-id": "Begrimed-Chains-Hillbilly",
+                "addon-effect": "Decreases the Repair speed by 9%. \n\nApplied the Mangled Status Effect for 120 seconds. \n\nApplied the Haemorrhage Status Effect until healed"
             }]
         }
     },

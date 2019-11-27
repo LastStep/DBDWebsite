@@ -58,7 +58,7 @@
 			</h1>
 			</br>
 			</br>
-			{% if name in ['Hillbilly', 'Trapper'] %}
+			{% if name in ['Hillbilly', 'Trapper', 'Hag', 'Wraith'] %}
 			<div class="container-stats">
 				{% for col,stat in Killers[name].items() %}
 				<button class="stats">
@@ -68,7 +68,7 @@
 					<div class="stats-tabs">
 						<div class="stats-main">
 							<center>
-								<p class="stats-value" value={{ stat['Base-'+name] }}>{{ stat['Base-'+name] }}</p>
+								<p class="stats-value" value="" onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;"></p>
 							</center>
 							{% for addon,val in stat.items() %}
 							<center>
@@ -78,8 +78,7 @@
 						</div>
 						<div class="stats-temp tempSlot hidden" id={{ name + '-temp-stats' }}>
 							<center>
-								<p class="stats-value-temp" value={{ stat['Base-'+name] }}>
-									{{ stat['Base-'+name] }}</p>
+								<p class="stats-value-temp" value="" onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;"></p>
 							</center>
 							{% for addon,val in stat.items() %}
 							<center>
@@ -104,8 +103,14 @@
 							<figcaption>
 								<span>{{ addon['addon-name'] }}</span>
 							</figcaption>
-							<div class="overlay">
-								<p>{{ addon['addon-description'] }}</p>
+							<div class="overlay {{ 'overlay' + ''.join(rarity.split()) }}">
+								<div class="overlay-heading">
+									<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
+									<span style="font-size: 13px;">{{ rarity }}</span>
+								</div>
+								<div class="overlay-content">
+									<p style="font-size: 15px;">{{ addon['addon-description'] }}</p>
+								</div>
 							</div>
 						</div>
 						{% endfor %}
@@ -149,6 +154,12 @@
 		{% endfor %}
 	</div>
 </div>
+<script>
+	var elems = document.getElementsByClassName('overlay-content')
+	for (i = 0; i < elems.length; i++) {
+		elems[i].innerHTML = elems[i].innerHTML.split('\n').slice(1, -1).join('<br>');
+	}
+</script>
 <script>
 	const observer = lozad(); // lazy loads elements with default selector as '.lozad'
 	observer.observe();

@@ -1,3 +1,15 @@
+:root {
+    --color1: hsla(0, 100%, 90%, 0.333);
+    --color2: hsla(0, 100%, 70%, 0.3);
+    --color3: #ff073a;
+    --common-rarity-color: hsla(29, 84%, 22%, 0.5);
+    --uncommon-rarity-color: hsla(56, 89%, 40%, 0.5);
+    --rare-rarity-color: hsla(110, 74%, 22%, 0.5);
+    --very-rare-rarity-color: hsla(258, 46%, 48%, 0.5);
+    --ultra-rare-rarity-color: hsla(7, 92%, 34%, 0.5);
+    --shadow-radius: 5px;
+}
+
 html {
     font-family: sans-serif;
     background: #eee;
@@ -45,16 +57,37 @@ body {
     left: 70%;
     z-index: 10;
     display: none;
-    /* bottom: 0;  */
-    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.8);
     /* Black see-through */
-    width: 100%;
+    width: 200%;
+    /* padding: 15px; */
     transition: .5s ease;
     opacity: 0;
     color: white;
-    font-size: 15px;
-    text-align: center;
+    /* font-size: 15px; */
+    text-align: left;
+    /* box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2); */
+    border-radius: 15px;
+}
+
+.overlayCommon {
+    box-shadow: 0 0 10px var(--shadow-radius) var(--common-rarity-color), 0 0 40px var(--shadow-radius) var(--common-rarity-color), 0 0 80px var(--shadow-radius) var(--common-rarity-color);
+}
+
+.overlayUncommon {
+    box-shadow: 0 0 10px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 40px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 80px var(--shadow-radius) var(--uncommon-rarity-color);
+}
+
+.overlayRare {
+    box-shadow: 0 0 10px var(--shadow-radius) var(--rare-rarity-color), 0 0 40px var(--shadow-radius) var(--rare-rarity-color), 0 0 80px var(--shadow-radius) var(--rare-rarity-color);
+}
+
+.overlayVeryRare {
+    box-shadow: 0 0 10px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--very-rare-rarity-color);
+}
+
+.overlayUltraRare {
+    box-shadow: 0 0 10px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--ultra-rare-rarity-color);
 }
 
 .container-perks:hover .overlay {
@@ -112,7 +145,7 @@ body {
     display: none;
     position: absolute;
     background-color: transparent;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     text-align: center;
 }
@@ -122,7 +155,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-	border-radius: 25px;
+    border-radius: 25px;
 }
 
 .dropdown-content a:hover {
@@ -135,11 +168,11 @@ body {
 
 /* Loading */
 .loading {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('/static/images/dbdlogo.gif') center no-repeat black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/static/images/dbdlogo.gif') center no-repeat black;
 }

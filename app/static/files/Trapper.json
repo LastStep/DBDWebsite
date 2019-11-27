@@ -1,6 +1,7 @@
 {
     "Setting Speed": {
-        "Base-Trapper": "2.5",
+        "Base-Trapper": "1.5",
+        "Static-Trapper": "1",
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": "-25%",
         "Strong-Coil-Spring-Trapper": null,
@@ -24,6 +25,7 @@
     },
     "Disarm Time": {
         "Base-Trapper": "3.5",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": "20%",
@@ -47,6 +49,7 @@
     },
     "Sabotage Time": {
         "Base-Trapper": "16",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": "15%",
@@ -70,6 +73,7 @@
     },
     "Rescue Time": {
         "Base-Trapper": "1.5",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": null,
@@ -93,6 +97,7 @@
     },
     "Escape Time": {
         "Base-Trapper": "1.8",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": null,
@@ -116,6 +121,7 @@
     },
     "Escape Chance": {
         "Base-Trapper": "25%",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": null,
@@ -139,6 +145,7 @@
     },
     "Number of Traps (Carry)": {
         "Base-Trapper": "1",
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": "100%",
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": null,
@@ -162,6 +169,7 @@
     },
     "Additional Effects": {
         "Base-Trapper": null,
+        "Static-Trapper": null,
         "Trapper-Sack-Trapper": null,
         "Trapper-Gloves-Trapper": null,
         "Strong-Coil-Spring-Trapper": null,
