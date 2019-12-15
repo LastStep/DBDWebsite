@@ -29,7 +29,7 @@ for file in os.listdir(APP_Killer_Addons):
 def home():
   return render_template('home.html',
                Perks={'Survivor-Perks': survivor_perks,
-                  'Killer-Perks': killer_perks},
+                  		'Killer-Perks': killer_perks},
                Killer_Addons=killer_addons,
                Items=items, css='home.css')
 
