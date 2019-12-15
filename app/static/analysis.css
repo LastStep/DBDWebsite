@@ -7,6 +7,47 @@
 
 
 /* Slots */
+.perksSlots {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.mainAddonSlots {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.addonsSlots {
+	display: flex;
+	/* flex-wrap: wrap; */
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* margin: 50px; */
+	/* margin-left: 50px;
+	margin-right: -120px; */
+}
+
+.mainItemSlots {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.itemSlots {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .perkSlot,
 .addonSlot {
 	float: left;
@@ -42,31 +83,26 @@
 	border: none;
 }
 
-.perksSlots {
-	display: flex;
-	/* flex-wrap: wrap; */
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
-
-.mainAddonSlots {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+#itemSlotMain {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	margin-bottom: 80px;
+	padding: top right bottom left;
+	border: 1px solid white;
+	position: relative;
+	border-radius: 25px;
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
 	align-items: center;
 }
 
-.addonsSlots {
-	display: flex;
-	/* flex-wrap: wrap; */
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	/* margin: 50px; */
-	/* margin-left: 50px;
-	margin-right: -120px; */
+#itemSlotMain img {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	width: 150px;
+	height: 150px;
 }
 
 .tempSlot {
@@ -95,34 +131,55 @@
 	left: 90px;
 }
 
+.clear-img-item {
+	position: absolute;
+	z-index: 2;
+	top: -12px;
+	left: 140px;
+}
+
 /* Tabs */
 .tab {
-	overflow: hidden;
-	/* border: 1px solid #ccc; */
-	/* background-color: #f1f1f1; */
-	background-color: transparent;
-	list-style-type: none;
+    overflow: visible;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    background-color: transparent;
+    list-style-type: none;
+	height: 60px;
+	width: max-content;
 }
 
 .tab button {
-	background-color: inherit;
-	float: left;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	padding: 14px 10px;
-	transition: 0.3s;
-	font-size: 17px;
-	color: white;
-	border-radius: 25px;
+    background-color: inherit;
+    float: left;
+    margin-left: 20px;
+    border-top: none;
+    border-right: none;
+    border-width: 5px;
+    border-left-width: 3px;
+    border-left-style: double;
+    border-bottom-style: double;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 10px;
+    font-size: 17px;
+    color: white;
+    border-radius: 20px;
+    transform: perspective(1000px) rotateX(0deg) translate(0, 0);
+    transition: 0.3s;
 }
 
 .tab button:hover {
-	background-color: var(--color1);
+    border-top: none;
+    border-right: none;
+    border-width: 10px;
+    border-left-width: 6px;
+    background-color: hsla(0, 100%, 90%, 0.5);
+    transform: perspective(1000px) rotateX(0deg) translate(5px, -10px);
 }
 
 .tab button.active {
-	background-color: var(--color2);
+    background-color: hsla(0, 100%, 70%, 0.3);
 }
 
 .tabcontent {
@@ -307,6 +364,10 @@
 	display: flex;
 }
 
+.itemsTab {
+	display: flex;
+}
+
 .hidden {
 	display: none;
 }
@@ -328,6 +389,22 @@
 .overlay-content {
 	padding-left: 10px;
 	line-height: 120%;
+}
+
+.raritySection {
+	max-width: 500px;
+}
+
+.container-items {
+	position: relative;
+	display: inline-block;
+	pointer-events: none;
+}
+
+.container-items img {
+	pointer-events: auto;
+	transition: transform .5s ease;
+	min-height: 80;
 }
 
 /* Animations */

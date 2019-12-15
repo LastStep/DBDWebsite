@@ -71,11 +71,11 @@ function assignVal(elem, val, temp) {
         elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + '%';
         if (staticVal !== 'None') {
             elem.textContent = +elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + '%';
-            elemVal = +elemVal.slice(0,-1) + +staticVal.slice(0,-1) + '%';
+            elemVal = +elemVal.slice(0, -1) + +staticVal.slice(0, -1) + '%';
         }
         assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
     } else if (val !== 'None' && val.slice(-1) === '%') {
-        elem.textContent = Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200;
+        elem.textContent = Number((Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200).toPrecision(2));
         if (staticVal !== 'None') {
             elem.textContent = +elem.textContent + +staticVal;
             elemVal = +elemVal + +staticVal;
@@ -86,16 +86,19 @@ function assignVal(elem, val, temp) {
         val = val.split('.');
         val = Array.from(new Set(val));
         for (var v of val) {
-            elem.innerHTML += "</br>" + v + "</br>";
+            elem.innerHTML += v + "</br>";
         }
     } else {
+        if (staticVal !== 'None') {
+            elemVal = +elemVal + +staticVal;
+        }
         elem.textContent = elemVal;
     }
 }
 
 function assignColor(elem, newVal, prevVal) {
-    console.log(newVal, prevVal);
-    console.log(elem);
+    // console.log(newVal, prevVal);
+    // console.log(elem);
     if (newVal > prevVal) {
         elem.style.color = 'green';
     } else if (newVal < prevVal) {
@@ -121,12 +124,15 @@ function assignDefaultVal(elem, temp) {
         }
         elemVal = statElem.textContent;
         elemDefVal = statElem.getAttribute("value");
+        staticVal = statElem.parentNode.parentNode.getElementsByClassName('stats-addons')[1].textContent;
 
         if (elemVal.slice(-1) === '%' && val1 !== 'None') {
             statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + '%';
-            assignColor(statElem, +statElem.textContent.slice(0, -1), +elemDefVal.slice(0, -1));
+            elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
+            assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal);
         } else if (val1 !== 'None' && val1.slice(-1) === '%') {
-            statElem.textContent = Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200;
+            statElem.textContent = Number((Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200).toPrecision(2));
+            elemDefVal = +elemDefVal + +staticVal;
             assignColor(statElem, +statElem.textContent, +elemDefVal);
         } else if (val1 !== 'None') {
             val1 = val1.split('.');
@@ -216,11 +222,9 @@ function calcVal(ele, val1, val2) {
     var val;
     if (val2 === "None") {
         val = val1;
-    }
-    else if (val1.slice(-1) === "%") {
-        val = +val1.slice(0,-1) + +val2.slice(0,-1) + "%";
-    }
-    else {
+    } else if (val1.slice(-1) === "%") {
+        val = +val1.slice(0, -1) + +val2.slice(0, -1) + "%";
+    } else {
         val = val1 + "+" + val2;
         val = eval(val);
     }
