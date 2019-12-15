@@ -1,200 +1,200 @@
 :root {
-    --color1: hsla(0, 100%, 90%, 0.333);
-    --color2: hsla(0, 100%, 70%, 0.3);
-    --color3: #ff073a;
-    --common-rarity-color: hsla(29, 84%, 22%, 0.5);
-    --uncommon-rarity-color: hsla(56, 89%, 40%, 0.5);
-    --rare-rarity-color: hsla(110, 74%, 22%, 0.5);
-    --very-rare-rarity-color: hsla(258, 46%, 48%, 0.5);
-    --ultra-rare-rarity-color: hsla(7, 92%, 34%, 0.5);
-    --shadow-radius: 5px;
+	--color1: hsla(0, 100%, 90%, 0.333);
+	--color2: hsla(0, 100%, 70%, 0.3);
+	--color3: #ff073a;
+	--common-rarity-color: hsla(29, 84%, 22%, 0.5);
+	--uncommon-rarity-color: hsla(56, 89%, 40%, 0.5);
+	--rare-rarity-color: hsla(110, 74%, 22%, 0.5);
+	--very-rare-rarity-color: hsla(258, 46%, 48%, 0.5);
+	--ultra-rare-rarity-color: hsla(7, 92%, 34%, 0.5);
+	--shadow-radius: 5px;
 }
 
 html {
-    font-family: sans-serif;
-    background: #eee;
-    padding: 1rem;
-    background-image: url('/static/images/bg5.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    scroll-behavior: smooth;
+	font-family: sans-serif;
+	background: #eee;
+	padding: 1rem;
+	background-image: url('/static/images/bg5.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	scroll-behavior: smooth;
 }
 
 body {
-    /* max-width: 960px; */
-    margin: 0 auto;
-    color: white;
-    /* background: rgba(123, 73, 73, 0.571); */
-    background-color: transparent;
+	/* max-width: 960px; */
+	margin: 0 auto;
+	color: white;
+	/* background: rgba(123, 73, 73, 0.571); */
+	background-color: transparent;
 }
 
 .page {
-    width: 70%;
-    margin: auto;
+	width: 70%;
+	margin: auto;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    /* align-items: center; */
+	display: flex;
+	flex-wrap: wrap;
+	/* align-items: center; */
 }
 
 .flex-container>div {
-    background-color: transparent;
-    width: 32%;
-    margin: 5px;
-    text-align: center;
+	background-color: transparent;
+	width: 32%;
+	margin: 5px;
+	text-align: center;
 }
 
 .container {
-    position: relative;
+	position: relative;
 }
 
 .overlay {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    z-index: 10;
-    display: none;
-    background: rgba(0, 0, 0, 0.8);
-    /* Black see-through */
-    width: 200%;
-    /* padding: 15px; */
-    transition: .5s ease;
-    opacity: 0;
-    color: white;
-    /* font-size: 15px; */
-    text-align: left;
-    /* box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2); */
-    border-radius: 15px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	z-index: 10;
+	display: none;
+	background: rgba(0, 0, 0, 0.8);
+	/* Black see-through */
+	width: 200%;
+	/* padding: 15px; */
+	transition: .5s ease;
+	opacity: 0;
+	color: white;
+	/* font-size: 15px; */
+	text-align: left;
+	/* box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2); */
+	border-radius: 15px;
 }
 
 .overlayCommon {
-    box-shadow: 0 0 10px var(--shadow-radius) var(--common-rarity-color), 0 0 40px var(--shadow-radius) var(--common-rarity-color), 0 0 80px var(--shadow-radius) var(--common-rarity-color);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--common-rarity-color), 0 0 40px var(--shadow-radius) var(--common-rarity-color), 0 0 80px var(--shadow-radius) var(--common-rarity-color);
 }
 
 .overlayUncommon {
-    box-shadow: 0 0 10px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 40px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 80px var(--shadow-radius) var(--uncommon-rarity-color);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 40px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 80px var(--shadow-radius) var(--uncommon-rarity-color);
 }
 
 .overlayRare {
-    box-shadow: 0 0 10px var(--shadow-radius) var(--rare-rarity-color), 0 0 40px var(--shadow-radius) var(--rare-rarity-color), 0 0 80px var(--shadow-radius) var(--rare-rarity-color);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--rare-rarity-color), 0 0 40px var(--shadow-radius) var(--rare-rarity-color), 0 0 80px var(--shadow-radius) var(--rare-rarity-color);
 }
 
 .overlayVeryRare {
-    box-shadow: 0 0 10px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--very-rare-rarity-color);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--very-rare-rarity-color);
 }
 
 .overlayUltraRare {
-    box-shadow: 0 0 10px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--ultra-rare-rarity-color);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--ultra-rare-rarity-color);
 }
 
 .container-perks:hover .overlay {
-    display: block;
-    opacity: 1;
+	display: block;
+	opacity: 1;
 }
 
 .container-addons:hover .overlay {
-    display: block;
-    opacity: 1;
+	display: block;
+	opacity: 1;
 }
 
 .container-items:hover .overlay {
-    display: block;
-    opacity: 1;
+	display: block;
+	opacity: 1;
 }
 
 /* DropDown Menu*/
 .dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    pointer-events: none;
+	background-color: transparent;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	pointer-events: none;
 }
 
 .dropbtn img {
-    pointer-events: auto;
-    border: none;
-    /* border-top: none;
-    border-right: none;
-    border-width: 5px;
-    border-left-width: 3px;
-    border-left-style: double;
-    border-bottom-style: double; */
-    transform: perspective(1000px) translate(0, 0);
-    transition: .3s;
-    border-radius: 15px;
+	pointer-events: auto;
+	border: none;
+	/* border-top: none;
+	border-right: none;
+	border-width: 5px;
+	border-left-width: 3px;
+	border-left-style: double;
+	border-bottom-style: double; */
+	transform: perspective(1000px) translate(0, 0);
+	transition: .3s;
+	border-radius: 15px;
 }
 
 .dropbtn .menu-img-back {
-    display: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 99;
+	display: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 99;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    overflow: visible;
-    top: 10px;
-    left: 0px;
-    height: 70px;
-    align-items: center;
-    pointer-events: none;
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	top: 10px;
+	left: 0px;
+	height: 70px;
+	align-items: center;
+	pointer-events: none;
 }
 
 .dropdown:hover .menu-img {
-    border: 5px double;
-    border-top: none;
-    border-right: none;
-    border-width: 8px;
-    border-left-width: 6px;
-    transform: perspective(1000px) scale(1.2) translate(5px, -10px);
-    transition: .3s;
+	border: 5px double;
+	border-top: none;
+	border-right: none;
+	border-width: 8px;
+	border-left-width: 6px;
+	transform: perspective(1000px) scale(1.2) translate(5px, -10px);
+	transition: .3s;
 }
 
 .dropdown:hover .menu-img-back {
-    display: inline;
-    /* transform: scale(1.2); */
+	display: inline;
+	/* transform: scale(1.2); */
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    text-align: center;
+	display: none;
+	position: absolute;
+	background-color: transparent;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	text-align: center;
 }
 
 .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-radius: 25px;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border-radius: 25px;
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(221, 221, 221, 0.517);
+	background-color: rgba(221, 221, 221, 0.517);
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 /* Loading */
 .loading {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('/static/images/dbdlogo.gif') center no-repeat black;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/static/images/dbdlogo.gif') center no-repeat black;
 }

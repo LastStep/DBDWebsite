@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="icon" href="/static/images/favicon.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="/static/images/favicon.png" sizes="32x32" type="image/png">
 
-  <link rel="stylesheet" type="text/css" href={{"static/style_main.css"}}>
-  {% if css %}
-    <link rel="stylesheet" type="text/css" href={{"static/" + css}}>
-  {% endif %}
+	<link rel="stylesheet" type="text/css" href={{"static/style_main.css"}}>
+	{% if css %}
+		<link rel="stylesheet" type="text/css" href={{"static/" + css}}>
+	{% endif %}
 
-  {% if title %}
-      <title>DBD Website - {{ title }}</title>
-  {% else %}
-      <title>DBD Website</title>
-  {% endif %}
+	{% if title %}
+			<title>DBD Website - {{ title }}</title>
+	{% else %}
+			<title>DBD Website</title>
+	{% endif %}
 
-  <script type="text/javascript" src="{{ url_for('static', filename = 'functions.js') }}"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename = 'functions.js') }}"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 
 </head>
 
 <body>
-    <div class="dropdown">
-        <button class="dropbtn">
-            <img class="menu-img" src="/static/images/Logo_dbd_inv.png" height="40" width="40">
-            <!-- <img class="menu-img-back" src="/static/images/Logo_dbd_inv.png" height="40" width="40"> -->
-        </button>
-        <div class="dropdown-content">
-          <a href="/">Home</a>
-          <a href="/analysis">Analysis</a>
-        </div>
-    </div>
-    <div class="page">
-        {% block content %}{% endblock %}
-    </div>
-    <div class="loading"></div>
+		<div class="dropdown">
+				<button class="dropbtn">
+						<img class="menu-img" src="/static/images/Logo_dbd_inv.png" height="40" width="40">
+						<!-- <img class="menu-img-back" src="/static/images/Logo_dbd_inv.png" height="40" width="40"> -->
+				</button>
+				<div class="dropdown-content">
+					<a href="/">Home</a>
+					<a href="/analysis">Analysis</a>
+				</div>
+		</div>
+		<div class="page">
+				{% block content %}{% endblock %}
+		</div>
+		<div class="loading"></div>
 </body>
 
 </html>

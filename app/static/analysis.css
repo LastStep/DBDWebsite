@@ -140,46 +140,46 @@
 
 /* Tabs */
 .tab {
-    overflow: visible;
-    /* border: 1px solid #ccc; */
-    /* background-color: #f1f1f1; */
-    background-color: transparent;
-    list-style-type: none;
+	overflow: visible;
+	/* border: 1px solid #ccc; */
+	/* background-color: #f1f1f1; */
+	background-color: transparent;
+	list-style-type: none;
 	height: 60px;
 	width: max-content;
 }
 
 .tab button {
-    background-color: inherit;
-    float: left;
-    margin-left: 20px;
-    border-top: none;
-    border-right: none;
-    border-width: 5px;
-    border-left-width: 3px;
-    border-left-style: double;
-    border-bottom-style: double;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 10px;
-    font-size: 17px;
-    color: white;
-    border-radius: 20px;
-    transform: perspective(1000px) rotateX(0deg) translate(0, 0);
-    transition: 0.3s;
+	background-color: inherit;
+	float: left;
+	margin-left: 20px;
+	border-top: none;
+	border-right: none;
+	border-width: 5px;
+	border-left-width: 3px;
+	border-left-style: double;
+	border-bottom-style: double;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 10px;
+	font-size: 17px;
+	color: white;
+	border-radius: 20px;
+	transform: perspective(1000px) rotateX(0deg) translate(0, 0);
+	transition: 0.3s;
 }
 
 .tab button:hover {
-    border-top: none;
-    border-right: none;
-    border-width: 10px;
-    border-left-width: 6px;
-    background-color: hsla(0, 100%, 90%, 0.5);
-    transform: perspective(1000px) rotateX(0deg) translate(5px, -10px);
+	border-top: none;
+	border-right: none;
+	border-width: 10px;
+	border-left-width: 6px;
+	background-color: hsla(0, 100%, 90%, 0.5);
+	transform: perspective(1000px) rotateX(0deg) translate(5px, -10px);
 }
 
 .tab button.active {
-    background-color: hsla(0, 100%, 70%, 0.3);
+	background-color: hsla(0, 100%, 70%, 0.3);
 }
 
 .tabcontent {
