@@ -24,8 +24,6 @@ for file in os.listdir(APP_Killer_Addons):
 		killers[file[:-5]] = json.load(f)
 
 
-
-
 @app.route("/")
 @app.route("/home")
 def home():
