@@ -13,8 +13,8 @@
 	<div class="flex-container">
 		{% for key, perk in perks.items() %}
 		<div class="container-perks">
-			<img class="perk-image lozad" draggable="true" ondragstart="drag(event)" id={{ key }}
-				data-src={{ perk.image }} height="100" width="100">
+			<img class="perk-image lozad" draggable="true" ondragstart="drag(event)" id={{ key }} data-src={{ perk.image }}
+				height="100" width="100">
 			<img class="back-img lozad" src={{ perk['image_alt'] }} alt="Card Front" height="100" width="100"
 				credit="u/LynxRecruit">
 			<figcaption>{{ perk.name }}</figcaption>
@@ -51,8 +51,8 @@
 		<div class="flex-container" id={{ rarity }}>
 			{% for addon in addons %}
 			<div class="container-addons">
-				<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80"
-					width="80" credit="u/ambieobambie">
+				<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80" width="80"
+					credit="u/ambieobambie">
 				<figcaption>{{ addon['addon-name'] }}</figcaption>
 				<div class="overlay">
 					<!-- <p>{{ addon['addon-description'] }}</p> -->
@@ -87,8 +87,7 @@
 		<div class="flex-container" id={{ rarity }}>
 			{% for item in items %}
 			<div class="container-items">
-				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80"
-					credit="u/ambieobambie">
+				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" credit="u/ambieobambie">
 				<figcaption>{{ item.name }}</figcaption>
 				<div class="overlay">
 					<p>{{ item.description }}</p>
@@ -102,7 +101,7 @@
 </div>
 <script>
 	var elems = document.getElementsByClassName('overlay')
-	for (i = 0; i < elems.length; i++){
+	for (i = 0; i < elems.length; i++) {
 		elems[i].innerHTML = elems[i].innerHTML.split("\n").join("<br />");
 	}
 </script>

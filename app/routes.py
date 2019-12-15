@@ -28,15 +28,15 @@ for file in os.listdir(APP_Killer_Addons):
 @app.route("/home")
 def home():
 	return render_template('home.html',
-						   Perks={'Survivor-Perks': survivor_perks,
-								  'Killer-Perks': killer_perks},
-						   Killer_Addons=killer_addons,
-						   Items=items, css='home.css')
+							 Perks={'Survivor-Perks': survivor_perks,
+									'Killer-Perks': killer_perks},
+							 Killer_Addons=killer_addons,
+							 Items=items, css='home.css')
 
 
 @app.route("/analysis")
 def analysis():
 	return render_template('analysis.html', perks=survivor_perks,
-						   Killer_Addons=killer_addons,
-						   Killers=killers,
-						   Items=items, css='analysis.css')
+							 Killer_Addons=killer_addons,
+							 Killers=killers,
+							 Items=items, css='analysis.css')
