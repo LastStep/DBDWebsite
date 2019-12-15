@@ -16,8 +16,8 @@ with open(os.path.join(APP_STATIC, 'Killer_Addons.json'), "r") as f:
   killer_addons = json.load(f)
 
 with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
-  items = json.load(f)
-  
+    items = json.load(f)
+
 killers = dict()
 for file in os.listdir(APP_Killer_Addons):
   with open(os.path.join(APP_Killer_Addons, file), "r") as f:
@@ -29,7 +29,7 @@ for file in os.listdir(APP_Killer_Addons):
 def home():
   return render_template('home.html',
                Perks={'Survivor-Perks': survivor_perks,
-                  		'Killer-Perks': killer_perks},
+                  'Killer-Perks': killer_perks},
                Killer_Addons=killer_addons,
                Items=items, css='home.css')
 
