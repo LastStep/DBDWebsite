@@ -16,7 +16,7 @@ with open(os.path.join(APP_STATIC, 'Killer_Addons.json'), "r") as f:
 	killer_addons = json.load(f)
 
 with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
-		items = json.load(f)
+	items = json.load(f)
 
 killers = dict()
 for file in os.listdir(APP_Killer_Addons):
