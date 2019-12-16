@@ -143,12 +143,14 @@ body {
 	overflow: visible;
 	top: 10px;
 	left: 0px;
-	height: 70px;
+	height: auto;
 	align-items: center;
-	pointer-events: none;
+	/* pointer-events: none; */
 }
 
 .dropdown:hover .menu-img {
+	left: 6px;
+	top: 5px;
 	border: 5px double;
 	border-top: none;
 	border-right: none;
@@ -186,6 +188,7 @@ body {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	top: auto;
 }
 
 /* Loading */
