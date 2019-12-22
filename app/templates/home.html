@@ -3,8 +3,8 @@
 <ul class="tab">
 	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
 	<button class="tablinks" onclick="openTab(event, 'Killer-Perks')">Killer Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Items')" id="defaultOpen">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Items')">Items</button>
 
 </ul>
 
@@ -18,10 +18,15 @@
 			<img class="back-img lozad" src={{ perk['image_alt'] }} alt="Card Front" height="100" width="100"
 				credit="u/LynxRecruit">
 			<figcaption>{{ perk.name }}</figcaption>
-			<div class="overlay">
-				<p>{{ perk.description }}</p>
+			<div class="overlay overlayPerk">
+				<div class="overlay-heading">
+					<span style="font-size: 16px; font-weight: 600;">{{ perk.name }}</span>
+					<span style="font-size: 13px;">{{ perk.teachable }}</span>
+				</div>
+				<div class="overlay-content">
+					<p style="font-size: 15px;">{{ perk.description }}</p>
+				</div>
 			</div>
-			<!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
 		</div>
 		{% endfor %}
 	</div>
@@ -53,10 +58,17 @@
 			<div class="container-addons">
 				<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} height="80" width="80"
 					credit="u/ambieobambie">
-				<figcaption>{{ addon['addon-name'] }}</figcaption>
-				<div class="overlay">
-					<!-- <p>{{ addon['addon-description'] }}</p> -->
-					<p>{{ addon['addon-effect'] }}</p>
+				<figcaption>
+					<span>{{ addon['addon-name'] }}</span>
+				</figcaption>
+				<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
+					<div class="overlay-heading">
+						<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
+						<span style="font-size: 13px;">{{ rarity }}</span>
+					</div>
+					<div class="overlay-content">
+						<p style="font-size: 15px;">{{ addon['addon-effect'] }}</p>
+					</div>
 				</div>
 			</div>
 			{% endfor %}
@@ -89,8 +101,14 @@
 			<div class="container-items">
 				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" credit="u/ambieobambie">
 				<figcaption>{{ item.name }}</figcaption>
-				<div class="overlay">
-					<p>{{ item.description }}</p>
+				<div class="overlay {{ 'overlayItem' + ''.join(rarity.split()) }}">
+					<div class="overlay-heading">
+						<span style="font-size: 16px; font-weight: 600;">{{ item.name }}</span>
+						<span style="font-size: 13px;">{{ rarity }}</span>
+					</div>
+					<div class="overlay-content">
+						<p style="font-size: 15px;">{{ item.description }}</p>
+					</div>
 				</div>
 			</div>
 			{% endfor %}
@@ -100,9 +118,9 @@
 	{% endfor %}
 </div>
 <script>
-	var elems = document.getElementsByClassName('overlay')
+	var elems = document.getElementsByClassName('overlay-content')
 	for (i = 0; i < elems.length; i++) {
-		elems[i].innerHTML = elems[i].innerHTML.split("\n").join("<br />");
+		elems[i].innerHTML = elems[i].innerHTML.split('\n').slice(1, -1).join('<br>');
 	}
 </script>
 <script>

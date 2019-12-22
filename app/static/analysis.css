@@ -216,7 +216,6 @@
 .container-addons img {
 	pointer-events: auto;
 	transition: transform .5s ease;
-	/* min-height: 80; */
 	height: 80px;
 	width: 80px;
 }
@@ -370,25 +369,6 @@
 
 .hidden {
 	display: none;
-}
-
-.overlay-heading {
-	padding-left: 10px;
-	padding-top: 10px;
-	text-transform: uppercase;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	display: flex;
-	flex-direction: column;
-	line-height: 140%;
-	background: url('/static/images/smoke-overlay.gif');
-	background-repeat: no-repeat;
-	/* box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2); */
-}
-
-.overlay-content {
-	padding-left: 10px;
-	line-height: 120%;
 }
 
 .raritySection {

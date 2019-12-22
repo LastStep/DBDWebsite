@@ -30,9 +30,14 @@
 		{% for key,perk in perks.items() %}
 		<div class="container-perks">
 			<img class="image lozad" draggable="true" ondragstart="drag(event)" id={{ key }} data-src={{ perk.image }}>
-			<div class="overlay">
-				<font color="red"><a style="font-size: 25px">{{ perk.name }}</a></font>
-				<p>{{ perk.description }}</p>
+			<div class="overlay overlayPerk">
+				<div class="overlay-heading">
+					<span style="font-size: 20px; font-weight: 600;">{{ perk.name }}</span>
+					<span style="font-size: 14px;">{{ perk.teachable }}</span>
+				</div>
+				<div class="overlay-content">
+					<p style="font-size: 15px;">{{ perk.description }}</p>
+				</div>
 			</div>
 			<!-- <a style="font-size: 15px" , href="#">{{ perk.teachable }}</a> -->
 		</div>
@@ -102,13 +107,13 @@
 							<figcaption>
 								<span>{{ addon['addon-name'] }}</span>
 							</figcaption>
-							<div class="overlay {{ 'overlay' + ''.join(rarity.split()) }}">
+							<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
 								<div class="overlay-heading">
 									<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
 									<span style="font-size: 13px;">{{ rarity }}</span>
 								</div>
 								<div class="overlay-content">
-									<p style="font-size: 15px;">{{ addon['addon-description'] }}</p>
+									<p style="font-size: 15px;">{{ addon['addon-effect'] }}</p>
 								</div>
 							</div>
 						</div>
@@ -226,7 +231,6 @@ Slots</button>
 	for (i = 0; i < elems.length; i++) {
 		elems[i].innerHTML = elems[i].innerHTML.split('\n').slice(1, -1).join('<br>');
 	}
-
 </script>
 <script>
 	const observer = lozad(); // lazy loads elements with default selector as '.lozad'

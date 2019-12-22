@@ -6,7 +6,8 @@
 	--uncommon-rarity-color: hsla(56, 89%, 40%, 0.5);
 	--rare-rarity-color: hsla(110, 74%, 22%, 0.5);
 	--very-rare-rarity-color: hsla(258, 46%, 48%, 0.5);
-	--ultra-rare-rarity-color: hsla(7, 92%, 34%, 0.5);
+	--ultra-rare-rarity-color: hsla(335, 97%, 43%, 0.5);
+	--event-rarity-color: hsla(34, 91%, 32%, 0.788);
 	--shadow-radius: 5px;
 }
 
@@ -58,36 +59,57 @@ body {
 	z-index: 10;
 	display: none;
 	background: rgba(0, 0, 0, 0.8);
-	/* Black see-through */
-	width: 200%;
-	/* padding: 15px; */
+	min-width: 250px;
 	transition: .5s ease;
 	opacity: 0;
 	color: white;
-	/* font-size: 15px; */
 	text-align: left;
-	/* box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2); */
 	border-radius: 15px;
 }
 
-.overlayCommon {
+.overlay-heading {
+	padding: 10px;
+	text-transform: uppercase;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	line-height: 140%;
+	background: url('/static/images/smoke-overlay.gif');
+	background-repeat: no-repeat;
+}
+
+.overlay-content {
+	padding: 10px;
+	padding-top: 0;
+	line-height: 120%;
+}
+
+.overlayAddonCommon, .overlayItemCommon {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--common-rarity-color), 0 0 40px var(--shadow-radius) var(--common-rarity-color), 0 0 80px var(--shadow-radius) var(--common-rarity-color);
 }
 
-.overlayUncommon {
+.overlayAddonUncommon, .overlayItemUncommon {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 40px var(--shadow-radius) var(--uncommon-rarity-color), 0 0 80px var(--shadow-radius) var(--uncommon-rarity-color);
 }
 
-.overlayRare {
+.overlayAddonRare, .overlayItemRare {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--rare-rarity-color), 0 0 40px var(--shadow-radius) var(--rare-rarity-color), 0 0 80px var(--shadow-radius) var(--rare-rarity-color);
 }
 
-.overlayVeryRare {
+.overlayAddonVeryRare, .overlayItemVeryRare {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--very-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--very-rare-rarity-color);
 }
 
-.overlayUltraRare {
+.overlayAddonUltraRare, .overlayItemUltraRare {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--ultra-rare-rarity-color);
+}
+
+.overlayItemEvent {
+	box-shadow: 0 0 10px var(--shadow-radius) var(--event-rarity-color), 0 0 40px var(--shadow-radius) var(--event-rarity-color), 0 0 80px var(--shadow-radius) var(--event-rarity-color);
+}
+.overlayPerk {
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2);
 }
 
 .container-perks:hover .overlay {
@@ -149,8 +171,6 @@ body {
 }
 
 .dropdown:hover .menu-img {
-	left: 6px;
-	top: 5px;
 	border: 5px double;
 	border-top: none;
 	border-right: none;

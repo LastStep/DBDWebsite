@@ -63,7 +63,8 @@
 .container-addons img {
 	pointer-events: auto;
 	transition: transform .5s ease;
-	min-height: 80;
+	height: 80px;
+	width: 80px;
 }
 
 .container-addons:hover img {
