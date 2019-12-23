@@ -63,6 +63,7 @@
 			</h1>
 			<div class="container-stats">
 				{% for col,stat in Killers[name].items() %}
+				{% if col != 'Additional Effects' %}
 				<button class="stats">
 					<center>
 						<p class="stats-addon">{{ col }}</p>
@@ -94,6 +95,7 @@
 						</div>
 					</div>
 				</button>
+				{% endif %}
 				{% endfor %}
 			</div>
 			<div class="addonsMain">
