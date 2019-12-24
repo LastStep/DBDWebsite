@@ -96,7 +96,7 @@
     "Fragrant-Tuft-Of-Hair-Shape": "200%"
   },
   "Stalking Rate (Point Blank)": {
-    "Base-Shape": "1",
+    "Base-Shape": "0.1",
     "Static-Shape": null,
     "Tacky-Earrings-Shape": null,
     "Boyfriends-Memo-Shape": null,
@@ -120,7 +120,7 @@
     "Fragrant-Tuft-Of-Hair-Shape": null
   },
   "Stalking Rate (Max Range)": {
-    "Base-Shape": "0.1",
+    "Base-Shape": "1",
     "Static-Shape": null,
     "Tacky-Earrings-Shape": null,
     "Boyfriends-Memo-Shape": null,
