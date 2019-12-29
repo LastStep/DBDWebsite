@@ -1,5 +1,5 @@
 {
-    "Flashlights": {
+    "Flashlight": {
         "image": "/static/images/Items/iconItems_flashlight.png",
         "description": "The Flashlight is an Item that is used to blind the Killer. If they are carrying a Survivor on their shoulder, getting blinded will make them drop that Survivor and be stunned for a few seconds.",
         "versions": {
@@ -101,7 +101,7 @@
             }]
         }
     },
-    "Keys": {
+    "Key": {
         "image": "/static/images/Items/iconItems_key.png",
         "description": "The Key is an Item that can be used to open the Hatch when it spawns. It can also be used with Add-ons to enhance its power and show the user different Auras, such as those of other Survivors in their vicinity or that of the Killer. The Broken Key cannot be used to open to Hatch and is of no use without Add-ons.",
         "versions": {
@@ -176,7 +176,7 @@
             }]
         }
     },
-    "Maps": {
+    "Map": {
         "image": "/static/images/Items/iconItems_map.png",
         "description": "The Map is an Item that is used to track and mark props in the World. The standard map can only track Generators, but can track different props as well with the use of Add-ons that enhance its power. You can even make the tracked Auras visible to other Survivors and create markers that look like a pillar of bright light.",
         "versions": {
@@ -245,7 +245,7 @@
             }]
         }
     },
-    "Med-Kits": {
+    "Med-Kit": {
         "image": "/static/images/Items/iconItems_medkit.png",
         "description": "The Med-Kit is an Item that is used to heal yourself and other Survivors. Other Survivors can also be healed without the use of a Med-Kit, but it takes considerably longer. Without the use of Self - Care, a Survivor cannot heal themselves without one.Different Add - ons can be equipped that enhance its healing speed or durability.",
         "versions": {
@@ -353,7 +353,7 @@
             }]
         }
     },
-    "Toolboxes": {
+    "Toolbox": {
         "image": "/static/images/Items/iconItems_toolbox.png",
         "description": "The Toolbox is an Item that can be used to repair Generators more quickly or sabotage hooks. Different Toolboxes have different uses and not all of them are good for both uses. Add-ons can be equipped to enhance their speed and durability.",
         "versions": {

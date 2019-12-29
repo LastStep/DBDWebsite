@@ -1,0 +1,28 @@
+{
+  "Durability": {
+    "Base-Key": null,
+    "Static-Key": null,
+    "Prayer-Rope": 10,
+    "Scratched-Pearl": null,
+    "Prayer-Beads": 15,
+    "Eroded-Token": null,
+    "Gold-Token": null,
+    "Weaved-Ring": null,
+    "Milky-Glass": null,
+    "Blood-Amber": null,
+    "Unique-Wedding-Ring": null
+  },
+  "Additional Effects": {
+    "Base-Key": null,
+    "Static-Key": null,
+    "Prayer-Rope": null,
+    "Scratched-Pearl": "Increases the Aura-reading range by 12 metres",
+    "Prayer-Beads": null,
+    "Eroded-Token": "Reveals Survivors' Auras when within 24 metres of range",
+    "Gold-Token": "Reveals Survivors' Auras when within 48 metres of range",
+    "Weaved-Ring": "Do not lose the Key on death, lose this Add-on instead",
+    "Milky-Glass": "Do not lose the Key when unlocking a Hatch, lose this Add-on instead",
+    "Blood-Amber": "Reveals the Killer's Aura when within 32 metres of range at the great expense of the Key's energy",
+    "Unique-Wedding-Ring": "The Unique Wedding Ring reveals the Obsession's Aura IconHelp auras.png at all times, it does not require you to use the Key. Decreases your chances to be The Killer's Obsession"
+  }
+}

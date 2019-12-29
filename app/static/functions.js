@@ -48,6 +48,8 @@ function calcAddon(temp) {
 				val = val1;
 			} else if (val1.slice(-1) === '%' && val2.slice(-1) === '%') {
 				val = +val1.slice(0, -1) + +val2.slice(0, -1) + '%';
+			} else if (typeof(val1) == 'number' && typeof(val2) == 'number') {
+				val = val1 + val2;
 			} else {
 				val = val1 + '.' + val2;
 			}
@@ -259,7 +261,7 @@ function openSubTab(evt, sectionName) {
 	}
 	elem = document.getElementById(sectionName)
 	elem.style.display = "block";
-	elem.scrollIntoView(true);
+	// elem.scrollIntoView(true);
 	evt.currentTarget.className += " active";
 }
 

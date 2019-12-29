@@ -198,7 +198,7 @@
 	margin-top: 100px;
 }
 
-.addonsContent {
+.addonsContent, .itemsContent {
 	display: flex;
 	/* flex-wrap: wrap; */
 	flex-direction: column;
@@ -207,13 +207,13 @@
 	width: 800px;
 }
 
-.container-addons {
+.container-addons, .container-items {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
 }
 
-.container-addons img {
+.container-addons img, .container-items img {
 	pointer-events: auto;
 	transition: transform .5s ease;
 	height: 80px;

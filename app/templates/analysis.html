@@ -158,74 +158,46 @@
 		{% endfor %}
 	</div>
 </div>
+
 <div class="tabcontent" id="Survivor-Items">
 	<div class="itemsTab">
-		<div class="itemsSubTab">
-			<div class="itemsSubTabItems">
-				{% for Rarity in ['Common', 'Uncommon', 'Rare', 'Very Rare', 'Ultra Rare', 'Event'] %}
-				<div class="{{ ''.join(Rarity.split()) + 'Section'}} raritySection flex-container">
-					{% for name,info in Items.items() %}
-					{% for rarity,items in info['versions'].items() %}
+		<ul class="subtab">
+			{% for name,info in Items.items() %}
+			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); clearSlots('{{ name }}')">
+				<div>{{ name }}</div>
+				<img class="lozad" data-src={{ info['image'] }} height="80" width="80">
+			</button>
+			{% endfor %}
+		</ul>
+
+		{% for name,info in Items.items() %}
+		<div class="subtabcontent" id='{{ name }}'>
+			<div class="itemsContent">
+				{% for rarity,items in info['versions'].items() %}
+				<div class="flex-container">
 					{% for item in items %}
-					{% if rarity ==  Rarity %}
 					<div class="container-items">
-						<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" draggable="true"
+						<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" draggable="true"
 							ondragstart="drag(event)" id={{ item.name }} credit="u/ambieobambie">
-						<div class="overlay">
-							<span>{{ item.name }}</span>
-							<p>{{ item.description }}</p>
+						<figcaption>
+							<span>{{ item['name'] }}</span>
+						</figcaption>
+						<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
+							<div class="overlay-heading">
+								<span style="font-size: 16px; font-weight: 600;">{{ item['name'] }}</span>
+								<span style="font-size: 13px;">{{ rarity }}</span>
+							</div>
+							<div class="overlay-content">
+								<p style="font-size: 15px;">{{ item['description'] }}</p>
+							</div>
 						</div>
 					</div>
-					{% endif %}
-					{% endfor %}
-					{% endfor %}
-					{% endfor %}
-				</div>
-				{% endfor %}
-			</div>
-			<div class="itemsSubTabAddons">
-				{% for Rarity in ['Common', 'Uncommon', 'Rare', 'Very Rare', 'Ultra Rare', 'Event'] %}
-				<div class="{{ ''.join(Rarity.split()) + 'Section'}} raritySection flex-container">
-					{% for name,info in Items.items() %}
-					{% for rarity,items in info['addons'].items() %}
-					{% for item in items %}
-					{% if rarity ==  Rarity %}
-					<div class="container-items">
-						<img class="addon-image lozad" data-src={{ item["addon-image-alt"] }} height="80" width="80"
-							draggable="true" ondragstart="drag(event)" id={{ item.name }} credit="u/ambieobambie">
-						<div class="overlay">
-							<span>{{ item["addon-name"] }}</span>
-							<p>{{ item["addon-description"] }}</p>
-						</div>
-					</div>
-					{% endif %}
-					{% endfor %}
-					{% endfor %}
 					{% endfor %}
 				</div>
 				{% endfor %}
 			</div>
 		</div>
-		<!-- <div class="mainItemSlots">
-		<div class="itemSlots">
-		<div class="itemSlot" id="itemSlotMain" align="center" ondrop="drop(event, 'itemSlotMain', false)"
-		ondragover="allowDrop(event)">
-		<input class="clear-img-item" type="image" onclick="clearSlot('itemSlotMain', false)"
-		src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-	</div>
-</div>
-<div class="itemSlots tempSlot">
-<div class="itemSlot" id="itemSlotTempMain" align="center"
-ondrop="drop(event, 'itemSlotTempMain', true)" ondragover="allowDrop(event)">
-<input class="clear-img-item" type="image" onclick="clearSlot('itemSlotTempMain', true)"
-src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-</div>
-</div>
-<div class="moveButton">
-<button class="moveSlots" id="items-move" onclick="moveSlot(`{{name}}`)">Move
-Slots</button>
-</div> -->
-	</div>
+		{% endfor %}
 </div>
 </div>
 <script>
