@@ -48,7 +48,7 @@ function calcAddon(temp) {
 				val = val1;
 			} else if (val1.slice(-1) === '%' && val2.slice(-1) === '%') {
 				val = +val1.slice(0, -1) + +val2.slice(0, -1) + '%';
-			} else if (typeof(val1) == 'number' && typeof(val2) == 'number') {
+			} else if (isNaN(parseFloat(val1)) === false && isNaN(parseFloat(val2)) === false) {
 				val = val1 + val2;
 			} else {
 				val = val1 + '.' + val2;
@@ -83,6 +83,9 @@ function assignVal(elem, val, temp) {
 			elemVal = +elemVal + +staticVal;
 		}
 		assignColor(elem, +elem.textContent, +elemVal);
+	} else if (isNaN(parseFloat(elemVal)) === false && isNaN(parseFloat(val)) === false) {
+		elem.textContent = +elemVal + +val;
+		assignColor(elem, +elem.textContent, elemVal);
 	} else if (val !== 'None') {
 		elem.innerHTML = '';
 		val = val.split('.');
@@ -130,12 +133,22 @@ function assignDefaultVal(elem, temp) {
 
 		if (elemVal.slice(-1) === '%' && val1 !== 'None') {
 			statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + '%';
-			elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
-			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal);
+			if (staticVal !== 'None') {
+				elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
+			}
+			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal.slice(0, -1));
 		} else if (val1 !== 'None' && val1.slice(-1) === '%') {
 			statElem.textContent = Number((Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200).toPrecision(2));
-			elemDefVal = +elemDefVal + +staticVal;
-			assignColor(statElem, +statElem.textContent, +elemDefVal);
+			if (staticVal !== 'None') {
+				elemDefVal = +elemDefVal + +staticVal;
+			}
+			assignColor(statElem, +statElem.textContent, elemDefVal);
+		} else if (isNaN(parseFloat(elemVal)) === false && isNaN(parseFloat(val1)) === false) {
+			statElem.textContent = +elemVal + -val1;
+			if (staticVal !== 'None') {
+				elemDefVal = +elemDefVal + +staticVal;
+			}
+			assignColor(statElem, +statElem.textContent, elemDefVal);
 		} else if (val1 !== 'None') {
 			val1 = val1.split('.');
 			for (var v of val1) {

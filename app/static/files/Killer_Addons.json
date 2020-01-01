@@ -372,7 +372,7 @@
                     "addon-description": "A black fermented heart ripped from the chest of a tentacled creature in the Upside Down.\nSlightly increases the Recovery speed of missed Shred attacks.",
                     "addon-image-alt": "/static/images/Addons/iconAddon_blackHeart.png",
                     "addon-id": "Black-Heart-Demogorgon",
-                    "addon-effect": "Shred Missed Cooldown: -11.11%"
+                    "addon-effect": "Shred Missed Cooldown: -0.25"
                 },
                 {
                     "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9d/FulliconAddon_ratLiver.png/64px-FulliconAddon_ratLiver.png?version=fb3586be906bf1f72cb7239cdc87d01b",
