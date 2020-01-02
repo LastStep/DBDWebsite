@@ -77,7 +77,7 @@ function assignVal(elem, val, temp) {
 		}
 		assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
 	} else if (val !== 'None' && val.slice(-1) === '%') {
-		elem.textContent = Number((Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200).toPrecision(2));
+		elem.textContent = Number((Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200).toPrecision(4));
 		if (staticVal !== 'None') {
 			elem.textContent = +elem.textContent + +staticVal;
 			elemVal = +elemVal + +staticVal;
@@ -102,8 +102,8 @@ function assignVal(elem, val, temp) {
 }
 
 function assignColor(elem, newVal, prevVal) {
-	// console.log(newVal, prevVal);
-	// console.log(elem);
+	console.log(newVal, prevVal);
+	console.log(elem);
 	if (newVal > prevVal) {
 		elem.style.color = 'green';
 	} else if (newVal < prevVal) {
@@ -138,7 +138,7 @@ function assignDefaultVal(elem, temp) {
 			}
 			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal.slice(0, -1));
 		} else if (val1 !== 'None' && val1.slice(-1) === '%') {
-			statElem.textContent = Number((Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200).toPrecision(2));
+			statElem.textContent = Number((Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200).toPrecision(4));
 			if (staticVal !== 'None') {
 				elemDefVal = +elemDefVal + +staticVal;
 			}

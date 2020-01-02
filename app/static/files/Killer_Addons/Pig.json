@@ -48,13 +48,13 @@
     "Amandas-Letter-Pig": null
   },
   "Ambush Charging Time": {
-    "Base-Pig": "0.75",
+    "Base-Pig": 0.75,
     "Static-Pig": null,
     "Workshop-Grease-Pig": null,
     "Shattered-Syringe-Pig": null,
-    "Johns-Medical-File-Pig": "-50%",
+    "Johns-Medical-File-Pig": -0.375,
     "Combat-Straps-Pig": null,
-    "Video-Tape-Pig": "-50%",
+    "Video-Tape-Pig": -0.375,
     "Utility-Blades-Pig": null,
     "Razor-Wires-Pig": null,
     "Last-Will-Pig": null,
@@ -72,12 +72,12 @@
     "Amandas-Letter-Pig": null
   },
   "Crouch Time": {
-    "Base-Pig": "1.3",
+    "Base-Pig": 1.3,
     "Static-Pig": null,
     "Workshop-Grease-Pig": null,
     "Shattered-Syringe-Pig": null,
     "Johns-Medical-File-Pig": null,
-    "Combat-Straps-Pig": "-23.08%",
+    "Combat-Straps-Pig": -0.3,
     "Video-Tape-Pig": null,
     "Utility-Blades-Pig": null,
     "Razor-Wires-Pig": null,
@@ -96,7 +96,7 @@
     "Amandas-Letter-Pig": null
   },
   "RBT Death Timer": {
-    "Base-Pig": "150",
+    "Base-Pig": 150,
     "Static-Pig": null,
     "Workshop-Grease-Pig": null,
     "Shattered-Syringe-Pig": null,
@@ -109,17 +109,17 @@
     "Face-Mask-Pig": null,
     "Slow-Release-Toxin-Pig": null,
     "Rusty-Attachments-Pig": null,
-    "Jigsaws-Annotated-Plan-Pig": "13.34%",
+    "Jigsaws-Annotated-Plan-Pig": 20,
     "Interlocking-Razor-Pig": null,
     "Bag-of-Gears-Pig": null,
-    "Tampered-Timer-Pig": "-20%",
+    "Tampered-Timer-Pig": -30,
     "Jigsaws-Sketch-Pig": null,
     "Crate-of-Gears-Pig": null,
     "Amandas-Secret-Pig": null,
     "Rules-Set-No2-Pig": null,
     "Amandas-Letter-Pig": null
   },
-  "Jigsaw Bos Search Time": {
+  "Jigsaw Box Search Time": {
     "Base-Pig": "12",
     "Static-Pig": null,
     "Workshop-Grease-Pig": null,

@@ -120,13 +120,13 @@
     "Matchbox-Nurse": null
   },
   "Chain Blink Window": {
-    "Base-Nurse": "1.5",
+    "Base-Nurse": 1.5,
     "Static-Nurse": null,
     "Wooden-Horse-Nurse": null,
     "White-Nit-Comb-Nurse": null,
     "Plaid-Flannel-Nurse": null,
     "Metal-Spoon-Nurse": null,
-    "Pocket-Watch-Nurse": "13%",
+    "Pocket-Watch-Nurse": 0.2,
     "Dull-Bracelet-Nurse": null,
     "Dark-Cincture-Nurse": null,
     "Catatonic-Boys-Treasure-Nurse": null,
