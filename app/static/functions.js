@@ -262,8 +262,8 @@ function openTab(evt, sectionName) {
 	evt.currentTarget.className += " active";
 }
 //Switch subtabs
-function openSubTab(evt, sectionName) {
-	var i, tabcontent, tablinks;
+function openSubTab(evt, sectionName, scrollValue) {
+	var i, subtabcontent, subtablinks;
 	subtabcontent = document.getElementsByClassName("subtabcontent");
 	for (i = 0; i < subtabcontent.length; i++) {
 		subtabcontent[i].style.display = "none";
@@ -272,9 +272,11 @@ function openSubTab(evt, sectionName) {
 	for (i = 0; i < subtablinks.length; i++) {
 		subtablinks[i].className = subtablinks[i].className.replace(" active", "");
 	}
-	elem = document.getElementById(sectionName)
+	elem = document.getElementById(sectionName);
 	elem.style.display = "block";
-	// elem.scrollIntoView(true);
+	if (scrollValue) {
+		elem.scrollIntoView(true);
+	}
 	evt.currentTarget.className += " active";
 }
 

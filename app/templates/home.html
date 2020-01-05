@@ -36,7 +36,7 @@
 <div class="tabcontent" id="Killer-Addons">
 	<ul class="subtab">
 		{% for name,info in Killer_Addons.items() %}
-		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); dimElem(event, 'subtablinks');">
+		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', true); dimElem(event, 'subtablinks');">
 			<img class="lozad" data-src={{ info['killer-image-alt'] }} height="125" width="125" credit="@sherman_amnezis">
 			<figcaption>{{ name }}</figcaption>
 		</button>
@@ -80,7 +80,7 @@
 <div class="tabcontent" id="Items">
 	<ul class="subtab">
 		{% for name,info in Items.items() %}
-		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}'); dimElem(event, 'subtablinks');">
+		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', true); dimElem(event, 'subtablinks');">
 			<img class="lozad" data-src={{ info.image }} height="125" width="125">
 			<figcaption>{{ name }}</figcaption>
 		</button>
