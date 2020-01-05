@@ -1,4 +1,4 @@
-# ToFix
+# To-Fix
 
 1) Move Slots Button Image
 2) Overlay Text Wrap
@@ -6,7 +6,7 @@
 4) Align Killer Images in Killer Addons Tab
 
 
-# ToFinish
+# To-Finish
 
 1) Item Analysis Frontend
 2) Item Analysis Indexing and Backend
