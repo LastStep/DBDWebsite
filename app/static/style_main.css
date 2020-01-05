@@ -59,7 +59,8 @@ body {
 	z-index: 10;
 	display: none;
 	background: rgba(0, 0, 0, 0.8);
-	min-width: 250px;
+	max-width: 500px;
+	width: max-content;
 	transition: .5s ease;
 	opacity: 0;
 	color: white;
@@ -69,6 +70,7 @@ body {
 
 .overlay-heading {
 	padding: 10px;
+	padding-right: 20px;
 	text-transform: uppercase;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -82,6 +84,7 @@ body {
 .overlay-content {
 	padding: 10px;
 	padding-top: 0;
+	padding-right: 20px;
 	line-height: 120%;
 }
 
