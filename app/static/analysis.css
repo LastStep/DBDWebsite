@@ -348,7 +348,16 @@
 .subtablinks {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+}
+
+.subtablinks span {
+	flex: 1;
+	text-align: center;
+}
+
+.subtablinks img {
+	margin-left: auto;
+	margin-right: 15px;
 }
 
 .subtabcontent {

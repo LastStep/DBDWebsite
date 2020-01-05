@@ -50,7 +50,7 @@
 		<ul class="subtab">
 			{% for name,info in Killer_Addons.items() %}
 			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', true); clearSlots('{{ name }}')">
-				<div>{{ name }}</div>
+				<span>{{ name }}</span>
 				<img class="lozad" data-src={{ info['killer-image-alt'] }} height="80" width="80" credit="@sherman_amnezis">
 			</button>
 			{% endfor %}
