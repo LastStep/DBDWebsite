@@ -396,6 +396,16 @@
 	min-height: 80;
 }
 
+.shiftLeft {
+	left: -50%;
+	transition: 0s;
+}
+
+.shiftUp {
+	top: -50%;
+	transition: 0s;
+}
+
 /* Animations */
 @keyframes fadeEffect {
 	0% {

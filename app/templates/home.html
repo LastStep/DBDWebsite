@@ -130,4 +130,30 @@
 <script>
 	document.getElementById("defaultOpen").click();
 </script>
+<script type="text/javascript">
+	$("[class^='container-']").mouseenter(function(){
+		var f = $(this).find('.overlay');
+		var coords = f[0].getBoundingClientRect()
+		var screenWidth = $(window).width();
+		var screenHeight = $(window).height();
+		if(coords.right > screenWidth && coords.bottom < screenHeight){
+			f.addClass("shiftLeft");
+			f.removeClass("shiftUp");
+		}
+		else if(coords.bottom > screenHeight && coords.right < screenWidth){
+			f.addClass("shiftUp");
+			f.removeClass("shiftLeft")
+		}
+		else if(coords.bottom > screenHeight && coords.right > screenWidth){
+			f.addClass("shiftUp shiftLeft");
+		}
+		else{
+			f.removeClass("shiftUp shiftLeft");
+		}
+	});
+	$("[class^='container-']").mouseleave(function(){
+		var f = $(this).find('.overlay');
+		f.removeClass("shiftLeft shiftUp");
+	})
+</script>
 {% endblock content %}

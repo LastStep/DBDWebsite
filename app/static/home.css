@@ -217,6 +217,16 @@
 	opacity: 1;
 }
 
+.shiftLeft {
+	left: -60%;
+	transition: 0s;
+}
+
+.shiftUp {
+	top: -70%;
+	transition: 0s;
+}
+
 /* Animations */
 @keyframes fadeEffect {
 	0% {
