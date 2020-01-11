@@ -6,9 +6,11 @@
 4) ~~Align Killer Images in Killer Addons Tab~~
 
 
-# To-Finish
+# To-Finish/Add
 
 1) Item Analysis Frontend
 2) Item Analysis Indexing and Backend
 3) Verifying Addons Calculations
 4) Images Credit on Hover maybe
+5) Add Oni Addons
+5) Doctor Addons and Power Changes
