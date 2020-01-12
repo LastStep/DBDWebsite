@@ -14,4 +14,4 @@
 4) Images Credit on Hover maybe
 5) Add Oni Addons
 5) Doctor Addons and Power Changes
-6) Alert Notification is Website is not Opened in a Desktop Browser 
+6) Alert Notification if Website is not Opened in a Desktop Browser 
