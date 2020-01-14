@@ -1,9 +1,9 @@
 # To-Fix
 
 1) Move Slots Button Image
-2) ~~Overlay Text Wrap~~
-3) ~~Overlay Going Out of Bounds on Bottom Elements~~
-4) ~~Align Killer Images in Killer Addons Tab~~
+2) Home Page Images Should be below the Overlay on Hover, or Overlay should adjust to the Side Accordingly
+
+
 
 
 # To-Finish/Add
