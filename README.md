@@ -2,7 +2,7 @@
 
 1) Move Slots Button Image
 2) Home Page Images Should be below the Overlay on Hover, or Overlay should adjust to the Side Accordingly
-
+3) Fog gif covers only part of Overlay heading
 
 
 
