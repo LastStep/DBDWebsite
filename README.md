@@ -5,13 +5,12 @@
 3) Fog gif covers only part of Overlay heading
 
 
-
 # To-Finish/Add
 
 1) Item Analysis Frontend
 2) Item Analysis Indexing and Backend
 3) Verifying Addons Calculations
 4) Images Credit on Hover maybe
-5) Add Oni Addons
-5) Doctor Addons and Power Changes
-6) Alert Notification if Website is not Opened in a Desktop Browser 
+5) Add Oni and Deathslinger
+6) Update everything after Doctor rework update
+7) Alert Notification if Website is not Opened in a Desktop Browser 
