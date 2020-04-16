@@ -102,8 +102,6 @@ function assignVal(elem, val, temp) {
 }
 
 function assignColor(elem, newVal, prevVal) {
-	console.log(newVal, prevVal);
-	console.log(elem);
 	if (newVal > prevVal) {
 		elem.style.color = 'green';
 	} else if (newVal < prevVal) {
