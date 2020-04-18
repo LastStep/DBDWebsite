@@ -224,3 +224,9 @@ body {
 	z-index: 9999;
 	background: url('/static/images/dbdlogo.gif') center no-repeat black;
 }
+
+/* Empty Block */
+.empty {
+	height: 150px;
+	width: 100%;
+}

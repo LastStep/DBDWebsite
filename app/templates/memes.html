@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" href="/static/images/favicon.png" sizes="32x32" type="image/png">
+
+	{% if title %}
+	<title>DBD Website - {{ title }}</title>
+	{% else %}
+	<title>DBD Website</title>
+	{% endif %}
+	
+	<style>
+	.loading {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/static/images/dbdlogo.gif') center no-repeat black;
+	}
+	</style>
+
+</head>
+
+<body>
+<div class="loading"></div>
+</body>
+
+</html>

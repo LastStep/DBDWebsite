@@ -40,3 +40,8 @@ def analysis():
 							 Killer_Addons=killer_addons,
 							 Killers=killers,
 							 Items=items, css='analysis.css')
+							 
+							 
+@app.route("/memes")
+def memes():
+	return render_template('memes.html', css='memes.css')

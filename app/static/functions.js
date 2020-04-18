@@ -194,7 +194,7 @@ function clearSlots(name) {
 	prevKiller = name;
 }
 
-//Move SLot
+//Move Slot
 function moveSlot(slotName) {
 	var elems = document.getElementsByClassName("tempSlot");
 	for (i = 0; i < elems.length; i++) {
