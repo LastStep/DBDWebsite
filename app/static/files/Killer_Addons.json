@@ -413,7 +413,7 @@
           "addon-name": "Marshal's Badge",
           "addon-description": "A silver badge taken from the corpse of a lawman in Arizona Territory who interfered with the Hellshire Gang's bounties.\nSlightly decreases The Deathslinger's Terror Radius while aiming down the Speargun's sights.\nSlightly decreases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"Get your prayers in, you'll be swinging by noon.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_marshalsBadge.png",
-          "addon-id": "Marshal-s-Badge-Deathslinger",
+          "addon-id": "Marshals-Badge-Deathslinger",
           "addon-effect": "***"
         },
         {
@@ -439,7 +439,7 @@
           "addon-name": "Warden's Keys",
           "addon-description": "The dull jangle of the keys evokes a furious memory within Caleb.\nModerately reduces Speargun Reload time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_wardensKeys.png",
-          "addon-id": "Warden-s-Keys-Deathslinger",
+          "addon-id": "Wardens-Keys-Deathslinger",
           "addon-effect": "***"
         },
         {
@@ -471,7 +471,7 @@
           "addon-name": "Bayshore's Gold Tooth",
           "addon-description": "A golden tooth torn from Henry Bayshore as he screamed for mercy, hours before he was finished off.\nModerately increases Speargun Reeling speed.\n\"Know your place, boy. Know you damn place.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresGoldTooth.png",
-          "addon-id": "Bayshore-s-Gold-Tooth-Deathslinger",
+          "addon-id": "Bayshores-Gold-Tooth-Deathslinger",
           "addon-effect": "***"
         }
       ],
@@ -497,7 +497,7 @@
           "addon-name": "Bayshore's Cigar",
           "addon-description": "A quality cigar, plucked from the jacket of Caleb's boss while he wailed over the spear lodged in his abdomen.\nConsiderably decreases Stun duration when Survivors break free from the Speargun.\n\"Do not point that thing at me, you slack-jawed imbecile.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresCigar.png",
-          "addon-id": "Bayshore-s-Cigar-Deathslinger",
+          "addon-id": "Bayshores-Cigar-Deathslinger",
           "addon-effect": "***"
         },
         {
@@ -2152,7 +2152,7 @@
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7f/FulliconAddon_yakuyokeTalisman.png/64px-FulliconAddon_yakuyokeTalisman.png?version=68fbd2d5127684fdeabeeec6b5c9573f",
           "addon-name": "Yakuyoke Talisman",
           "addon-description": "Considering his goals pure and just, Kazan carried a trinket to ward off evil that might lead him astray.\nSlightly increases Blood Orb Absorption speed.",
-          "addon-image-alt": "/static/images/Addons/iconAddon_yakuyokeAmulet.png",
+          "addon-image-alt": "/static/images/Addons/iconAddon_paperLantern.png",
           "addon-id": "Yakuyoke-Talisman-Oni",
           "addon-effect": "***"
         },
@@ -2211,7 +2211,7 @@
           "addon-name": "Child's Wooden Sword",
           "addon-description": "Akito's practice sword. The child had little use for it after his injury.\nModerately increases Blood Orb Aura Detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_childsWoodenSword.png",
-          "addon-id": "Child-s-Wooden-Sword-Oni",
+          "addon-id": "Childs-Wooden-Sword-Oni",
           "addon-effect": "***"
         },
         {
@@ -2295,7 +2295,7 @@
           "addon-name": "Akito's Crutch",
           "addon-description": "The crutch used by Kazan's son after falling from a tree. Akito's playmate and her family were punished for the boy's injury.\nConsiderably increases Demon Dash Movement speed while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_akitosCrutch.png",
-          "addon-id": "Akito-s-Crutch-Oni",
+          "addon-id": "Akitos-Crutch-Oni",
           "addon-effect": "***"
         }
       ],
@@ -2305,7 +2305,7 @@
           "addon-name": "Renjiro's Bloody Glove",
           "addon-description": "The glove Renjiro held to his sternum following the strike dealt by his son Kazan.\nAll Survivors can see Blood Orbs.\nA Survivor's Aura is revealed for 2 seconds whenever they come into contact with a Blood Orb, absorbing it in the process.\nThis effect stacks for each Blood Orb absorbed.\n\"When all else spills out, cling only to your honour.\" \u2014 Renjiro's Doctrine 14:12",
           "addon-image-alt": "/static/images/Addons/iconAddon_renirosBloodyGlove.png",
-          "addon-id": "Renjiro-s-Bloody-Glove-Oni",
+          "addon-id": "Renjiros-Bloody-Glove-Oni",
           "addon-effect": "***"
         },
         {
