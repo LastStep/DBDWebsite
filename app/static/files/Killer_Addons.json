@@ -364,7 +364,7 @@
           "addon-description": "A grimy piece of burlap. Spit and elbow grease was enough to wipe down the speargun in the heat of a shootout.\nSlightly decreases Speargun cool-down after missed shots.",
           "addon-image-alt": "/static/images/Addons/iconAddon_spitPolishRag.png",
           "addon-id": "Spit-Polish-Rag-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Missed Shot Cooldown: -16.66%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a1/FulliconAddon_snakeOil.png/64px-FulliconAddon_snakeOil.png?version=8b2087e29bf15c7c6a95b66bd91292e0",
@@ -372,7 +372,7 @@
           "addon-description": "A tincture of oils and extracts purchased from a travelling salesman. Purported to cure all that ails you.\nSlightly increases Speargun Reeling speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_snakeOil.png",
           "addon-id": "Snake-Oil-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Reeling Speed: 2.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_ricketyChain.png/64px-FulliconAddon_ricketyChain.png?version=af3f9ff2eaf087b71ed9f81252a070b1",
@@ -380,7 +380,7 @@
           "addon-description": "Weak steel links first used on Caleb's prototype Speargun. Despite the chain's failings, it holds sentimental value.\nGrants 50\u00a0% bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ricketyChain.png",
           "addon-id": "Rickety-Chain-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Grants 50 % bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/13/FulliconAddon_modifiedAmmoBelt.png/64px-FulliconAddon_modifiedAmmoBelt.png?version=644f14b73d09bef14a252264ea3b6522",
@@ -388,7 +388,7 @@
           "addon-description": "An old ammo belt Caleb altered for his specialised weaponry. Still holds the fine red dirt of the Arizona Territory desert.\nSlightly reduces Speargun Reload time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_modifiedAmmoBelt.png",
           "addon-id": "Modified-Ammo-Belt-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Reload Time: -9.09%"
         }
       ],
       "Uncommon": [
@@ -398,7 +398,7 @@
           "addon-description": "A railroad spike that Caleb fastened to the front of the Speargun during a moment of morbid curiosity. The dull tip prevents it from cleanly piercing its target.\nHitting a speared Survivor inflicts the Mangled  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_rustedSpike.png",
           "addon-id": "Rusted-Spike-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Hitting a speared Survivor inflicts the Mangled Status Effect for 60 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/58/FulliconAddon_poisonOakLeaves.png/64px-FulliconAddon_poisonOakLeaves.png?version=44015a6fe6d0e3852ce262f6840be45e",
@@ -406,7 +406,7 @@
           "addon-description": "An ordinary-looking plant, Caleb found out that spears coated in its oil cause unbearable blistering around wound.\nSlightly increases Survivors' Mending time when affected by the Deep Wound  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_poisonOakLeaves.png",
           "addon-id": "Poison-Oak-Leaves-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Mending Time: 12.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/12/FulliconAddon_marshalsBadge.png/64px-FulliconAddon_marshalsBadge.png?version=455ea3aa2098e9ae786efa348c706396",
@@ -414,7 +414,7 @@
           "addon-description": "A silver badge taken from the corpse of a lawman in Arizona Territory who interfered with the Hellshire Gang's bounties.\nSlightly decreases The Deathslinger's Terror Radius while aiming down the Speargun's sights.\nSlightly decreases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"Get your prayers in, you'll be swinging by noon.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_marshalsBadge.png",
           "addon-id": "Marshals-Badge-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "ADS Movement Speed: -5%\n\nADS Terror Radius: -16.66%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f0/FulliconAddon_jawSmasher.png/64px-FulliconAddon_jawSmasher.png?version=1b7d4d70a79d5f7ec91238a7c1a261a0",
@@ -422,7 +422,7 @@
           "addon-description": "The bullet that ripped through Caleb's jaw during a frenzy shootout. It brings back burning desire for revenge.\nSlightly increases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"You called death to your door the instant you done me wrong.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_jawSmasher.png",
           "addon-id": "Jaw-Smasher-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "ADS Movement Speed: 5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/50/FulliconAddon_chewingTobacco.png/64px-FulliconAddon_chewingTobacco.png?version=9e9350bd32d2ac6ab02af9bc168eb41c",
@@ -430,7 +430,7 @@
           "addon-description": "A can of clipped and sweetened tobacco leaves lifted from a gutted body in Glenvale. Stimulates the nervous system.\nModerately decreases Stun duration when Survivors break free from the Speargun.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chewingTobacco.png",
           "addon-id": "Chewing-Tobacco-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Stun Duration: -12.50%"
         }
       ],
       "Rare": [
@@ -440,7 +440,7 @@
           "addon-description": "The dull jangle of the keys evokes a furious memory within Caleb.\nModerately reduces Speargun Reload time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_wardensKeys.png",
           "addon-id": "Wardens-Keys-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Reload Time: -18.18%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6f/FulliconAddon_wantedPoster.png/64px-FulliconAddon_wantedPoster.png?version=8e2ca69ac6bda64d96fb360354d22920",
@@ -448,7 +448,7 @@
           "addon-description": "The yellowed remains of a wanted poster for Mason Kelly. It kept Caleb focused on the hunt.\nModerately increases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"You'll be met with a fierce reckoning, swear it on my mom's grave.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_wantedPoster.png",
           "addon-id": "Wanted-Poster-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "ADS Movement Speed: 10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/43/FulliconAddon_tinOilCan.png/64px-FulliconAddon_tinOilCan.png?version=7c8d2a48af48a925804bdc9af0b8b769",
@@ -456,7 +456,7 @@
           "addon-description": "A can holding a small amount of oil to reduce friction in machinery. Early models of the Speargun were notorious for jamming, and oil had to be readily available.\nModerately decreases Speargun cool-down after missed shots.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tinOilCan.png",
           "addon-id": "Tin-Oil-Can-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Missed Shot Cooldown: -33.33%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dc/FulliconAddon_honeyLocustThorn.png/64px-FulliconAddon_honeyLocustThorn.png?version=1e875cd60c9a196e954b0508a3600c2e",
@@ -464,7 +464,7 @@
           "addon-description": "Angered with a bounty who fled twice before, Caleb twisted thorn branches onto a spear and let it loose.\nSurvivors who break free from the Speargun are inflicted with the Mangled  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_honeyLocustThorns.png",
           "addon-id": "Honey-Locust-Thorn-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Survivors who break free from the Speargun are inflicted with the Mangled Status Effect for 60 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/41/FulliconAddon_bayshoresGoldTooth.png/64px-FulliconAddon_bayshoresGoldTooth.png?version=f99d171ce9bbd55fe967f06c8ea4be3e",
@@ -472,7 +472,7 @@
           "addon-description": "A golden tooth torn from Henry Bayshore as he screamed for mercy, hours before he was finished off.\nModerately increases Speargun Reeling speed.\n\"Know your place, boy. Know you damn place.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresGoldTooth.png",
           "addon-id": "Bayshores-Gold-Tooth-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Reeling Speed: 5%"
         }
       ],
       "Very Rare": [
@@ -482,7 +482,7 @@
           "addon-description": "A thick, heavy chain that once held a steel ball and latched to Caleb's ankle. It's been re-purposed to hook onto a spear.\nConsiderably increases the amount of Charges required for a Survivor to break free from the Speargun.\n\"Inmates working beyond the prison yard must be affixed with a steel ball of no less than 18 pounds.\" \u2014 Hellshire Penitentiary Guard Book",
           "addon-image-alt": "/static/images/Addons/iconAddon_prisonChain.png",
           "addon-id": "Prison-Chain-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Considerably(10) increases the amount of Charges required for a Survivor to break free from the Speargun"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/94/FulliconAddon_goldCreekWhiskey.png/64px-FulliconAddon_goldCreekWhiskey.png?version=0e03f9302cadb66d3a73651f1f3b479a",
@@ -490,7 +490,7 @@
           "addon-description": "Warm comfort in a bottle that quelled Caleb's anger and slowed his step.\nModerately decreases The Deathslinger's Terror Radius while aiming down the Speargun's sights.\nModerately decreases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"A smooth taste for the rugged frontier.\" \u2014 Gold Creek Advertisement, 1876",
           "addon-image-alt": "/static/images/Addons/iconAddon_clearCreekWhiskey.png",
           "addon-id": "Gold-Creek-Whiskey-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "ADS Movement Speed: -10%\n\nADS Terror Radius: -33.33%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/53/FulliconAddon_bayshoresCigar.png/64px-FulliconAddon_bayshoresCigar.png?version=ace4b4c9e8a2f78c80fa3894ce127fc9",
@@ -498,7 +498,7 @@
           "addon-description": "A quality cigar, plucked from the jacket of Caleb's boss while he wailed over the spear lodged in his abdomen.\nConsiderably decreases Stun duration when Survivors break free from the Speargun.\n\"Do not point that thing at me, you slack-jawed imbecile.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresCigar.png",
           "addon-id": "Bayshores-Cigar-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Stun Duration: -25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/70/FulliconAddon_barbedWire.png/64px-FulliconAddon_barbedWire.png?version=73f1da3246934c207fc273c27a2473f5",
@@ -506,7 +506,7 @@
           "addon-description": "Pliable American-made steel lined with sharp barbs. Despite its simplicity, Caleb found it could be wrapped around a spear to increase its viciousness.\nModerately increases Survivors' Mending time when affected by the Deep Wound  Status Effect.\n\"There won't be nothing to fear soon. Till then, fear me.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_barbedWire.png",
           "addon-id": "Barbed-Wire-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Mending Time: 29.16%"
         }
       ],
       "Ultra Rare": [
@@ -516,7 +516,7 @@
           "addon-description": "A glass-like coin moulded from the Fog itself. A payment to the bounty hunter for the services rendered.\nSurvivors speared from at least 15 metres away are inflicted with the Exposed  Status Effect for as long as they remain speared.\n\"Deals made in desperation are paid for in madness.\"",
           "addon-image-alt": "/static/images/Addons/iconAddon_iridescentCoin.png",
           "addon-id": "Iridescent-Coin-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "Survivors speared from at least 15 metres away are inflicted with the Exposed Status Effect for as long as they remain speared"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d1/FulliconAddon_hellshireIron.png/64px-FulliconAddon_hellshireIron.png?version=1868250ebfc83c852560bed8c2df173d",
@@ -524,7 +524,7 @@
           "addon-description": "The Hellshire's Gang branding iron. Despite folklore, it never made its mark on new initiates, instead having been used to brand particularly quarrelsome bounties.\nFor as long as a Survivor is speared, the Auras  of all other Survivors within The Deathslinger's Terror Radius are revealed for up to 6 seconds.\n\"Hellshire Gang: Justice Seekers or Outlaws?\" \u2014 Glenvale Gazette headline",
           "addon-image-alt": "/static/images/Addons/iconAddon_hellshireIron.png",
           "addon-id": "Hellshire-Iron-Deathslinger",
-          "addon-effect": "***"
+          "addon-effect": "For as long as a Survivor is speared, the Auras of all other Survivors within The Deathslinger's Terror Radius are revealed for up to 6 seconds"
         }
       ]
     }
@@ -2154,7 +2154,7 @@
           "addon-description": "Considering his goals pure and just, Kazan carried a trinket to ward off evil that might lead him astray.\nSlightly increases Blood Orb Absorption speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_paperLantern.png",
           "addon-id": "Yakuyoke-Talisman-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Orb Absorption Speed: 40%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6c/FulliconAddon_rottingRope.png/64px-FulliconAddon_rottingRope.png?version=d198b532a4f4a3972f5795cd8f191e43",
@@ -2162,7 +2162,7 @@
           "addon-description": "Had the rope been stronger it would have likely held Kazan. As it was, he escaped and butchered his captors.\nSlightly increases Blood Orb Aura Detection range.\n\"Though Death is focused, he has been known to blink.\" \u2014 Renjiro's Doctrine 14:5",
           "addon-image-alt": "/static/images/Addons/iconAddon_rottingRope.png",
           "addon-id": "Rotting-Rope-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Orb Aura Distance: 33.33%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c2/FulliconAddon_crackedSakazuki.png/64px-FulliconAddon_crackedSakazuki.png?version=f292931e0d30dc57bc5107c1089d36c5",
@@ -2170,7 +2170,7 @@
           "addon-description": "A cup from Kazan's wedding ceremony. It never made it through the night before being damaged.\nSlightly reduces Blood Fury Activation time.\nSlightly reduces Blood Fury Deactivation time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_crackedSakazuki.png",
           "addon-id": "Cracked-Sakazuki-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Activation Time: -16.66%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9e/FulliconAddon_blackenedToenail.png/64px-FulliconAddon_blackenedToenail.png?version=519cd164b07a070d182aeba4f0cd792c",
@@ -2178,7 +2178,7 @@
           "addon-description": "Fell off during one of Kazan's hundred winter treks to the temple. Despite his pilgrimage, Akito's leg would never heal.\nSlightly increases Absorption Movement speed.\n\"If a father sacrifices not for his children, then who does he father?\" \u2014 Renjiro's Doctrine 11:12",
           "addon-image-alt": "/static/images/Addons/iconAddon_blackenedToenail.png",
           "addon-id": "Blackened-Toenail-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Orb Absorption Movement: 7.61%"
         }
       ],
       "Uncommon": [
@@ -2188,7 +2188,7 @@
           "addon-description": "A horned crest Kazan tore from his helmet after being compared to a demon.\nSlightly increases Yamaoka's Wrath Passive Charge rate.",
           "addon-image-alt": "/static/images/Addons/iconAddon_polishedMaedate.png",
           "addon-id": "Polished-Maedate-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Passive Recharge Rate: 50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/86/FulliconAddon_inkLion.png/64px-FulliconAddon_inkLion.png?version=ccc7a0dcef6c63a1799fc6d3eab958f3",
@@ -2196,7 +2196,7 @@
           "addon-description": "An ink painting that once hung in the Yamaoka Estate. Depicts the story of a lion eaten by mice.\nSlightly reduces Blood Fury Activation time.\nSlightly reduces Blood Fury Deactivation time.\nModerately reduces Blood Fury Duration penalty when downing a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_inkLion.png",
           "addon-id": "Ink-Lion-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Activation Time: -16.66%\n\nFury Down Penalty: -28.57%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d6/FulliconAddon_chippedSaihai.png/64px-FulliconAddon_chippedSaihai.png?version=db6260c90b1e61e47b16e2363563b94b",
@@ -2204,7 +2204,7 @@
           "addon-description": "A baton that belonged to Renjiro. It was stolen by Kazan upon his departure.\nSlightly increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chippedSaihai.png",
           "addon-id": "Chipped-Saihai-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Duration: 13.20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0a/FulliconAddon_childsWoodenSword.png/64px-FulliconAddon_childsWoodenSword.png?version=940e35e1a64d5abc0ffe01677931ae06",
@@ -2212,7 +2212,7 @@
           "addon-description": "Akito's practice sword. The child had little use for it after his injury.\nModerately increases Blood Orb Aura Detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_childsWoodenSword.png",
           "addon-id": "Childs-Wooden-Sword-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Orb Aura Distance: 50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_bloodySash.png/64px-FulliconAddon_bloodySash.png?version=1b88b78c718b93231721b22d3dc1682f",
@@ -2220,7 +2220,7 @@
           "addon-description": "Blood from a boy who called Kazan \"The Noble Impostor\". Kazan hid evidence of the fight from his father, often revelling at the sash in secret.\nModerately increases Absorption Movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodySash.png",
           "addon-id": "Bloody-Sash-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Orb Absorption Movement: 15.11%"
         }
       ],
       "Rare": [
@@ -2230,7 +2230,7 @@
           "addon-description": "The banner of the Yamaoka family, Kazan felt an overwhelming pride from it.\nModerately increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_yamaokaSashimono.png",
           "addon-id": "Yamaoka-Sashimono-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Duration: 17.60%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e9/FulliconAddon_woodenOniMask.png/64px-FulliconAddon_woodenOniMask.png?version=3450fac846c34422e3b04c789ec73189",
@@ -2238,7 +2238,7 @@
           "addon-description": "A mask that a young Kazan bought to celebrate Setsubun, its repulsively fanged mouth began haunting his nightmares.\nSlightly reduces the Passive Blood Orb Drop Rate cool-down.\nSurvivors drop 1 extra Blood Orb on Game Events.\n\"It is no coincidence that man is so familiar with demons.\" \u2014 Renjiro's Doctrine 3:8",
           "addon-image-alt": "/static/images/Addons/iconAddon_woodenOniMask.png",
           "addon-id": "Wooden-Oni-Mask-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Slightly(0.5s) reduces the Passive Blood Orb Drop Rate cool-down.\nSurvivors drop 1 extra Blood Orb on Game Events"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/16/FulliconAddon_shatteredWakizashi.png/64px-FulliconAddon_shatteredWakizashi.png?version=b9e8d64cbb442d82a31571ead39a677e",
@@ -2246,7 +2246,7 @@
           "addon-description": "The fragments of an ancestral blade, destroyed by Kazan in a fit of rage.\nModerately increases Yamaoka's Wrath Passive Charge rate.",
           "addon-image-alt": "/static/images/Addons/iconAddon_shatteredWakizashi.png",
           "addon-id": "Shattered-Wakizashi-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Passive Recharge Rate: 100%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/59/FulliconAddon_scalpedTopknot.png/64px-FulliconAddon_scalpedTopknot.png?version=8360bac5201dfc59ecc1716d34f8b5ab",
@@ -2254,7 +2254,7 @@
           "addon-description": "The topknot of a samurai who questioned Kazan's honour. The roots cling to a thin strip of bloody skin.\nConsiderably reduces Demon Dash Activation time while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_scalpedTopknot.png",
           "addon-id": "Scalped-Topknot-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Dash Charge Time: -50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_kanai-AnzenTalisman.png/64px-FulliconAddon_kanai-AnzenTalisman.png?version=af80d3d2dcd3991de6c13e2a8878d9a4",
@@ -2262,7 +2262,7 @@
           "addon-description": "A trinket given to Kazan at birth, its powers are meant to protect his family from harm.\nModerately increases Demon Dash Movement speed while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_kanaianzenTalisman.png",
           "addon-id": "Kanai-Anzen-Talisman-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Dash Movement Speed: 16%"
         }
       ],
       "Very Rare": [
@@ -2272,7 +2272,7 @@
           "addon-description": "The cloth that Kazan's mother cried into when he left on his pilgrimage to cleanse the samurai.\nConsiderably reduces Blood Fury Duration penalty when downing a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tearSoakedTenugui.png",
           "addon-id": "Tear-Soaked-Tenugui-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Down Penalty: -42.85%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/43/FulliconAddon_splinteredHull.png/64px-FulliconAddon_splinteredHull.png?version=9673ed46b3b4918933672bf682cba688",
@@ -2280,7 +2280,7 @@
           "addon-description": "Fragments of a ship that carried Renjiro Yamaoka. Against all odds, the legendary samurai seemed to survive.\nModerately reduces the Passive Blood Orb Drop Rate cool-down.\nSurvivors drop 1 extra Blood Orb on Game Events.\n\"To plan subterfuge, begin with a counsel of none.\" \u2014 Renjiro's Doctrine 7:9",
           "addon-image-alt": "/static/images/Addons/iconAddon_splinteredHull.png",
           "addon-id": "Splintered-Hull-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Moderately(1s) reduces the Passive Blood Orb Drop Rate cool-down.\nSurvivors drop 1 extra Blood Orb on Game Events"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/06/FulliconAddon_lionFang.png/64px-FulliconAddon_lionFang.png?version=917e7222b5f8a4ebf456a72975685115",
@@ -2288,7 +2288,7 @@
           "addon-description": "A tooth sold from an exotic vendor, it symbolises power and nobility.\nConsiderably increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_lionFang.png",
           "addon-id": "Lion-Fang-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Fury Duration: 22%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0c/FulliconAddon_akitosCrutch.png/64px-FulliconAddon_akitosCrutch.png?version=a661edc395bea02546fa311942ee4be7",
@@ -2296,7 +2296,7 @@
           "addon-description": "The crutch used by Kazan's son after falling from a tree. Akito's playmate and her family were punished for the boy's injury.\nConsiderably increases Demon Dash Movement speed while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_akitosCrutch.png",
           "addon-id": "Akitos-Crutch-Oni",
-          "addon-effect": "***"
+          "addon-effect": "Dash Movement Speed: 25%"
         }
       ],
       "Ultra Rare": [
@@ -2306,7 +2306,7 @@
           "addon-description": "The glove Renjiro held to his sternum following the strike dealt by his son Kazan.\nAll Survivors can see Blood Orbs.\nA Survivor's Aura is revealed for 2 seconds whenever they come into contact with a Blood Orb, absorbing it in the process.\nThis effect stacks for each Blood Orb absorbed.\n\"When all else spills out, cling only to your honour.\" \u2014 Renjiro's Doctrine 14:12",
           "addon-image-alt": "/static/images/Addons/iconAddon_renirosBloodyGlove.png",
           "addon-id": "Renjiros-Bloody-Glove-Oni",
-          "addon-effect": "***"
+          "addon-effect": "All Survivors can see Blood Orbs.\nA Survivor's Aura is revealed for 2 seconds whenever they come into contact with a Blood Orb, absorbing it in the process.\nThis effect stacks for each Blood Orb absorbed"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/02/FulliconAddon_iridescentFamilyCrest.png/64px-FulliconAddon_iridescentFamilyCrest.png?version=575a0314c4c0376543db66d8681e2a51",
@@ -2314,7 +2314,7 @@
           "addon-description": "A crest that denotes its owner as being a part of the Yamaoka family.\nWhile Blood Fury is active, missing a Demon Strike will cause all Survivors within 12 metres to scream and reveal their current location to you.\n\"Know who you are so you may shield your heart.\" \u2014 Renjiro's Doctrine 11:2",
           "addon-image-alt": "/static/images/Addons/iconAddon_IridescentFamilyCrest.png",
           "addon-id": "Iridescent-Family-Crest-Oni",
-          "addon-effect": "***"
+          "addon-effect": "While Blood Fury is active, missing a Demon Strike will cause all Survivors within 12 metres to scream and reveal their current location to you"
         }
       ]
     }
