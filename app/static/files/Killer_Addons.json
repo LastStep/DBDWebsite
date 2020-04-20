@@ -37,10 +37,10 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/FulliconAddon_speedLimiter.png/64px-FulliconAddon_speedLimiter.png?version=3499bca6e4f556453a3632d122727826",
           "addon-name": "Speed Limiter",
-          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
+          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_speedLimiter.png",
           "addon-id": "Speed-Limiter-Cannibal",
-          "addon-effect": "Bubba's Chainsaw does not automatically trigger the Dying State. Grants 25 % Bonus Bloodpoints for Chainsaw Score Events in the Deviousness Category"
+          "addon-effect": "Bubba's Chainsaw does not automatically trigger the Dying State. Grants 25 Bonus Bloodpoints for Chainsaw Score Events in the Deviousness Category"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5e/FulliconAddon_shopLubricant.png/64px-FulliconAddon_shopLubricant.png?version=8d4328ba43cd0c512af4a8d09a77fd12",
@@ -377,7 +377,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_ricketyChain.png/64px-FulliconAddon_ricketyChain.png?version=af3f9ff2eaf087b71ed9f81252a070b1",
           "addon-name": "Rickety Chain",
-          "addon-description": "Weak steel links first used on Caleb's prototype Speargun. Despite the chain's failings, it holds sentimental value.\nGrants 50 % bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily.",
+          "addon-description": "Weak steel links first used on Caleb's prototype Speargun. Despite the chain's failings, it holds sentimental value.\nGrants 50 bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ricketyChain.png",
           "addon-id": "Rickety-Chain-Deathslinger",
           "addon-effect": "Grants 50% bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily"
@@ -721,7 +721,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7a/FulliconAddon_moldyElectrode.png/64px-FulliconAddon_moldyElectrode.png?version=114c6987e26f91445e5c19c1a373a381",
           "addon-name": "Mouldy Electrode",
-          "addon-description": "A mouldy electrode which can nevertheless conduct a weak electrical current.\nIncreases Shock Therapy attack range by 25 %.\nSlightly increases Shock Therapy charge time.",
+          "addon-description": "A mouldy electrode which can nevertheless conduct a weak electrical current.\nIncreases Shock Therapy attack range by 25.\nSlightly increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_moldyElectrode.png",
           "addon-id": "Mouldy-Electrode-Doctor",
           "addon-effect": "Shock Range: 25%\n\nShock Charge Time: 10%"
@@ -737,7 +737,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e8/FulliconAddon_orderClassI.png/64px-FulliconAddon_orderClassI.png?version=59d47fce8985812e0c9b7328a136ed79",
           "addon-name": "\"Order\" - Class I",
-          "addon-description": "A conventional ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of mild confusion in the patient.\n10 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 32 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
+          "addon-description": "A conventional ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of mild confusion in the patient.\n10 increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 32 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderClassI.png",
           "addon-id": "Order-Class-I-Doctor",
           "addon-effect": "Static Field Madness Gain: 10%"
@@ -763,7 +763,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_polishedElectrode.png/64px-FulliconAddon_polishedElectrode.png?version=7f55b8289ccb5a82b65b4db18c7bb538",
           "addon-name": "Polished Electrode",
-          "addon-description": "A like-new standard electrode equipment to conduct electro-convulsive treatments.\nIncreases Shock Therapy attack range by 50 %.\nModerately increases Shock Therapy charge time.",
+          "addon-description": "A like-new standard electrode equipment to conduct electro-convulsive treatments.\nIncreases Shock Therapy attack range by 50.\nModerately increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_polishedElectrode.png",
           "addon-id": "Polished-Electrode-Doctor",
           "addon-effect": "Shock Range: 50%\n\nShock Charge Time: 20%"
@@ -786,7 +786,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d8/FulliconAddon_orderClassII.png/64px-FulliconAddon_orderClassII.png?version=c82c13a201f6d3b2e283f2d3c675732e",
           "addon-name": "\"Order\" - Class II",
-          "addon-description": "A high stimulus ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of moderate confusion in the patient.\n15 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 64 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.\n\"Side effects are very rare.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "A high stimulus ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of moderate confusion in the patient.\n15 increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 64 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.\n\"Side effects are very rare.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderClassII.png",
           "addon-id": "Order-Class-II-Doctor",
           "addon-effect": "Static Field Madness Gain: 15%"
@@ -794,7 +794,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e4/FulliconAddon_disciplineClassII.png/64px-FulliconAddon_disciplineClassII.png?version=84e7c45cb48cd6e84fe40c6861f0383d",
           "addon-name": "\"Discipline\" - Class II",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.\n15 % increase in Madness inflicted by Shock Therapy.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 6 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 12 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"We re-educate our patients with the greatest care.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.\n15 increase in Madness inflicted by Shock Therapy.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 6 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 12 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"We re-educate our patients with the greatest care.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineClassII.png",
           "addon-id": "Discipline-Class-II-Doctor",
           "addon-effect": "Shock Madness Gain: 15%"
@@ -812,7 +812,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/35/FulliconAddon_highStimulusElectrode.png/64px-FulliconAddon_highStimulusElectrode.png?version=afc46df2c161795aabb488aecb95ccf1",
           "addon-name": "High Stimulus Electrode",
-          "addon-description": "An experimental electrode that can withstand very high charges for a longer period of time.\nIncreases Shock Therapy attack range by 75 %.\nConsiderably increases Shock Therapy charge time.",
+          "addon-description": "An experimental electrode that can withstand very high charges for a longer period of time.\nIncreases Shock Therapy attack range by 75.\nConsiderably increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_highStimulusElectrode.png",
           "addon-id": "High-Stimulus-Electrode-Doctor",
           "addon-effect": "Shock Range: 75%\n\nShock Charge Time: 30%"
@@ -828,7 +828,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7a/FulliconAddon_disciplineClassIII.png/64px-FulliconAddon_disciplineClassIII.png?version=fefc5b750eb663826f3385a6f64582ad",
           "addon-name": "\"Discipline\" - Class III",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.\n20 % increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 8 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 16 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"Respect of our patients is at the core of our principles.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.\n20 increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 8 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 16 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"Respect of our patients is at the core of our principles.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineClassIII.png",
           "addon-id": "Discipline-Class-III-Doctor",
           "addon-effect": "Shock Madness Gain: 20%"
@@ -846,7 +846,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ab/FulliconAddon_orderCartersNotes.png/64px-FulliconAddon_orderCartersNotes.png?version=8ed713f79efbda400bde6c488357c055",
           "addon-name": "\"Order\" - Carter's Notes",
-          "addon-description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.\n25 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an unlimited range of The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\n\"The stimulus must be kept active at a convulsive level.\" \u2014 Herman Carter",
+          "addon-description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.\n25 increase in Madness inflicted by the Static Field.\nSurvivors with Madness have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an unlimited range of The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\n\"The stimulus must be kept active at a convulsive level.\" \u2014 Herman Carter",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderCartersNotes.png",
           "addon-id": "Order-Carters-Notes-Doctor",
           "addon-effect": "Static Field Madness Gain: 25%"
@@ -862,7 +862,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_disciplineCartersNotes.png/64px-FulliconAddon_disciplineCartersNotes.png?version=6a32790f230d5732add074a93f9667b2",
           "addon-name": "\"Discipline\" - Carter's Notes",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.\n25 % increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of Madness III.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" \u2014 Herman Carter",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.\n25 increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of Madness III.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" \u2014 Herman Carter",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineCartersNotes.png",
           "addon-id": "Discipline-Carters-Notes-Doctor",
           "addon-effect": "Shock Madness Gain: 25%"
@@ -1197,7 +1197,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/07/FulliconAddon_scarredHand.png/64px-FulliconAddon_scarredHand.png?version=a96acee42a6c346770397b5fd80c2c03",
           "addon-name": "Scarred Hand",
-          "addon-description": "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.\nMud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300 % Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons.\n\"...\" \u2014 The Butcher",
+          "addon-description": "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.\nMud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300 Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons.\n\"...\" \u2014 The Butcher",
           "addon-image-alt": "/static/images/Addons/iconAddon_scarredHand.png",
           "addon-id": "Scarred-Hand-Hag",
           "addon-effect": "Mud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300% Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons"
@@ -1293,7 +1293,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/FulliconAddon_speedLimiter.png/64px-FulliconAddon_speedLimiter.png?version=3499bca6e4f556453a3632d122727826",
           "addon-name": "Speed Limiter",
-          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
+          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_speedLimiter.png",
           "addon-id": "Speed-Limiter-Hillbilly",
           "addon-effect": "Chainsaw does not trigger the Dying State, Get 50% more BP for Chainsaw Score Events in the Deviousness Category"
@@ -1977,10 +1977,10 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/FulliconAddon_whiteNitComb.png/64px-FulliconAddon_whiteNitComb.png?version=cf0666d22fe4d6127f65a0a046029dc7",
           "addon-name": "White Nit Comb",
-          "addon-description": "A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\nIncreases Bloodpoints for Blink Attack Score Events by 100 %.\nModerately reduces the post-Blink Lunge range.",
+          "addon-description": "A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\nIncreases Bloodpoints for Blink Attack Score Events by 100.\nModerately reduces the post-Blink Lunge range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_whiteNitComb.png",
           "addon-id": "White-Nit-Comb-Nurse",
-          "addon-effect": "Increases Bloodpoints for Blink Attack Score Events by 100 %. Decreases the length of blink attack lunges by 50% (0.15s)"
+          "addon-effect": "Increases Bloodpoints for Blink Attack Score Events by 100. Decreases the length of blink attack lunges by 50% (0.15s)"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/62/FulliconAddon_plaidFlannel.png/64px-FulliconAddon_plaidFlannel.png?version=15f91a43854617617be015055798c8bc",
@@ -2011,7 +2011,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a8/FulliconAddon_dullBracelet.png/64px-FulliconAddon_dullBracelet.png?version=6573034d42e97cfb9a446e265515f04e",
           "addon-name": "Dull Bracelet",
-          "addon-description": "A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body.\nIncreases Bloodpoints for Precise Blink Score Events by 100 %.\nModerately reduces the maximum Blink range.",
+          "addon-description": "A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body.\nIncreases Bloodpoints for Precise Blink Score Events by 100.\nModerately reduces the maximum Blink range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_dullBracelet.png",
           "addon-id": "Dull-Bracelet-Nurse",
           "addon-effect": "Blink Range: -20%\n\nIncreases Bloodpoints for Precise Blink Score Events by 100%"
@@ -2432,7 +2432,7 @@
           "addon-description": "A modification to the Jigsaw Box: the addition of interlocking razor blades makes it impossible to move suddenly in the Jigsaw Box without slitting one's wrists.\nTremendously increases the penalty of failed Skill Checks on Jigsaw Boxes.",
           "addon-image-alt": "/static/images/Addons/iconAddon_interlockingRazor.png",
           "addon-id": "Interlocking-Razor-Pig",
-          "addon-effect": "Jigsaw Failed Skill Check %: +50%"
+          "addon-effect": "Jigsaw Failed Skill Check: +50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c9/FulliconAddon_bagOfGears.png/64px-FulliconAddon_bagOfGears.png?version=5904362d842a6a7c6322abb5dfe64723",
@@ -2807,7 +2807,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/db/FulliconAddon_vanityMirror.png/64px-FulliconAddon_vanityMirror.png?version=eee4decb39f7e8a01e246b7b4e025bc5",
           "addon-name": "Vanity Mirror",
-          "addon-description": "A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\nEvil Within II reveals Survivors' Auras when stalking within a range of 16 metres.\nEvil Within cannot progress past TIER II.\nSlightly reduces movement speed.\nFor each Hit Score Event, grant 100 % Bloodpoints for the Hit Score Event in the Brutality Category and an additional 150 % Bloodpoints in the Deviousness Category.",
+          "addon-description": "A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\nEvil Within II reveals Survivors' Auras when stalking within a range of 16 metres.\nEvil Within cannot progress past TIER II.\nSlightly reduces movement speed.\nFor each Hit Score Event, grant 100 Bloodpoints for the Hit Score Event in the Brutality Category and an additional 150 Bloodpoints in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_vanityMirror.png",
           "addon-id": "Vanity-Mirror-Shape",
           "addon-effect": "When stalking, Evil Within II reveals the Aura of Survivors within a range of 16 metres. Evil Within cannot progress past TIER II. Each Hit Score Event grants 100% Bonus Bloodpoints in the Brutality Category and additional 150% Bonus Bloodpoints in the Deviousness Category. Slightly(7%) reduces The Shape's Movement speed"
@@ -2823,7 +2823,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_scratchedMirror.png/64px-FulliconAddon_scratchedMirror.png?version=13f7f43f49334e39ba014b7c3ac80528",
           "addon-name": "Scratched Mirror",
-          "addon-description": "A standing portable vanity mirror which has been violently scratched with a sharp metallic object.\nEvil Within I reveals Survivors' Auras when stalking within a range of 32 metres.\nEvil Within cannot progress past Tier I.\nFor each Hit Score Event, grant 100 % Bloodpoints for the Hit Score Event in the Brutality Category and an additional 200 % Bloodpoints in the Deviousness Category.",
+          "addon-description": "A standing portable vanity mirror which has been violently scratched with a sharp metallic object.\nEvil Within I reveals Survivors' Auras when stalking within a range of 32 metres.\nEvil Within cannot progress past Tier I.\nFor each Hit Score Event, grant 100 Bloodpoints for the Hit Score Event in the Brutality Category and an additional 200 Bloodpoints in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_scratchedMirror.png",
           "addon-id": "Scratched-Mirror-Shape",
           "addon-effect": "When stalking, Evil Within I reveals the Aura of Survivors within a range of 32 metres. Evil Within cannot progress past Tier I. Each Hit Score Event grants 100% Bonus Bloodpoints in the Brutality Category and additional 200% Bonus Bloodpoints in the Deviousness Category"
@@ -3073,7 +3073,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/10/FulliconAddon_paddedJaws.png/64px-FulliconAddon_paddedJaws.png?version=c4b9ac19825a87c1418a746bca390a94",
           "addon-name": "Padded Jaws",
-          "addon-description": "These padded jaws are meant to restrain, not to wound.\nBear Traps do not inflict damage to trapped victims.\nPoints awarded for trapping Survivors are increased by 100 %.",
+          "addon-description": "These padded jaws are meant to restrain, not to wound.\nBear Traps do not inflict damage to trapped victims.\nPoints awarded for trapping Survivors are increased by 100.",
           "addon-image-alt": "/static/images/Addons/iconAddon_paddedJaws.png",
           "addon-id": "Padded-Jaws-Trapper",
           "addon-effect": "Points awarded increased by 100% for trapping Survivors"
@@ -3253,7 +3253,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cc/FulliconAddon_theBeast-Soot.png/64px-FulliconAddon_theBeast-Soot.png?version=3a767f9c81880f0bfdcef7a26c9a1368",
           "addon-name": "\"The Beast\" - Soot",
-          "addon-description": "The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\nThe Wraith's Terror Radius is no longer suppressed while cloaked.\nBloodpoints granted for Stalking and Surprise Attacks are increased by 100 %.",
+          "addon-description": "The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\nThe Wraith's Terror Radius is no longer suppressed while cloaked.\nBloodpoints granted for Stalking and Surprise Attacks are increased by 100.",
           "addon-image-alt": "/static/images/Addons/iconAddon_sootTheBeast.png",
           "addon-id": "The-Beast-Soot-Wraith",
           "addon-effect": "The Wraith's Terror Radius is no longer suppressed while cloaked. Bloodpoints granted for Stalking and Surprise Attacks are increased by 100%"
