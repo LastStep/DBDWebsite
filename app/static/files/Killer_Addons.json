@@ -37,7 +37,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/FulliconAddon_speedLimiter.png/64px-FulliconAddon_speedLimiter.png?version=3499bca6e4f556453a3632d122727826",
           "addon-name": "Speed Limiter",
-          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
+          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_speedLimiter.png",
           "addon-id": "Speed-Limiter-Cannibal",
           "addon-effect": "Bubba's Chainsaw does not automatically trigger the Dying State. Grants 25 % Bonus Bloodpoints for Chainsaw Score Events in the Deviousness Category"
@@ -72,7 +72,7 @@
           "addon-description": "Scratches cover the Chainsaw's body, caused by a searing blade. Memories of reprimands fill its holder with the fear of failure.\nSlightly increases the Chainsaw's movement speed.\nSlightly increases the Chainsaw's charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_knifeScratches.png",
           "addon-id": "Knife-Scratches-Cannibal",
-          "addon-effect": "Chainsaw Speed: 5%\n\nCharge Time: 12%"
+          "addon-effect": "Chainsaw Speed: +5%\n\nCharge Time: +12%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_homemadeMuffler.png/64px-FulliconAddon_homemadeMuffler.png?version=603098f5d2da98b81dc18da5cce23f5d",
@@ -122,7 +122,7 @@
           "addon-description": "Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog. Memories of violent reprimands fill its holder with the fear of failure.\nModerately increases the Chainsaw's movement speed.\nSlightly increases the Chainsaw's charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_theBeastsMark.png",
           "addon-id": "The-Beasts-Marks-Cannibal",
-          "addon-effect": "Chainsaw Speed: 10%\n\nCharge Time: 12%"
+          "addon-effect": "Chainsaw Speed: +10%\n\nCharge Time: +12%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/61/FulliconAddon_rustedChains.png/64px-FulliconAddon_rustedChains.png?version=0290fc39785aed3986a655b9988971b0",
@@ -156,7 +156,7 @@
           "addon-description": "This chain is stained with a foul substance that debilitates anyone it touches.\nModerately decreases the Repair speed on Survivors injured by the Chainsaw.\nSurvivors injured by the Chainsaw suffer considerably from the Mangled  Status Effect.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chainsBloody.png",
           "addon-id": "Begrimed-Chains-Cannibal",
-          "addon-effect": "Moderately decreases the Repair speed of Survivors injured by the Chainsaw for 120 seconds. Survivors injured by the Chainsaw considerably suffer from the Mangled Status Effect for 120 seconds. Does not stack"
+          "addon-effect": "Moderately(9%) decreases the Repair speed of Survivors injured by the Chainsaw for 120 seconds. Survivors injured by the Chainsaw considerably suffer from the Mangled Status Effect for 120 seconds. Does not stack"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/61/FulliconAddon_award-winningChilli.png/64px-FulliconAddon_award-winningChilli.png?version=9b7a490f8246193c33aeaacbd9d2e5c8",
@@ -164,7 +164,7 @@
           "addon-description": "A big bowl of spicy Chilli made famous thanks to prime meat.\nTremendously increases acceleration when using the Chainsaw.\nConsiderably increases the time penalty when bumping into objects.\n\"The secret's in the meat\" \u2014 Drayton Sawyer",
           "addon-image-alt": "/static/images/Addons/iconAddon_awardwinningChili.png",
           "addon-id": "Award-winning-Chilli-Cannibal",
-          "addon-effect": "Tantrum Duration: 28%\n\nTremendously increases the acceleration of the Chainsaw Sweep"
+          "addon-effect": "Tantrum Duration: +28%\n\nTremendously increases the acceleration of the Chainsaw Sweep"
         }
       ]
     }
@@ -184,7 +184,7 @@
           "addon-description": "A mouldy inner sole which gives much comfort to tired feet.\nSlightly increases the Movement Speed while reloading The Afterpiece Tonic.",
           "addon-image-alt": "/static/images/Addons/iconAddon_smellyInnerSoles.png",
           "addon-id": "Smelly-Inner-Soles-Clown",
-          "addon-effect": "Reload Movement Speed: 13.25%"
+          "addon-effect": "Reload Movement Speed: +13.25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7f/FulliconAddon_robinFeather.png/64px-FulliconAddon_robinFeather.png?version=31b670461bcd1073972f230db974b46f",
@@ -200,7 +200,7 @@
           "addon-description": "Part of the standard Clown apparel, the cut fingers allow for dexterous manipulations.\nSlightly decreases the Reload Time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fingerlessParadeGloves.png",
           "addon-id": "Fingerless-Parade-Gloves-Clown",
-          "addon-effect": "Reload Time: -20%"
+          "addon-effect": "Reload Time: -1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/52/FulliconAddon_ether5Vol.png/64px-FulliconAddon_ether5Vol.png?version=bc5c0a4e2553f58a3214882b634b0166",
@@ -208,7 +208,7 @@
           "addon-description": "An organic compound used for anaesthetic purposes.\nSlightly increases the Intoxicated Effect duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ether5.png",
           "addon-id": "Ether-5-Vol%-Clown",
-          "addon-effect": "Intoxicated Effect Duration: 16.50%"
+          "addon-effect": "Intoxicated Effect Duration: +0.33s"
         }
       ],
       "Uncommon": [
@@ -218,7 +218,7 @@
           "addon-description": "A sturdy cork fitting The Afterpiece Tonic bottles marvellously.\nModerately decreases the Reload Time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_thickCorkStopper.png",
           "addon-id": "Thick-Cork-Stopper-Clown",
-          "addon-effect": "Reload Time: -40%"
+          "addon-effect": "Reload Time: -2s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/24/FulliconAddon_stickySodaBottle.png/64px-FulliconAddon_stickySodaBottle.png?version=03025d7b12063e9e889c40f139bde8f6",
@@ -226,7 +226,7 @@
           "addon-description": "An empty bottle, sticky with dried sugar and blood.\nStart with 1 extra bottle of The Afterpiece Tonic.\nIncreases maximum carried bottles amount by 1.",
           "addon-image-alt": "/static/images/Addons/iconAddon_stickySodaBottle.png",
           "addon-id": "Sticky-Soda-Bottle-Clown",
-          "addon-effect": "Number of Bottles: 25%"
+          "addon-effect": "Number of Bottles: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/24/FulliconAddon_starlingFeather.png/64px-FulliconAddon_starlingFeather.png?version=8548e2537d631558be2776a5a41550e3",
@@ -242,7 +242,7 @@
           "addon-description": "A chemical volatile compound that irritates the respiratory tract.\nIntoxicated target suffers from the Exhaustion  Status Effect for 30 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_solventJug.png",
           "addon-id": "Solvent-Jug-Clown",
-          "addon-effect": "Intoxicated target suffers from the\u00a0Exhaustion\u00a0Status Effect\u00a0for\u00a030 seconds"
+          "addon-effect": "Intoxicated target suffers from the Exhaustion Status Effect for 30 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/2b/FulliconAddon_keroseneCan.png/64px-FulliconAddon_keroseneCan.png?version=d2c42cf2622821dfd9ec87035edd3a5c",
@@ -250,7 +250,7 @@
           "addon-description": "A thin and clear combustible liquid which numbs the mind when inhaled.\nIntoxicated target suffers from the Blindness  Status Effect for 30 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_keroseneCan.png",
           "addon-id": "Kerosene-Can-Clown",
-          "addon-effect": "Intoxicated target suffers from the\u00a0Blindness\u00a0Status Effect\u00a0for\u00a030 seconds"
+          "addon-effect": "Intoxicated target suffers from the Blindness Status Effect for 30 seconds"
         }
       ],
       "Rare": [
@@ -260,7 +260,7 @@
           "addon-description": "An all time classic.\nModerately increases the Movement Speed while reloading The Afterpiece Tonic.",
           "addon-image-alt": "/static/images/Addons/iconAddon_vhsPorn.png",
           "addon-id": "VHS-Porn-Clown",
-          "addon-effect": "Reload Movement Speed: 26.50%"
+          "addon-effect": "Reload Movement Speed: +26.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e3/FulliconAddon_sulphuricAcidVial.png/64px-FulliconAddon_sulphuricAcidVial.png?version=56a7741a929a8e17d190f163ff12d2ce",
@@ -268,7 +268,7 @@
           "addon-description": "An odour-less syrupy liquid with high corrosiveness.\nIntoxicated target suffers considerably from the Mangled  Status Effect for 120 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_sulfuricAcidVial.png",
           "addon-id": "Sulphuric-Acid-Vial-Clown",
-          "addon-effect": "Intoxicated target suffers\u00a0considerably\u00a0from the\u00a0Mangled\u00a0Status Effect\u00a0for\u00a0120 seconds"
+          "addon-effect": "Intoxicated target suffers considerably from the Mangled Status Effect for 120 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d9/FulliconAddon_flaskOfBleach.png/64px-FulliconAddon_flaskOfBleach.png?version=52861ad94575282fd91ad16be0f42a06",
@@ -276,7 +276,7 @@
           "addon-description": "A potent chemical which causes irritation, burns and lung damage.\nIntoxicated target suffers moderately from an extra Hindered  Penalty.",
           "addon-image-alt": "/static/images/Addons/iconAddon_flaskOfBleach.png",
           "addon-id": "Flask-of-Bleach-Clown",
-          "addon-effect": "Intoxicated target suffers\u00a0moderately(5%)\u00a0from an extra\u00a0Hindered\u00a0Penalty"
+          "addon-effect": "Intoxicated target suffers moderately(5%) from an extra Hindered Penalty"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/94/FulliconAddon_ether10Vol.png/64px-FulliconAddon_ether10Vol.png?version=f8d17d69f6cf203a87479c81c8576d49",
@@ -284,7 +284,7 @@
           "addon-description": "A volatile organic compound used for anaesthetic purposes.\nModerately increases the Intoxicated Effect duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ether10.png",
           "addon-id": "Ether-10-Vol%-Clown",
-          "addon-effect": "Intoxicated Effect Duration: 33%"
+          "addon-effect": "Intoxicated Effect Duration: +0.33s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/35/FulliconAddon_bottleOfChloroform.png/64px-FulliconAddon_bottleOfChloroform.png?version=ee406fd0ef66bbbc64eb15ab7f707615",
@@ -292,7 +292,7 @@
           "addon-description": "A sweet-smelling organic compound with strong anaesthetic capabilities.\nModerately expands The Afterpiece Tonic Gas Effect area.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bottleOfChloroform.png",
           "addon-id": "Bottle-Of-Chloroform-Clown",
-          "addon-effect": "Area of Effect: 20%"
+          "addon-effect": "Area of Effect: +20%"
         }
       ],
       "Very Rare": [
@@ -302,7 +302,7 @@
           "addon-description": "Some for the face and some for the Tonic. The diluted make-up sticks to the lungs.\nModerately expands The Afterpiece Tonic Gas Effect area.\nThe Afterpiece Tonic Gas Effect duration lasts moderately longer.",
           "addon-image-alt": "/static/images/Addons/iconAddon_garishMakeupKit.png",
           "addon-id": "Garish-Make-up-Kit-Clown",
-          "addon-effect": "Intoxicated Effect Duration: 33%\n\nArea of Effect: 20%"
+          "addon-effect": "Intoxicated Effect Duration: +0.33s\n\nArea of Effect: +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f7/FulliconAddon_ether15Vol.png/64px-FulliconAddon_ether15Vol.png?version=0d1574f7e3e8ed1979a6f97b57d9f627",
@@ -318,7 +318,7 @@
           "addon-description": "A grim and incomplete collection of fingers. Fills The Clown with longing and focuses his anaesthetic crafting abilities.\nSlightly expands The Afterpiece Tonic Gas Effect area.\nSlightly prolongs the intoxicated target's blurred vision.",
           "addon-image-alt": "/static/images/Addons/iconAddon_cigarBox.png",
           "addon-id": "Cigar-Box-Clown",
-          "addon-effect": "Area of Effect: 10%\n\nBlurred Vision Duration: 50%"
+          "addon-effect": "Area of Effect: +10%\n\nBlurred Vision Duration: +50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cf/FulliconAddon_cheapGinBottle.png/64px-FulliconAddon_cheapGinBottle.png?version=70a9e8dfcfb136def39afc0bc345f9dd",
@@ -326,7 +326,7 @@
           "addon-description": "The only remnant of a cheap good time and one hell of a headache.\nStart with 2 extra bottles of The Afterpiece Tonic.\nIncreases maximum carried bottles amount by 2.",
           "addon-image-alt": "/static/images/Addons/iconAddon_cheapGinBottle.png",
           "addon-id": "Cheap-Gin-Bottle-Clown",
-          "addon-effect": "Number of Bottles: 50%"
+          "addon-effect": "Number of Bottles: +2"
         }
       ],
       "Ultra Rare": [
@@ -336,7 +336,7 @@
           "addon-description": "The prized middle finger of a large tattooed man. Has a faint taste of machinery oil.\nAuras of Intoxicated Survivors are revealed to you for 6 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tattoosMiddleFinger.png",
           "addon-id": "Tattoos-Middle-Finger-Clown",
-          "addon-effect": "Auras of Intoxicated Survivors are revealed to you for\u00a06 seconds"
+          "addon-effect": "Auras of Intoxicated Survivors are revealed to you for 6 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b8/FulliconAddon_redheadsPinkyFinger.png/64px-FulliconAddon_redheadsPinkyFinger.png?version=3d43e1e5803a7755e549cb3603a8b78a",
@@ -344,7 +344,7 @@
           "addon-description": "The prized pinky of a redhead. Faintly fragrant. Tastes of potpourri and varnish.\nSurvivors hit directly by a bottle of The Afterpiece Tonic suffer from the Exposed  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_redheadsPinkyFinger.png",
           "addon-id": "Redheads-Pinky-Finger-Clown",
-          "addon-effect": "Survivors hit directly by a bottle of The Afterpiece Tonic suffer from the\u00a0Exposed\u00a0Status Effect"
+          "addon-effect": "Survivors hit directly by a bottle of The Afterpiece Tonic suffer from the Exposed Status Effect"
         }
       ]
     }
@@ -354,7 +354,7 @@
     "killer-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/52/UK_charSelect_portrait.png/128px-UK_charSelect_portrait.png?version=cbb67b2f9bbccebc900e7e1af73737fa",
     "killer-image-alt": "/static/images/Killer_Portraits/UK_charSelect_portrait.png",
     "power-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/67/FulliconPowers_theRedeemer.png/128px-FulliconPowers_theRedeemer.png?version=9ba5aaedcdeb61a40d0b17d03d0e06fe",
-    "power-image-alt": ["/static/images/Powers/iconPowers_UK.png"],
+    "power-image-alt": "/static/images/Powers/iconPowers_UK.png",
     "power-description": "The Redeemer is The Deathslinger's main Power: the Deathslinger can shoot a spear that can lodge itself onto the Survivors. He can then reel speared Survivors towards him. If the chain breaks or he hits the reeled Survivor with a basic attack, the Survivor will be affected by the Deep Wound status effect regardless of the Survivor\u00e2\u20ac\u2122s current health state.",
     "addons": {
       "Common": [
@@ -364,7 +364,7 @@
           "addon-description": "A grimy piece of burlap. Spit and elbow grease was enough to wipe down the speargun in the heat of a shootout.\nSlightly decreases Speargun cool-down after missed shots.",
           "addon-image-alt": "/static/images/Addons/iconAddon_spitPolishRag.png",
           "addon-id": "Spit-Polish-Rag-Deathslinger",
-          "addon-effect": "Missed Shot Cooldown: -16.66%"
+          "addon-effect": "Missed Shot Cooldown: -0.25s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a1/FulliconAddon_snakeOil.png/64px-FulliconAddon_snakeOil.png?version=8b2087e29bf15c7c6a95b66bd91292e0",
@@ -372,15 +372,15 @@
           "addon-description": "A tincture of oils and extracts purchased from a travelling salesman. Purported to cure all that ails you.\nSlightly increases Speargun Reeling speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_snakeOil.png",
           "addon-id": "Snake-Oil-Deathslinger",
-          "addon-effect": "Reeling Speed: 2.50%"
+          "addon-effect": "Reeling Speed: +2.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_ricketyChain.png/64px-FulliconAddon_ricketyChain.png?version=af3f9ff2eaf087b71ed9f81252a070b1",
           "addon-name": "Rickety Chain",
-          "addon-description": "Weak steel links first used on Caleb's prototype Speargun. Despite the chain's failings, it holds sentimental value.\nGrants 50\u00a0% bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily.",
+          "addon-description": "Weak steel links first used on Caleb's prototype Speargun. Despite the chain's failings, it holds sentimental value.\nGrants 50 % bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ricketyChain.png",
           "addon-id": "Rickety-Chain-Deathslinger",
-          "addon-effect": "Grants 50 % bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily"
+          "addon-effect": "Grants 50% bonus Bloodpoints for Speared Score Events.\nSurvivors break free from the Speargun more easily"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/13/FulliconAddon_modifiedAmmoBelt.png/64px-FulliconAddon_modifiedAmmoBelt.png?version=644f14b73d09bef14a252264ea3b6522",
@@ -388,7 +388,7 @@
           "addon-description": "An old ammo belt Caleb altered for his specialised weaponry. Still holds the fine red dirt of the Arizona Territory desert.\nSlightly reduces Speargun Reload time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_modifiedAmmoBelt.png",
           "addon-id": "Modified-Ammo-Belt-Deathslinger",
-          "addon-effect": "Reload Time: -9.09%"
+          "addon-effect": "Reload Time: -0.25s"
         }
       ],
       "Uncommon": [
@@ -406,7 +406,7 @@
           "addon-description": "An ordinary-looking plant, Caleb found out that spears coated in its oil cause unbearable blistering around wound.\nSlightly increases Survivors' Mending time when affected by the Deep Wound  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_poisonOakLeaves.png",
           "addon-id": "Poison-Oak-Leaves-Deathslinger",
-          "addon-effect": "Mending Time: 12.50%"
+          "addon-effect": "Mending Time: +1.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/12/FulliconAddon_marshalsBadge.png/64px-FulliconAddon_marshalsBadge.png?version=455ea3aa2098e9ae786efa348c706396",
@@ -414,7 +414,7 @@
           "addon-description": "A silver badge taken from the corpse of a lawman in Arizona Territory who interfered with the Hellshire Gang's bounties.\nSlightly decreases The Deathslinger's Terror Radius while aiming down the Speargun's sights.\nSlightly decreases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"Get your prayers in, you'll be swinging by noon.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_marshalsBadge.png",
           "addon-id": "Marshals-Badge-Deathslinger",
-          "addon-effect": "ADS Movement Speed: -5%\n\nADS Terror Radius: -16.66%"
+          "addon-effect": "ADS Movement Speed: -5%\n\nADS Terror Radius: +4m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f0/FulliconAddon_jawSmasher.png/64px-FulliconAddon_jawSmasher.png?version=1b7d4d70a79d5f7ec91238a7c1a261a0",
@@ -422,7 +422,7 @@
           "addon-description": "The bullet that ripped through Caleb's jaw during a frenzy shootout. It brings back burning desire for revenge.\nSlightly increases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"You called death to your door the instant you done me wrong.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_jawSmasher.png",
           "addon-id": "Jaw-Smasher-Deathslinger",
-          "addon-effect": "ADS Movement Speed: 5%"
+          "addon-effect": "ADS Movement Speed: +5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/50/FulliconAddon_chewingTobacco.png/64px-FulliconAddon_chewingTobacco.png?version=9e9350bd32d2ac6ab02af9bc168eb41c",
@@ -430,7 +430,7 @@
           "addon-description": "A can of clipped and sweetened tobacco leaves lifted from a gutted body in Glenvale. Stimulates the nervous system.\nModerately decreases Stun duration when Survivors break free from the Speargun.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chewingTobacco.png",
           "addon-id": "Chewing-Tobacco-Deathslinger",
-          "addon-effect": "Stun Duration: -12.50%"
+          "addon-effect": "Stun Duration: -0.5s"
         }
       ],
       "Rare": [
@@ -440,7 +440,7 @@
           "addon-description": "The dull jangle of the keys evokes a furious memory within Caleb.\nModerately reduces Speargun Reload time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_wardensKeys.png",
           "addon-id": "Wardens-Keys-Deathslinger",
-          "addon-effect": "Reload Time: -18.18%"
+          "addon-effect": "Reload Time: -0.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6f/FulliconAddon_wantedPoster.png/64px-FulliconAddon_wantedPoster.png?version=8e2ca69ac6bda64d96fb360354d22920",
@@ -448,7 +448,7 @@
           "addon-description": "The yellowed remains of a wanted poster for Mason Kelly. It kept Caleb focused on the hunt.\nModerately increases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"You'll be met with a fierce reckoning, swear it on my mom's grave.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_wantedPoster.png",
           "addon-id": "Wanted-Poster-Deathslinger",
-          "addon-effect": "ADS Movement Speed: 10%"
+          "addon-effect": "ADS Movement Speed: +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/43/FulliconAddon_tinOilCan.png/64px-FulliconAddon_tinOilCan.png?version=7c8d2a48af48a925804bdc9af0b8b769",
@@ -456,7 +456,7 @@
           "addon-description": "A can holding a small amount of oil to reduce friction in machinery. Early models of the Speargun were notorious for jamming, and oil had to be readily available.\nModerately decreases Speargun cool-down after missed shots.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tinOilCan.png",
           "addon-id": "Tin-Oil-Can-Deathslinger",
-          "addon-effect": "Missed Shot Cooldown: -33.33%"
+          "addon-effect": "Missed Shot Cooldown: -0.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dc/FulliconAddon_honeyLocustThorn.png/64px-FulliconAddon_honeyLocustThorn.png?version=1e875cd60c9a196e954b0508a3600c2e",
@@ -472,7 +472,7 @@
           "addon-description": "A golden tooth torn from Henry Bayshore as he screamed for mercy, hours before he was finished off.\nModerately increases Speargun Reeling speed.\n\"Know your place, boy. Know you damn place.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresGoldTooth.png",
           "addon-id": "Bayshores-Gold-Tooth-Deathslinger",
-          "addon-effect": "Reeling Speed: 5%"
+          "addon-effect": "Reeling Speed: +5%"
         }
       ],
       "Very Rare": [
@@ -490,7 +490,7 @@
           "addon-description": "Warm comfort in a bottle that quelled Caleb's anger and slowed his step.\nModerately decreases The Deathslinger's Terror Radius while aiming down the Speargun's sights.\nModerately decreases The Deathslinger's Movement speed while aiming down the Speargun's sights.\n\"A smooth taste for the rugged frontier.\" \u2014 Gold Creek Advertisement, 1876",
           "addon-image-alt": "/static/images/Addons/iconAddon_clearCreekWhiskey.png",
           "addon-id": "Gold-Creek-Whiskey-Deathslinger",
-          "addon-effect": "ADS Movement Speed: -10%\n\nADS Terror Radius: -33.33%"
+          "addon-effect": "ADS Movement Speed: -10%\n\nADS Terror Radius: +8m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/53/FulliconAddon_bayshoresCigar.png/64px-FulliconAddon_bayshoresCigar.png?version=ace4b4c9e8a2f78c80fa3894ce127fc9",
@@ -498,7 +498,7 @@
           "addon-description": "A quality cigar, plucked from the jacket of Caleb's boss while he wailed over the spear lodged in his abdomen.\nConsiderably decreases Stun duration when Survivors break free from the Speargun.\n\"Do not point that thing at me, you slack-jawed imbecile.\" \u2014 Henry Bayshore",
           "addon-image-alt": "/static/images/Addons/iconAddon_bayshoresCigar.png",
           "addon-id": "Bayshores-Cigar-Deathslinger",
-          "addon-effect": "Stun Duration: -25%"
+          "addon-effect": "Stun Duration: -1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/70/FulliconAddon_barbedWire.png/64px-FulliconAddon_barbedWire.png?version=73f1da3246934c207fc273c27a2473f5",
@@ -506,7 +506,7 @@
           "addon-description": "Pliable American-made steel lined with sharp barbs. Despite its simplicity, Caleb found it could be wrapped around a spear to increase its viciousness.\nModerately increases Survivors' Mending time when affected by the Deep Wound  Status Effect.\n\"There won't be nothing to fear soon. Till then, fear me.\" \u2014 Caleb Quinn",
           "addon-image-alt": "/static/images/Addons/iconAddon_barbedWire.png",
           "addon-id": "Barbed-Wire-Deathslinger",
-          "addon-effect": "Mending Time: 29.16%"
+          "addon-effect": "Mending Time: +3.5s"
         }
       ],
       "Ultra Rare": [
@@ -544,7 +544,7 @@
           "addon-description": "Pumpkin flesh infected by the rotten soil in Hawkins.\nIncreases the total number of available Portals by 1.",
           "addon-image-alt": "/static/images/Addons/iconAddon_rottenPumpkin.png",
           "addon-id": "Rotten-Pumpkin-Demogorgon",
-          "addon-effect": "Available Portals: 1.0"
+          "addon-effect": "Available Portals: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ab/FulliconAddon_blackHeart.png/64px-FulliconAddon_blackHeart.png?version=a216e83c4ea89716bd1bd6fe98171ec1",
@@ -552,7 +552,7 @@
           "addon-description": "A black fermented heart ripped from the chest of a tentacled creature in the Upside Down.\nSlightly increases the Recovery speed of missed Shred attacks.",
           "addon-image-alt": "/static/images/Addons/iconAddon_blackHeart.png",
           "addon-id": "Black-Heart-Demogorgon",
-          "addon-effect": "Shred Missed Cooldown: -0.25"
+          "addon-effect": "Shred Missed Cooldown: -0.25s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9d/FulliconAddon_ratLiver.png/64px-FulliconAddon_ratLiver.png?version=fb3586be906bf1f72cb7239cdc87d01b",
@@ -578,7 +578,7 @@
           "addon-description": "A fetid, viscous layer that covers and expands the inter-dimensional tunnels.\nSlightly increases the radius in which Survivors can be detected by Of the Abyss.",
           "addon-image-alt": "/static/images/Addons/iconAddon_stickyLining.png",
           "addon-id": "Sticky-Lining-Demogorgon",
-          "addon-effect": "Portal Detection Radius: 37.50%"
+          "addon-effect": "Portal Detection Radius: +1.5m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c0/FulliconAddon_viscousWebbing.png/64px-FulliconAddon_viscousWebbing.png?version=2bca4b60ebde2e3bbd6ad7b25d1c93bb",
@@ -586,7 +586,7 @@
           "addon-description": "Wet, elastic webs that broaden the inter-dimensional tunnels.\nSlightly increases the time taken by Survivors to seal a Portal.",
           "addon-image-alt": "/static/images/Addons/iconAddon_viscousWebbing.png",
           "addon-id": "Viscous-Webbing-Demogorgon",
-          "addon-effect": "Portal Sealing Time: 14%"
+          "addon-effect": "Portal Sealing Time: +14%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a6/FulliconAddon_rottenGreenTripe.png/64px-FulliconAddon_rottenGreenTripe.png?version=c643541ddc18c4d26c31b607fdc1a780",
@@ -594,7 +594,7 @@
           "addon-description": "Rotten tripe that fuels The Demogorgon.\nSlightly increases the Demogorgon's Movement Speed while traversing the Upside Down.",
           "addon-image-alt": "/static/images/Addons/iconAddon_rottenGreenTripe.png",
           "addon-id": "Rotten-Green-Tripe-Demogorgon",
-          "addon-effect": "Traversal Movement Speed: 25%"
+          "addon-effect": "Traversal Movement Speed: +25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/78/FulliconAddon_mewsGuts.png/64px-FulliconAddon_mewsGuts.png?version=cfd968f5ccfa63620dfe5fd1ff82e3dc",
@@ -602,7 +602,7 @@
           "addon-description": "The tasty guts of an unfortunate victim.\nIncreases the total number of available Portals by 1.\nSlightly increases the Recovery speed of missed Shred attacks.",
           "addon-image-alt": "/static/images/Addons/iconAddon_mewsGuts.png",
           "addon-id": "Mews-Guts-Demogorgon",
-          "addon-effect": "Shred Missed Cooldown: -11.11%\n\nAvailable Portals: 1.0"
+          "addon-effect": "Shred Missed Cooldown: -0.25s\n\nAvailable Portals: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f6/FulliconAddon_barbsGlasses.png/64px-FulliconAddon_barbsGlasses.png?version=5213447f76cab9c8335e0e34468f42c8",
@@ -610,7 +610,7 @@
           "addon-description": "A broken pair of glasses that travelled to the Upside Down.\nSlightly increases the Power Recovery speed of traversing the Upside Down.",
           "addon-image-alt": "/static/images/Addons/iconAddon_barbsGlasses.png",
           "addon-id": "Barbs-Glasses-Demogorgon",
-          "addon-effect": "Traversal Recovery Time: -10.71%"
+          "addon-effect": "Traversal Recovery Time: -1.5s"
         }
       ],
       "Rare": [
@@ -620,7 +620,7 @@
           "addon-description": "A soda can charged with psychic energy.\nModerately increases the Power Recovery speed of traversing the Upside Down.",
           "addon-image-alt": "/static/images/Addons/iconAddon_elevensSoda.png",
           "addon-id": "Elevens-Soda-Demogorgon",
-          "addon-effect": "Traversal Recovery Time: -14.28%"
+          "addon-effect": "Traversal Recovery Time: -2s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a9/FulliconAddon_thornyVines.png/64px-FulliconAddon_thornyVines.png?version=b821a23d3dbe271927e28734bc81c17e",
@@ -628,7 +628,7 @@
           "addon-description": "Thick, thorny vines that stretch and reinforce the inter-dimensional tunnels.\nSlightly increases the time taken by Survivors to seal a Portal.\nSlightly increases the radius in which Survivors can be detected by Of the Abyss.",
           "addon-image-alt": "/static/images/Addons/iconAddon_thornyVines.png",
           "addon-id": "Thorny-Vines-Demogorgon",
-          "addon-effect": "Portal Sealing Time: 14%\n\nPortal Detection Radius: 37.50%"
+          "addon-effect": "Portal Sealing Time: +14%\n\nPortal Detection Radius: +1.5m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7d/FulliconAddon_brassCaseLighter.png/64px-FulliconAddon_brassCaseLighter.png?version=cc58a6eb69a550d89a1a9fd0d1d44976",
@@ -636,7 +636,7 @@
           "addon-description": "A lighter used to ignite trouble.\nSurvivors under the effect of a Portal suffer from the Blindness  Status Effect. Once out of contact with the Portal, this effect persists for 45 seconds.\n\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_brassCaseLighter.png",
           "addon-id": "Brass-Case-Lighter-Demogorgon",
-          "addon-effect": "Survivors under the effect of a Portal suffer from the Blindness\u00a0Status Effect. Once out of contact with the Portal, this effect persists for 45 seconds"
+          "addon-effect": "Survivors under the effect of a Portal suffer from the Blindness Status Effect. Once out of contact with the Portal, this effect persists for 45 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/FulliconAddon_violetWaxcap.png/64px-FulliconAddon_violetWaxcap.png?version=19f51deecdb78cbeaf0d9249a070b81c",
@@ -644,7 +644,7 @@
           "addon-description": "A dark fleshed mushroom from the Upside Down that allows The Demogorgon to telepathically distort the senses in its prey.\nSlightly increases the duration of the Undetectable  Status Effect applied to The Demogorgon when emerging from a Portal.",
           "addon-image-alt": "/static/images/Addons/iconAddon_violetWaxcap.png",
           "addon-id": "Violet-Waxcap-Demogorgon",
-          "addon-effect": "Undetectable Status Duration: 25%"
+          "addon-effect": "Undetectable Status Duration: +0.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6e/FulliconAddon_deerLung.png/64px-FulliconAddon_deerLung.png?version=324026c1173dcd7ac0c674606077dc4b",
@@ -652,7 +652,7 @@
           "addon-description": "A raw, rubbery lung that reinvigorates The Demogorgon.\nModerately increases the Demogorgon's Movement speed while traversing the Upside Down.",
           "addon-image-alt": "/static/images/Addons/iconAddon_deerLung.png",
           "addon-id": "Deer-Lung-Demogorgon",
-          "addon-effect": "Traversal Movement Speed: 40%"
+          "addon-effect": "Traversal Movement Speed: +40%"
         }
       ],
       "Very Rare": [
@@ -662,7 +662,7 @@
           "addon-description": "A rusty, metal whistle that once ruled the Hawkins public pool.\nSurvivors under the effect of a Portal suffer from the Exhausted  Status Effect. Once out of contact with the Portal, this effect persists for 5 seconds.\n\"Emits a strong electromagnetic field: it must have come into contact with the Upside Down.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_lifeguardWhistle.png",
           "addon-id": "Lifeguard-Whistle-Demogorgon",
-          "addon-effect": "Survivors under the effect of a Portal suffer from the Exhausted\u00a0Status Effect, Once out of contact with the Portal, this effect persists for 5 seconds"
+          "addon-effect": "Survivors under the effect of a Portal suffer from the Exhausted Status Effect, Once out of contact with the Portal, this effect persists for 5 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/25/FulliconAddon_vermilionWebcap.png/64px-FulliconAddon_vermilionWebcap.png?version=3dd7bcc82a5d32b7e5578e7fbd482cac",
@@ -670,7 +670,7 @@
           "addon-description": "A bright red poisonous mushroom from the Upside Down.\nModerately increases the duration of the Undetectable  Status Effect applied to The Demogorgon when emerging from a Portal.\n\"Still experimenting with this specimen, so far our results are inconsistent.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_vermillionWebcap.png",
           "addon-id": "Vermilion-Webcap-Demogorgon",
-          "addon-effect": "Undetectable Status Duration: 50%"
+          "addon-effect": "Undetectable Status Duration: +1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6a/FulliconAddon_upsideDownResin.png/64px-FulliconAddon_upsideDownResin.png?version=b954838266fe25dce3d16b9128f2ea64",
@@ -678,7 +678,7 @@
           "addon-description": "A sticky, flammable sap that fortifies the gateway to the inter-dimensional tunnels.\nModerately increases the time taken by Survivors to seal a Portal.\n\"A sample taken from the bark of the tree once used as a gate. So far our conclusion as to its effect are inconclusive.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_upsidedownResin.png",
           "addon-id": "Upside-Down-Resin-Demogorgon",
-          "addon-effect": "Portal Sealing Time: 28%"
+          "addon-effect": "Portal Sealing Time: +28%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/88/FulliconAddon_unknownEgg.png/64px-FulliconAddon_unknownEgg.png?version=941952aae93a4e46c312bd4093bc336c",
@@ -686,7 +686,7 @@
           "addon-description": "A large, warm egg coated in gruesome webbing.\nConsiderably increases the Power Recovery speed of traversing the Upside Down.\n\"A large egg was sighted in the Upside Down, but no sample survived the trip to the lab for proper examination.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_unknownEgg.png",
           "addon-id": "Unknown-Egg-Demogorgon",
-          "addon-effect": "Traversal Recovery Time: -17.85%"
+          "addon-effect": "Traversal Recovery Time: -2.5s"
         }
       ],
       "Ultra Rare": [
@@ -696,7 +696,7 @@
           "addon-description": "A potent lichen that grows like dust on the rocks in the Upside Down.\nReveals the Aura  of all Injured  Survivors while traversing the Upside Down.\n\"One small dose can cause severe hallucinations.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_leproseLichen.png",
           "addon-id": "Leprose-Lichen-Demogorgon",
-          "addon-effect": "Reveals the Aura\u00a0of all Injured\u00a0Survivors while traversing the Upside Down"
+          "addon-effect": "Reveals the Aura of all Injured Survivors while traversing the Upside Down"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5d/FulliconAddon_redMoss.png/64px-FulliconAddon_redMoss.png?version=556c13e70adf171d6eef7eb31f987cb4",
@@ -704,7 +704,7 @@
           "addon-description": "A psychedelic moss that grows on tree barks in the Upside Down.\nTremendously increases the duration of the Undetectable  Status Effect applied to The Demogorgon when emerging from a Portal.\nTremendously decreases the Power Recovery speed of traversing the Upside Down.\n\"Consuming its leaf enhances athletic performance and causes euphoria.\" \u2014 Hawkins National Laboratory",
           "addon-image-alt": "/static/images/Addons/iconAddon_redMoss.png",
           "addon-id": "Red-Moss-Demogorgon",
-          "addon-effect": "Traversal Recovery Time: 71.42%\n\nUndetectable Status Duration: 400%"
+          "addon-effect": "Traversal Recovery Time: +10s\n\nUndetectable Status Duration: +8s"
         }
       ]
     }
@@ -721,7 +721,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7a/FulliconAddon_moldyElectrode.png/64px-FulliconAddon_moldyElectrode.png?version=114c6987e26f91445e5c19c1a373a381",
           "addon-name": "Mouldy Electrode",
-          "addon-description": "A mouldy electrode which can nevertheless conduct a weak electrical current.\nIncreases Shock Therapy attack range by 25\u00a0%.\nSlightly increases Shock Therapy charge time.",
+          "addon-description": "A mouldy electrode which can nevertheless conduct a weak electrical current.\nIncreases Shock Therapy attack range by 25 %.\nSlightly increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_moldyElectrode.png",
           "addon-id": "Mouldy-Electrode-Doctor",
           "addon-effect": "Shock Range: 25%\n\nShock Charge Time: 10%"
@@ -737,7 +737,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e8/FulliconAddon_orderClassI.png/64px-FulliconAddon_orderClassI.png?version=59d47fce8985812e0c9b7328a136ed79",
           "addon-name": "\"Order\" - Class I",
-          "addon-description": "A conventional ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of mild confusion in the patient.\n10\u00a0% increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 32 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
+          "addon-description": "A conventional ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of mild confusion in the patient.\n10 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 32 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderClassI.png",
           "addon-id": "Order-Class-I-Doctor",
           "addon-effect": "Static Field Madness Gain: 10%"
@@ -763,7 +763,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_polishedElectrode.png/64px-FulliconAddon_polishedElectrode.png?version=7f55b8289ccb5a82b65b4db18c7bb538",
           "addon-name": "Polished Electrode",
-          "addon-description": "A like-new standard electrode equipment to conduct electro-convulsive treatments.\nIncreases Shock Therapy attack range by 50\u00a0%.\nModerately increases Shock Therapy charge time.",
+          "addon-description": "A like-new standard electrode equipment to conduct electro-convulsive treatments.\nIncreases Shock Therapy attack range by 50 %.\nModerately increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_polishedElectrode.png",
           "addon-id": "Polished-Electrode-Doctor",
           "addon-effect": "Shock Range: 50%\n\nShock Charge Time: 20%"
@@ -786,7 +786,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d8/FulliconAddon_orderClassII.png/64px-FulliconAddon_orderClassII.png?version=c82c13a201f6d3b2e283f2d3c675732e",
           "addon-name": "\"Order\" - Class II",
-          "addon-description": "A high stimulus ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of moderate confusion in the patient.\n15\u00a0% increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 64 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.\n\"Side effects are very rare.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "A high stimulus ECT procedure, part of a patient's daily routine at the L\u00e9ry's Memorial Institute. Can cause a state of moderate confusion in the patient.\n15 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a range of 64 metres from The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.\n\"Side effects are very rare.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderClassII.png",
           "addon-id": "Order-Class-II-Doctor",
           "addon-effect": "Static Field Madness Gain: 15%"
@@ -794,7 +794,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e4/FulliconAddon_disciplineClassII.png/64px-FulliconAddon_disciplineClassII.png?version=84e7c45cb48cd6e84fe40c6861f0383d",
           "addon-name": "\"Discipline\" - Class II",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.\n15\u00a0% increase in Madness inflicted by Shock Therapy.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 6 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 12 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"We re-educate our patients with the greatest care.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.\n15 % increase in Madness inflicted by Shock Therapy.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 6 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 12 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"We re-educate our patients with the greatest care.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineClassII.png",
           "addon-id": "Discipline-Class-II-Doctor",
           "addon-effect": "Shock Madness Gain: 15%"
@@ -812,7 +812,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/35/FulliconAddon_highStimulusElectrode.png/64px-FulliconAddon_highStimulusElectrode.png?version=afc46df2c161795aabb488aecb95ccf1",
           "addon-name": "High Stimulus Electrode",
-          "addon-description": "An experimental electrode that can withstand very high charges for a longer period of time.\nIncreases Shock Therapy attack range by 75\u00a0%.\nConsiderably increases Shock Therapy charge time.",
+          "addon-description": "An experimental electrode that can withstand very high charges for a longer period of time.\nIncreases Shock Therapy attack range by 75 %.\nConsiderably increases Shock Therapy charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_highStimulusElectrode.png",
           "addon-id": "High-Stimulus-Electrode-Doctor",
           "addon-effect": "Shock Range: 75%\n\nShock Charge Time: 30%"
@@ -828,7 +828,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7a/FulliconAddon_disciplineClassIII.png/64px-FulliconAddon_disciplineClassIII.png?version=fefc5b750eb663826f3385a6f64582ad",
           "addon-name": "\"Discipline\" - Class III",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.\n20\u00a0% increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 8 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 16 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"Respect of our patients is at the core of our principles.\" \u2014 L\u00e9ry's Memorial Institute",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.\n20 % increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 8 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 16 seconds.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"Respect of our patients is at the core of our principles.\" \u2014 L\u00e9ry's Memorial Institute",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineClassIII.png",
           "addon-id": "Discipline-Class-III-Doctor",
           "addon-effect": "Shock Madness Gain: 20%"
@@ -846,7 +846,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ab/FulliconAddon_orderCartersNotes.png/64px-FulliconAddon_orderCartersNotes.png?version=8ed713f79efbda400bde6c488357c055",
           "addon-name": "\"Order\" - Carter's Notes",
-          "addon-description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.\n25\u00a0% increase in Madness inflicted by the Static Field.\nSurvivors with Madness have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an unlimited range of The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\n\"The stimulus must be kept active at a convulsive level.\" \u2014 Herman Carter",
+          "addon-description": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.\n25 % increase in Madness inflicted by the Static Field.\nSurvivors with Madness have the following affliction:\n\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an unlimited range of The Doctor.\nThe Doctor shares in his patients' Madness in order to read the Auras of Illusionary Pallets.\n\"The stimulus must be kept active at a convulsive level.\" \u2014 Herman Carter",
           "addon-image-alt": "/static/images/Addons/iconAddon_orderCartersNotes.png",
           "addon-id": "Order-Carters-Notes-Doctor",
           "addon-effect": "Static Field Madness Gain: 25%"
@@ -862,7 +862,7 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_disciplineCartersNotes.png/64px-FulliconAddon_disciplineCartersNotes.png?version=6a32790f230d5732add074a93f9667b2",
           "addon-name": "\"Discipline\" - Carter's Notes",
-          "addon-description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.\n25\u00a0% increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of Madness III.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" \u2014 Herman Carter",
+          "addon-description": "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.\n25 % increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\n\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of Madness III.\nThe Doctor shares in his patients' Madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.\n\"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions.\" \u2014 Herman Carter",
           "addon-image-alt": "/static/images/Addons/iconAddon_diciplineCartersNotes.png",
           "addon-id": "Discipline-Carters-Notes-Doctor",
           "addon-effect": "Shock Madness Gain: 25%"
@@ -902,7 +902,7 @@
           "addon-description": "A stolen camera from a victim of Olsen in Philadelphia, where he worked before. The film inside captured his last night in the city.\nSlightly increases the rate at which a Survivor becomes Marked when not leaning from cover.\n\"Gotta love Philly: keeps giving and giving and I don't wanna forget any of it\". \u2014 The Ghost Face",
           "addon-image-alt": "/static/images/Addons/iconAddon_philly.png",
           "addon-id": "Philly-Ghostface",
-          "addon-effect": "Stalking Rate (Not Leaning): -5%"
+          "addon-effect": "Stalking Rate (Not Leaning): -0.25s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ae/FulliconAddon_walleyesMatchbook.png/64px-FulliconAddon_walleyesMatchbook.png?version=0919e677b12a21354eaedd4c5acb0da6",
@@ -910,7 +910,7 @@
           "addon-description": "A sheet of matches from Walleyes, a small bar in Northern Roseville. A victim's phone number is scribbled in blue. One of the incriminating pieces of evidence found.\nSlightly increases Night Shroud power recovery rate.",
           "addon-image-alt": "/static/images/Addons/iconAddon_walleyesMatchbook.png",
           "addon-id": "Walleyes-Matchbook-Ghostface",
-          "addon-effect": "Night Shroud Recovery: -13.34%"
+          "addon-effect": "Night Shroud Recovery: -4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0f/FulliconAddon_headlinesCutouts.png/64px-FulliconAddon_headlinesCutouts.png?version=49055b9fe7d7b454bde2f72d8ab43b87",
@@ -918,7 +918,7 @@
           "addon-description": "Cut-outs of articles covering unsolved murder cases from Utah to Pennsylvania. While Ghost Face just authored some of the headlines, he committed all of the murders. Compiling your success makes you proud and boosts your confidence.\nSlightly increases the movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_headlinesCutouts.png",
           "addon-id": "Headlines-Cut-outs-Ghostface",
-          "addon-effect": "Stalking Movement Speed (Active): 10%\n\nStalking Movement Speed (Inactive): 10%"
+          "addon-effect": "Stalking Movement Speed (Active): +10%\n\nStalking Movement Speed (Inactive): +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/39/FulliconAddon_cheapCologne.png/64px-FulliconAddon_cheapCologne.png?version=7b5bda8172dbb3d4fbdb0274b4c4f413",
@@ -926,7 +926,7 @@
           "addon-description": "Dollar store cologne with a pungent scent of rubbing alcohol. Worn by The Ghost Face to make his presence known. Reserved for impromptu visits.\nSlightly increases the duration of a Survivor staying Marked.",
           "addon-image-alt": "/static/images/Addons/iconAddon_cheapCologne.png",
           "addon-id": "Cheap-Cologne-Ghostface",
-          "addon-effect": "Marked Duration: 11.11%"
+          "addon-effect": "Marked Duration: +5s"
         }
       ],
       "Uncommon": [
@@ -936,7 +936,7 @@
           "addon-description": "A manual focus lens to remain undetected while taking pictures from afar.\nSlightly increases the rate at which a Survivor becomes Marked when not leaning from a cover.\nSlightly increases the duration of a Survivor staying Marked.",
           "addon-image-alt": "/static/images/Addons/iconAddon_telephotoLens.png",
           "addon-id": "Telephoto-Lens-Ghostface",
-          "addon-effect": "Stalking Rate (Not Leaning): -5%\n\nMarked Duration: 11.11%"
+          "addon-effect": "Stalking Rate (Not Leaning): -0.25s\n\nMarked Duration: +5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/78/FulliconAddon_reusuableCinchStraps.png/64px-FulliconAddon_reusuableCinchStraps.png?version=ef4fb6878b32e28f22f2c719233dea37",
@@ -944,7 +944,7 @@
           "addon-description": "Black straps that keep everything in place while on the prowl.\nSlightly increases the movement speed while crouched.",
           "addon-image-alt": "/static/images/Addons/iconAddon_reusuableCinchStraps.png",
           "addon-id": "Reusable-Cinch-Straps-Ghostface",
-          "addon-effect": "Crouch Movement Speed: 3.20%"
+          "addon-effect": "Crouch Movement Speed: +2.5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f9/FulliconAddon_olsensJournal.png/64px-FulliconAddon_olsensJournal.png?version=0e3eeeaa2a132b217d225b1575028a02",
@@ -952,7 +952,7 @@
           "addon-description": "A spiral notebook filled with stained, handwritten entries. The journal details different equipment used to stalk victims. Going through your past methods triggers thrilling memories.\nModerately increases movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_olsensJournal.png",
           "addon-id": "Olsens-Journal-Ghostface",
-          "addon-effect": "Stalking Movement Speed (Active): 20%\n\nStalking Movement Speed (Inactive): 20%"
+          "addon-effect": "Stalking Movement Speed (Active): +20%\n\nStalking Movement Speed (Inactive): +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/be/FulliconAddon_olsensAddressBook.png/64px-FulliconAddon_olsensAddressBook.png?version=133cf424c8fb7f6916d6b383e20aa05d",
@@ -960,7 +960,7 @@
           "addon-description": "Filled in blunt, blue crabbed writing. All the Roseville murder victims are listed there, along with their phone number and address.\nModerately increases Night Shroud power recovery rate.",
           "addon-image-alt": "/static/images/Addons/iconAddon_olsensAddressBook.png",
           "addon-id": "Olsens-Address-Book-Ghostface",
-          "addon-effect": "Night Shroud Recovery: -20%"
+          "addon-effect": "Night Shroud Recovery: -6s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4f/FulliconAddon_markedMap.png/64px-FulliconAddon_markedMap.png?version=6154153541c4e0b58605eda5007dbbcc",
@@ -968,7 +968,7 @@
           "addon-description": "The annotated map of Northern Roseville, Florida. Each 'X' represents a victim of The Ghost Face. Mapping out your targets allows you to roam the streets undetected.\nModerately increases the duration that Killer Instinct is visible when The Killer is revealed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_markedMap.png",
           "addon-id": "Marked-Map-Ghostface",
-          "addon-effect": "Killer Instinct Duration: 50%"
+          "addon-effect": "Killer Instinct Duration: +1s"
         }
       ],
       "Rare": [
@@ -978,7 +978,7 @@
           "addon-description": "Olsen's wallet holds thirty dollars in cash, a video club membership card, and a folded picture of Olsen's first Roseville victim. Carrying incriminating evidence boosts your excitement and resolve.\nConsiderably increases the movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_olsensWallet.png",
           "addon-id": "Olsens-Wallet-Ghostface",
-          "addon-effect": "Stalking Movement Speed (Active): 30%\n\nStalking Movement Speed (Inactive): 30%"
+          "addon-effect": "Stalking Movement Speed (Active): +30%\n\nStalking Movement Speed (Inactive): +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/ce/FulliconAddon_leatherKnifeSheath.png/64px-FulliconAddon_leatherKnifeSheath.png?version=db5b68b786865a1368e0d6a8315e81f4",
@@ -986,7 +986,7 @@
           "addon-description": "A quiet and flexible sheath to carry your blade. Movement is easier when things are fastened into place.\nModerately increases the movement speed while crouched.",
           "addon-image-alt": "/static/images/Addons/iconAddon_leatherKnifeSheath.png",
           "addon-id": "Leather-Knife-Sheath-Ghostface",
-          "addon-effect": "Crouch Movement Speed: 6.50%"
+          "addon-effect": "Crouch Movement Speed: +5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8c/FulliconAddon_lastingPerfume.png/64px-FulliconAddon_lastingPerfume.png?version=4e99db348432a18aab82868c73db5ea5",
@@ -994,7 +994,7 @@
           "addon-description": "An overpowering musky fragrance worn by Ghost Face to announce his presence. Reserved for the victims he planned to write about.\nModerately increases the duration of a Survivor staying Marked.",
           "addon-image-alt": "/static/images/Addons/iconAddon_lastingPerfume.png",
           "addon-id": "Lasting-Perfume-Ghostface",
-          "addon-effect": "Marked Duration: 22.22%"
+          "addon-effect": "Marked Duration: +10s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a1/FulliconAddon_knifeBeltClip.png/64px-FulliconAddon_knifeBeltClip.png?version=99f29701c0f0c69b9fd64e0aed7fd98c",
@@ -1002,7 +1002,7 @@
           "addon-description": "A perfect belt clip to scout carry your blade discreetly. No one knows what you are planning to do tonight.\nModerately increases the rate at which a Survivor becomes Marked when not leaning from a cover.",
           "addon-image-alt": "/static/images/Addons/iconAddon_knifeBeltClip.png",
           "addon-id": "Knife-Belt-Clip-Ghostface",
-          "addon-effect": "Stalking Rate (Not Leaning): -10%"
+          "addon-effect": "Stalking Rate (Not Leaning): -0.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c4/FulliconAddon_chewedPen.png/64px-FulliconAddon_chewedPen.png?version=31183cfe1c37a93f1e98531a67d6984d",
@@ -1010,7 +1010,7 @@
           "addon-description": "A blue pen with a chewed cap that holds traces of Danny's DNA. Incriminating evidence that was never found.\nConsiderably increases Night Shroud power recovery rate.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chewedPen.png",
           "addon-id": "Chewed-Pen-Ghostface",
-          "addon-effect": "Night Shroud Recovery: -26.67%"
+          "addon-effect": "Night Shroud Recovery: -8s"
         }
       ],
       "Very Rare": [
@@ -1020,7 +1020,7 @@
           "addon-description": "A ripped page outlining the weekly routine of Olsen's first victim in Roseville. Compiling your victim's habits allows you to anticipate their movements.\nModerately increases the duration that Killer Instinct is visible when the Killer is revealed.\nModerately decreases the detection range to reveal The Killer while Night Shroud is active.\n\"I've been watching you for a while. I wanted this to be special; the kind of headlines that people don't forget\". \u2014 The Ghost Face",
           "addon-image-alt": "/static/images/Addons/iconAddon_victimsDetailedRoutine.png",
           "addon-id": "Victims-Detailed-Routine-Ghostface",
-          "addon-effect": "Killer Instinct Duration: 50%\n\nDetection Range: -12.50%"
+          "addon-effect": "Killer Instinct Duration: +1s\n\nDetection Range: -4m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e1/FulliconAddon_nightvisionMonocular.png/64px-FulliconAddon_nightvisionMonocular.png?version=24bb3e57172207ea3651a2c13088b770",
@@ -1028,7 +1028,7 @@
           "addon-description": "Night vision lens enabling sharp photos even when shrouded in darkness. Ideal for discreet, impromptu visits late at night.\nConsiderably increases the rate at which a Survivor becomes Marked when not leaning from a cover.",
           "addon-image-alt": "/static/images/Addons/iconAddon_nightvisionMoncular.png",
           "addon-id": "Night-Vision-Monocular-Ghostface",
-          "addon-effect": "Stalking Rate (Not Leaning): -15%"
+          "addon-effect": "Stalking Rate (Not Leaning): -0.75s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e0/FulliconAddon_drop-LegKnifeSheath.png/64px-FulliconAddon_drop-LegKnifeSheath.png?version=77fe17979666efcdcaf9dad5c2ebacdf",
@@ -1036,7 +1036,7 @@
           "addon-description": "A sheath allowing for a full motion range: ideal to inflict quick and powerful wounds while moving freely. Stolen from a patrol officer the night Danny left Philadelphia.\nConsiderably increases the movement speed while crouched.\n\"Gotta get ready like a scout \u2014 without the stupid patches. What I get is much better.\" \u2014 The Ghost Face",
           "addon-image-alt": "/static/images/Addons/iconAddon_dropLegKnifeSheath.png",
           "addon-id": "Drop-Leg-Knife-Sheath-Ghostface",
-          "addon-effect": "Crouch Movement Speed: 9.70%"
+          "addon-effect": "Crouch Movement Speed: +7.6%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/2c/FulliconAddon_driversLicense.png/64px-FulliconAddon_driversLicense.png?version=7be8c719d4be545b78b4ecad8f5ceccb",
@@ -1044,7 +1044,7 @@
           "addon-description": "A driver's license revealing Olsen's true identity: Danny Johnson.\nConsiderably decreases the detection range to reveal The Killer while Night Shroud is active.\n\"They all want to know who Ghost Face is. But what they should ask is, who's next.\" \u2014 The Ghost Face",
           "addon-image-alt": "/static/images/Addons/iconAddon_driversLicense.png",
           "addon-id": "Drivers-License-Ghostface",
-          "addon-effect": "Detection Range: -25%"
+          "addon-effect": "Detection Range: -8m"
         }
       ],
       "Ultra Rare": [
@@ -1054,7 +1054,7 @@
           "addon-description": "A tape obtained by Olsen to write an article that terrorised Roseville.\nTremendously increases the Stalking rate when leaning from cover.\nTremendously decreases the Stalking rate when not leaning from cover.\n\"In this footage, a dark figure is seen entering a house late at night in Northern Roseville, Florida. The police were called the next morning to report a murder in the area. Lock your doors: a Killer is in our midst, roaming freely, like a ghost in the night.\" \u2014 The Roseville Gazette",
           "addon-image-alt": "/static/images/Addons/iconAddon_caughtOnTape.png",
           "addon-id": "Ghost-Face-Caught-on-Tape-Ghostface",
-          "addon-effect": "Stalking Rate (Not Leaning): 15%\n\nStalking Rate (Leaning): -40%"
+          "addon-effect": "Stalking Rate (Not Leaning): +0.75s\n\nStalking Rate (Leaning): -1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/52/FulliconAddon_outdoorSecurityCamera.png/64px-FulliconAddon_outdoorSecurityCamera.png?version=9695ff4f4c8c8281f03bbef64d906985",
@@ -1062,7 +1062,7 @@
           "addon-description": "A small surveillance camera that filmed Ghost Face breaking into a house on Belleview Road in Northern Roseville. The camera was positioned at the perfect angle to catch a glimpse of Ghost Face without providing any real clue to the police.\nThe Auras of all Survivors outside of your Terror Radius are revealed for 4 seconds when a Marked Survivor is put into the Dying State .\n\"An image is worth a thousand words\". \u2014 The Ghost Face",
           "addon-image-alt": "/static/images/Addons/iconAddon_outdoorSecurityCamera.png",
           "addon-id": "Outdoor-Security-Camera-Ghostface",
-          "addon-effect": "The Auras\u00a0of all Survivors outside of your Terror Radius are revealed for 4 seconds when a Marked Survivor is put into the Dying State"
+          "addon-effect": "The Auras of all Survivors outside of your Terror Radius are revealed for 4 seconds when a Marked Survivor is put into the Dying State"
         }
       ]
     }
@@ -1090,7 +1090,7 @@
           "addon-description": "Minuscule eggshell fragments shimmering with a pale golden hue.\nSlightly increases the tripped Phantasm Trap duration time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_powderedEggshell.png",
           "addon-id": "Powdered-Eggshell-Hag",
-          "addon-effect": "Tripped Duration: 25%"
+          "addon-effect": "Tripped Duration: +25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/07/FulliconAddon_deadFlyMud.png/64px-FulliconAddon_deadFlyMud.png?version=591d26ca08c9b520038e0719ebf04739",
@@ -1098,7 +1098,7 @@
           "addon-description": "A small lump of mud, black with the remains of flies. Devoured to increase stamina.\nSlightly increases the distance from where The Hag can teleport to her traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_deadFlyMud.png",
           "addon-id": "Dead-Fly-Mud-Hag",
-          "addon-effect": "Teleport Distance: 20%"
+          "addon-effect": "Teleport Distance: +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/73/FulliconAddon_bogWater.png/64px-FulliconAddon_bogWater.png?version=21464a548c71f040f8aae4d8017c3a2c",
@@ -1106,7 +1106,7 @@
           "addon-description": "Murky water contained in a glass pill bottle from another time.\nSlightly increases the effective Phantasm Trap range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bogWater.png",
           "addon-id": "Bog-Water-Hag",
-          "addon-effect": "Trap Range: 10%"
+          "addon-effect": "Trap Range: +10%"
         }
       ],
       "Uncommon": [
@@ -1121,10 +1121,10 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e7/FulliconAddon_halfEggshell.png/64px-FulliconAddon_halfEggshell.png?version=43cc1abd73b6737261e5e8ae65a8b61d",
           "addon-name": "Half Eggshell",
-          "addon-description": "One half of a perfectly round hollow eggshell.\nModerately increases\u00a0the tripped Phantasm Trap duration time.",
+          "addon-description": "One half of a perfectly round hollow eggshell.\nModerately increases the tripped Phantasm Trap duration time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_halfEggshell.png",
           "addon-id": "Half-Eggshell-Hag",
-          "addon-effect": "Tripped Duration: 30%"
+          "addon-effect": "Tripped Duration: +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/26/FulliconAddon_dragonflyWings.png/64px-FulliconAddon_dragonflyWings.png?version=c9b59a28010468bfdef1524f6e16a118",
@@ -1132,7 +1132,7 @@
           "addon-description": "A handful of yellowish wings, dry and crisp. Devoured to increase stamina.\nModerately increases the distance from where The Hag can teleport to her traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_dragonflyWings.png",
           "addon-id": "Dragonfly-Wings-Hag",
-          "addon-effect": "Teleport Distance: 25%"
+          "addon-effect": "Teleport Distance: +25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9e/FulliconAddon_cypressNecklet.png/64px-FulliconAddon_cypressNecklet.png?version=823573df7ece3d08221c36187565c623",
@@ -1148,7 +1148,7 @@
           "addon-description": "Tainted water contained in a folded water lily leaf.\nModerately increases the effective Phantasm Trap range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodiedWater.png",
           "addon-id": "Bloodied-Water-Hag",
-          "addon-effect": "Trap Range: 20%"
+          "addon-effect": "Trap Range: +20%"
         }
       ],
       "Rare": [
@@ -1174,7 +1174,7 @@
           "addon-description": "A large swamp cicada covered in a fine layer of ash. Crispy. Devoured to increase stamina.\nConsiderably increases the distance from where The Hag can teleport to her traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_driedCicada.png",
           "addon-id": "Dried-Cicada-Hag",
-          "addon-effect": "Teleport Distance: 30%"
+          "addon-effect": "Teleport Distance: +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8d/FulliconAddon_crackedTurtleEgg.png/64px-FulliconAddon_crackedTurtleEgg.png?version=0cb9caaa766ddbe6c7720be16848252b",
@@ -1182,7 +1182,7 @@
           "addon-description": "A pale orange turtle egg, cracked and emptied of its content.\nConsiderably increases the tripped Phantasm Trap duration time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_crackedTurtleEgg.png",
           "addon-id": "Cracked-Turtle-Egg-Hag",
-          "addon-effect": "Tripped Duration: 35%"
+          "addon-effect": "Tripped Duration: +35%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8f/FulliconAddon_bloodiedMud.png/64px-FulliconAddon_bloodiedMud.png?version=21c9715d360fc148a03bd312550c0858",
@@ -1190,17 +1190,17 @@
           "addon-description": "A handful of mud with veins of deep crimson. The bloody layers empower the mud.\nConsiderably increases the effective Phantasm Trap range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodiedMud.png",
           "addon-id": "Bloodied-Mud-Hag",
-          "addon-effect": "Trap Range: 30%"
+          "addon-effect": "Trap Range: +30%"
         }
       ],
       "Very Rare": [
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/07/FulliconAddon_scarredHand.png/64px-FulliconAddon_scarredHand.png?version=a96acee42a6c346770397b5fd80c2c03",
           "addon-name": "Scarred Hand",
-          "addon-description": "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.\nMud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants\u00a0300\u00a0%\u00a0Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons.\n\"...\" \u2014 The Butcher",
+          "addon-description": "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.\nMud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300 % Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons.\n\"...\" \u2014 The Butcher",
           "addon-image-alt": "/static/images/Addons/iconAddon_scarredHand.png",
           "addon-id": "Scarred-Hand-Hag",
-          "addon-effect": "Mud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300 % Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons"
+          "addon-effect": "Mud Phantasms have collision.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300% Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ef/FulliconAddon_rustyShackles.png/64px-FulliconAddon_rustyShackles.png?version=59879f879ce2b909fa00d03d5582cdc1",
@@ -1288,12 +1288,12 @@
           "addon-description": "Boots with metal spikes protruding from the soles, which provide more stability and control when walking on slippery soil.\nModerately increases steering while using the Chainsaw.",
           "addon-image-alt": "/static/images/Addons/iconAddon_spikedBoots.png",
           "addon-id": "Spiked-Boots-Hillbilly",
-          "addon-effect": "Steering (Yaw Speed): 28%"
+          "addon-effect": "Steering (Yaw Speed): +28%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/FulliconAddon_speedLimiter.png/64px-FulliconAddon_speedLimiter.png?version=3499bca6e4f556453a3632d122727826",
           "addon-name": "Speed Limiter",
-          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25\u00a0% more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
+          "addon-description": "Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 50 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.\nBubba's Chainsaw:\nA mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\n\nChainsaw does not automatically trigger the Dying State .\nGet 25 % more Bloodpoints for Chainsaw Score Events in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_speedLimiter.png",
           "addon-id": "Speed-Limiter-Hillbilly",
           "addon-effect": "Chainsaw does not trigger the Dying State, Get 50% more BP for Chainsaw Score Events in the Deviousness Category"
@@ -1352,7 +1352,7 @@
           "addon-description": "Engravings found on the Chainsaw body counting the amount of lives it took. Fills the user with determination.\nSlightly increases the Chainsaw's movement speed.\nSlightly increases charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_deathEngravings.png",
           "addon-id": "Death-Engravings-Hillbilly",
-          "addon-effect": "Chainsaw Sprint Speed: 15%\n\nCharge Time: 12%"
+          "addon-effect": "Chainsaw Sprint Speed: +15%\n\nCharge Time: +12%"
         }
       ],
       "Rare": [
@@ -1386,7 +1386,7 @@
           "addon-description": "Engravings found on the Chainsaw body representing the dark beast that lives in the Fog. Fills the user with determination.\nModerately increases the Chainsaw's movement speed.\nSlightly increases charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_doomEngravings.png",
           "addon-id": "Doom-Engravings-Hillbilly",
-          "addon-effect": "Chainsaw Sprint Speed: 20%\n\nCharge Time: 12%"
+          "addon-effect": "Chainsaw Sprint Speed: +20%\n\nCharge Time: +12%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/72/FulliconAddon_carburettorTuningGuide.png/64px-FulliconAddon_carburettorTuningGuide.png?version=5027000103ac61ad6677c01516de8f39",
@@ -1404,7 +1404,7 @@
           "addon-description": "A strong beverage made from corn and a recipe passed down in the Thompson's family. Instils rage and headache.\nTremendously increases steering while using the Chainsaw.\nConsiderably increases the time penalty when bumping into objects.",
           "addon-image-alt": "/static/images/Addons/iconAddon_thompsonsMoonshine.png",
           "addon-id": "Thompsons-Moonshine-Hillbilly",
-          "addon-effect": "Bump Penalty Time: 28%\n\nSteering (Yaw Speed): 44%"
+          "addon-effect": "Bump Penalty Time: +28%\n\nSteering (Yaw Speed): +44%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/84/FulliconAddon_begrimedChains.png/64px-FulliconAddon_begrimedChains.png?version=60cdfc79354629c0e474d737cb02f4b5",
@@ -1432,7 +1432,7 @@
           "addon-description": "This stone is too coarse to do any good. A blade damaged by it inflicts awful open wounds.\nHit target suffers from the Haemorrhage  Status Effect for 30 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_coarseStone.png",
           "addon-id": "Coarse-Stone-Huntress",
-          "addon-effect": "Hit target suffers from the Haemorrhage\u00a0Status Effect for 30 seconds"
+          "addon-effect": "Hit target suffers from the Haemorrhage Status Effect for 30 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/38/FulliconAddon_berusToxin.png/64px-FulliconAddon_berusToxin.png?version=bce0732d7f5b70a39793a6677ee9bc9b",
@@ -1440,7 +1440,7 @@
           "addon-description": "A toxin applied to the Hatchets' blades. The Berus snake toxin causes tiredness in such a small amount.\nHit target suffers from the Exhaustion  Status Effect for 30 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_berusToxin.png",
           "addon-id": "Berus-Toxin-Huntress",
-          "addon-effect": "Hit target suffers from the Exhaustion\u00a0Status Effect for 30 seconds"
+          "addon-effect": "Hit target suffers from the Exhaustion Status Effect for 30 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/28/FulliconAddon_bandagedHaft.png/64px-FulliconAddon_bandagedHaft.png?version=218c8ab914462f299e3e53e27d685f87",
@@ -1456,7 +1456,7 @@
           "addon-description": "A toxin applied to the Hatchet's blades. The Amanita mushrooms' toxin numbs the mind.\nHit target suffers from the Blindness  Status Effect for 30 seconds.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_amanitaToxin.png",
           "addon-id": "Amanita-Toxin-Huntress",
-          "addon-effect": "Hit target suffers from the Blindness\u00a0Status Effect for 30 seconds."
+          "addon-effect": "Hit target suffers from the Blindness Status Effect for 30 seconds."
         }
       ],
       "Uncommon": [
@@ -1466,7 +1466,7 @@
           "addon-description": "A toxic brew applied to the Hatchets' blades. The thick brew is mainly composed of yew seeds which give it paralytic capabilities.\nHit target suffers from the Hindered  Status Effect for 15 seconds.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_yewSeedBrew.png",
           "addon-id": "Yew-Seed-Brew-Huntress",
-          "addon-effect": "Hit target suffers from the Hindered\u00a0Status Effect for 15 seconds"
+          "addon-effect": "Hit target suffers from the Hindered Status Effect for 15 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_shinyPin.png/64px-FulliconAddon_shinyPin.png?version=637efe6b25a66a377e2cf374941565b7",
@@ -1474,7 +1474,7 @@
           "addon-description": "A copper pin defaced beyond recognition yet polished to a high sheen. Pillaged from a particularly difficult prey.\nSlightly increases your movement speed while winding up your throw action.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_shinyPin.png",
           "addon-id": "Shiny-Pin-Huntress",
-          "addon-effect": "Wind-Up Movement Speed: 5%"
+          "addon-effect": "Wind-Up Movement Speed: +5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e3/FulliconAddon_oakHaft.png/64px-FulliconAddon_oakHaft.png?version=4a267f5bbbcd6d7841259c7810876add",
@@ -1498,7 +1498,7 @@
           "addon-description": "This leather strip tied into a loop can be attached to a belt to allow easy transportation of tools.\nStart with 1 extra Hatchet.\nIncreases maximum carried Hatchet amount by 1.",
           "addon-image-alt": "/static/images/Addons/iconAddon_leatherLoop.png",
           "addon-id": "Leather-Loop-Huntress",
-          "addon-effect": "Available Hatchets: 20%"
+          "addon-effect": "Available Hatchets: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/16/FulliconAddon_fineStone.png/64px-FulliconAddon_fineStone.png?version=df24352f3f0644f39875fb3bd4dd1e59",
@@ -1506,7 +1506,7 @@
           "addon-description": "This puck shaped honing tool can be used to sharpen the Hatchets' blades and inflicts clean wounds.\nHit target suffers from the Haemorrhage  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fineStone.png",
           "addon-id": "Fine-Stone-Huntress",
-          "addon-effect": "Hit target suffers from the Haemorrhage\u00a0Status Effect for 60 seconds"
+          "addon-effect": "Hit target suffers from the Haemorrhage Status Effect for 60 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/72/FulliconAddon_deerskinGloves.png/64px-FulliconAddon_deerskinGloves.png?version=5f2cc6ce4750d5003dd67f46e8c47559",
@@ -1524,7 +1524,7 @@
           "addon-description": "A toxic concoction applied to the Hatchets' blades. The muddy concoction is mainly composed of yew seeds which give it paralytic capabilities.\nHit target suffers from the Hindered  Status Effect for 30 seconds.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_yewSeedConcoction.png",
           "addon-id": "Yew-Seed-Concoction-Huntress",
-          "addon-effect": "Hit target suffers from the Hindered\u00a0Status Effect for 30 seconds"
+          "addon-effect": "Hit target suffers from the Hindered Status Effect for 30 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/98/FulliconAddon_venomousConcoction.png/64px-FulliconAddon_venomousConcoction.png?version=2b861e83552085d862eec36790920196",
@@ -1540,7 +1540,7 @@
           "addon-description": "These Hatchets' heads are covered with crusty and volatile rust spots that make injuries particularly difficult to heal from.\nHit target suffers considerably from the Mangled  Status Effect for 120 seconds.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_rustyHead.png",
           "addon-id": "Rusty-Head-Huntress",
-          "addon-effect": "Hit target suffers considerably from the Mangled\u00a0Status Effect for 120 seconds"
+          "addon-effect": "Hit target suffers considerably from the Mangled Status Effect for 120 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/76/FulliconAddon_pungentPhial.png/64px-FulliconAddon_pungentPhial.png?version=1a1ba949fd43a45fa060501854ee8acf",
@@ -1566,7 +1566,7 @@
           "addon-description": "A sturdy utility belt pillaged from a soldier. Its multiple leather loops and holsters are useful to transport tools.\nStart with 2 extra Hatchets.\nIncreases maximum carried Hatchet amount by 2.",
           "addon-image-alt": "/static/images/Addons/iconAddon_infantryBelt.png",
           "addon-id": "Infantry-Belt-Huntress",
-          "addon-effect": "Available Hatchets: 40%"
+          "addon-effect": "Available Hatchets: +2"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/06/FulliconAddon_glowingConcoction.png/64px-FulliconAddon_glowingConcoction.png?version=2d5c76230deacc6c81ebe2886342bc25",
@@ -1582,7 +1582,7 @@
           "addon-description": "These Hatchets' heads are stained with a foul substance that afflicts anyone who it touches with debilities.\nHit target suffers considerably from the Mangled  Status Effect for 120 seconds.\nModerately decreases the repair speed of Survivors injured by the Hatchet.\nDoes not stack.",
           "addon-image-alt": "/static/images/Addons/iconAddon_begrimedHead.png",
           "addon-id": "Begrimed-Head-Huntress",
-          "addon-effect": "Hit target suffers considerably from the Mangled\u00a0 Status Effect for 120 seconds. Moderately(5%) decreases the repair speed of Survivors injured by the Hatchet"
+          "addon-effect": "Hit target suffers considerably from the Mangled  Status Effect for 120 seconds. Moderately(5%) decreases the repair speed of Survivors injured by the Hatchet"
         }
       ],
       "Ultra Rare": [
@@ -1592,7 +1592,7 @@
           "addon-description": "A glass-like Hatchet head moulded from The Fog itself. The blade is warm and reverberating with The Entity's power.\nInflicts Dying  upon the victim.\nReduces maximum carried Hatchet amount by 4.\n\"The iridescent glass cuts through flesh and soul.\"",
           "addon-image-alt": "/static/images/Addons/iconAddon_iridescentHead.png",
           "addon-id": "Iridescent-Head-Huntress",
-          "addon-effect": "Available Hatchets: -80%\n\nInflicts Dying\u00a0upon the victim"
+          "addon-effect": "Available Hatchets: -4\n\nInflicts Dying upon the victim"
         }
       ]
     }
@@ -1612,7 +1612,7 @@
           "addon-description": "A friendly looking, bright yellow button used as a sarcastic statement.\nHitting a Survivor with Deep Wound  while in Feral Frenzy applies the Blindness  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_smileyFaceButton.png",
           "addon-id": "Smiley-Face-Pin-Legion",
-          "addon-effect": "Hitting a Survivor with\u00a0Deep Wound\u00a0while in\u00a0Feral Frenzy\u00a0applies the\u00a0Blindness\u00a0Status Effect\u00a0for\u00a060 seconds"
+          "addon-effect": "Hitting a Survivor with Deep Wound while in Feral Frenzy applies the Blindness Status Effect for 60 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_scratchedRuler.png/64px-FulliconAddon_scratchedRuler.png?version=264181d4bf43943df7a9455a881fe046",
@@ -1620,7 +1620,7 @@
           "addon-description": "A wooden ruler deeply scratched with hash marks.\nSlightly decreases the time required to refill the power gauge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_scratchedRuler.png",
           "addon-id": "Scratched-Ruler-Legion",
-          "addon-effect": "Recharge Time: -10%"
+          "addon-effect": "Recharge Time: -2s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/96/FulliconAddon_mischiefList.png/64px-FulliconAddon_mischiefList.png?version=15da78db67f4284d31f37dd4264588d4",
@@ -1628,7 +1628,7 @@
           "addon-description": "A list of mischievous missions to accomplish, memento of brighter days.\nSlightly increases the Feral Frenzy duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_mischiefList.png",
           "addon-id": "Mischief-List-Legion",
-          "addon-effect": "Frenzy Duration: 10%"
+          "addon-effect": "Frenzy Duration: +1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9a/FulliconAddon_friendshipBracelet.png/64px-FulliconAddon_friendshipBracelet.png?version=2ff075949a78fa70fd7b32f4744bf913",
@@ -1636,7 +1636,7 @@
           "addon-description": "A wide grey and red braided rope bracelet. The inscription \"F. J. S. J.\" can be seen, crudely written in bold black ink.\nSlightly increases the Killer Instinct's detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_friendshipBracelet.png",
           "addon-id": "Friendship-Bracelet-Legion",
-          "addon-effect": "Killer Instinct Detection: 10%"
+          "addon-effect": "Killer Instinct Detection: +4m"
         }
       ],
       "Uncommon": [
@@ -1646,7 +1646,7 @@
           "addon-description": "Highly caffeinated tablets to make you extra sharp for exams or draining activities.\nModerately increases the Killer Instinct's detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_neverSleepPills.png",
           "addon-id": "Never-Sleep-Pills-Legion",
-          "addon-effect": "Killer Instinct Detection: 20%"
+          "addon-effect": "Killer Instinct Detection: +8m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/43/FulliconAddon_muralSketch.png/64px-FulliconAddon_muralSketch.png?version=e8bbc663085fc603ea563ce4e550baa8",
@@ -1654,7 +1654,7 @@
           "addon-description": "A rough sketch of The Legion mural torn from a notebook.\nModerately increases the Feral Frenzy duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_muralSketch.png",
           "addon-id": "Mural-Sketch-Legion",
-          "addon-effect": "Frenzy Duration: 15%"
+          "addon-effect": "Frenzy Duration: +1.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cf/FulliconAddon_juliesMixTape.png/64px-FulliconAddon_juliesMixTape.png?version=fa2fd1024508f19623a1f61a7480dc1a",
@@ -1662,7 +1662,7 @@
           "addon-description": "A dark and depressing mix tape made out from mainly power ballads and gloomy melodies.\nSlightly decreases the cool-down duration of Feral Frenzy.",
           "addon-image-alt": "/static/images/Addons/iconAddon_juliesMixtape.png",
           "addon-id": "Julies-Mix-Tape-Legion",
-          "addon-effect": "Cooldown: -5%"
+          "addon-effect": "Cooldown: -0.2s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/62/FulliconAddon_etchedRuler.png/64px-FulliconAddon_etchedRuler.png?version=ecf1e251317d8952dc9debb85c6e0119",
@@ -1670,7 +1670,7 @@
           "addon-description": "A wooden ruler deeply etched with the names of enemies.\nModerately decreases the time required to refill the power gauge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_etchedRuler.png",
           "addon-id": "Etched-Ruler-Legion",
-          "addon-effect": "Recharge Time: -20%"
+          "addon-effect": "Recharge Time: -4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1e/FulliconAddon_defacedSmileyPin.png/64px-FulliconAddon_defacedSmileyPin.png?version=9819b5d00d588771ed8df06459f1ece0",
@@ -1678,7 +1678,7 @@
           "addon-description": "A once friendly looking, bright yellow button of a defaced smiley. A signature icon of The Legion.\nHitting a Survivor with Deep Wound  while in Feral Frenzy applies the Mangled  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_defacedSmileyButton.png",
           "addon-id": "Defaced-Smiley-Pin-Legion",
-          "addon-effect": "Hitting a Survivor with\u00a0Deep Wound\u00a0while in\u00a0Feral Frenzy\u00a0applies the\u00a0Mangled\u00a0Status Effect\u00a0for\u00a060 seconds"
+          "addon-effect": "Hitting a Survivor with Deep Wound while in Feral Frenzy applies the Mangled Status Effect for 60 seconds"
         }
       ],
       "Rare": [
@@ -1688,7 +1688,7 @@
           "addon-description": "A handmade button with the face of The Legion. To use exclusively on intimidation dares.\nHitting a Survivor with Deep Wound  while in Feral Frenzy applies the Broken  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_theLegionButton.png",
           "addon-id": "The-Legion-Pin-Legion",
-          "addon-effect": "Hitting a Survivor with\u00a0Deep Wound\u00a0while in\u00a0Feral Frenzy\u00a0applies the\u00a0Broken\u00a0Status Effect\u00a0for\u00a060 seconds"
+          "addon-effect": "Hitting a Survivor with Deep Wound while in Feral Frenzy applies the Broken Status Effect for 60 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/11/FulliconAddon_susiesMixTape.png/64px-FulliconAddon_susiesMixTape.png?version=57764e23ebc797a5106e1efc8ba9ec0f",
@@ -1696,7 +1696,7 @@
           "addon-description": "A fast and thrilling mix tape with energising songs with break-neck beats.\nTremendously increases the Killer Instinct's detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_suziesMixtape.png",
           "addon-id": "Susies-Mix-Tape-Legion",
-          "addon-effect": "Killer Instinct Detection: 40%"
+          "addon-effect": "Killer Instinct Detection: +16m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/FulliconAddon_stolenSketchBook.png/64px-FulliconAddon_stolenSketchBook.png?version=ddcc8cdd1112353c3170ab5bb93398d2",
@@ -1704,7 +1704,7 @@
           "addon-description": "A sketch book with imaginative and evocative, if not slightly bizarre sketches.\nConsiderably increases the Feral Frenzy duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_stolenSketchbook.png",
           "addon-id": "Stolen-Sketch-Book-Legion",
-          "addon-effect": "Frenzy Duration: 25%"
+          "addon-effect": "Frenzy Duration: +2.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7d/FulliconAddon_nastyBlade.png/64px-FulliconAddon_nastyBlade.png?version=20d111e9d512b34a45fdc7f90bde80ba",
@@ -1712,7 +1712,7 @@
           "addon-description": "This blade is stained with unsanitary spots of grime that make injuries particularly difficult to mend.\nSlightly increases the amount of time required for Survivor to complete the Mend action.",
           "addon-image-alt": "/static/images/Addons/iconAddon_nastyBlade.png",
           "addon-id": "Nasty-Blade-Legion",
-          "addon-effect": "Mend Time: 12.50%"
+          "addon-effect": "Mend Time: +1.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/50/FulliconAddon_joeysMixTape.png/64px-FulliconAddon_joeysMixTape.png?version=33d77cad9341e2a17903f86be09f842e",
@@ -1720,7 +1720,7 @@
           "addon-description": "A mix of bangin' tracks and slammin' beats for chillaxin' when life's a bitch.\nModerately decreases the cool-down duration of Feral Frenzy.",
           "addon-image-alt": "/static/images/Addons/iconAddon_joeysMixtape.png",
           "addon-id": "Joeys-Mix-Tape-Legion",
-          "addon-effect": "Cooldown: -10%"
+          "addon-effect": "Cooldown: -0.4s"
         }
       ],
       "Very Rare": [
@@ -1730,7 +1730,7 @@
           "addon-description": "A printed medical article stolen from Ormond's public library, vulgarising a study on lesions and stab wounds.\nConsiderably decreases the Deep Wound  timer of all Survivors.",
           "addon-image-alt": "/static/images/Addons/iconAddon_stabWoundsStudy.png",
           "addon-id": "Stab-Wounds-Study-Legion",
-          "addon-effect": "Considerably decreases\u00a0the\u00a0Deep Wound\u00a0timer of all Survivors"
+          "addon-effect": "Considerably(5s) decreases the Deep Wound timer of all Survivors"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0b/FulliconAddon_franksMixTape.png/64px-FulliconAddon_franksMixTape.png?version=e5906258789c0dde9c3554d13116800e",
@@ -1738,7 +1738,7 @@
           "addon-description": "Never go on a kill mission without your tunes. A track list of massive distortions and loud percussion that stabs at your eardrums.\nAllows Feral Frenzy attacks to moderately reduce a Survivor's Deep Wound  timer.",
           "addon-image-alt": "/static/images/Addons/iconAddon_franksMixtape.png",
           "addon-id": "Franks-Mix-Tape-Legion",
-          "addon-effect": "Allows\u00a0Feral Frenzy\u00a0attacks to\u00a0moderately reduce\u00a0a Survivor's\u00a0Deep Wound\u00a0timer (7.5 seconds)"
+          "addon-effect": "Allows Feral Frenzy attacks to moderately(7.5s) reduce a Survivor's Deep Wound timer"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/89/FulliconAddon_filthyBlade.png/64px-FulliconAddon_filthyBlade.png?version=d1cd53db5cad7ba2c0f399f09d00ad98",
@@ -1746,7 +1746,7 @@
           "addon-description": "This blade is stained with foul spots of blood and grime that make injuries particularly difficult to mend.\nModerately increases the amount of time required for Survivors to complete the Mend action.",
           "addon-image-alt": "/static/images/Addons/iconAddon_filthyBlade.png",
           "addon-id": "Filthy-Blade-Legion",
-          "addon-effect": "Mend Time: 20.50%"
+          "addon-effect": "Mend Time: +2.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/15/FulliconAddon_coldDirt.png/64px-FulliconAddon_coldDirt.png?version=316b6dd46f838d5e1badf7f333ce5eb4",
@@ -1754,7 +1754,7 @@
           "addon-description": "A handful of dirt collected from the janitor's final resting place. It is unnaturally cold.\nConsiderably decreases the cool-down duration of Feral Frenzy.",
           "addon-image-alt": "/static/images/Addons/iconAddon_coldDirt.png",
           "addon-id": "Cold-Dirt-Legion",
-          "addon-effect": "Cooldown: -15%"
+          "addon-effect": "Cooldown: -0.6s"
         }
       ],
       "Ultra Rare": [
@@ -1764,7 +1764,7 @@
           "addon-description": "A glass-like button moulded from The Fog that captures The Legion's likeness. The surface is warm and reverberating with The Entity's power.\nDuring Feral Frenzy:\n\nYour Terror Radius affects the entire Map.\nAny Pallets you vault are immediately broken.\nThis effect lasts until the power gauge is depleted.\n\"The youth consumed by the iridescent glass magnifies and widens the reach of The Entity.\"",
           "addon-image-alt": "/static/images/Addons/iconAddon_iridescentButton.png",
           "addon-id": "Iridescent-Button-Legion",
-          "addon-effect": "Your Terror Radius affects\u00a0the entire Map. Any Pallets you vault are\u00a0immediately broken"
+          "addon-effect": "Your Terror Radius affects the entire Map. Any Pallets you vault are immediately broken"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b2/FulliconAddon_fumingMixTape.png/64px-FulliconAddon_fumingMixTape.png?version=d80af46ada07c618feb62bae7ae59b8e",
@@ -1772,7 +1772,7 @@
           "addon-description": "Dark beats, violent shreds and unfathomable vocals from another world fill the mind with a vibrating sixth sense.\nWhile using Feral Frenzy, the Repair Progress of Generators can be determined by the intensity of their Auras.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fumingMixtape.png",
           "addon-id": "Fuming-Mix-Tape-Legion",
-          "addon-effect": "While using\u00a0Feral Frenzy, the\u00a0Repair Progress of Generators\u00a0can be determined by the\u00a0intensity of their Auras"
+          "addon-effect": "While using Feral Frenzy, the Repair Progress of Generators can be determined by the intensity of their Auras"
         }
       ]
     }
@@ -1792,7 +1792,7 @@
           "addon-description": "A small boy's orange and yellow striped shirt. Identified with a sewn name tag to \"Jesse\".\nWhile Survivors are in the Dream World:\nSlightly increases regression penalties on Sabotage, Healing and Repair actions.",
           "addon-image-alt": "/static/images/Addons/iconAddon_woolShirt.png",
           "addon-id": "Wool-Shirt-Nightmare",
-          "addon-effect": "Regression Penalty: 4%"
+          "addon-effect": "Regression Penalty: +4%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dd/FulliconAddon_sheepBlock.png/64px-FulliconAddon_sheepBlock.png?version=14c251c9b88e1f56642eeff05ac49daf",
@@ -1800,7 +1800,7 @@
           "addon-description": "A white and blue wooden block depicting two woolly Lambs grazing and the letter \"S\".\nInteracting with a Dream Trap afflicts Survivors with the Blindness  Status Effect for 30 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_sheepBlock.png",
           "addon-id": "Sheep-Block-Nightmare",
-          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Blindness\u00a0Status Effect for 30 seconds"
+          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Blindness Status Effect for 30 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6d/FulliconAddon_kidsDrawing.png/64px-FulliconAddon_kidsDrawing.png?version=4494a3c14de5e52a9590bd5df992717e",
@@ -1826,7 +1826,7 @@
           "addon-description": "A home-made tool to facilitate bush trimming.\nReplaces Dream Snares with Dream Pallets.\n10 Dream Tokens.\nInteracting with a Dream Pallet reveals the Survivor's Aura  to The Nightmare for 4 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_prototypeClaw.png",
           "addon-id": "Prototype-Claws-Nightmare",
-          "addon-effect": "Replaces Dream Snares with Dream Pallets.Interacting with a Dream Pallet reveals the Survivor's Aura\u00a0to The Nightmare for 4 seconds"
+          "addon-effect": "Replaces Dream Snares with Dream Pallets.Interacting with a Dream Pallet reveals the Survivor's Aura to The Nightmare for 4 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1f/FulliconAddon_outdoorRope.png/64px-FulliconAddon_outdoorRope.png?version=2d052de2df5efe49b3ebdf9f3a6deb2b",
@@ -1834,7 +1834,7 @@
           "addon-description": "Sturdy outdoor rope, handy to tie up anything.\nWhile Survivors are in the Dream World:\nApplies a moderate penalty to Sabotage, Healing and Repair Action Speeds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_outdoorRope.png",
           "addon-id": "Outdoor-Rope-Nightmare",
-          "addon-effect": "Action Speed Penalty: 2%"
+          "addon-effect": "Action Speed Penalty: +2%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0f/FulliconAddon_nancysSketch.png/64px-FulliconAddon_nancysSketch.png?version=9db1009207792f7c201250c79caf7a82",
@@ -1842,7 +1842,7 @@
           "addon-description": "A crude and bold sketch made with Fusain, signed by Nancy H.\nSlightly reduces the Dream Projection cool-down for each sleeping Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_nancysSketch.png",
           "addon-id": "Nancys-Sketch-Nightmare",
-          "addon-effect": "Dream Projection Cooldown: 2%"
+          "addon-effect": "Dream Projection Cooldown: +2%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/63/FulliconAddon_greenDress.png/64px-FulliconAddon_greenDress.png?version=da7dac49d7339405414417c8aeddabfa",
@@ -1858,7 +1858,7 @@
           "addon-description": "A white and purple wooden block depicting a sleeping Cat and the letter \"C\".\nInteracting with a Dream Trap afflicts Survivors with the Haemorrhage  Status Effect for 60 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_catBlock.png",
           "addon-id": "Cat-Block-Nightmare",
-          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Haemorrhage\u00a0Status Effect for 60 seconds"
+          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Haemorrhage Status Effect for 60 seconds"
         }
       ],
       "Rare": [
@@ -1884,7 +1884,7 @@
           "addon-description": "A painting of a Character, made by Nancy Holbrook at Badham and kept as a treasure memory.\nModerately reduces the Dream Projection cool-down for each sleeping Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_nancysMasterpiece.png",
           "addon-id": "Nancys-Masterpiece-Nightmare",
-          "addon-effect": "Dream Projection Cooldown: 3%"
+          "addon-effect": "Dream Projection Cooldown: +3%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/16/FulliconAddon_jumpRope.png/64px-FulliconAddon_jumpRope.png?version=3a2b62609463b24024b4cfbfe2c20510",
@@ -1892,7 +1892,7 @@
           "addon-description": "A long Double Dutch jump rope, stained with many years of use.\nWhile Survivors are in the Dream World:\nApplies a considerable penalty to Sabotage, Healing and Repair Action Speeds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jumpRope.png",
           "addon-id": "Jump-Rope-Nightmare",
-          "addon-effect": "Action Speed Penalty: 4%"
+          "addon-effect": "Action Speed Penalty: +4%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/de/FulliconAddon_blueDress.png/64px-FulliconAddon_blueDress.png?version=cecb72df80d305b57921360c26dda8d6",
@@ -1900,7 +1900,7 @@
           "addon-description": "A little girl's pale blue dress with white lace which's front is ruined by large cuts.\nWhile Survivors are in the Dream World:\n\nSlightly increases regression penalties on Sabotage, Healing and Repair actions.\nWhen failing a Sabotage, Healing or Repair Skill Check , the Survivor's Aura  is revealed to The Nightmare for 4 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_blueDress.png",
           "addon-id": "Blue-Dress-Nightmare",
-          "addon-effect": "Regression Penalty: 4%\n\nWhen failing a Sabotage, Healing or Repair Skill Check, the Survivor's Aura is revealed to The Nightmare for 4 seconds"
+          "addon-effect": "Regression Penalty: +4%\n\nWhen failing a Sabotage, Healing or Repair Skill Check, the Survivor's Aura is revealed to The Nightmare for 4 seconds"
         }
       ],
       "Very Rare": [
@@ -1918,7 +1918,7 @@
           "addon-description": "Rusty, but sturdy chains used to securely attach a swing seat.\nApplies a slight penalty to Sabotage, Healing and Repair Action Speeds to awake and asleep Survivors.\nFor each Survivor in the Dream World, this effect increases (up to a tremendous penalty).",
           "addon-image-alt": "/static/images/Addons/iconAddon_swingChains.png",
           "addon-id": "Swing-Chains-Nightmare",
-          "addon-effect": "Action Speed Penalty: 2%\n\nFor each Survivor in the Dream World, Action Speed Penalty increases by 8%"
+          "addon-effect": "Action Speed Penalty: +2%\n\nFor each Survivor in the Dream World, Action Speed Penalty increases by 8%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c6/FulliconAddon_classPhoto.png/64px-FulliconAddon_classPhoto.png?version=7db44f15d1019c4e025e42e3f41c6025",
@@ -1934,7 +1934,7 @@
           "addon-description": "A deeply scratched and burnt wooden block which's only recognisable feature is the letter \"Z\".\nInteracting with a Dream Trap afflicts Survivors with the Haemorrhage  Status Effect for 60 seconds.\nIf the Survivor is Healthy , they will bleed for the duration of the Haemorrhage Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_zBlock.png",
           "addon-id": "Z-Block-Nightmare",
-          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Haemorrhage\u00a0Status Effect for 60 seconds, If the Survivor is Healthy , they will bleed for the duration of the Haemorrhage Status Effect"
+          "addon-effect": "Interacting with a Dream Trap afflicts Survivors with the Haemorrhage Status Effect for 60 seconds, If the Survivor is Healthy , they will bleed for the duration of the Haemorrhage Status Effect"
         }
       ],
       "Ultra Rare": [
@@ -1944,7 +1944,7 @@
           "addon-description": "A large paint brush, wet with crimson paint.\nAll Survivors start the Trial inside the Dream World.\nFailing a Skill Check  will no longer allow Survivors to wake up.",
           "addon-image-alt": "/static/images/Addons/iconAddon_redPaintBrush.png",
           "addon-id": "Red-Paint-Brush-Nightmare",
-          "addon-effect": "All Survivors start the Trial inside the Dream World. Failing a Skill Check\u00a0will no longer allow Survivors to wake up"
+          "addon-effect": "All Survivors start the Trial inside the Dream World. Failing a Skill Check will no longer allow Survivors to wake up"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/64/FulliconAddon_blackBox.png/64px-FulliconAddon_blackBox.png?version=b71935e3c36a891624e64a0abe867409",
@@ -1972,15 +1972,15 @@
           "addon-description": "An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse.\nModerately reduces the extra post-Blink Fatigue duration applied by missed Blink Attacks.",
           "addon-image-alt": "/static/images/Addons/iconAddon_woodenHorse.png",
           "addon-id": "Wooden-Horse-Nurse",
-          "addon-effect": "Reduces the extra fatigue applied by missed Blink Attacks by 50 % or 0.5 seconds"
+          "addon-effect": "Reduces the extra fatigue applied by missed Blink Attacks by 50% or 0.5 seconds"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/FulliconAddon_whiteNitComb.png/64px-FulliconAddon_whiteNitComb.png?version=cf0666d22fe4d6127f65a0a046029dc7",
           "addon-name": "White Nit Comb",
-          "addon-description": "A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\nIncreases Bloodpoints for Blink Attack Score Events by 100\u00a0%.\nModerately reduces the post-Blink Lunge range.",
+          "addon-description": "A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse.\nIncreases Bloodpoints for Blink Attack Score Events by 100 %.\nModerately reduces the post-Blink Lunge range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_whiteNitComb.png",
           "addon-id": "White-Nit-Comb-Nurse",
-          "addon-effect": "Increases Bloodpoints for Blink Attack Score Events by 100 %. Decreases the length of blink attack lunges by 50% (0.15 seconds)"
+          "addon-effect": "Increases Bloodpoints for Blink Attack Score Events by 100 %. Decreases the length of blink attack lunges by 50% (0.15s)"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/62/FulliconAddon_plaidFlannel.png/64px-FulliconAddon_plaidFlannel.png?version=15f91a43854617617be015055798c8bc",
@@ -2006,15 +2006,15 @@
           "addon-description": "A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body.\nModerately increases the length of the Chain Blink Window.",
           "addon-image-alt": "/static/images/Addons/iconAddon_pocketWatch.png",
           "addon-id": "Pocket-Watch-Nurse",
-          "addon-effect": "Chain Blink Window: 13%"
+          "addon-effect": "Chain Blink Window: +13%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a8/FulliconAddon_dullBracelet.png/64px-FulliconAddon_dullBracelet.png?version=6573034d42e97cfb9a446e265515f04e",
           "addon-name": "Dull Bracelet",
-          "addon-description": "A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body.\nIncreases Bloodpoints for Precise Blink Score Events by 100\u00a0%.\nModerately reduces the maximum Blink range.",
+          "addon-description": "A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body.\nIncreases Bloodpoints for Precise Blink Score Events by 100 %.\nModerately reduces the maximum Blink range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_dullBracelet.png",
           "addon-id": "Dull-Bracelet-Nurse",
-          "addon-effect": "Blink Range: -20%\n\nIncreases Bloodpoints for Precise Blink Score Events by 100 %"
+          "addon-effect": "Blink Range: -20%\n\nIncreases Bloodpoints for Precise Blink Score Events by 100%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c8/FulliconAddon_darkCincture.png/64px-FulliconAddon_darkCincture.png?version=7e3fce99f72fb4ad1cad2e6ae15c9cf4",
@@ -2022,7 +2022,7 @@
           "addon-description": "A black rope used as a belt in times of mourning. Taken from Father Campbell's body.\nModerately reduces the Blink Recharge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_darkCincture.png",
           "addon-id": "Dark-Cincture-Nurse",
-          "addon-effect": "Blink Recharge Time: -20%"
+          "addon-effect": "Blink Recharge Time: -0.4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/95/FulliconAddon_catatonicBoysTreasure.png/64px-FulliconAddon_catatonicBoysTreasure.png?version=0e6a934c59e87ed55d37535f6a883f9c",
@@ -2056,7 +2056,7 @@
           "addon-description": "The slow and bulging breath stolen from the \"Fat Orderly\" Kavanagh. Dimly oscillates at The Nurse's touch.\nConsiderably increases the maximum Blink range.\nConsiderably increases the Blink Charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_heavyPanting.png",
           "addon-id": "Heavy-Panting-Nurse",
-          "addon-effect": "Blink Charge Time: 20%\n\nBlink Range: 20%"
+          "addon-effect": "Blink Charge Time: +0.4s\n\nBlink Range: +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/aa/FulliconAddon_fragileWheeze.png/64px-FulliconAddon_fragileWheeze.png?version=0573516366574b5e7f4f209ff0851c13",
@@ -2064,7 +2064,7 @@
           "addon-description": "The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch.\nConsiderably reduces the Blink Recharge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fragileWheeze.png",
           "addon-id": "Fragile-Wheeze-Nurse",
-          "addon-effect": "Blink Recharge Time: -30%"
+          "addon-effect": "Blink Recharge Time: -0.6s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8a/FulliconAddon_ataxicRespiration.png/64px-FulliconAddon_ataxicRespiration.png?version=dfe144b2875ddeabb219ab7576ac9421",
@@ -2090,7 +2090,7 @@
           "addon-description": "A powerful last breath snatched from Crotus Prenn Asylum Orderly Harvey Kavanagh, the \"Fat Orderly\". In the hands of The Nurse, it wobbles with intensity.\nTremendously increases the maximum Blink range.\nTremendously increases the Blink Charge time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_kavanaghsLastBreath.png",
           "addon-id": "Kavanaghs-Last-Breath-Nurse",
-          "addon-effect": "Blink Charge Time: 30%\n\nBlink Range: 30%"
+          "addon-effect": "Blink Charge Time: -0.6s\n\nBlink Range: 30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/81/FulliconAddon_jennersLastBreath.png/64px-FulliconAddon_jennersLastBreath.png?version=78248cdc86e55f0cfc9ce4ea7c7837a1",
@@ -2142,9 +2142,7 @@
     "killer-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e5/SK_charSelect_portrait.png/128px-SK_charSelect_portrait.png?version=c47c5e82892c742b152b46d0689a3de3",
     "killer-image-alt": "/static/images/Killer_Portraits/SK_charSelect_portrait.png",
     "power-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f2/FulliconPowers_yamaokasWrath.png/128px-FulliconPowers_yamaokasWrath.png?version=6c549563281a79d1a015d334d36a9aab",
-    "power-image-alt": [
-      "/static/images/Powers/iconPowers_yamaokasWrath_demon.png"
-    ],
+    "power-image-alt": "/static/images/Powers/iconPowers_yamaokasWrath_demon.png",
     "power-description": "Yamaoka's Wrath is The Oni's main Power: it allows him to go into a Blood Fury by absorbing Blood Orbs dropped by injured survivors. When he is in this Blood Fury, he can dash at high speeds and deal a horrible blow to the survivor's with his Kanab\u014d, which downs them in a single hit.",
     "addons": {
       "Common": [
@@ -2154,7 +2152,7 @@
           "addon-description": "Considering his goals pure and just, Kazan carried a trinket to ward off evil that might lead him astray.\nSlightly increases Blood Orb Absorption speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_paperLantern.png",
           "addon-id": "Yakuyoke-Talisman-Oni",
-          "addon-effect": "Orb Absorption Speed: 40%"
+          "addon-effect": "Orb Absorption Speed: +4m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6c/FulliconAddon_rottingRope.png/64px-FulliconAddon_rottingRope.png?version=d198b532a4f4a3972f5795cd8f191e43",
@@ -2162,7 +2160,7 @@
           "addon-description": "Had the rope been stronger it would have likely held Kazan. As it was, he escaped and butchered his captors.\nSlightly increases Blood Orb Aura Detection range.\n\"Though Death is focused, he has been known to blink.\" \u2014 Renjiro's Doctrine 14:5",
           "addon-image-alt": "/static/images/Addons/iconAddon_rottingRope.png",
           "addon-id": "Rotting-Rope-Oni",
-          "addon-effect": "Orb Aura Distance: 33.33%"
+          "addon-effect": "Orb Aura Distance: +2m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c2/FulliconAddon_crackedSakazuki.png/64px-FulliconAddon_crackedSakazuki.png?version=f292931e0d30dc57bc5107c1089d36c5",
@@ -2170,7 +2168,7 @@
           "addon-description": "A cup from Kazan's wedding ceremony. It never made it through the night before being damaged.\nSlightly reduces Blood Fury Activation time.\nSlightly reduces Blood Fury Deactivation time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_crackedSakazuki.png",
           "addon-id": "Cracked-Sakazuki-Oni",
-          "addon-effect": "Fury Activation Time: -16.66%"
+          "addon-effect": "Fury Activation Time: -0.5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9e/FulliconAddon_blackenedToenail.png/64px-FulliconAddon_blackenedToenail.png?version=519cd164b07a070d182aeba4f0cd792c",
@@ -2178,7 +2176,7 @@
           "addon-description": "Fell off during one of Kazan's hundred winter treks to the temple. Despite his pilgrimage, Akito's leg would never heal.\nSlightly increases Absorption Movement speed.\n\"If a father sacrifices not for his children, then who does he father?\" \u2014 Renjiro's Doctrine 11:12",
           "addon-image-alt": "/static/images/Addons/iconAddon_blackenedToenail.png",
           "addon-id": "Blackened-Toenail-Oni",
-          "addon-effect": "Orb Absorption Movement: 7.61%"
+          "addon-effect": "Orb Absorption Movement: +7.61%"
         }
       ],
       "Uncommon": [
@@ -2196,7 +2194,7 @@
           "addon-description": "An ink painting that once hung in the Yamaoka Estate. Depicts the story of a lion eaten by mice.\nSlightly reduces Blood Fury Activation time.\nSlightly reduces Blood Fury Deactivation time.\nModerately reduces Blood Fury Duration penalty when downing a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_inkLion.png",
           "addon-id": "Ink-Lion-Oni",
-          "addon-effect": "Fury Activation Time: -16.66%\n\nFury Down Penalty: -28.57%"
+          "addon-effect": "Fury Activation Time: -0.5s\n\nFury Down Penalty: -2s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d6/FulliconAddon_chippedSaihai.png/64px-FulliconAddon_chippedSaihai.png?version=db6260c90b1e61e47b16e2363563b94b",
@@ -2204,7 +2202,7 @@
           "addon-description": "A baton that belonged to Renjiro. It was stolen by Kazan upon his departure.\nSlightly increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_chippedSaihai.png",
           "addon-id": "Chipped-Saihai-Oni",
-          "addon-effect": "Fury Duration: 13.20%"
+          "addon-effect": "Fury Duration: +6s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0a/FulliconAddon_childsWoodenSword.png/64px-FulliconAddon_childsWoodenSword.png?version=940e35e1a64d5abc0ffe01677931ae06",
@@ -2212,7 +2210,7 @@
           "addon-description": "Akito's practice sword. The child had little use for it after his injury.\nModerately increases Blood Orb Aura Detection range.",
           "addon-image-alt": "/static/images/Addons/iconAddon_childsWoodenSword.png",
           "addon-id": "Childs-Wooden-Sword-Oni",
-          "addon-effect": "Orb Aura Distance: 50%"
+          "addon-effect": "Orb Aura Distance: +3m"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_bloodySash.png/64px-FulliconAddon_bloodySash.png?version=1b88b78c718b93231721b22d3dc1682f",
@@ -2220,7 +2218,7 @@
           "addon-description": "Blood from a boy who called Kazan \"The Noble Impostor\". Kazan hid evidence of the fight from his father, often revelling at the sash in secret.\nModerately increases Absorption Movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodySash.png",
           "addon-id": "Bloody-Sash-Oni",
-          "addon-effect": "Orb Absorption Movement: 15.11%"
+          "addon-effect": "Orb Absorption Movement: +15.11%"
         }
       ],
       "Rare": [
@@ -2230,7 +2228,7 @@
           "addon-description": "The banner of the Yamaoka family, Kazan felt an overwhelming pride from it.\nModerately increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_yamaokaSashimono.png",
           "addon-id": "Yamaoka-Sashimono-Oni",
-          "addon-effect": "Fury Duration: 17.60%"
+          "addon-effect": "Fury Duration: +8s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e9/FulliconAddon_woodenOniMask.png/64px-FulliconAddon_woodenOniMask.png?version=3450fac846c34422e3b04c789ec73189",
@@ -2254,7 +2252,7 @@
           "addon-description": "The topknot of a samurai who questioned Kazan's honour. The roots cling to a thin strip of bloody skin.\nConsiderably reduces Demon Dash Activation time while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_scalpedTopknot.png",
           "addon-id": "Scalped-Topknot-Oni",
-          "addon-effect": "Dash Charge Time: -50%"
+          "addon-effect": "Dash Charge Time: -1s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_kanai-AnzenTalisman.png/64px-FulliconAddon_kanai-AnzenTalisman.png?version=af80d3d2dcd3991de6c13e2a8878d9a4",
@@ -2262,7 +2260,7 @@
           "addon-description": "A trinket given to Kazan at birth, its powers are meant to protect his family from harm.\nModerately increases Demon Dash Movement speed while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_kanaianzenTalisman.png",
           "addon-id": "Kanai-Anzen-Talisman-Oni",
-          "addon-effect": "Dash Movement Speed: 16%"
+          "addon-effect": "Dash Movement Speed: +16%"
         }
       ],
       "Very Rare": [
@@ -2272,7 +2270,7 @@
           "addon-description": "The cloth that Kazan's mother cried into when he left on his pilgrimage to cleanse the samurai.\nConsiderably reduces Blood Fury Duration penalty when downing a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tearSoakedTenugui.png",
           "addon-id": "Tear-Soaked-Tenugui-Oni",
-          "addon-effect": "Fury Down Penalty: -42.85%"
+          "addon-effect": "Fury Down Penalty: -3s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/43/FulliconAddon_splinteredHull.png/64px-FulliconAddon_splinteredHull.png?version=9673ed46b3b4918933672bf682cba688",
@@ -2288,7 +2286,7 @@
           "addon-description": "A tooth sold from an exotic vendor, it symbolises power and nobility.\nConsiderably increases Blood Fury duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_lionFang.png",
           "addon-id": "Lion-Fang-Oni",
-          "addon-effect": "Fury Duration: 22%"
+          "addon-effect": "Fury Duration: +10s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0c/FulliconAddon_akitosCrutch.png/64px-FulliconAddon_akitosCrutch.png?version=a661edc395bea02546fa311942ee4be7",
@@ -2296,7 +2294,7 @@
           "addon-description": "The crutch used by Kazan's son after falling from a tree. Akito's playmate and her family were punished for the boy's injury.\nConsiderably increases Demon Dash Movement speed while Blood Fury is active.",
           "addon-image-alt": "/static/images/Addons/iconAddon_akitosCrutch.png",
           "addon-id": "Akitos-Crutch-Oni",
-          "addon-effect": "Dash Movement Speed: 25%"
+          "addon-effect": "Dash Movement Speed: +25%"
         }
       ],
       "Ultra Rare": [
@@ -2334,7 +2332,7 @@
           "addon-description": "A modification to the Jigsaw Box: the lubricated parts make the search a more delicate exercise.\nSlightly increases the Skill Check trigger odds when interacting with a Jigsaw Box.",
           "addon-image-alt": "/static/images/Addons/iconAddon_workshopGrease.png",
           "addon-id": "Workshop-Grease-Pig",
-          "addon-effect": "Skill Check Odds: 1%"
+          "addon-effect": "Skill Check Odds: +1%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f6/FulliconAddon_shatteredSyringe.png/64px-FulliconAddon_shatteredSyringe.png?version=5c123013b6f9229f8d15c31181e7549c",
@@ -2358,7 +2356,7 @@
           "addon-description": "Leather straps that hold fabric in place for nimbler movement.\nSlightly decreases time it takes to crouch.",
           "addon-image-alt": "/static/images/Addons/iconAddon_combatStraps.png",
           "addon-id": "Combat-Straps-Pig",
-          "addon-effect": "Crouch Time: -23.08%"
+          "addon-effect": "Crouch Time: -0.3s"
         }
       ],
       "Uncommon": [
@@ -2376,7 +2374,7 @@
           "addon-description": "A modification to the Reverse Bear Trap: sharp blades attached to the Trap's interior lacerate the victim with every movement.\nSurvivors caught in a Reverse Bear Trap suffer from the Haemorrhage  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_utilityBlades.png",
           "addon-id": "Utility-Blades-Pig",
-          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the\u00a0Haemorrhage\u00a0Status Effect"
+          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the Haemorrhage Status Effect"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1d/FulliconAddon_razorWires.png/64px-FulliconAddon_razorWires.png?version=373c33af92126a1bcdb4d27cc1b4b730",
@@ -2384,7 +2382,7 @@
           "addon-description": "A modification to the Jigsaw Box: the addition of razor sharp wires makes it extra difficult and potentially painful to search them.\nModerately increases the Skill Check trigger odds when interacting with a Jigsaw Box.",
           "addon-image-alt": "/static/images/Addons/iconAddon_razerWire.png",
           "addon-id": "Razor-Wires-Pig",
-          "addon-effect": "Skill Check Odds: 2%"
+          "addon-effect": "Skill Check Odds: +2%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ed/FulliconAddon_lastWill.png/64px-FulliconAddon_lastWill.png?version=6afee5eda3b9833ea6833c1954402603",
@@ -2392,7 +2390,7 @@
           "addon-description": "A latched wooden box with a satin lining, offered as part of a last will.\nIncreases available Reverse Bear Traps by 1.",
           "addon-image-alt": "/static/images/Addons/iconAddon_lastWill.png",
           "addon-id": "Last-Will-Pig",
-          "addon-effect": "Available Reverse Bear Traps: 25%"
+          "addon-effect": "Available Reverse Bear Traps: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7e/FulliconAddon_faceMask.png/64px-FulliconAddon_faceMask.png?version=4e4303b8abdb4b1aec8c8fe86bc83da4",
@@ -2400,7 +2398,7 @@
           "addon-description": "A modification to the Reverse Bear Trap: the heavy cloth face mask, laced with a sedative, partially suffocates the target, making it hard to concentrate.\nSurvivors caught in a Reverse Bear Trap suffer from the Blindness  Status Effect.\nDoes not affect the Jigsaw Box highlight.",
           "addon-image-alt": "/static/images/Addons/iconAddon_faceMask.png",
           "addon-id": "Face-Mask-Pig",
-          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the\u00a0Blindness\u00a0Status Effect, does not affect the Jigsaw Box highlight"
+          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the Blindness Status Effect, does not affect the Jigsaw Box highlight"
         }
       ],
       "Rare": [
@@ -2410,7 +2408,7 @@
           "addon-description": "A modification to the Reverse Bear Trap: a poison that is not fatal, but weakens the body and makes it nearly impossible to recover fully from any effort.\nSurvivors caught in a Reverse Bear Trap suffer from the Exhaustion  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_slowReleaseToxin.png",
           "addon-id": "Slow-Release-Toxin-Pig",
-          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the\u00a0Exhaustion\u00a0Status Effect"
+          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the Exhaustion Status Effect"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/77/FulliconAddon_rustyAttachments.png/64px-FulliconAddon_rustyAttachments.png?version=16add1b820a05e846e347d07f602ad29",
@@ -2418,7 +2416,7 @@
           "addon-description": "A modification to the Reverse Bear Trap: mouth spikes, covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nSurvivors caught in a Reverse Bear Trap suffer from the Mangled  Status Effect.",
           "addon-image-alt": "/static/images/Addons/iconAddon_rustyAttachments.png",
           "addon-id": "Rusty-Attachments-Pig",
-          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the\u00a0Mangled\u00a0Status Effect"
+          "addon-effect": "Survivors caught in a Reverse Bear Trap suffer from the Mangled Status Effect"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/72/FulliconAddon_jigsawsAnnotatedPlan.png/64px-FulliconAddon_jigsawsAnnotatedPlan.png?version=6fbeb48dc11a187e4c670f6b801ab917",
@@ -2426,7 +2424,7 @@
           "addon-description": "A disturbing, yet brilliant, Trap design laid down on paper and annotated by Jigsaw.\nIncreases available Jigsaw Boxes by 1.\nModerately increases the Reverse Bear Trap death timer.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jigsawsAnnotatedPlan.png",
           "addon-id": "Jigsaws-Annotated-Plan-Pig",
-          "addon-effect": "RBT Death Timer: 13.34%\n\nAvailable Jigsaw Boxes: 25%"
+          "addon-effect": "RBT Death Timer: +20s\n\nAvailable Jigsaw Boxes: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ef/FulliconAddon_interlockingRazor.png/64px-FulliconAddon_interlockingRazor.png?version=795b1efc126ae8d58b1a42ab53708263",
@@ -2434,7 +2432,7 @@
           "addon-description": "A modification to the Jigsaw Box: the addition of interlocking razor blades makes it impossible to move suddenly in the Jigsaw Box without slitting one's wrists.\nTremendously increases the penalty of failed Skill Checks on Jigsaw Boxes.",
           "addon-image-alt": "/static/images/Addons/iconAddon_interlockingRazor.png",
           "addon-id": "Interlocking-Razor-Pig",
-          "addon-effect": "Jigsaw Failed Skill Check %: 50%"
+          "addon-effect": "Jigsaw Failed Skill Check %: +50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c9/FulliconAddon_bagOfGears.png/64px-FulliconAddon_bagOfGears.png?version=5904362d842a6a7c6322abb5dfe64723",
@@ -2442,7 +2440,7 @@
           "addon-description": "A few mechanical parts that allow the creation of challenging Jigsaw Boxes and easier to install Reverse Bear Traps.\nSlightly increases the time it takes Survivors to search a Jigsaw Box.\nSlightly decreases the time it takes to put on a Reverse Bear Trap.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bagOfGears.png",
           "addon-id": "Bag-of-Gears-Pig",
-          "addon-effect": "Jigsaw Bos Search Time: 14%\n\nRBT Set Time: -20%"
+          "addon-effect": "Jigsaw Box Search Time: +14%\n\nRBT Set Time: -20%"
         }
       ],
       "Very Rare": [
@@ -2452,7 +2450,7 @@
           "addon-description": "A timer that has been fiddled with. A spring in the mechanism forces the gears to turn faster.\nModerately reduces the Reverse Bear Trap death timer.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tamperedTimer.png",
           "addon-id": "Tampered-Timer-Pig",
-          "addon-effect": "RBT Death Timer: -20%"
+          "addon-effect": "RBT Death Timer: -30s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/44/FulliconAddon_jigsawsSketch.png/64px-FulliconAddon_jigsawsSketch.png?version=a58dfdadd898fbaf01cd99c0c075a1ee",
@@ -2460,7 +2458,7 @@
           "addon-description": "A disturbing, yet brilliant, Trap design sketched in detail on a sheet of paper.\nIncreases available Jigsaw Boxes by 1.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jigsawsSketch.png",
           "addon-id": "Jigsaws-Sketch-Pig",
-          "addon-effect": "Available Jigsaw Boxes: 25%"
+          "addon-effect": "Available Jigsaw Boxes: +1"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/07/FulliconAddon_crateOfGears.png/64px-FulliconAddon_crateOfGears.png?version=effe7254397cf71080ab2b9abe748454",
@@ -2468,7 +2466,7 @@
           "addon-description": "This collection of mechanical parts allows the creation of extra-challenging Jigsaw Boxes and Reverse Bear Traps that are easier to install.\nConsiderably increases the time it takes Survivors to search a Jigsaw Box.\nModerately decreases the time it takes to put the Reverse Bear Trap on a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_crateOfGears.png",
           "addon-id": "Crate-of-Gears-Pig",
-          "addon-effect": "Jigsaw Bos Search Time: 30%\n\nRBT Set Time: -50%"
+          "addon-effect": "Jigsaw Box Search Time: +30%\n\nRBT Set Time: -50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/69/FulliconAddon_amandasSecret.png/64px-FulliconAddon_amandasSecret.png?version=83ce1398744ba74f4856398d6e0f174f",
@@ -2476,7 +2474,7 @@
           "addon-description": "A black metal box containing a knife and various medical supplies, such as bandages and compresses. Deep cuts reduce stress and awaken the senses.\nDisables The Pig's ability to see Jigsaw Boxes' Auras.\nGain a notification when a Survivor removes a Reverse Bear Trap.\nAuras of Survivors removing a Reverse Bear Trap are revealed to you for 6 seconds.",
           "addon-image-alt": "/static/images/Addons/iconAddon_amandasSecret.png",
           "addon-id": "Amandas-Secret-Pig",
-          "addon-effect": "Disables\u00a0The Pig's ability to see Jigsaw Boxes' Auras. Gain a notification\u00a0when a Survivor removes a Reverse Bear Trap. Auras of Survivors removing a Reverse Bear Trap are revealed to you for\u00a06 seconds"
+          "addon-effect": "Disables The Pig's ability to see Jigsaw Boxes' Auras. Gain a notification when a Survivor removes a Reverse Bear Trap. Auras of Survivors removing a Reverse Bear Trap are revealed to you for 6 seconds"
         }
       ],
       "Ultra Rare": [
@@ -2486,7 +2484,7 @@
           "addon-description": "Not all games need to have the same rules.\nDisables the Survivors' ability to see Jigsaw Boxes highlighted until their Trap is activated.\n\"Listen, there are rules.\" \u2014 Jigsaw",
           "addon-image-alt": "/static/images/Addons/iconAddon_rulesSetN2.png",
           "addon-id": "Rules-Set-No2-Pig",
-          "addon-effect": "Disables\u00a0the Survivors' ability to see Jigsaw Boxes highlighted until their Trap is activated"
+          "addon-effect": "Disables the Survivors' ability to see Jigsaw Boxes highlighted until their Trap is activated"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/58/FulliconAddon_amandasLetter.png/64px-FulliconAddon_amandasLetter.png?version=5d2816e3dc75628379fd57894231c23a",
@@ -2494,7 +2492,7 @@
           "addon-description": "A blackmailing Letter for the attention of Amanda. Fills the reader with rage and focus.\nWhile crouched, see outlines of Survivors within 12 metres of range.\nReduces available Reverse Bear Traps by 3.\nReduces available Jigsaw Boxes by 2.\n\"Amanda, you were with Cecil the night Jill lost Gideon. You killed their child. You know it and I know it.\" \u2014 Amanda's Letter",
           "addon-image-alt": "/static/images/Addons/iconAddon_amandasLetter.png",
           "addon-id": "Amandas-Letter-Pig",
-          "addon-effect": "Available Reverse Bear Traps: -75%\n\nAvailable Jigsaw Boxes: -50%\n\nWhile crouched, see outlines of Survivors within\u00a012 metres\u00a0of range"
+          "addon-effect": "Available Reverse Bear Traps: -3\n\nAvailable Jigsaw Boxes: -2\n\nWhile crouched, see outlines of Survivors within 12 metres of range"
         }
       ]
     }
@@ -2514,7 +2512,7 @@
           "addon-description": "A fragmented stone tablet with a corrupted incantation originally used to purge illnesses and feelings of general malaise.\nSlightly decreases the activation time of Pools of Devotion.\nSlightly increases the movement speed while holding Corrupt Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_prayerTabletFragment.png",
           "addon-id": "Prayer-Tablet-Fragment-Plague",
-          "addon-effect": "Pools Activation Time: -33%\n\nCorrupt Purge Movement Speed: 2.50%"
+          "addon-effect": "Pools Activation Time: -33%\n\nCorrupt Purge Movement Speed: +2.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f7/FulliconAddon_olibanumIncense.png/64px-FulliconAddon_olibanumIncense.png?version=4e1e3286cd137c04186cd79cd576520a",
@@ -2522,7 +2520,7 @@
           "addon-description": "Precious resin extracted from Boswellia trees, used during ceremonies for their sweet citrusy fragrance.\nSlightly increases the movement speed while charging Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_olibanumIncense.png",
           "addon-id": "Olibanum-Incense-Plague",
-          "addon-effect": "Carging Movement Speed: 7.50%"
+          "addon-effect": "Carging Movement Speed: +7.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/bd/FulliconAddon_limestoneSeal.png/64px-FulliconAddon_limestoneSeal.png?version=03976dc88932e517dc190984e4efb4e4",
@@ -2530,7 +2528,7 @@
           "addon-description": "A cylindrical seal made from porous stone that displays a ritualistic scene with winged deities.\nSlightly increases the infection time on objects.",
           "addon-image-alt": "/static/images/Addons/iconAddon_limestoneSeal.png",
           "addon-id": "Limestone-Seal-Plague",
-          "addon-effect": "Object Infection Time: 14.28%"
+          "addon-effect": "Object Infection Time: +5s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/3f/FulliconAddon_healingSalve.png/64px-FulliconAddon_healingSalve.png?version=05346131d0cd676db9a10971952b201b",
@@ -2538,7 +2536,7 @@
           "addon-description": "A bitterly pungent paste of crushed roots, which were marinated in fish brine for three days and in wine for two. Applied on skin rashes.\nSlightly decreases the cool-down of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_healingSalve.png",
           "addon-id": "Healing-Salve-Plague",
-          "addon-effect": "Cooldown: -16.67%"
+          "addon-effect": "Cooldown: -0.25s"
         }
       ],
       "Uncommon": [
@@ -2548,7 +2546,7 @@
           "addon-description": "A soapstone amulet crudely engraved with a winged deity that wards off sickness. Fills the wearer with devotion.\nSlightly increases the duration of Corrupt Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_prophylacticAmulet.png",
           "addon-id": "Prophylactic-Amulet-Plague",
-          "addon-effect": "Corrupt Purge Duration: 6.66%"
+          "addon-effect": "Corrupt Purge Duration: +4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6c/FulliconAddon_potentTincture.png/64px-FulliconAddon_potentTincture.png?version=03c6b70bbe008aa321be4f938c552489",
@@ -2556,7 +2554,7 @@
           "addon-description": "A frothing, murky liquid that permeates the air with an acute aroma of herbs and alcohol. Applied directly on blisters.\nModerately decreases the cool-down of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_potentTincture.png",
           "addon-id": "Potent-Tincture-Plague",
-          "addon-effect": "Cooldown: -26.67%"
+          "addon-effect": "Cooldown: -0.4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/10/FulliconAddon_haematiteSeal.png/64px-FulliconAddon_haematiteSeal.png?version=d5f0694c8982ca327f8f7e7b99879cea",
@@ -2564,7 +2562,7 @@
           "addon-description": "A cylindrical seal forged from a metallic hard-stone, engraved with bird-headed beings that stood next to strange machines. Used as a container for sanctified ashes.\nModerately increases the infection time on objects.",
           "addon-image-alt": "/static/images/Addons/iconAddon_hematiteSeal.png",
           "addon-id": "Haematite-Seal-Plague",
-          "addon-effect": "Object Infection Time: 28.56%"
+          "addon-effect": "Object Infection Time: +10s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e5/FulliconAddon_emeticPotion.png/64px-FulliconAddon_emeticPotion.png?version=75f4eea3fe697cc150a842a7a57857bd",
@@ -2572,7 +2570,7 @@
           "addon-description": "A mustard-water based syrup that induces vomiting when consumed. Used to purge evil from the body.\nSlightly increases the effectiveness of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_emeticPotion.png",
           "addon-id": "Emetic-Potion-Plague",
-          "addon-effect": "Vile Purge Effectiveness: 20%"
+          "addon-effect": "Vile Purge Effectiveness: +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/06/FulliconAddon_blessedApple.png/64px-FulliconAddon_blessedApple.png?version=7afffdccb81c3a7dd9ff5de579c15659",
@@ -2598,7 +2596,7 @@
           "addon-description": "A disgusting syrup of unknown origin. The thick yellow liquid is consumed to induce vomiting. Used to purge evil from the body.\nModerately increases the effectiveness of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_infectedEmetic.png",
           "addon-id": "Infected-Emetic-Plague",
-          "addon-effect": "Vile Purge Effectiveness: 40%"
+          "addon-effect": "Vile Purge Effectiveness: +40%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/81/FulliconAddon_incensedOintment.png/64px-FulliconAddon_incensedOintment.png?version=1efc407edbe5d616d40ca25e6c7992f2",
@@ -2606,7 +2604,7 @@
           "addon-description": "A dark waxy paste, laced with cedar sap that diffuses a sweet and earthy aroma. Applied directly on infected skin.\nSlightly increases the movement speed while charging Vile Purge.\nModerately decreases the cool-down of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_incensedOintment.png",
           "addon-id": "Incensed-Ointment-Plague",
-          "addon-effect": "Carging Movement Speed: 7.50%\n\nCooldown: -26.67%"
+          "addon-effect": "Charging Movement Speed: +7.50%\n\nCooldown: -0.4s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fa/FulliconAddon_exorcismAmulet.png/64px-FulliconAddon_exorcismAmulet.png?version=06ad1817fd8dd27ef9901c71ce1ab6ed",
@@ -2614,7 +2612,7 @@
           "addon-description": "An obsidian amulet to ward off sickness during exorcism rituals. Inscribed with a prayer to the God of Mayhem and Pestilence. Fills the wearer with fierce devotion.\nModerately increases the duration of Corrupt Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_exorcismAmulet.png",
           "addon-id": "Exorcism-Amulet-Plague",
-          "addon-effect": "Corrupt Purge Duration: 10%"
+          "addon-effect": "Corrupt Purge Duration: +6s"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8a/FulliconAddon_ashenApple.png/64px-FulliconAddon_ashenApple.png?version=36253c65f260260527b1648345cf4caf",
@@ -2622,7 +2620,7 @@
           "addon-description": "A peeled apple rolled into sanctified ashes. Eating such a fruit warded off the malignantly envious spirits of the deceased.\nStart the Trial with 1 Pool of Devotion corrupted.\nSlightly increases the infection time on objects.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ashenApple.png",
           "addon-id": "Ashen-Apple-Plague",
-          "addon-effect": "Object Infection Time: 14.28%\n\nStart the Trial with 1 Pool of Devotion already corrupted"
+          "addon-effect": "Object Infection Time: +5s\n\nStart the Trial with 1 Pool of Devotion already corrupted"
         }
       ],
       "Very Rare": [
@@ -2632,7 +2630,7 @@
           "addon-description": "A stone tablet adorned with gold, showing the drawings and writings of a corrupted incantation used originally to worship forgotten deities.\nModerately decreases the activation time of Pools of Devotion.\nModerately increases the movement speed while holding Corrupt Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_worshipTablet.png",
           "addon-id": "Worship-Tablet-Plague",
-          "addon-effect": "Pools Activation Time: -99%\n\nCorrupt Purge Movement Speed: 7.50%"
+          "addon-effect": "Pools Activation Time: -50%\n\nCorrupt Purge Movement Speed: +7.50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/25/FulliconAddon_vileEmetic.png/64px-FulliconAddon_vileEmetic.png?version=821b1c7a0e3e14eba831ac987717ff04",
@@ -2640,7 +2638,7 @@
           "addon-description": "A foul-smelling and half-congealed potion of unidentifiable ingredients. Consumed to rapidly induce vomiting. Used to purge evil from the body.\nConsiderably increases the effectiveness of Vile Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_vileEmetic.png",
           "addon-id": "Vile-Emetic-Plague",
-          "addon-effect": "Vile Purge Effectiveness: 40%"
+          "addon-effect": "Vile Purge Effectiveness: +40%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/32/FulliconAddon_severedToe.png/64px-FulliconAddon_severedToe.png?version=cc0da9254137b6b3421947f4be64b14f",
@@ -2648,7 +2646,7 @@
           "addon-description": "The decaying severed toe of Adiris, weaved on a thread and worn as an amulet around the neck. Radiates with vile power.\nConsiderably increases the rate at which Survivors gain infection from interactions.",
           "addon-image-alt": "/static/images/Addons/iconAddon_severedToe.png",
           "addon-id": "Severed-Toe-Plague",
-          "addon-effect": "Increases the sickness gain per second while running and interacting by 50 %"
+          "addon-effect": "Increases the sickness gain per second while running and interacting by 50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/3b/FulliconAddon_devoteesAmulet.png/64px-FulliconAddon_devoteesAmulet.png?version=349b21161da328e4d6612972fadc86a4",
@@ -2656,7 +2654,7 @@
           "addon-description": "A bloodstone amulet carved intricately with the effigy of the Babylonian God of Mayhem and Pestilence. Fills the wearer with boundless devotion.\nConsiderably increases the duration of Corrupt Purge.",
           "addon-image-alt": "/static/images/Addons/iconAddon_devoteesAmulet.png",
           "addon-id": "Devotees-Amulet-Plague",
-          "addon-effect": "Corrupt Purge Duration: 13.33%"
+          "addon-effect": "Corrupt Purge Duration: +8s"
         }
       ],
       "Ultra Rare": [
@@ -2666,7 +2664,7 @@
           "addon-description": "A translucent cylindrical seal moulded from The Fog itself with the effigy of The Plague. Its surface is warm and pulsates with The Entity's power.\nModerately decreases the movement speed while holding Corrupt Purge.\nTremendously decreases the duration of Corrupt Purge.\nVile Purge becomes Corrupt Purge every time a Generator is completed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_IridescentSeal.png",
           "addon-id": "Iridescent-Seal-Plague",
-          "addon-effect": "Corrupt Purge Movement Speed: -7.50%\n\nCorrupt Purge Duration: -33.33%\n\nVile Purge becomes Corrupt Purge every time a Generator\u00a0is completed"
+          "addon-effect": "Corrupt Purge Movement Speed: -7.50%\n\nCorrupt Purge Duration: -20s\n\nVile Purge becomes Corrupt Purge every time a Generator is completed"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/23/FulliconAddon_blackIncense.png/64px-FulliconAddon_blackIncense.png?version=40fadb9421e1076e273ac058c34c93dc",
@@ -2674,7 +2672,7 @@
           "addon-description": "A dark paste made of sharp osseous shavings. The inhaling of its foul fumes sharpens the mind's eye.\nSurvivors' Auras are revealed to you for 5 seconds when they vomit.",
           "addon-image-alt": "/static/images/Addons/iconAddon_blackIncense.png",
           "addon-id": "Black-Incense-Plague",
-          "addon-effect": "Survivors' Auras\u00a0are revealed to you for 5 seconds when they vomit"
+          "addon-effect": "Survivors' Auras are revealed to you for 5 seconds when they vomit"
         }
       ]
     }
@@ -2694,7 +2692,7 @@
           "addon-description": "A very cheap piece of jewelry made from plastic. Painted to resemble precious material.\nSlightly increases movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tackyEarrings.png",
           "addon-id": "Tacky-Earrings-Shape",
-          "addon-effect": "Stalking Movement Speed (Active): 10%\n\nStalking Movement Speed (Inactive): 10%"
+          "addon-effect": "Stalking Movement Speed (Active): +10%\n\nStalking Movement Speed (Inactive): +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6a/FulliconAddon_boyfriendsMemo.png/64px-FulliconAddon_boyfriendsMemo.png?version=1da8bb4ce74d899f63fc4b3c6b4bf342",
@@ -2710,7 +2708,7 @@
           "addon-description": "A single slightly wavy blond hair.\nSlightly increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.",
           "addon-image-alt": "/static/images/Addons/iconAddon_blondeHair.png",
           "addon-id": "Blond-Hair-Shape",
-          "addon-effect": "Tier 3 Duration: 16.66%\n\nEvil Required for Tier 3: 50%"
+          "addon-effect": "Tier 3 Duration: +10s\n\nEvil Required for Tier 3: +50%"
         }
       ],
       "Uncommon": [
@@ -2728,7 +2726,7 @@
           "addon-description": "A partially faded and dried pink larkspur picked up from a gravestone.\nSlightly increases the rate at which evil is gained when stalking a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_memorialFlower.png",
           "addon-id": "Memorial-Flower-Shape",
-          "addon-effect": "Stalking Rate (Point Blank): 11%\n\nStalking Rate (Max Range): 11%"
+          "addon-effect": "Stalking Rate (Point Blank): +11%\n\nStalking Rate (Max Range): +11%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/eb/FulliconAddon_jewelry.png/64px-FulliconAddon_jewelry.png?version=003eac4e7182858dde5a3c84a50e0170",
@@ -2736,7 +2734,7 @@
           "addon-description": "A large necklace made of beads an inexpensive metals. One of Judith's favourites.\nModerately increases movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jewelry.png",
           "addon-id": "Jewelry-Shape",
-          "addon-effect": "Stalking Movement Speed (Active): 20%\n\nStalking Movement Speed (Inactive): 20%"
+          "addon-effect": "Stalking Movement Speed (Active): +20%\n\nStalking Movement Speed (Inactive): +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/FulliconAddon_hairBrush.png/64px-FulliconAddon_hairBrush.png?version=5af15c22a118deb90d2d055ac50df338",
@@ -2744,7 +2742,7 @@
           "addon-description": "A nylon bristle brush used to add body and softness to hair.\nModerately increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.",
           "addon-image-alt": "/static/images/Addons/iconAddon_hairBrush.png",
           "addon-id": "Hair-Brush-Shape",
-          "addon-effect": "Tier 3 Duration: 33.33%\n\nEvil Required for Tier 3: 50%"
+          "addon-effect": "Tier 3 Duration: +20s\n\nEvil Required for Tier 3: +50%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8e/FulliconAddon_glassFragment.png/64px-FulliconAddon_glassFragment.png?version=0e0852e64c1ea755b40cf6f568a22f6b",
@@ -2786,7 +2784,7 @@
           "addon-description": "A barren wooden box in which vanity items were once stored.\nConsiderably increases movement speed while stalking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jewelryBox.png",
           "addon-id": "Jewelry-Box-Shape",
-          "addon-effect": "Stalking Movement Speed (Active): 30%\n\nStalking Movement Speed (Inactive): 30%"
+          "addon-effect": "Stalking Movement Speed (Active): +30%\n\nStalking Movement Speed (Inactive): +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6b/FulliconAddon_jMyersMemorial.png/64px-FulliconAddon_jMyersMemorial.png?version=d6b59aa125279d8c2482a299fa21e455",
@@ -2794,7 +2792,7 @@
           "addon-description": "A glossy page ripped from the 1965 Haddonfield High School yearbook, one dedicated to the memory of Judith Myers.\nModerately increases the rate at which evil is gained when stalking a Survivor.",
           "addon-image-alt": "/static/images/Addons/iconAddon_jMyersMemorial.png",
           "addon-id": "J-Myers-Memorial-Shape",
-          "addon-effect": "Stalking Rate (Point Blank): 25%\n\nStalking Rate (Max Range): 25%"
+          "addon-effect": "Stalking Rate (Point Blank): +25%\n\nStalking Rate (Max Range): +25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/50/FulliconAddon_hairBow.png/64px-FulliconAddon_hairBow.png?version=fad6441a4fd7a31c3adb361af890094a",
@@ -2802,14 +2800,14 @@
           "addon-description": "A blue tartan ribbon used to tie hair.\nConsiderably increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.",
           "addon-image-alt": "/static/images/Addons/iconAddon_hairBow.png",
           "addon-id": "Hair-Bow-Shape",
-          "addon-effect": "Tier 3 Duration: 50%\n\nEvil Required for Tier 3: 50%"
+          "addon-effect": "Tier 3 Duration: +30s\n\nEvil Required for Tier 3: 50%"
         }
       ],
       "Very Rare": [
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/db/FulliconAddon_vanityMirror.png/64px-FulliconAddon_vanityMirror.png?version=eee4decb39f7e8a01e246b7b4e025bc5",
           "addon-name": "Vanity Mirror",
-          "addon-description": "A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\nEvil Within II reveals Survivors' Auras when stalking within a range of 16 metres.\nEvil Within cannot progress past TIER II.\nSlightly reduces movement speed.\nFor each Hit Score Event, grant 100\u00a0% Bloodpoints for the Hit Score Event in the Brutality Category and an additional 150\u00a0% Bloodpoints in the Deviousness Category.",
+          "addon-description": "A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\nEvil Within II reveals Survivors' Auras when stalking within a range of 16 metres.\nEvil Within cannot progress past TIER II.\nSlightly reduces movement speed.\nFor each Hit Score Event, grant 100 % Bloodpoints for the Hit Score Event in the Brutality Category and an additional 150 % Bloodpoints in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_vanityMirror.png",
           "addon-id": "Vanity-Mirror-Shape",
           "addon-effect": "When stalking, Evil Within II reveals the Aura of Survivors within a range of 16 metres. Evil Within cannot progress past TIER II. Each Hit Score Event grants 100% Bonus Bloodpoints in the Brutality Category and additional 150% Bonus Bloodpoints in the Deviousness Category. Slightly(7%) reduces The Shape's Movement speed"
@@ -2820,15 +2818,15 @@
           "addon-description": "A fist-sized granite piece taken from a broken tombstone.\nKill healthy or injured Survivors with Evil Within III.\nDisables the ability to stalk with Evil Within III.\nKilling a Survivor considerably drains the power of Evil Within.\nConsiderably increases the amount of evil required to reach Evil Within III.\nNote: Tombstone Piece does not stack with Fragrant Tuft of Hair.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tombstonePiece.png",
           "addon-id": "Tombstone-Piece-Shape",
-          "addon-effect": "Evil Required for Tier 3: 150%\n\nKill healthy or injured Survivors with Evil Within III. Disables the ability to stalk with Evil Within III. Considerably drains the Power Gauge after killing a Survivor"
+          "addon-effect": "Evil Required for Tier 3: +150%\n\nKill healthy or injured Survivors with Evil Within III. Disables the ability to stalk with Evil Within III. Considerably drains the Power Gauge after killing a Survivor"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b5/FulliconAddon_scratchedMirror.png/64px-FulliconAddon_scratchedMirror.png?version=13f7f43f49334e39ba014b7c3ac80528",
           "addon-name": "Scratched Mirror",
-          "addon-description": "A standing portable vanity mirror which has been violently scratched with a sharp metallic object.\nEvil Within I reveals Survivors' Auras when stalking within a range of 32 metres.\nEvil Within cannot progress past TIER I.\nFor each Hit Score Event, grant 100\u00a0% Bloodpoints for the Hit Score Event in the Brutality Category and an additional 200\u00a0% Bloodpoints in the Deviousness Category.",
+          "addon-description": "A standing portable vanity mirror which has been violently scratched with a sharp metallic object.\nEvil Within I reveals Survivors' Auras when stalking within a range of 32 metres.\nEvil Within cannot progress past Tier I.\nFor each Hit Score Event, grant 100 % Bloodpoints for the Hit Score Event in the Brutality Category and an additional 200 % Bloodpoints in the Deviousness Category.",
           "addon-image-alt": "/static/images/Addons/iconAddon_scratchedMirror.png",
           "addon-id": "Scratched-Mirror-Shape",
-          "addon-effect": "When stalking, Evil Within I reveals the Aura of Survivors within a range of 32 metres. Evil Within cannot progress past TIER I. Each Hit Score Event grants 100% Bonus Bloodpoints in the Brutality Category and additional 200% Bonus Bloodpoints in the Deviousness Category"
+          "addon-effect": "When stalking, Evil Within I reveals the Aura of Survivors within a range of 32 metres. Evil Within cannot progress past Tier I. Each Hit Score Event grants 100% Bonus Bloodpoints in the Brutality Category and additional 200% Bonus Bloodpoints in the Deviousness Category"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a4/FulliconAddon_lockOfHair.png/64px-FulliconAddon_lockOfHair.png?version=37fb5b890a8f530f2ec858b6cb0f023b",
@@ -2836,7 +2834,7 @@
           "addon-description": "A cut lock of blond hair bunched with a black elastic.\nTremendously increases the duration of Evil Within III.\nModerately increases the amount of evil required to reach Evil Within III.",
           "addon-image-alt": "/static/images/Addons/iconAddon_lockOfHair.png",
           "addon-id": "Lock-Of-Hair-Shape",
-          "addon-effect": "Tier 3 Duration: 66.67%\n\nEvil Required for Tier 3: 100%"
+          "addon-effect": "Tier 3 Duration: +40s\n\nEvil Required for Tier 3: +100%"
         }
       ],
       "Ultra Rare": [
@@ -2846,7 +2844,7 @@
           "addon-description": "A large and heavy granite tombstone stolen from Mt. Sinclair cemetery, belonging to Judith Myers.\nUnlocks the ability to kill healthy or injured Survivors with Evil Within III.\nDisables the ability to stalk with Evil Within III.\nTremendously increases the amount of evil required to reach Evil Within III.\nModerately decreases movement speed.\n\"Here lies our beloved daughter.\"",
           "addon-image-alt": "/static/images/Addons/iconAddon_judithsTombstone.png",
           "addon-id": "Judiths-Tombstone-Shape",
-          "addon-effect": "Evil Required for Tier 3: 200%\n\nKill healthy or injured Survivors with Evil Within III. Disables the ability to stalk with Evil Within III. Moderately(9%) reduces The Shape's Movement speed"
+          "addon-effect": "Evil Required for Tier 3: +200%\n\nKill healthy or injured Survivors with Evil Within III. Disables the ability to stalk with Evil Within III. Moderately(9%) reduces The Shape's Movement speed"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/37/FulliconAddon_fragrantTuftOfHair.png/64px-FulliconAddon_fragrantTuftOfHair.png?version=c301aef398a84db46abd08aabf07b72a",
@@ -2854,7 +2852,7 @@
           "addon-description": "A tuft of blond hair which was forcefully torn off someone's scalp. Releases hints of feminine floral fragrance.\nUnlimited duration of Evil Within III.\nTremendously increases the amount of evil required to reach Evil Within III.",
           "addon-image-alt": "/static/images/Addons/iconAddon_tuftOfHair.png",
           "addon-id": "Fragrant-Tuft-Of-Hair-Shape",
-          "addon-effect": "Evil Required for Tier 3: 200%\n\nUnlimited duration of Evil Within III"
+          "addon-effect": "Evil Required for Tier 3: +200%\n\nUnlimited duration of Evil Within III"
         }
       ]
     }
@@ -2873,7 +2871,8 @@
           "addon-name": "Z\u014dri",
           "addon-description": "A comfortable pair of flat sandals that can easily be slipped on and off.\nSlightly increases Yamaoka's Haunting movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_zori.png",
-          "addon-id": "Z\u014dri-Spirit"
+          "addon-id": "Z\u014dri-Spirit",
+		  "addon-effect": "Haunting Movement Speed: +5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8a/FulliconAddon_shiawaseAmulet.png/64px-FulliconAddon_shiawaseAmulet.png?version=c5bd805bf030d13e2b95a3ddec9b0d26",
@@ -2881,7 +2880,7 @@
           "addon-description": "A Talisman that makes one happy and enthusiastic.\nSlightly increases Yamaoka's Haunting duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_ShiawaseAmulet.png",
           "addon-id": "Shiawase-Amulet-Spirit",
-          "addon-effect": "Haunting Duration: 10%"
+          "addon-effect": "Haunting Duration: +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/22/FulliconAddon_origamiCrane.png/64px-FulliconAddon_origamiCrane.png?version=e454bfe3fbb87d1b1e2967df91f5039d",
@@ -2923,7 +2922,7 @@
           "addon-description": "A muddy sport cap with a High School logo. Identified with a sewn name tag to \"Rin\".\nModerately increases Yamaoka's Haunting movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_muddySportCap.png",
           "addon-id": "Muddy-Sports-Day-Cap-Spirit",
-          "addon-effect": "Haunting Movement Speed: 10%"
+          "addon-effect": "Haunting Movement Speed: +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fb/FulliconAddon_kaiunTalisman.png/64px-FulliconAddon_kaiunTalisman.png?version=5d16bb317fc0be7668d76e4bd8caf4ff",
@@ -2931,7 +2930,7 @@
           "addon-description": "A Talisman to get luck on your side.\nModerately increases Yamaoka's Haunting duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_kaiunTalisman.png",
           "addon-id": "Kaiun-Talisman-Spirit",
-          "addon-effect": "Haunting Duration: 20%"
+          "addon-effect": "Haunting Duration: +20%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/77/FulliconAddon_juniperBonsai.png/64px-FulliconAddon_juniperBonsai.png?version=08f18443233580173bdb6cdef9411795",
@@ -2939,7 +2938,7 @@
           "addon-description": "Dark blue-green foliage bonsai tree. Once the symbol of Yamaoka family tradition.\nSlightly increases the frequency of the passive phasing.",
           "addon-image-alt": "/static/images/Addons/iconAddon_juniperBonzai.png",
           "addon-id": "Juniper-Bonsai-Spirit",
-          "addon-effect": "Reduces the Passive Phase Walk cool-down by\u00a01 second (0.1 - 4 seconds)"
+          "addon-effect": "Reduces the Passive Phase Walk cool-down by 1 second (0.1 - 4 seconds)"
         }
       ],
       "Rare": [
@@ -2957,7 +2956,7 @@
           "addon-description": "A Talisman that brings swift success.\nConsiderably increases Yamaoka's Haunting duration.",
           "addon-image-alt": "/static/images/Addons/iconAddon_katsumoriTalisman.png",
           "addon-id": "Katsumori-Talisman-Spirit",
-          "addon-effect": "Haunting Duration: 30%"
+          "addon-effect": "Haunting Duration: +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ed/FulliconAddon_katanaTsuba.png/64px-FulliconAddon_katanaTsuba.png?version=ea3b5b41f6cd8d9d471e20d975ecd9b7",
@@ -2965,7 +2964,7 @@
           "addon-description": "The handguard of an ancestral blade. Crafted for the Yamaoka family.\nSlightly increases Yamaoka's Haunting reappearance duration.\nSlightly increases Yamaoka's Haunting reappearance movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_katanaTsuba.png",
           "addon-id": "Katana-Tsuba-Spirit",
-          "addon-effect": "Reappearance Duration: 40%\n\nReappearance Speed: 5%"
+          "addon-effect": "Reappearance Duration: +0.2s\n\nReappearance Speed: +5%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f2/FulliconAddon_dirtyUwabaki.png/64px-FulliconAddon_dirtyUwabaki.png?version=5e2b85a8cb764159aefdeb5d3e1473cd",
@@ -2973,7 +2972,7 @@
           "addon-description": "A handy pair of indoor shoes.\nConsiderably increases Yamaoka's Haunting movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_dirtyUwabaki.png",
           "addon-id": "Dirty-Uwabaki-Spirit",
-          "addon-effect": "Haunting Movement Speed: 15%"
+          "addon-effect": "Haunting Movement Speed: +15%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/85/FulliconAddon_bloodyHairBrooch.png/64px-FulliconAddon_bloodyHairBrooch.png?version=71f0eddb42159664e600f3c788166d98",
@@ -2991,7 +2990,7 @@
           "addon-description": "A powerful Talisman to protect your endeavours from being hindered by suspicious circumstances.\nModerately increases Yamaoka's Haunting duration.\nModerately increases Yamaoka's Haunting movement speed.\nModerately increases Yamaoka's Haunting power recovery.",
           "addon-image-alt": "/static/images/Addons/iconAddon_yakuyokeAmulet.png",
           "addon-id": "Yakuyoke-Amulet-Spirit",
-          "addon-effect": "Haunting Movement Speed: -15%\n\nHaunting Duration: 70%"
+          "addon-effect": "Haunting Movement Speed: -15%\n\nHaunting Duration: +70%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/db/FulliconAddon_wakizashiSaya.png/64px-FulliconAddon_wakizashiSaya.png?version=3250e0785abdd0eaa1160bf6d0a17d9f",
@@ -2999,7 +2998,7 @@
           "addon-description": "The scabbard of an ancestral blade. Once crafted for the Yamaoka family.\nModerately increases Yamaoka's Haunting reappearance duration.\nModerately increases Yamaoka's Haunting reappearance movement speed.",
           "addon-image-alt": "/static/images/Addons/iconAddon_wakizashiSaya.png",
           "addon-id": "Wakizashi-Saya-Spirit",
-          "addon-effect": "Reappearance Duration: 60%\n\nReappearance Speed: 10%"
+          "addon-effect": "Reappearance Duration: +0.3s\n\nReappearance Speed: +10%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/84/FulliconAddon_prayerBeadsBracelet.png/64px-FulliconAddon_prayerBeadsBracelet.png?version=04838d284ac9598e1b02640c2bd8c35c",
@@ -3007,7 +3006,7 @@
           "addon-description": "A powerful bracelet that reads a sacred mantra.\nRemoves phasing sound emission while using Yamaoka's Haunting.",
           "addon-image-alt": "/static/images/Addons/iconAddon_prayersBeads.png",
           "addon-id": "Prayer-Beads-Bracelet-Spirit",
-          "addon-effect": "The phasing sound emission is heard by all Survivors outside of the\u00a0Terror Radius"
+          "addon-effect": "The phasing sound emission is heard by all Survivors outside of the Terror Radius"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/69/FulliconAddon_driedCherryBlossom.png/64px-FulliconAddon_driedCherryBlossom.png?version=66cc0b0807c643fe4112a31abe89e144",
@@ -3015,7 +3014,7 @@
           "addon-description": "A crumbling, dried cherry flower. Once the symbol of mortality.\nSlightly increases the passive phasing duration.\nSlightly increases the frequency of passive phasing.",
           "addon-image-alt": "/static/images/Addons/iconAddon_driedCherryBlossom.png",
           "addon-id": "Dried-Cherry-Blossom-Spirit",
-          "addon-effect": "Passive Phasing Duration: 50%\n\nReduces the Passive Phase Walk cool-down by\u00a01 second (0.1 - 4 seconds)"
+          "addon-effect": "Passive Phasing Duration: 50%\n\nReduces the Passive Phase Walk cool-down by 1 second (0.1 - 4 seconds)"
         }
       ],
       "Ultra Rare": [
@@ -3025,7 +3024,7 @@
           "addon-description": "A silver ring engraved with \"for my precious daughter\".\nTremendously increases Yamaoka's Haunting movement speed.\nScratch Marks no longer visible while using Yamaoka's Haunting.",
           "addon-image-alt": "/static/images/Addons/iconAddon_motherDaughterRing.png",
           "addon-id": "Mother-Daughter-Ring-Spirit",
-          "addon-effect": "Haunting Movement Speed: 40%\n\nScratch Marks\u00a0are no longer visible while using\u00a0Yamaoka's Haunting"
+          "addon-effect": "Haunting Movement Speed: +40%\n\nScratch Marks are no longer visible while using Yamaoka's Haunting"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/42/FulliconAddon_fathersGlasses.png/64px-FulliconAddon_fathersGlasses.png?version=437aabd11f1e2b85c7dc2a8c3df21718",
@@ -3033,7 +3032,7 @@
           "addon-description": "A pair of dad glasses that belonged to an overworked salary man.\nSurvivor blood trails are visible while using Yamaoka's Haunting.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fathersGlasses.png",
           "addon-id": "Fathers-Glasses-Spirit",
-          "addon-effect": "Survivors' Blood Trails are\u00a0visible\u00a0while using Yamaoka's Haunting"
+          "addon-effect": "Survivors' Blood Trails are visible while using Yamaoka's Haunting"
         }
       ]
     }
@@ -3053,7 +3052,7 @@
           "addon-description": "A crude leather sack suitable for foraging.\nStart with 1 extra Bear Trap.\nAllows the transportation of 1 extra Bear Trap.",
           "addon-image-alt": "/static/images/Addons/iconAddon_trapperSack.png",
           "addon-id": "Trapper-Sack-Trapper",
-          "addon-effect": "Number of Traps (Carry): 100%"
+          "addon-effect": "Number of Traps (Carry): +1\n\nStart with 1 extra Bear Trap"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/51/FulliconAddon_trapperGloves.png/64px-FulliconAddon_trapperGloves.png?version=bdc0b4e8231215bc4d23a0bf13ead63f",
@@ -3069,12 +3068,12 @@
           "addon-description": "A large and heavy coil spring which adds a good amount of strength to the Bear Trap's hold.\nSlightly increases the Bear Trap sabotage time.\nSlightly increases the Bear Trap disarm time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_coilSpring.png",
           "addon-id": "Strong-Coil-Spring-Trapper",
-          "addon-effect": "Disarm Time: 20%\n\nSabotage Time: 15%"
+          "addon-effect": "Disarm Time: +20%\n\nSabotage Time: +15%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/10/FulliconAddon_paddedJaws.png/64px-FulliconAddon_paddedJaws.png?version=c4b9ac19825a87c1418a746bca390a94",
           "addon-name": "Padded Jaws",
-          "addon-description": "These padded jaws are meant to restrain, not to wound.\nBear Traps do not inflict damage to trapped victims.\nPoints awarded for trapping Survivors are increased by 100\u00a0%.",
+          "addon-description": "These padded jaws are meant to restrain, not to wound.\nBear Traps do not inflict damage to trapped victims.\nPoints awarded for trapping Survivors are increased by 100 %.",
           "addon-image-alt": "/static/images/Addons/iconAddon_paddedJaws.png",
           "addon-id": "Padded-Jaws-Trapper",
           "addon-effect": "Points awarded increased by 100% for trapping Survivors"
@@ -3087,7 +3086,7 @@
           "addon-description": "A cured leather waist bag. Large and sturdy to transport hunting equipment.\nStart with 1 extra Bear Trap.\nAllows the transportation of 2 extra Bear Traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_trapperBag.png",
           "addon-id": "Trapper-Bag-Trapper",
-          "addon-effect": "Number of Traps (Carry): 200%"
+          "addon-effect": "Number of Traps (Carry): +2\n\nStart with 1 extra Bear Trap"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a6/FulliconAddon_trapSetters.png/64px-FulliconAddon_trapSetters.png?version=31aeea0456abd3cf32544a0285968855",
@@ -3119,7 +3118,7 @@
           "addon-description": "A replacement kit for Bear Traps which changes the usual dual spring system to 4 coil springs, adding a great amount of strength to a Bear Trap's hold.\nModerately increases the Bear Trap sabotage time.\nModerately increases the Bear Trap disarm time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_coilsKit4.png",
           "addon-id": "4-Coil-Spring-Kit-Trapper",
-          "addon-effect": "Disarm Time: 25%\n\nSabotage Time: 20%"
+          "addon-effect": "Disarm Time: +25%\n\nSabotage Time: +20%"
         }
       ],
       "Rare": [
@@ -3145,7 +3144,7 @@
           "addon-description": "Specialised tools designed to quickly and effortlessly set Bear Traps.\nConsiderably increases the Bear Trap setting speed.\nModerately increases the rescue and escape times from Bear Traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_settingTools.png",
           "addon-id": "Setting-Tools-Trapper",
-          "addon-effect": "Setting Speed: -40%\n\nRescue Time: 13.30%\n\nEscape Time: 13.30%"
+          "addon-effect": "Setting Speed: -40%\n\nRescue Time: +13.30%\n\nEscape Time: +13.30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e2/FulliconAddon_secondaryCoil.png/64px-FulliconAddon_secondaryCoil.png?version=0ce9f77a4adc821bf039ec67c1a7d74c",
@@ -3153,7 +3152,7 @@
           "addon-description": "A secondary coil which keeps a Bear Trap functional in times when the primary coil becomes unusable.\nConsiderably increases the Bear Trap sabotage time.\nConsiderably increases the Bear Trap disarm time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_secondaryCoil.png",
           "addon-id": "Secondary-Coil-Trapper",
-          "addon-effect": "Disarm Time: 30%\n\nSabotage Time: 25%"
+          "addon-effect": "Disarm Time: +30%\n\nSabotage Time: +25%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9f/FulliconAddon_rustedJaws.png/64px-FulliconAddon_rustedJaws.png?version=cfd118b90032cc7805ab3c0130af24a4",
@@ -3171,7 +3170,7 @@
           "addon-description": "Skin pieces of all sorts crudely stitched together making for a very large bag.\nStart with 2 extra Bear Traps.\nAllows the transportation of 2 extra Bear Traps.",
           "addon-image-alt": "/static/images/Addons/iconAddon_stichedBag.png",
           "addon-id": "Stitched-Bag-Trapper",
-          "addon-effect": "Number of Traps (Carry): 200%"
+          "addon-effect": "Number of Traps (Carry): +2\n\nStart with 2 extra Bear Trap"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1e/FulliconAddon_oilyCoil.png/64px-FulliconAddon_oilyCoil.png?version=d1dd0e67607949c27b11442e702c29f6",
@@ -3179,7 +3178,7 @@
           "addon-description": "A clear oil that makes handling the Trap's spring more hazardous.\nTremendously increases the Bear Trap sabotage time.\nTremendously increases the Bear Trap disarm time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_oilyCoil.png",
           "addon-id": "Oily-Coil-Trapper",
-          "addon-effect": "Disarm Time: 35%\n\nSabotage Time: 30%"
+          "addon-effect": "Disarm Time: +35%\n\nSabotage Time: +30%"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/2d/FulliconAddon_honingStone.png/64px-FulliconAddon_honingStone.png?version=59556e39c5d5dc766d047004b11320e3",
@@ -3195,7 +3194,7 @@
           "addon-description": "A specialised set of tools used to fasten Bear Traps to ensure their effectiveness.\nTremendously increases the Bear Trap setting speed.\nConsiderably increases the rescue and escape time from Bear Traps.\nModerately reduces the chance to escape a Bear Trap.",
           "addon-image-alt": "/static/images/Addons/iconAddon_fasteningTools.png",
           "addon-id": "Fastening-Tools-Trapper",
-          "addon-effect": "Setting Speed: -50%\n\nRescue Time: 16.60%\n\nEscape Time: 16.60%\n\nEscape Chance: -5%"
+          "addon-effect": "Setting Speed: -50%\n\nRescue Time: +16.60%\n\nEscape Time: +16.60%\n\nEscape Chance: -5%"
         }
       ],
       "Ultra Rare": [
@@ -3213,7 +3212,7 @@
           "addon-description": "Part sticky, part slippery, this grim liquid makes handling the Trap's spring more dangerous.\nWhen a Trap is sabotaged or disarmed by a Healthy Survivor, the bloody coils exact their price and that Survivor becomes Injured.\nSlightly increases the Bear Trap sabotage time.\nSlightly increases the Bear Trap disarm time.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodyCoil.png",
           "addon-id": "Bloody-Coil-Trapper",
-          "addon-effect": "Disarm Time: 20%\n\nSabotage Time: 15%\n\nWhen a Trap is sabotaged or disarmed by a Healthy Survivor, the bloody coils exact their price and that Survivor becomes Injured"
+          "addon-effect": "Disarm Time: +20%\n\nSabotage Time: +15%\n\nWhen a Trap is sabotaged or disarmed by a Healthy Survivor, the bloody coils exact their price and that Survivor becomes Injured"
         }
       ]
     }
@@ -3254,10 +3253,10 @@
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cc/FulliconAddon_theBeast-Soot.png/64px-FulliconAddon_theBeast-Soot.png?version=3a767f9c81880f0bfdcef7a26c9a1368",
           "addon-name": "\"The Beast\" - Soot",
-          "addon-description": "The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\nThe Wraith's Terror Radius is no longer suppressed while cloaked.\nBloodpoints granted for Stalking and Surprise Attacks are increased by 100\u00a0%.",
+          "addon-description": "The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell.\nThe Wraith's Terror Radius is no longer suppressed while cloaked.\nBloodpoints granted for Stalking and Surprise Attacks are increased by 100 %.",
           "addon-image-alt": "/static/images/Addons/iconAddon_sootTheBeast.png",
           "addon-id": "The-Beast-Soot-Wraith",
-          "addon-effect": "The Wraith's Terror Radius is no longer suppressed while cloaked. Bloodpoints granted for Stalking and Surprise Attacks are increased by 100 %"
+          "addon-effect": "The Wraith's Terror Radius is no longer suppressed while cloaked. Bloodpoints granted for Stalking and Surprise Attacks are increased by 100%"
         }
       ],
       "Uncommon": [
@@ -3283,7 +3282,7 @@
           "addon-description": "The Ohuwe-Onmnea symbol, representing a howling storm, is finger-drawn in mud on the body of the Bell.\nModerately increases The Wraith's movement speed while cloaked.\nSlightly decreases The Wraith's movement speed while uncloaking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_mudWindstorm.png",
           "addon-id": "Windstorm-Mud-Wraith",
-          "addon-effect": "Cloaked Movement Speed: 12%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
+          "addon-effect": "Cloaked Movement Speed: +12%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/26/FulliconAddon_swiftHunt-Mud.png/64px-FulliconAddon_swiftHunt-Mud.png?version=cb28daa6f65a2d340d2b749bde11692e",
@@ -3309,7 +3308,7 @@
           "addon-description": "The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in white ink on the body of the Bell.\nConsiderably increases The Wraith's movement speed while cloaked.\nSlightly decreases The Wraith's movement speed while uncloaking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_whiteWindstorm.png",
           "addon-id": "Windstorm-White-Wraith",
-          "addon-effect": "Cloaked Movement Speed: 16%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
+          "addon-effect": "Cloaked Movement Speed: +16%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/89/FulliconAddon_swiftHunt-White.png/64px-FulliconAddon_swiftHunt-White.png?version=8d5d6365a4141ea2d95b27be712cd0a1",
@@ -3351,7 +3350,7 @@
           "addon-description": "The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in blood on the body of the Bell.\nTremendously increases The Wraith's movement speed while cloaked.\nSlightly decreases The Wraith's movement speed while uncloaking.",
           "addon-image-alt": "/static/images/Addons/iconAddon_bloodWindstorm.png",
           "addon-id": "Windstorm-Blood-Wraith",
-          "addon-effect": "Cloaked Movement Speed: 20%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
+          "addon-effect": "Cloaked Movement Speed: +20%\n\nSlightly decreases The Wraith's movement speed while uncloaking"
         },
         {
           "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a7/FulliconAddon_swiftHunt-Blood.png/64px-FulliconAddon_swiftHunt-Blood.png?version=6c292086a254167df1c5935f443fbe9e",

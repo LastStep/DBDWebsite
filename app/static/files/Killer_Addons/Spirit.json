@@ -2,7 +2,7 @@
   "Haunting Movement Speed": {
     "Base-Spirit": "176%",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": "5%",
+    "Z\u014dri-Spirit": "5%",
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -26,7 +26,7 @@
   "Haunting Duration": {
     "Base-Spirit": "5",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": "10%",
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -50,7 +50,7 @@
   "Recharge Time": {
     "Base-Spirit": "15",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": "-8%",
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -74,7 +74,7 @@
   "Activation Time": {
     "Base-Spirit": 1.5,
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": "-15%",
@@ -98,7 +98,7 @@
   "Reappearance Duration": {
     "Base-Spirit": "0.5",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -122,7 +122,7 @@
   "Reappearance Speed": {
     "Base-Spirit": "176%",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -146,7 +146,7 @@
   "Passive Phasing Duration": {
     "Base-Spirit": "0.5",
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
@@ -170,7 +170,7 @@
   "Additional Effects": {
     "Base-Spirit": null,
     "Static-Spirit": null,
-    "ZÅ\u008dri-Spirit": null,
+    "Z\u014dri-Spirit": null,
     "Shiawase-Amulet-Spirit": null,
     "Origami-Crane-Spirit": null,
     "Gifted-Bamboo-Comb-Spirit": null,
