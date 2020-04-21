@@ -104,7 +104,7 @@
 					<div class="flex-container">
 						{% for addon in addons %}
 						<div class="container-addons">
-							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} draggable="true"
+							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} draggable="true"
 								ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
 							<figcaption>
 								<span>{{ addon['addon-name'] }}</span>
