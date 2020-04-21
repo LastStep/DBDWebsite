@@ -25,13 +25,9 @@
 
 .addonsSlots {
 	display: flex;
-	/* flex-wrap: wrap; */
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	/* margin: 50px; */
-	/* margin-left: 50px;
-	margin-right: -120px; */
 }
 
 .mainItemSlots {
@@ -48,13 +44,26 @@
 	align-items: center;
 }
 
-.perkSlot,
-.addonSlot {
+.perkSlot, .addonSlot {
 	float: left;
 	width: 100px;
 	height: 100px;
 	margin: 10px;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
+	padding: top right bottom left;
+	border: 1px solid white;
+	position: relative;
+	border-radius: 25px;
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+	align-items: center;
+}
+
+.itemSlot {
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 25px;
+	margin-bottom: 50px;
 	padding: top right bottom left;
 	border: 1px solid white;
 	position: relative;
@@ -71,6 +80,14 @@
 	height: 100px;
 }
 
+.itemSlot img {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	width: 140px;
+	height: 140px;
+}
+
 .perkSlot button {
 	background: url('/static/images/clearbtn.png');
 	cursor: pointer;
@@ -81,6 +98,22 @@
 	background: url('/static/images/clearbtn.png');
 	cursor: pointer;
 	border: none;
+}
+
+.moveButton {
+	margin-bottom: 20px;
+} 
+
+.moveButton button {
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  outline: none;
 }
 
 #itemSlotMain {
@@ -135,7 +168,7 @@
 	position: absolute;
 	z-index: 2;
 	top: -12px;
-	left: 140px;
+	left: 130px;
 }
 
 /* Tabs */
@@ -218,6 +251,10 @@
 	transition: transform .5s ease;
 	height: 80px;
 	width: 80px;
+}
+
+.container-addons:hover img, .container-items:hover img {
+	transform: scale(1.6);
 }
 
 .container-stats {
@@ -414,5 +451,15 @@
 
 	100% {
 		opacity: 1;
+	}
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.6);
 	}
 }
