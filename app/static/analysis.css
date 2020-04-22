@@ -102,7 +102,7 @@
 
 .moveButton {
 	margin-bottom: 20px;
-} 
+}
 
 .moveButton button {
   background-color: #000000;
@@ -139,16 +139,53 @@
 }
 
 .tempSlot {
-	opacity: 0;
+	visibility: hidden;
 	max-height: 0;
-	transition: max-height 1s, opacity 1s;
+	transition: max-height 1s, visibility 1s;
+}
+
+/*.tempSlot > .addonSlot{
+	height: 0;
+	width: 0;
+	transition: height .5s, width .5s, opacity 1s;
+}
+
+.tempSlot > .itemSlot{
+	height: 0;
+	width: 0;
+	transition: height .5s, width .5s, opacity 1s;
+}*/
+
+.tempSlot * {
+	transition: visibility .5s, opacity 1s ease;
+	visibility: hidden;
+	opacity: 0;
 }
 
 .fade {
-	opacity: 1;
+	visibility: visible;
 	max-height: 150px;
-	/* max-width: 180px; */
 }
+
+.fade * {
+	visibility: visible;
+	opacity: 1;
+}
+
+/*.fade .addonSlot {
+	height: 100px;
+	width: 100px;
+}
+
+.fade .itemSlot {
+	height: 140px;
+	width: 140px;
+}
+
+.fade > img {
+	height: 20px;
+	width: 20px;
+}*/
 
 .addon-image {
 	position: relative;
