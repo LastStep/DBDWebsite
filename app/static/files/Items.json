@@ -1,457 +1,645 @@
 {
-    "Flashlight": {
-        "image": "/static/images/Items/iconItems_flashlight.png",
-        "description": "The Flashlight is an Item that is used to blind the Killer. If they are carrying a Survivor on their shoulder, getting blinded will make them drop that Survivor and be stunned for a few seconds.",
-        "versions": {
-            "Uncommon": [{
-                "name": "Flashlight",
-                "description": "A standard Flashlight. Can be used to light your way in the darkness. 'Most of the battery life was wastefully used by the previous owner.'",
-                "image-alt": "/static/images/Items-alt/iconItems_flashlight.png",
-                "image": "/static/images/Items/iconItems_flashlight.png"
-            }],
-            "Rare": [{
-                "name": "Sport Flashlight",
-                "description": "A very portable Flashlight with a good grip. Its efficient technology produces a powerful light while consuming less power.",
-                "image-alt": "/static/images/Items-alt/iconItems_flashlightSport.png",
-                "image": "/static/images/Items/iconItems_flashlightSport.png"
-            }],
-            "Very Rare": [{
-                "name": "Utility Flashlight",
-                "description": "A sturdy but heavy Flashlight that packs a lot of power.",
-                "image-alt": "/static/images/Items-alt/iconItems_flashlightUtility.png",
-                "image": "/static/images/Items/iconItems_flashlightUtility.png"
-            }],
-            "Event": [{
-                "name": "Will O' Wisp",
-                "description": "A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam. 'Happy Trick or Treating!'",
-                "image-alt": "/static/images/Items-alt/iconItems_flashlightHalloween.png",
-                "image": "/static/images/Items/iconItems_flashlightHalloween.png"
-            }]
-        },
-        "addons": {
-            "Common": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9b/FulliconAddon_wideLens.png/64px-FulliconAddon_wideLens.png?version=f1e184dfa077279c6816f6ddbcf3efdd",
-                "addon-name": "Wide Lens",
-                "addon-description": "A thing wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.\nModerately increases the Flashlight Beam's width.\nSlightly decreases the Flashlight Beam's range.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_wideLens.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/bc/FulliconAddon_powerBulb.png/64px-FulliconAddon_powerBulb.png?version=ce8062f1f5e7f247b0be5f2843d0653b",
-                "addon-name": "Power Bulb",
-                "addon-description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\nSlightly increases the Flashlight Beam's brightness.\nSlightly increases the Blindness duration.\n\"Even the most powerful light cannot pierce through the Black Fog's darkness.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_powerBulb.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0c/FulliconAddon_leatherGrip.png/64px-FulliconAddon_leatherGrip.png?version=49f41cf0c979ea1705b4c812cdd197b4",
-                "addon-name": "Leather Grip",
-                "addon-description": "A leather strip wrapped around the Flashlight for more grip.\nSlightly increases the Flashlight Beam's accuracy.\n\"Too many have fallen due to sweaty hands.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_leatherGrip.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/22/FulliconAddon_battery.png/64px-FulliconAddon_battery.png?version=1dd446e51155b78f6d4d51ee57ebce66",
-                "addon-name": "Battery",
-                "addon-description": "A standard battery of unknown brand.\nAdds 2 seconds of use to a standard Flashlight.\n\"Another nearly empty battery.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_battery.jpg"
-            }],
-            "Uncommon": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/57/FulliconAddon_tirOptic.png/64px-FulliconAddon_tirOptic.png?version=dd4df970e479a82cbb16640e173924d5",
-                "addon-name": "TIR Optic",
-                "addon-description": "A lens and reflector combo which can magnify a Flashlight's beam.\nModerately increases the Flashlight Beam's brightness.\nModerately increases the Blindness duration.\n\"Let the light burn them out of their dark shroud.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_tirOptic.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/75/FulliconAddon_rubberGrip.png/64px-FulliconAddon_rubberGrip.png?version=aa9c1432acbdf0db1c82eacae47cd6ca",
-                "addon-name": "Rubber Grip",
-                "addon-description": "A rubber grip specifically fitting Flashlights for more grip.\nModerately increases the Flashlight Beam's accuracy.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_rubberGrip.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1c/FulliconAddon_lowAmpFilament.png/64px-FulliconAddon_lowAmpFilament.png?version=e551910e697b901fecf6049d7aedb79d",
-                "addon-name": "Low Amp Filament",
-                "addon-description": "A filament bulb designed to extend a Flashlight battery's life.\nModerately decreases the Flashlight's Battery Consumption rate.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_threadedFilament.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ad/FulliconAddon_heavyDutyBattery.png/64px-FulliconAddon_heavyDutyBattery.png?version=731a88a1111acab4c8412907884b9d64",
-                "addon-name": "Heavy Duty Battery",
-                "addon-description": "A battery marked as \"industrial strength\".\nAdds 4 seconds of use to a standard Flashlight.\n\"A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_heavyDutyBattery.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_focusLens.png/64px-FulliconAddon_focusLens.png?version=6ffd402d2ac0aa5fce5a2917b7c62bb1",
-                "addon-name": "Focus Lens",
-                "addon-description": "A thick glass lens that focuses the Flashlight beam to increase its intensity.\nSlightly increases the Flashlight Beam's range.\nSlightly increases the Flashlight Beam's brightness.\nSlightly increases the Blindness duration.\nSlightly decreases the Flashlight Beam's width.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_focusLens.jpg"
-            }],
-            "Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_longLifeBattery.png/64px-FulliconAddon_longLifeBattery.png?version=8e000cfa3a14837bb3df7e4601a9435f",
-                "addon-name": "Long Life Battery",
-                "addon-description": "A recent model of battery that lasts longer.\nAdds 6 seconds of use to a standard Flashlight.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_longLifeBattery.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/09/FulliconAddon_intenseHalogen.png/64px-FulliconAddon_intenseHalogen.png?version=78a3fa8887c9478fe641947923f5e2bb",
-                "addon-name": "Intense Halogen",
-                "addon-description": "A chemical bulb that generates an intensely clear light.\nConsiderably increases the Flashlight Beam's brightness.\nConsiderably increases the Blindness duration.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_intenseHalogen.jpg"
-            }],
-            "Very Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_high-EndSapphireLens.png/64px-FulliconAddon_high-EndSapphireLens.png?version=dba0ff53d7a24191d9ea6851a244621d",
-                "addon-name": "High-End Sapphire Lens",
-                "addon-description": "A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.\nSlightly increases the Flashlight Beam's range.\nModerately increases the Flashlight Beam's width.\nModerately increases the Flashlight Beam's brightness.\nModerately increases the Blindness duration.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_highEndSapphireLens.jpg"
-            }],
-            "Ultra Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/83/FulliconAddon_oddBulb.png/64px-FulliconAddon_oddBulb.png?version=f7c6c04f59f75fb92d65b3b16303e6a8",
-                "addon-name": "Odd Bulb",
-                "addon-description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\nTremendously increases the Flashlight Beam's brightness.\nTremendously increases the Blindness duration.\nSlightly increases the Flashlight's Battery Consumption rate.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_oddBulb.jpg"
-            }]
+  "Flashlight": {
+    "image": "/static/images/Items/iconItems_flashlight.png",
+    "description": "The Flashlight is an Item that is used to blind the Killer. If they are carrying a Survivor on their shoulder, getting blinded will make them drop that Survivor and be stunned for a few seconds.",
+    "versions": {
+      "Uncommon": [
+        {
+          "name": "Flashlight",
+          "description": "A standard Flashlight. Can be used to light your way in the darkness. 'Most of the battery life was wastefully used by the previous owner.'",
+          "image-alt": "/static/images/Items-alt/iconItems_flashlight.png",
+          "image": "/static/images/Items/iconItems_flashlight.png",
+          "item-id": "Flashlight-Flashlight"
         }
+      ],
+      "Rare": [
+        {
+          "name": "Sport Flashlight",
+          "description": "A very portable Flashlight with a good grip. Its efficient technology produces a powerful light while consuming less power.",
+          "image-alt": "/static/images/Items-alt/iconItems_flashlightSport.png",
+          "image": "/static/images/Items/iconItems_flashlightSport.png",
+          "item-id": "Sport-Flashlight-Flashlight"
+        }
+      ],
+      "Very Rare": [
+        {
+          "name": "Utility Flashlight",
+          "description": "A sturdy but heavy Flashlight that packs a lot of power.",
+          "image-alt": "/static/images/Items-alt/iconItems_flashlightUtility.png",
+          "image": "/static/images/Items/iconItems_flashlightUtility.png",
+          "item-id": "Utility-Flashlight-Flashlight"
+        }
+      ],
+      "Event": [
+        {
+          "name": "Will O' Wisp",
+          "description": "A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam. 'Happy Trick or Treating!'",
+          "image-alt": "/static/images/Items-alt/iconItems_flashlightHalloween.png",
+          "image": "/static/images/Items/iconItems_flashlightHalloween.png",
+          "item-id": "Will-O-Wisp-Flashlight"
+        }
+      ]
     },
-    "Key": {
-        "image": "/static/images/Items/iconItems_key.png",
-        "description": "The Key is an Item that can be used to open the Hatch when it spawns. It can also be used with Add-ons to enhance its power and show the user different Auras, such as those of other Survivors in their vicinity or that of the Killer. The Broken Key cannot be used to open to Hatch and is of no use without Add-ons.",
-        "versions": {
-            "Rare": [{
-                "name": "Broken Key",
-                "description": "The bow and shank of a key, vibrating with power. The Broken Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Broken Key's power into various effects.",
-                "image-alt": "/static/images/Items-alt/iconItems_brokenKey.png",
-                "image": "/static/images/Items/iconItems_brokenKey.png"
-            }],
-            "Very Rare": [{
-                "name": "Dull Key",
-                "description": "A bent and dull Key that once held great power. The Dull Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Dull Key's remaining power into various effects.",
-                "image-alt": "/static/images/Items-alt/iconItems_dullKey.png",
-                "image": "/static/images/Items/iconItems_dullKey.png"
-            }],
-            "Ultra Rare": [{
-                "name": "Skeleton Key",
-                "description": "A tarnished and crooked Key, vibrating with ominous power. The Skeleton Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Skeleton Key's power into various effects.",
-                "image-alt": "/static/images/Items-alt/iconItems_key.png",
-                "image": "/static/images/Items/iconItems_key.png"
-            }]
+    "addons": {
+      "Common": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9b/FulliconAddon_wideLens.png/64px-FulliconAddon_wideLens.png?version=f1e184dfa077279c6816f6ddbcf3efdd",
+          "addon-name": "Wide Lens",
+          "addon-description": "A thing wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.\nModerately increases the Flashlight Beam's width.\nSlightly decreases the Flashlight Beam's range.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_wideLens.jpg",
+          "addon-id": "Wide-Lens-Flashlight"
         },
-        "addons": {
-            "Common": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5e/FulliconAddon_prayerRope.png/64px-FulliconAddon_prayerRope.png?version=6b6b62db82ffacffa881d5f2ae277d55",
-                "addon-name": "Prayer Rope",
-                "addon-description": "Tightly knitted rope used in praying rituals. Can be attached to the Key.\nAdds 10 seconds of use to the Key.\n\"Pray all you want, your words are getting lost somewhere up there, in the Fog.\"",
-                "addon-image-alt": "/static/images/Addons/iconAddon_prayerRope.jpg"
-            }],
-            "Uncommon": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/ce/FulliconAddon_scratchedPearl.png/64px-FulliconAddon_scratchedPearl.png?version=3b0eef8dd86b2225b6a6dada548ae4d3",
-                "addon-name": "Scratched Pearl",
-                "addon-description": "A porous and scratched white pearl. A minuscule jump ring allows the pearl to be attached to the Key.\nModerately increases the range of the Key's Aura-reading ability.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_scratchedPearl.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/91/FulliconAddon_prayerBeads.png/64px-FulliconAddon_prayerBeads.png?version=5fe26e574ed42e70708330c52b50740d",
-                "addon-name": "Prayer Beads",
-                "addon-description": "A chain of matte beads of various sizes used in praying ritual. Can be attached to the Key.\nAdds 15 seconds of use to the Key.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_prayerBeads.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/31/FulliconAddon_erodedToken.png/64px-FulliconAddon_erodedToken.png?version=88f72c50c9b37ad1ec222e33fcb62812",
-                "addon-name": "Eroded Token",
-                "addon-description": "A heavily worn out token made of brass. If an inscription or drawing was once engraved in it, it has today completely disappeared. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals Survivors' Auras when within 24 metres of range.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_tokenErroded.jpg"
-            }],
-            "Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/15/FulliconAddon_goldToken.png/64px-FulliconAddon_goldToken.png?version=0d03ea83c6f75c9ba5691cb6258deace",
-                "addon-name": "Gold Token",
-                "addon-description": "A gold token with a dull appearance. Both faces are smooth and void of any inscriptions. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals Survivors' Auras when within 48 metres of range.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_tokenGold.jpg"
-            }],
-            "Very Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1d/FulliconAddon_weavedRing.png/64px-FulliconAddon_weavedRing.png?version=545a07a24a6d245847a4e46514f32e17",
-                "addon-name": "Weaved Ring",
-                "addon-description": "A mundane key ring in appearance with an unusual bluish dark sheen. The ring binds the Key to the user, preventing its loss even in the darkest of times.\nDo not lose the Key on death, lose this Add-on instead.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_weavedRing.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e5/FulliconAddon_milkyGlass.png/64px-FulliconAddon_milkyGlass.png?version=851fc1d86c9828a8395d709feb6068f9",
-                "addon-name": "Milky Glass",
-                "addon-description": "This opaque piece of glass emits a dull vibrating noise. When the Skeleton or Dull Key is used to unlock a Black Lock, the glass token protects the Key from breaking, channelling the Black Fog's energy into the glass.\nDo not lose the Key when unlocking a Hatch , lose this Add-on instead.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_milkyGlass.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6a/FulliconAddon_bloodAmber.png/64px-FulliconAddon_bloodAmber.png?version=c64f4386c31b78884714f28561c3fe07",
-                "addon-name": "Blood Amber",
-                "addon-description": "A blood-red amber striped with black veins. The amber is warm to the touch. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals the Killer's Aura when within 32 metres of range at the great expense of the Key's energy.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_bloodAmber.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c4/FulliconAddon_uniqueWeddingRing.png/64px-FulliconAddon_uniqueWeddingRing.png?version=d35822a88c45a2ec976e663177a0fd77",
-                "addon-name": "Unique Wedding Ring",
-                "addon-description": "An engraved wedding ring that emerged from The Fog and resonates with an indescribable and incomprehensible energy.\nReveals the Obsession's Aura.\nDecreases your chances to be The Killer's Obsession.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_uniqueRing.jpg"
-            }]
-        }
-    },
-    "Map": {
-        "image": "/static/images/Items/iconItems_map.png",
-        "description": "The Map is an Item that is used to track and mark props in the World. The standard map can only track Generators, but can track different props as well with the use of Add-ons that enhance its power. You can even make the tracked Auras visible to other Survivors and create markers that look like a pillar of bright light.",
-        "versions": {
-            "Rare": [{
-                "name": "Map",
-                "description": "An old piece of parchment made out of a skin-like material. Is rolled and sealed with an uncoloured leather string. Holding and channelling the Map unlocks great potential in one's Aura-reading ability which slowly burns the Map. Generators' Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
-                "image-alt": "/static/images/Items-alt/iconItems_map.png",
-                "image": "/static/images/Items/iconItems_map.png"
-            }],
-            "Ultra Rare": [{
-                "name": "Rainbow Map",
-                "description": "A piece of parchment made out of oddly fresh skin. Blood on its edge has yet to dry. It is rolled and sealed with multiple coloured ropes and cords. Holding and channelling the Map unlocks a great potential in one's Aura-reading ability which slowly burns up the Map. Objects with Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
-                "image-alt": "/static/images/Items-alt/iconItems_rainbowMap.png",
-                "image": "/static/images/Items/iconItems_rainbowMap.png"
-            }]
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/bc/FulliconAddon_powerBulb.png/64px-FulliconAddon_powerBulb.png?version=ce8062f1f5e7f247b0be5f2843d0653b",
+          "addon-name": "Power Bulb",
+          "addon-description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\nSlightly increases the Flashlight Beam's brightness.\nSlightly increases the Blindness duration.\n\"Even the most powerful light cannot pierce through the Black Fog's darkness.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_powerBulb.jpg",
+          "addon-id": "Power-Bulb-Flashlight"
         },
-        "addons": {
-            "Common": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8c/FulliconAddon_mapAddendum.png/64px-FulliconAddon_mapAddendum.png?version=4cd15fa04238f8ee41f22cbd219be2f0",
-                "addon-name": "Map Addendum",
-                "addon-description": "A fragmented piece of a thick fibrous material. A partial and faded map is drawn on it which by itself is useless.\nAdds a 5 second charge to any Map.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_mapAddendum.jpg"
-            }],
-            "Uncommon": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/71/FulliconAddon_yellowWire.png/64px-FulliconAddon_yellowWire.png?version=3662403a92ca5eadedf1a17255c2274b",
-                "addon-name": "Yellow Wire",
-                "addon-description": "A small electrical wire. Both ends are heavily damaged like it has been forcefully torn out of its intended location. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track Exit Gates .",
-                "addon-image-alt": "/static/images/Addons/iconAddon_ropeYellow.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/36/FulliconAddon_unusualStamp.png/64px-FulliconAddon_unusualStamp.png?version=9d2fe533de6c1cfcae42553f1011117f",
-                "addon-name": "Unusual Stamp",
-                "addon-description": "A wooden stamp with a cross-hatched rubber pad used to mark documents. It is unclear as to how or by whom this stamp was originally used. Can be used with a map.\nModerately increases the range of the map tracking ability.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_stampUnusual.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dd/FulliconAddon_retardantJelly.png/64px-FulliconAddon_retardantJelly.png?version=b32c0b430fd51a2e97d641190f270a7b",
-                "addon-name": "Retardant Jelly",
-                "addon-description": "A slimy, translucent substance with a ghastly lavender shade. This jelly from unknown origin is highly resistant to heat.\nModerately slows down the burning rate of the map.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_retardantJelly.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/91/FulliconAddon_redTwine.png/64px-FulliconAddon_redTwine.png?version=ecb1194bb1c25ddaba81f13e68262632",
-                "addon-name": "Red Twine",
-                "addon-description": "A bristly and rough piece of twine of a deep red colour. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track Killer Belongings.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_ropeRed.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_glassBead.png/64px-FulliconAddon_glassBead.png?version=0c0c84c0b54008215cd51bd71fad2418",
-                "addon-name": "Glass Bead",
-                "addon-description": "A strange bead circled with gold that can be used to magnify the map and mark a specific position. The bead emits an energy which can be felt and seen by Survivors.\nUnlocks the Marker Ability on secondary action.\nCreating a marker that can be seen by all the Survivors.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_beadGlass.jpg"
-            }],
-            "Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ed/FulliconAddon_oddStamp.png/64px-FulliconAddon_oddStamp.png?version=feaa4c41e9e9fb1b97f618dee7fca6c3",
-                "addon-name": "Odd Stamp",
-                "addon-description": "A stamp carved out of sturdy blonde wood. The text found at the base is incomprehensible: \"kw'zvre'od\". Can be used with a map.\nConsiderably increases the range of the map tracking ability.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_stampOdd.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c1/FulliconAddon_blackSilkCord.png/64px-FulliconAddon_blackSilkCord.png?version=2e58f0cd8fe62898dd2877559b330e71",
-                "addon-name": "Black Silk Cord",
-                "addon-description": "A smooth black cord with a soft appearance. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track the Black Lock.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_ropeBlack.jpg"
-            }],
-            "Very Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0b/FulliconAddon_crystalBead.png/64px-FulliconAddon_crystalBead.png?version=891e68c4fb9bc29f9c9195236ed75b0b",
-                "addon-name": "Crystal Bead",
-                "addon-description": "An intricate set of lenses wrapped up in an astonishingly complex apparatus. The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\nEvery Survivor sees the Aura generated by the map when the owner activates it.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_beadCrystal.jpg"
-            }]
-        }
-    },
-    "Med-Kit": {
-        "image": "/static/images/Items/iconItems_medkit.png",
-        "description": "The Med-Kit is an Item that is used to heal yourself and other Survivors. Other Survivors can also be healed without the use of a Med-Kit, but it takes considerably longer. Without the use of Self - Care, a Survivor cannot heal themselves without one.Different Add - ons can be equipped that enhance its healing speed or durability.",
-        "versions": {
-            "Common": [{
-                "name": "Camping Aid Kit",
-                "description": "A rudimentary Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.",
-                "image-alt": "/static/images/Items-alt/iconItems_rundownAidKit.png",
-                "image": "/static/images/Items/iconItems_rundownAidKit.png"
-            }],
-            "Uncommon": [{
-                "name": "First Aid Kit",
-                "description": "A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.",
-                "image-alt": "/static/images/Items-alt/iconItems_firstAidKit.png",
-                "image": "/static/images/Items/iconItems_firstAidKit.png"
-            }],
-            "Rare": [{
-                "name": "Emergency Med-Kit",
-                "description": "A sturdy and well organised Med-Kit equipped with top condition emergency supplies.",
-                "image-alt": "/static/images/Items-alt/iconItems_medkit.png",
-                "image": "/static/images/Items/iconItems_medkit.png"
-            }],
-            "Very Rare": [{
-                "name": "Ranger Med-Kit",
-                "description": "A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.",
-                "image-alt": "/static/images/Items-alt/iconItems_rangersAidKit.png",
-                "image": "/static/images/Items/iconItems_rangersAidKit.png"
-            }],
-            "Event": [{
-                "name": "All Hallows' Eve Lunchbox",
-                "description": "A plastic lunchbox with phosphorescent Halloween Stickers that has been packed with first-aid equipment.",
-                "image-alt": "/static/images/Items-alt/iconItems_medkitHalloween.png",
-                "image": "/static/images/Items/iconItems_medkitHalloween.png"
-            }]
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0c/FulliconAddon_leatherGrip.png/64px-FulliconAddon_leatherGrip.png?version=49f41cf0c979ea1705b4c812cdd197b4",
+          "addon-name": "Leather Grip",
+          "addon-description": "A leather strip wrapped around the Flashlight for more grip.\nSlightly increases the Flashlight Beam's accuracy.\n\"Too many have fallen due to sweaty hands.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_leatherGrip.jpg",
+          "addon-id": "Leather-Grip-Flashlight"
         },
-        "addons": {
-            "Common": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a6/FulliconAddon_rubberGloves.png/64px-FulliconAddon_rubberGloves.png?version=38a8bb7b9ad9ff20c5675619e7ad74a3",
-                "addon-name": "Rubber Gloves",
-                "addon-description": "Disposable medical gloves to avoid cross-contamination.\nModerately increases the Progression bonus for succeeding at Great Skill Checks .",
-                "addon-image-alt": "/static/images/Addons/iconAddon_gloves.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f9/FulliconAddon_butterflyTape.png/64px-FulliconAddon_butterflyTape.png?version=c2d5277de6f11e1bb7ab8a2a90488123",
-                "addon-name": "Butterfly Tape",
-                "addon-description": "Medical quality tape used to close small wounds.\nSlightly increases the Healing speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_butterflyTape.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/65/FulliconAddon_bandages.png/64px-FulliconAddon_bandages.png?version=a9828354f23c256eee75731b602ae93f",
-                "addon-name": "Bandages",
-                "addon-description": "A pack of bandages usually found in First Aid Kits.\nAdds 8 charges to the Med-Kit.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_bandages.jpg"
-            }],
-            "Uncommon": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_sponge.png/64px-FulliconAddon_sponge.png?version=c92c6639874c3b74a4786bd1fda7d0c9",
-                "addon-name": "Sponge",
-                "addon-description": "A mundane sponge used to soak up extra blood, providing easier access to wounds.\nConsiderably increases the Progression bonus for succeeding at Great Skill Checks .",
-                "addon-image-alt": "/static/images/Addons/iconAddon_sponge.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cf/FulliconAddon_selfAdherentWrap.png/64px-FulliconAddon_selfAdherentWrap.png?version=bfb4561def15ce4c440cf524fe8d95b2",
-                "addon-name": "Self Adherent Wrap",
-                "addon-description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\nAdds 8 charges to the Med-Kit.\nSlightly increases the Healing speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_selfAdherentWrap.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/99/FulliconAddon_needle%26Thread.png/64px-FulliconAddon_needle%26Thread.png?version=d65db6be53e3dec03d42fbef495e9417",
-                "addon-name": "Needle & Thread",
-                "addon-description": "Not exactly a medical device, however it can be used to quickly and painfully close up a wound.\nModerately increases the chances of triggering a Skill Check .\nSlightly increases the Healing speed.\nGrants 100\u00a0% Bonus Bloodpoints for succeeding Great Skill Checks.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_needAndThread.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a9/FulliconAddon_medicalScissors.png/64px-FulliconAddon_medicalScissors.png?version=91cb681c8ab64f3f93cbd81b6c510584",
-                "addon-name": "Medical Scissors",
-                "addon-description": "Scissors designed to easily cut through textiles.\nModerately increases the Healing speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_scissors.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b1/FulliconAddon_gauzeRoll.png/64px-FulliconAddon_gauzeRoll.png?version=c3e3bc1e243568c0d5065ed3a0003f2e",
-                "addon-name": "Gauze Roll",
-                "addon-description": "A sterile gauze used for a variety of wounds. Part of a total wound care system.\nAdds 12 charges to the Med-Kit.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_gauseRoll.jpg"
-            }],
-            "Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/65/FulliconAddon_surgicalSuture.png/64px-FulliconAddon_surgicalSuture.png?version=4a35544ce95fe500494d7c0655993fa5",
-                "addon-name": "Surgical Suture",
-                "addon-description": "A medical device used to close and hold body tissue. Even though it's very effective, the surgical suture is challenging to use.\nConsiderably increases the chances of triggering a Skill Check .\nSlightly increases the Healing speed.\nGrants 150\u00a0% Bonus Bloodpoints for succeeding Great Skill Checks.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_surgicalSuture.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4f/FulliconAddon_gelDressings.png/64px-FulliconAddon_gelDressings.png?version=63d8e7c6427b212422dc5ee92d4052f4",
-                "addon-name": "Gel Dressings",
-                "addon-description": "A pack of gel forming pads used to patch up heavily exuding wounds.\nAdds 16 charges to the Med-Kit.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_gelDressings.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/10/FulliconAddon_abdominalDressing.png/64px-FulliconAddon_abdominalDressing.png?version=3f5053b2b556f155cafdf892162f8b74",
-                "addon-name": "Abdominal Dressing",
-                "addon-description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\nConsiderably increases the Healing speed.\nReduces Charges by 8.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_abdominalDressing.jpg"
-            }],
-            "Very Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/89/FulliconAddon_stypticAgent.png/64px-FulliconAddon_stypticAgent.png?version=43a9a97489e54ccbef8f9e2fb8e60e5b",
-                "addon-name": "Styptic Agent",
-                "addon-description": "A white powder with coagulant properties. Apply the agent to a wound to stop it from haemorrhaging.\nUse with Secondary Action.\nWhen the Styptic Agent is used on an injured Survivor, they gain the Endurance  Status Effect for 8 seconds.Any damage taken during that time that would put the Survivor into the Dying State will instead apply the Deep Wound  Status Effect.The Survivors has then 20 seconds to mend themselves.\nIf the Survivor takes any damage while affected by Deep Wound or if the Deep Wound timer ends, they will immediately be put into the Dying State .\nDepletes the Med-Kit on use.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_stypticAgent.jpg"
-            }],
-            "Ultra Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/96/FulliconAddon_anti-haemorrhagicSyringe.png/64px-FulliconAddon_anti-haemorrhagicSyringe.png?version=258c1db7e1ab5a8a731f62dc1b80f876",
-                "addon-name": "Anti-Haemorrhagic Syringe",
-                "addon-description": "An anti-haemorrhagic substance that stops the bleeding in a matter of seconds.\nUse with Secondary Action.\nThe affected Survivor will passively gain one Health State 16 seconds after use.\nThe time required can be modified by Perks and Add-ons that affect Healing speeds.\nThis effect is cancelled when the affected Survivor changes their Health State  or is picked up by the Killer.\nDepletes the Med-Kit on use.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_syringe.jpg"
-            }]
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/22/FulliconAddon_battery.png/64px-FulliconAddon_battery.png?version=1dd446e51155b78f6d4d51ee57ebce66",
+          "addon-name": "Battery",
+          "addon-description": "A standard battery of unknown brand.\nAdds 2 seconds of use to a standard Flashlight.\n\"Another nearly empty battery.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_battery.jpg",
+          "addon-id": "Battery-Flashlight"
         }
-    },
-    "Toolbox": {
-        "image": "/static/images/Items/iconItems_toolbox.png",
-        "description": "The Toolbox is an Item that can be used to repair Generators more quickly or sabotage hooks. Different Toolboxes have different uses and not all of them are good for both uses. Add-ons can be equipped to enhance their speed and durability.",
-        "versions": {
-            "Common": [{
-                "name": "Worn-Out Tools",
-                "description": "A metal box containing out of condition tools that could break at any moment. Even without training, can be used to repair or break various mechanical components.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolboxWornOut.png",
-                "image": "/static/images/Items/iconItems_toolboxWornOut.png"
-            }],
-            "Uncommon": [{
-                "name": "Toolbox",
-                "description": "A metal box containing a set of basic tools. Even without training, can be used to repair or break various mechanical components.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolbox.png",
-                "image": "/static/images/Items/iconItems_toolbox.png"
-            }],
-            "Rare": [{
-                "name": "Mechanic's Toolbox",
-                "description": "A metal box with specialised mechanics tools. Even without training, can be used to repair or break various mechanical components.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolboxMechanics.png",
-                "image": "/static/images/Items/iconItems_toolboxMechanics.png"
-            }, {
-                "name": "Commodious Toolbox",
-                "description": "A large metal box containing basic tool and extra mechanical parts. Even without training, can be used to repair or break various mechanical components.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolboxCommodious.png",
-                "image": "/static/images/Items/iconItems_toolboxCommodious.png"
-            }],
-            "Very Rare": [{
-                "name": "Engineer's Toolbox",
-                "description": "A metal box with highly specialised tools meant for engineering. Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolboxEngineers.png",
-                "image": "/static/images/Items/iconItems_toolboxEngineers.png"
-            }, {
-                "name": "Alex's Toolbox",
-                "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools. Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.",
-                "image-alt": "/static/images/Items-alt/iconItems_toolboxAlexs.png",
-                "image": "/static/images/Items/iconItems_toolboxAlexs.png"
-            }]
+      ],
+      "Uncommon": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/57/FulliconAddon_tirOptic.png/64px-FulliconAddon_tirOptic.png?version=dd4df970e479a82cbb16640e173924d5",
+          "addon-name": "TIR Optic",
+          "addon-description": "A lens and reflector combo which can magnify a Flashlight's beam.\nModerately increases the Flashlight Beam's brightness.\nModerately increases the Blindness duration.\n\"Let the light burn them out of their dark shroud.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_tirOptic.jpg",
+          "addon-id": "TIR-Optic-Flashlight"
         },
-        "addons": {
-            "Common": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0d/FulliconAddon_springClamp.png/64px-FulliconAddon_springClamp.png?version=484f43ea6427f3893ea82efe2a9c4bc7",
-                "addon-name": "Spring Clamp",
-                "addon-description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nSlightly increases repair Skill Check success zones.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_springClamp.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/78/FulliconAddon_scraps.png/64px-FulliconAddon_scraps.png?version=256902d3d2066f54f64af067a551d9ef",
-                "addon-name": "Scraps",
-                "addon-description": "Springs, screws and gears. Mostly unusable junk.\nAdds 15 charges to the Toolbox.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_scraps.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4e/FulliconAddon_cleanRag.png/64px-FulliconAddon_cleanRag.png?version=a3d3f6a0280645844accac6357fb0a02",
-                "addon-name": "Clean Rag",
-                "addon-description": "A mundane rag. Suspiciously clean.\nSlightly increases the Toolbox's repair speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_cleanRag.jpg"
-            }],
-            "Uncommon": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/33/FulliconAddon_wireSpool.png/64px-FulliconAddon_wireSpool.png?version=315d7a409708fe38333fec59ae94a51b",
-                "addon-name": "Wire Spool",
-                "addon-description": "A portable but heavy spool of copper wire.\nAdds 30 charges to the Toolbox.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_spoolOfWire.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d3/FulliconAddon_socketSwivels.png/64px-FulliconAddon_socketSwivels.png?version=e720a676b80b5a5a2bf583e98bfa114f",
-                "addon-name": "Socket Swivels",
-                "addon-description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nModerately increases the Toolbox repair speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_socketSwivels.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c7/FulliconAddon_protectiveGloves.png/64px-FulliconAddon_protectiveGloves.png?version=4b9544ff24fe6f7408e66f2018994295",
-                "addon-name": "Protective Gloves",
-                "addon-description": "Thick gloves, which reduce menial dexterity but protect hands from injury.\nSlightly increases the chances to trigger a sabotage Skill Check.\nSlightly increases sabotage Skill Check success zones.\nConsiderably reduces the sabotage Skill Check failed penalty.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_protectiveGloves.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cd/FulliconAddon_instructions.png/64px-FulliconAddon_instructions.png?version=48f8d9013b88b3c6a6c9bf8d0650fda3",
-                "addon-name": "Instructions",
-                "addon-description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\nModerately increases the Toolbox's repair efficiency.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_instructions.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f3/FulliconAddon_gripWrench.png/64px-FulliconAddon_gripWrench.png?version=1c4b5a480835e839e56d663ea18a4f23",
-                "addon-name": "Grip Wrench",
-                "addon-description": "An adjustable wrench with a tough grip. Essential in any Toolbox.\nModerately increases repair Skill Check success zones.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_gripWrench.jpg"
-            }, {
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/51/FulliconAddon_cuttingWire.png/64px-FulliconAddon_cuttingWire.png?version=17609e0531b43f1a0e0495959388df60",
-                "addon-name": "Cutting Wire",
-                "addon-description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nSlightly increases the Toolbox's sabotage speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_cuttingWire.jpg"
-            }],
-            "Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d1/FulliconAddon_hacksaw.png/64px-FulliconAddon_hacksaw.png?version=71b90ecec3437f512a5176dd40a2dcda",
-                "addon-name": "Hacksaw",
-                "addon-description": "A small hand saw mounted with a metal cutting blade.\nModerately increases the Toolbox's sabotage speed.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_metalSaw.jpg"
-            }],
-            "Ultra Rare": [{
-                "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d9/FulliconAddon_brandNewPart.png/64px-FulliconAddon_brandNewPart.png?version=4fbad2eb72135bcedc44f7acb8de524e",
-                "addon-name": "Brand New Part",
-                "addon-description": "This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory.\nToolbox Repair action is replaced with Install Brand New Part.\nInstalling the Brand New Part will complete 15\u00a0% of a Generator over 5 seconds.\nDuring the install, you will be faced with 2 difficult Skill Checks.\nHitting each Skill Check will result in 5\u00a0% progression each for a maximum of 25\u00a0% added progression.\nThis Add-on is consumed on use.",
-                "addon-image-alt": "/static/images/Addons/iconAddon_brandNewPart.jpg"
-            }]
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/75/FulliconAddon_rubberGrip.png/64px-FulliconAddon_rubberGrip.png?version=aa9c1432acbdf0db1c82eacae47cd6ca",
+          "addon-name": "Rubber Grip",
+          "addon-description": "A rubber grip specifically fitting Flashlights for more grip.\nModerately increases the Flashlight Beam's accuracy.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_rubberGrip.jpg",
+          "addon-id": "Rubber-Grip-Flashlight"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1c/FulliconAddon_lowAmpFilament.png/64px-FulliconAddon_lowAmpFilament.png?version=e551910e697b901fecf6049d7aedb79d",
+          "addon-name": "Low Amp Filament",
+          "addon-description": "A filament bulb designed to extend a Flashlight battery's life.\nModerately decreases the Flashlight's Battery Consumption rate.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_threadedFilament.jpg",
+          "addon-id": "Low-Amp-Filament-Flashlight"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ad/FulliconAddon_heavyDutyBattery.png/64px-FulliconAddon_heavyDutyBattery.png?version=731a88a1111acab4c8412907884b9d64",
+          "addon-name": "Heavy Duty Battery",
+          "addon-description": "A battery marked as \"industrial strength\".\nAdds 4 seconds of use to a standard Flashlight.\n\"A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_heavyDutyBattery.jpg",
+          "addon-id": "Heavy-Duty-Battery-Flashlight"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_focusLens.png/64px-FulliconAddon_focusLens.png?version=6ffd402d2ac0aa5fce5a2917b7c62bb1",
+          "addon-name": "Focus Lens",
+          "addon-description": "A thick glass lens that focuses the Flashlight beam to increase its intensity.\nSlightly increases the Flashlight Beam's range.\nSlightly increases the Flashlight Beam's brightness.\nSlightly increases the Blindness duration.\nSlightly decreases the Flashlight Beam's width.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_focusLens.jpg",
+          "addon-id": "Focus-Lens-Flashlight"
         }
+      ],
+      "Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/FulliconAddon_longLifeBattery.png/64px-FulliconAddon_longLifeBattery.png?version=8e000cfa3a14837bb3df7e4601a9435f",
+          "addon-name": "Long Life Battery",
+          "addon-description": "A recent model of battery that lasts longer.\nAdds 6 seconds of use to a standard Flashlight.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_longLifeBattery.jpg",
+          "addon-id": "Long-Life-Battery-Flashlight"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/09/FulliconAddon_intenseHalogen.png/64px-FulliconAddon_intenseHalogen.png?version=78a3fa8887c9478fe641947923f5e2bb",
+          "addon-name": "Intense Halogen",
+          "addon-description": "A chemical bulb that generates an intensely clear light.\nConsiderably increases the Flashlight Beam's brightness.\nConsiderably increases the Blindness duration.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_intenseHalogen.jpg",
+          "addon-id": "Intense-Halogen-Flashlight"
+        }
+      ],
+      "Very Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_high-EndSapphireLens.png/64px-FulliconAddon_high-EndSapphireLens.png?version=dba0ff53d7a24191d9ea6851a244621d",
+          "addon-name": "High-End Sapphire Lens",
+          "addon-description": "A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.\nSlightly increases the Flashlight Beam's range.\nModerately increases the Flashlight Beam's width.\nModerately increases the Flashlight Beam's brightness.\nModerately increases the Blindness duration.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_highEndSapphireLens.jpg",
+          "addon-id": "High-End-Sapphire-Lens-Flashlight"
+        }
+      ],
+      "Ultra Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/83/FulliconAddon_oddBulb.png/64px-FulliconAddon_oddBulb.png?version=f7c6c04f59f75fb92d65b3b16303e6a8",
+          "addon-name": "Odd Bulb",
+          "addon-description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\nTremendously increases the Flashlight Beam's brightness.\nTremendously increases the Blindness duration.\nSlightly increases the Flashlight's Battery Consumption rate.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_oddBulb.jpg",
+          "addon-id": "Odd-Bulb-Flashlight"
+        }
+      ]
     }
+  },
+  "Key": {
+    "image": "/static/images/Items/iconItems_key.png",
+    "description": "The Key is an Item that can be used to open the Hatch when it spawns. It can also be used with Add-ons to enhance its power and show the user different Auras, such as those of other Survivors in their vicinity or that of the Killer. The Broken Key cannot be used to open to Hatch and is of no use without Add-ons.",
+    "versions": {
+      "Rare": [
+        {
+          "name": "Broken Key",
+          "description": "The bow and shank of a key, vibrating with power. The Broken Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Broken Key's power into various effects.",
+          "image-alt": "/static/images/Items-alt/iconItems_brokenKey.png",
+          "image": "/static/images/Items/iconItems_brokenKey.png",
+          "item-id": "Broken-Key-Key"
+        }
+      ],
+      "Very Rare": [
+        {
+          "name": "Dull Key",
+          "description": "A bent and dull Key that once held great power. The Dull Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Dull Key's remaining power into various effects.",
+          "image-alt": "/static/images/Items-alt/iconItems_dullKey.png",
+          "image": "/static/images/Items/iconItems_dullKey.png",
+          "item-id": "Dull-Key-Key"
+        }
+      ],
+      "Ultra Rare": [
+        {
+          "name": "Skeleton Key",
+          "description": "A tarnished and crooked Key, vibrating with ominous power. The Skeleton Key's power cannot be triggered by itself. Various objects can be attached to its jump ring, which channels the Skeleton Key's power into various effects.",
+          "image-alt": "/static/images/Items-alt/iconItems_key.png",
+          "image": "/static/images/Items/iconItems_key.png",
+          "item-id": "Skeleton-Key-Key"
+        }
+      ]
+    },
+    "addons": {
+      "Common": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5e/FulliconAddon_prayerRope.png/64px-FulliconAddon_prayerRope.png?version=6b6b62db82ffacffa881d5f2ae277d55",
+          "addon-name": "Prayer Rope",
+          "addon-description": "Tightly knitted rope used in praying rituals. Can be attached to the Key.\nAdds 10 seconds of use to the Key.\n\"Pray all you want, your words are getting lost somewhere up there, in the Fog.\"",
+          "addon-image-alt": "/static/images/Addons/iconAddon_prayerRope.jpg",
+          "addon-id": "Prayer-Rope-Key"
+        }
+      ],
+      "Uncommon": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/ce/FulliconAddon_scratchedPearl.png/64px-FulliconAddon_scratchedPearl.png?version=3b0eef8dd86b2225b6a6dada548ae4d3",
+          "addon-name": "Scratched Pearl",
+          "addon-description": "A porous and scratched white pearl. A minuscule jump ring allows the pearl to be attached to the Key.\nModerately increases the range of the Key's Aura-reading ability.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_scratchedPearl.jpg",
+          "addon-id": "Scratched-Pearl-Key"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/91/FulliconAddon_prayerBeads.png/64px-FulliconAddon_prayerBeads.png?version=5fe26e574ed42e70708330c52b50740d",
+          "addon-name": "Prayer Beads",
+          "addon-description": "A chain of matte beads of various sizes used in praying ritual. Can be attached to the Key.\nAdds 15 seconds of use to the Key.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_prayerBeads.jpg",
+          "addon-id": "Prayer-Beads-Key"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/31/FulliconAddon_erodedToken.png/64px-FulliconAddon_erodedToken.png?version=88f72c50c9b37ad1ec222e33fcb62812",
+          "addon-name": "Eroded Token",
+          "addon-description": "A heavily worn out token made of brass. If an inscription or drawing was once engraved in it, it has today completely disappeared. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals Survivors' Auras when within 24 metres of range.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_tokenErroded.jpg",
+          "addon-id": "Eroded-Token-Key"
+        }
+      ],
+      "Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/15/FulliconAddon_goldToken.png/64px-FulliconAddon_goldToken.png?version=0d03ea83c6f75c9ba5691cb6258deace",
+          "addon-name": "Gold Token",
+          "addon-description": "A gold token with a dull appearance. Both faces are smooth and void of any inscriptions. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals Survivors' Auras when within 48 metres of range.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_tokenGold.jpg",
+          "addon-id": "Gold-Token-Key"
+        }
+      ],
+      "Very Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1d/FulliconAddon_weavedRing.png/64px-FulliconAddon_weavedRing.png?version=545a07a24a6d245847a4e46514f32e17",
+          "addon-name": "Weaved Ring",
+          "addon-description": "A mundane key ring in appearance with an unusual bluish dark sheen. The ring binds the Key to the user, preventing its loss even in the darkest of times.\nDo not lose the Key on death, lose this Add-on instead.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_weavedRing.jpg",
+          "addon-id": "Weaved-Ring-Key"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e5/FulliconAddon_milkyGlass.png/64px-FulliconAddon_milkyGlass.png?version=851fc1d86c9828a8395d709feb6068f9",
+          "addon-name": "Milky Glass",
+          "addon-description": "This opaque piece of glass emits a dull vibrating noise. When the Skeleton or Dull Key is used to unlock a Black Lock, the glass token protects the Key from breaking, channelling the Black Fog's energy into the glass.\nDo not lose the Key when unlocking a Hatch , lose this Add-on instead.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_milkyGlass.jpg",
+          "addon-id": "Milky-Glass-Key"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6a/FulliconAddon_bloodAmber.png/64px-FulliconAddon_bloodAmber.png?version=c64f4386c31b78884714f28561c3fe07",
+          "addon-name": "Blood Amber",
+          "addon-description": "A blood-red amber striped with black veins. The amber is warm to the touch. Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nReveals the Killer's Aura when within 32 metres of range at the great expense of the Key's energy.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_bloodAmber.jpg",
+          "addon-id": "Blood-Amber-Key"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c4/FulliconAddon_uniqueWeddingRing.png/64px-FulliconAddon_uniqueWeddingRing.png?version=d35822a88c45a2ec976e663177a0fd77",
+          "addon-name": "Unique Wedding Ring",
+          "addon-description": "An engraved wedding ring that emerged from The Fog and resonates with an indescribable and incomprehensible energy.\nReveals the Obsession's Aura.\nDecreases your chances to be The Killer's Obsession.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_uniqueRing.jpg",
+          "addon-id": "Unique-Wedding-Ring-Key"
+        }
+      ]
+    }
+  },
+  "Map": {
+    "image": "/static/images/Items/iconItems_map.png",
+    "description": "The Map is an Item that is used to track and mark props in the World. The standard map can only track Generators, but can track different props as well with the use of Add-ons that enhance its power. You can even make the tracked Auras visible to other Survivors and create markers that look like a pillar of bright light.",
+    "versions": {
+      "Rare": [
+        {
+          "name": "Map",
+          "description": "An old piece of parchment made out of a skin-like material. Is rolled and sealed with an uncoloured leather string. Holding and channelling the Map unlocks great potential in one's Aura-reading ability which slowly burns the Map. Generators' Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
+          "image-alt": "/static/images/Items-alt/iconItems_map.png",
+          "image": "/static/images/Items/iconItems_map.png",
+          "item-id": "Map-Map"
+        }
+      ],
+      "Ultra Rare": [
+        {
+          "name": "Rainbow Map",
+          "description": "A piece of parchment made out of oddly fresh skin. Blood on its edge has yet to dry. It is rolled and sealed with multiple coloured ropes and cords. Holding and channelling the Map unlocks a great potential in one's Aura-reading ability which slowly burns up the Map. Objects with Auras which you have already encountered are revealed to you for as long as the Map has charges left.",
+          "image-alt": "/static/images/Items-alt/iconItems_rainbowMap.png",
+          "image": "/static/images/Items/iconItems_rainbowMap.png",
+          "item-id": "Rainbow-Map-Map"
+        }
+      ]
+    },
+    "addons": {
+      "Common": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8c/FulliconAddon_mapAddendum.png/64px-FulliconAddon_mapAddendum.png?version=4cd15fa04238f8ee41f22cbd219be2f0",
+          "addon-name": "Map Addendum",
+          "addon-description": "A fragmented piece of a thick fibrous material. A partial and faded map is drawn on it which by itself is useless.\nAdds a 5 second charge to any Map.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_mapAddendum.jpg",
+          "addon-id": "Map-Addendum-Map"
+        }
+      ],
+      "Uncommon": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/71/FulliconAddon_yellowWire.png/64px-FulliconAddon_yellowWire.png?version=3662403a92ca5eadedf1a17255c2274b",
+          "addon-name": "Yellow Wire",
+          "addon-description": "A small electrical wire. Both ends are heavily damaged like it has been forcefully torn out of its intended location. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track Exit Gates .",
+          "addon-image-alt": "/static/images/Addons/iconAddon_ropeYellow.jpg",
+          "addon-id": "Yellow-Wire-Map"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/36/FulliconAddon_unusualStamp.png/64px-FulliconAddon_unusualStamp.png?version=9d2fe533de6c1cfcae42553f1011117f",
+          "addon-name": "Unusual Stamp",
+          "addon-description": "A wooden stamp with a cross-hatched rubber pad used to mark documents. It is unclear as to how or by whom this stamp was originally used. Can be used with a map.\nModerately increases the range of the map tracking ability.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_stampUnusual.jpg",
+          "addon-id": "Unusual-Stamp-Map"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dd/FulliconAddon_retardantJelly.png/64px-FulliconAddon_retardantJelly.png?version=b32c0b430fd51a2e97d641190f270a7b",
+          "addon-name": "Retardant Jelly",
+          "addon-description": "A slimy, translucent substance with a ghastly lavender shade. This jelly from unknown origin is highly resistant to heat.\nModerately slows down the burning rate of the map.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_retardantJelly.jpg",
+          "addon-id": "Retardant-Jelly-Map"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/91/FulliconAddon_redTwine.png/64px-FulliconAddon_redTwine.png?version=ecb1194bb1c25ddaba81f13e68262632",
+          "addon-name": "Red Twine",
+          "addon-description": "A bristly and rough piece of twine of a deep red colour. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track Killer Belongings.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_ropeRed.jpg",
+          "addon-id": "Red-Twine-Map"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1a/FulliconAddon_glassBead.png/64px-FulliconAddon_glassBead.png?version=0c0c84c0b54008215cd51bd71fad2418",
+          "addon-name": "Glass Bead",
+          "addon-description": "A strange bead circled with gold that can be used to magnify the map and mark a specific position. The bead emits an energy which can be felt and seen by Survivors.\nUnlocks the Marker Ability on secondary action.\nCreating a marker that can be seen by all the Survivors.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_beadGlass.jpg",
+          "addon-id": "Glass-Bead-Map"
+        }
+      ],
+      "Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ed/FulliconAddon_oddStamp.png/64px-FulliconAddon_oddStamp.png?version=feaa4c41e9e9fb1b97f618dee7fca6c3",
+          "addon-name": "Odd Stamp",
+          "addon-description": "A stamp carved out of sturdy blonde wood. The text found at the base is incomprehensible: \"kw'zvre'od\". Can be used with a map.\nConsiderably increases the range of the map tracking ability.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_stampOdd.jpg",
+          "addon-id": "Odd-Stamp-Map"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c1/FulliconAddon_blackSilkCord.png/64px-FulliconAddon_blackSilkCord.png?version=2e58f0cd8fe62898dd2877559b330e71",
+          "addon-name": "Black Silk Cord",
+          "addon-description": "A smooth black cord with a soft appearance. Can be tied around a map to enhance its Aura-reading ability.\nUnlocks the ability to track the Black Lock.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_ropeBlack.jpg",
+          "addon-id": "Black-Silk-Cord-Map"
+        }
+      ],
+      "Very Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0b/FulliconAddon_crystalBead.png/64px-FulliconAddon_crystalBead.png?version=891e68c4fb9bc29f9c9195236ed75b0b",
+          "addon-name": "Crystal Bead",
+          "addon-description": "An intricate set of lenses wrapped up in an astonishingly complex apparatus. The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\nEvery Survivor sees the Aura generated by the map when the owner activates it.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_beadCrystal.jpg",
+          "addon-id": "Crystal-Bead-Map"
+        }
+      ]
+    }
+  },
+  "Med-Kit": {
+    "image": "/static/images/Items/iconItems_medkit.png",
+    "description": "The Med-Kit is an Item that is used to heal yourself and other Survivors. Other Survivors can also be healed without the use of a Med-Kit, but it takes considerably longer. Without the use of Self - Care, a Survivor cannot heal themselves without one.Different Add - ons can be equipped that enhance its healing speed or durability.",
+    "versions": {
+      "Common": [
+        {
+          "name": "Camping Aid Kit",
+          "description": "A rudimentary Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.",
+          "image-alt": "/static/images/Items-alt/iconItems_rundownAidKit.png",
+          "image": "/static/images/Items/iconItems_rundownAidKit.png",
+          "item-id": "Camping-Aid-Kit-Med-Kit"
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "First Aid Kit",
+          "description": "A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.",
+          "image-alt": "/static/images/Items-alt/iconItems_firstAidKit.png",
+          "image": "/static/images/Items/iconItems_firstAidKit.png",
+          "item-id": "First-Aid-Kit-Med-Kit"
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Emergency Med-Kit",
+          "description": "A sturdy and well organised Med-Kit equipped with top condition emergency supplies.",
+          "image-alt": "/static/images/Items-alt/iconItems_medkit.png",
+          "image": "/static/images/Items/iconItems_medkit.png",
+          "item-id": "Emergency-Med-Kit-Med-Kit"
+        }
+      ],
+      "Very Rare": [
+        {
+          "name": "Ranger Med-Kit",
+          "description": "A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.",
+          "image-alt": "/static/images/Items-alt/iconItems_rangersAidKit.png",
+          "image": "/static/images/Items/iconItems_rangersAidKit.png",
+          "item-id": "Ranger-Med-Kit-Med-Kit"
+        }
+      ],
+      "Event": [
+        {
+          "name": "All Hallows' Eve Lunchbox",
+          "description": "A plastic lunchbox with phosphorescent Halloween Stickers that has been packed with first-aid equipment.",
+          "image-alt": "/static/images/Items-alt/iconItems_medkitHalloween.png",
+          "image": "/static/images/Items/iconItems_medkitHalloween.png",
+          "item-id": "All-Hallows-Eve-Lunchbox-Med-Kit"
+        }
+      ]
+    },
+    "addons": {
+      "Common": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a6/FulliconAddon_rubberGloves.png/64px-FulliconAddon_rubberGloves.png?version=38a8bb7b9ad9ff20c5675619e7ad74a3",
+          "addon-name": "Rubber Gloves",
+          "addon-description": "Disposable medical gloves to avoid cross-contamination.\nModerately increases the Progression bonus for succeeding at Great Skill Checks .",
+          "addon-image-alt": "/static/images/Addons/iconAddon_gloves.jpg",
+          "addon-id": "Rubber-Gloves-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f9/FulliconAddon_butterflyTape.png/64px-FulliconAddon_butterflyTape.png?version=c2d5277de6f11e1bb7ab8a2a90488123",
+          "addon-name": "Butterfly Tape",
+          "addon-description": "Medical quality tape used to close small wounds.\nSlightly increases the Healing speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_butterflyTape.jpg",
+          "addon-id": "Butterfly-Tape-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/65/FulliconAddon_bandages.png/64px-FulliconAddon_bandages.png?version=a9828354f23c256eee75731b602ae93f",
+          "addon-name": "Bandages",
+          "addon-description": "A pack of bandages usually found in First Aid Kits.\nAdds 8 charges to the Med-Kit.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_bandages.jpg",
+          "addon-id": "Bandages-Med-Kit"
+        }
+      ],
+      "Uncommon": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fe/FulliconAddon_sponge.png/64px-FulliconAddon_sponge.png?version=c92c6639874c3b74a4786bd1fda7d0c9",
+          "addon-name": "Sponge",
+          "addon-description": "A mundane sponge used to soak up extra blood, providing easier access to wounds.\nConsiderably increases the Progression bonus for succeeding at Great Skill Checks .",
+          "addon-image-alt": "/static/images/Addons/iconAddon_sponge.jpg",
+          "addon-id": "Sponge-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cf/FulliconAddon_selfAdherentWrap.png/64px-FulliconAddon_selfAdherentWrap.png?version=bfb4561def15ce4c440cf524fe8d95b2",
+          "addon-name": "Self Adherent Wrap",
+          "addon-description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\nAdds 8 charges to the Med-Kit.\nSlightly increases the Healing speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_selfAdherentWrap.jpg",
+          "addon-id": "Self-Adherent-Wrap-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/99/FulliconAddon_needle%26Thread.png/64px-FulliconAddon_needle%26Thread.png?version=d65db6be53e3dec03d42fbef495e9417",
+          "addon-name": "Needle & Thread",
+          "addon-description": "Not exactly a medical device, however it can be used to quickly and painfully close up a wound.\nModerately increases the chances of triggering a Skill Check .\nSlightly increases the Healing speed.\nGrants 100\u00a0% Bonus Bloodpoints for succeeding Great Skill Checks.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_needAndThread.jpg",
+          "addon-id": "Needle-&-Thread-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a9/FulliconAddon_medicalScissors.png/64px-FulliconAddon_medicalScissors.png?version=91cb681c8ab64f3f93cbd81b6c510584",
+          "addon-name": "Medical Scissors",
+          "addon-description": "Scissors designed to easily cut through textiles.\nModerately increases the Healing speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_scissors.jpg",
+          "addon-id": "Medical-Scissors-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b1/FulliconAddon_gauzeRoll.png/64px-FulliconAddon_gauzeRoll.png?version=c3e3bc1e243568c0d5065ed3a0003f2e",
+          "addon-name": "Gauze Roll",
+          "addon-description": "A sterile gauze used for a variety of wounds. Part of a total wound care system.\nAdds 12 charges to the Med-Kit.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_gauseRoll.jpg",
+          "addon-id": "Gauze-Roll-Med-Kit"
+        }
+      ],
+      "Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/65/FulliconAddon_surgicalSuture.png/64px-FulliconAddon_surgicalSuture.png?version=4a35544ce95fe500494d7c0655993fa5",
+          "addon-name": "Surgical Suture",
+          "addon-description": "A medical device used to close and hold body tissue. Even though it's very effective, the surgical suture is challenging to use.\nConsiderably increases the chances of triggering a Skill Check .\nSlightly increases the Healing speed.\nGrants 150\u00a0% Bonus Bloodpoints for succeeding Great Skill Checks.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_surgicalSuture.jpg",
+          "addon-id": "Surgical-Suture-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4f/FulliconAddon_gelDressings.png/64px-FulliconAddon_gelDressings.png?version=63d8e7c6427b212422dc5ee92d4052f4",
+          "addon-name": "Gel Dressings",
+          "addon-description": "A pack of gel forming pads used to patch up heavily exuding wounds.\nAdds 16 charges to the Med-Kit.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_gelDressings.jpg",
+          "addon-id": "Gel-Dressings-Med-Kit"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/10/FulliconAddon_abdominalDressing.png/64px-FulliconAddon_abdominalDressing.png?version=3f5053b2b556f155cafdf892162f8b74",
+          "addon-name": "Abdominal Dressing",
+          "addon-description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\nConsiderably increases the Healing speed.\nReduces Charges by 8.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_abdominalDressing.jpg",
+          "addon-id": "Abdominal-Dressing-Med-Kit"
+        }
+      ],
+      "Very Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/89/FulliconAddon_stypticAgent.png/64px-FulliconAddon_stypticAgent.png?version=43a9a97489e54ccbef8f9e2fb8e60e5b",
+          "addon-name": "Styptic Agent",
+          "addon-description": "A white powder with coagulant properties. Apply the agent to a wound to stop it from haemorrhaging.\nUse with Secondary Action.\nWhen the Styptic Agent is used on an injured Survivor, they gain the Endurance  Status Effect for 8 seconds.Any damage taken during that time that would put the Survivor into the Dying State will instead apply the Deep Wound  Status Effect.The Survivors has then 20 seconds to mend themselves.\nIf the Survivor takes any damage while affected by Deep Wound or if the Deep Wound timer ends, they will immediately be put into the Dying State .\nDepletes the Med-Kit on use.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_stypticAgent.jpg",
+          "addon-id": "Styptic-Agent-Med-Kit"
+        }
+      ],
+      "Ultra Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/96/FulliconAddon_anti-haemorrhagicSyringe.png/64px-FulliconAddon_anti-haemorrhagicSyringe.png?version=258c1db7e1ab5a8a731f62dc1b80f876",
+          "addon-name": "Anti-Haemorrhagic Syringe",
+          "addon-description": "An anti-haemorrhagic substance that stops the bleeding in a matter of seconds.\nUse with Secondary Action.\nThe affected Survivor will passively gain one Health State 16 seconds after use.\nThe time required can be modified by Perks and Add-ons that affect Healing speeds.\nThis effect is cancelled when the affected Survivor changes their Health State  or is picked up by the Killer.\nDepletes the Med-Kit on use.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_syringe.jpg",
+          "addon-id": "Anti-Haemorrhagic-Syringe-Med-Kit"
+        }
+      ]
+    }
+  },
+  "Toolbox": {
+    "image": "/static/images/Items/iconItems_toolbox.png",
+    "description": "The Toolbox is an Item that can be used to repair Generators more quickly or sabotage hooks. Different Toolboxes have different uses and not all of them are good for both uses. Add-ons can be equipped to enhance their speed and durability.",
+    "versions": {
+      "Common": [
+        {
+          "name": "Worn-Out Tools",
+          "description": "A metal box containing out of condition tools that could break at any moment. Even without training, can be used to repair or break various mechanical components.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolboxWornOut.png",
+          "image": "/static/images/Items/iconItems_toolboxWornOut.png",
+          "item-id": "Worn-Out-Tools-Toolbox"
+        }
+      ],
+      "Uncommon": [
+        {
+          "name": "Toolbox",
+          "description": "A metal box containing a set of basic tools. Even without training, can be used to repair or break various mechanical components.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolbox.png",
+          "image": "/static/images/Items/iconItems_toolbox.png",
+          "item-id": "Toolbox-Toolbox"
+        }
+      ],
+      "Rare": [
+        {
+          "name": "Mechanic's Toolbox",
+          "description": "A metal box with specialised mechanics tools. Even without training, can be used to repair or break various mechanical components.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolboxMechanics.png",
+          "image": "/static/images/Items/iconItems_toolboxMechanics.png",
+          "item-id": "Mechanics-Toolbox-Toolbox"
+        },
+        {
+          "name": "Commodious Toolbox",
+          "description": "A large metal box containing basic tool and extra mechanical parts. Even without training, can be used to repair or break various mechanical components.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolboxCommodious.png",
+          "image": "/static/images/Items/iconItems_toolboxCommodious.png"
+        }
+      ],
+      "Very Rare": [
+        {
+          "name": "Engineer's Toolbox",
+          "description": "A metal box with highly specialised tools meant for engineering. Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolboxEngineers.png",
+          "image": "/static/images/Items/iconItems_toolboxEngineers.png",
+          "item-id": "Engineers-Toolbox-Toolbox"
+        },
+        {
+          "name": "Alex's Toolbox",
+          "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools. Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.",
+          "image-alt": "/static/images/Items-alt/iconItems_toolboxAlexs.png",
+          "image": "/static/images/Items/iconItems_toolboxAlexs.png"
+        }
+      ]
+    },
+    "addons": {
+      "Common": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0d/FulliconAddon_springClamp.png/64px-FulliconAddon_springClamp.png?version=484f43ea6427f3893ea82efe2a9c4bc7",
+          "addon-name": "Spring Clamp",
+          "addon-description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nSlightly increases repair Skill Check success zones.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_springClamp.jpg",
+          "addon-id": "Spring-Clamp-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/78/FulliconAddon_scraps.png/64px-FulliconAddon_scraps.png?version=256902d3d2066f54f64af067a551d9ef",
+          "addon-name": "Scraps",
+          "addon-description": "Springs, screws and gears. Mostly unusable junk.\nAdds 15 charges to the Toolbox.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_scraps.jpg",
+          "addon-id": "Scraps-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4e/FulliconAddon_cleanRag.png/64px-FulliconAddon_cleanRag.png?version=a3d3f6a0280645844accac6357fb0a02",
+          "addon-name": "Clean Rag",
+          "addon-description": "A mundane rag. Suspiciously clean.\nSlightly increases the Toolbox's repair speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_cleanRag.jpg",
+          "addon-id": "Clean-Rag-Toolbox"
+        }
+      ],
+      "Uncommon": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/33/FulliconAddon_wireSpool.png/64px-FulliconAddon_wireSpool.png?version=315d7a409708fe38333fec59ae94a51b",
+          "addon-name": "Wire Spool",
+          "addon-description": "A portable but heavy spool of copper wire.\nAdds 30 charges to the Toolbox.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_spoolOfWire.jpg",
+          "addon-id": "Wire-Spool-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d3/FulliconAddon_socketSwivels.png/64px-FulliconAddon_socketSwivels.png?version=e720a676b80b5a5a2bf583e98bfa114f",
+          "addon-name": "Socket Swivels",
+          "addon-description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nModerately increases the Toolbox repair speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_socketSwivels.jpg",
+          "addon-id": "Socket-Swivels-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c7/FulliconAddon_protectiveGloves.png/64px-FulliconAddon_protectiveGloves.png?version=4b9544ff24fe6f7408e66f2018994295",
+          "addon-name": "Protective Gloves",
+          "addon-description": "Thick gloves, which reduce menial dexterity but protect hands from injury.\nSlightly increases the chances to trigger a sabotage Skill Check.\nSlightly increases sabotage Skill Check success zones.\nConsiderably reduces the sabotage Skill Check failed penalty.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_protectiveGloves.jpg",
+          "addon-id": "Protective-Gloves-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cd/FulliconAddon_instructions.png/64px-FulliconAddon_instructions.png?version=48f8d9013b88b3c6a6c9bf8d0650fda3",
+          "addon-name": "Instructions",
+          "addon-description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\nModerately increases the Toolbox's repair efficiency.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_instructions.jpg",
+          "addon-id": "Instructions-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f3/FulliconAddon_gripWrench.png/64px-FulliconAddon_gripWrench.png?version=1c4b5a480835e839e56d663ea18a4f23",
+          "addon-name": "Grip Wrench",
+          "addon-description": "An adjustable wrench with a tough grip. Essential in any Toolbox.\nModerately increases repair Skill Check success zones.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_gripWrench.jpg",
+          "addon-id": "Grip-Wrench-Toolbox"
+        },
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/51/FulliconAddon_cuttingWire.png/64px-FulliconAddon_cuttingWire.png?version=17609e0531b43f1a0e0495959388df60",
+          "addon-name": "Cutting Wire",
+          "addon-description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nSlightly increases the Toolbox's sabotage speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_cuttingWire.jpg",
+          "addon-id": "Cutting-Wire-Toolbox"
+        }
+      ],
+      "Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d1/FulliconAddon_hacksaw.png/64px-FulliconAddon_hacksaw.png?version=71b90ecec3437f512a5176dd40a2dcda",
+          "addon-name": "Hacksaw",
+          "addon-description": "A small hand saw mounted with a metal cutting blade.\nModerately increases the Toolbox's sabotage speed.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_metalSaw.jpg",
+          "addon-id": "Hacksaw-Toolbox"
+        }
+      ],
+      "Ultra Rare": [
+        {
+          "addon-image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d9/FulliconAddon_brandNewPart.png/64px-FulliconAddon_brandNewPart.png?version=4fbad2eb72135bcedc44f7acb8de524e",
+          "addon-name": "Brand New Part",
+          "addon-description": "This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory.\nToolbox Repair action is replaced with Install Brand New Part.\nInstalling the Brand New Part will complete 15\u00a0% of a Generator over 5 seconds.\nDuring the install, you will be faced with 2 difficult Skill Checks.\nHitting each Skill Check will result in 5\u00a0% progression each for a maximum of 25\u00a0% added progression.\nThis Add-on is consumed on use.",
+          "addon-image-alt": "/static/images/Addons/iconAddon_brandNewPart.jpg",
+          "addon-id": "Brand-New-Part-Toolbox"
+        }
+      ]
+    }
+  }
 }
