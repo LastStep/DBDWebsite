@@ -104,7 +104,7 @@
 					<div class="flex-container">
 						{% for addon in addons %}
 						<div class="container-addons">
-							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'][:-3] + 'jpg' }} draggable="true"
+							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} draggable="true"
 								ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
 							<figcaption>
 								<span>{{ addon['addon-name'] }}</span>
@@ -174,7 +174,7 @@
 			<div class="addonsMain">
 				<div class="mainAddonSlots" id="mainAddonSlots-{{ name }}">
 					<div class="addonsSlots" id="addonsSlots-{{ name }}">
-						<div class="itemSlot" id="{{ name + '-slot0' }}" align="center"
+						<div class="itemSlot" id="{{ name + '-slot0' }}" align="center" 
 						    ondrop="drop(event, `{{ name + '-slot0' }}`, false)" ondragover="allowDrop(event)">
 							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-slot0' }}`, false)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
@@ -191,7 +191,7 @@
 						</div>
 					</div>
 					<div class="addonsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
-						<div class="itemSlot" id="{{ name + '-temp-slot0' }}" align="center"
+						<div class="itemSlot" id="{{ name + '-temp-slot0' }}" align="center" 
 						    ondrop="drop(event, `{{ name + '-temp-slot0' }}`, true)" ondragover="allowDrop(event)">
 							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-temp-slot0' }}`, true)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
@@ -218,7 +218,7 @@
 					{% for item in items %}
 					<div class="container-items">
 						<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" draggable="true"
-							ondragstart="drag(event)" id={{ item['item-id`'] }} credit="u/ambieobambie">
+							ondragstart="drag(event)" id={{ item['name'] }} credit="u/ambieobambie">
 						<figcaption>
 							<span>{{ item['name'] }}</span>
 						</figcaption>
@@ -242,7 +242,7 @@
 					{% for addon in addons %}
 					<div class="container-addons">
 						<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} height="80" width="80" draggable="true"
-							ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
+							ondragstart="drag(event)" id={{ addon['addon-name'] }} credit="u/ambieobambie">
 						<figcaption>
 							<span>{{ addon['addon-name'] }}</span>
 						</figcaption>
