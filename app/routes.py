@@ -36,7 +36,9 @@ def home():
 
 @app.route("/analysis")
 def analysis():
-	return render_template('analysis.html', perks=survivor_perks,
+	return render_template('analysis.html', 
+							 Perks={'Survivor-Perks': survivor_perks,
+									'Killer-Perks': killer_perks},
 							 Killer_Addons=killer_addons,
 							 Killers=killers,
 							 Items=items, css='analysis.css')
