@@ -99,7 +99,7 @@
 		<div class="flex-container" id={{ rarity }}>
 			{% for item in items %}
 			<div class="container-items">
-				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" credit="u/ambieobambie">
+				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" id={{ item['item-id'] }} credit="u/ambieobambie">
 				<figcaption>{{ item.name }}</figcaption>
 				<div class="overlay {{ 'overlayItem' + ''.join(rarity.split()) }}">
 					<div class="overlay-heading">
