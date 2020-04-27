@@ -27,7 +27,7 @@
 		</div>
 	</div>
 	<div class="perksContent">
-		{% for key,perk in perks.items() %}
+		{% for key,perk in Perks['Survivor-Perks'].items() %}
 		<div class="container-perks">
 			<img class="image lozad" draggable="true" ondragstart="drag(event)" id={{ key }} data-src={{ perk.image }}>
 			<div class="overlay overlayPerk">

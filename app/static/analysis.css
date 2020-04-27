@@ -290,9 +290,9 @@
 	width: 80px;
 }
 
-.container-addons:hover img, .container-items:hover img {
-	transform: scale(1.6);
-}
+/* .container-addons:hover img, .container-items:hover img { */
+	/* transform: scale(1.6); */
+/* } */
 
 .container-stats {
 	width: 60%;
