@@ -7,19 +7,37 @@ function drag(ev) {
 	ev.dataTransfer.setData("text", ev.target.id);
 }
 
-function drop(ev, slot, temp) {
-	clearSlot(slot, temp);
-	ev.preventDefault();
+function dropAddon(ev, slot, temp) {
 	var data = ev.dataTransfer.getData("text");
 	var nodeCopy = document.getElementById(data).cloneNode(true);
-	document.getElementById(slot).appendChild(nodeCopy);
-	checkRepeat(ev, nodeCopy.id);
-	if (temp) {
-		imgTempIds.push(nodeCopy.id);
-	} else {
-		imgIds.push(nodeCopy.id);
+	if (nodeCopy.className.startsWith("addon")){
+		clearSlot(slot, temp);
+		ev.preventDefault();
+		document.getElementById(slot).appendChild(nodeCopy);
+		checkRepeat(ev, nodeCopy.id);
+		if (temp) {
+			imgTempIds.push(nodeCopy.id);
+		} else {
+			imgIds.push(nodeCopy.id);
+		}
+		calcAddon(temp);
 	}
-	calcAddon(temp);
+}
+
+function dropItem(ev, slot, temp) {
+	var data = ev.dataTransfer.getData("text");
+	var nodeCopy = document.getElementById(data).cloneNode(true);
+	if (nodeCopy.className.startsWith("item")){
+		clearSlot(slot, temp);
+		ev.preventDefault();
+		document.getElementById(slot).appendChild(nodeCopy);
+		if (temp) {
+			imgTempIds.push(nodeCopy.id);
+		} else {
+			imgIds.push(nodeCopy.id);
+		}
+		calcAddon(temp);
+	}
 }
 
 var imgIds = [];

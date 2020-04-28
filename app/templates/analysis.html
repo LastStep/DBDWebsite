@@ -2,30 +2,30 @@
 {% block content %}
 <ul class="tab">
 	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')" id="defaultOpen">Items</button>
 
 </ul>
 
 <div class="tabcontent" id="Survivor-Perks">
-	<div class="perksSlots">
-		<div class="perkSlot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div1')" src="static/images/clearbtn.png" alt="Clear"
-				width="20" height="20" align="right">
-		</div>
-		<div class="perkSlot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div2')" src="static/images/clearbtn.png" alt="Clear"
-				width="20" height="20" align="right">
-		</div>
-		<div class="perkSlot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div3')" src="static/images/clearbtn.png" alt="Clear"
-				width="20" height="20" align="right">
-		</div>
-		<div class="perkSlot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)">
-			<input class="clear-img" type="image" onclick="clearSlot('div4')" src="static/images/clearbtn.png" alt="Clear"
-				width="20" height="20" align="right">
-		</div>
-	</div>
+	<!-- <div class="perksSlots"> -->
+		<!-- <div class="perkSlot" id="div1" align="center" ondrop="drop(event, 'div1')" ondragover="allowDrop(event)"> -->
+			<!-- <input class="clear-img" type="image" onclick="clearSlot('div1')" src="static/images/clearbtn.png" alt="Clear" -->
+				<!-- width="20" height="20" align="right"> -->
+		<!-- </div> -->
+		<!-- <div class="perkSlot" id="div2" align="center" ondrop="drop(event, 'div2')" ondragover="allowDrop(event)"> -->
+			<!-- <input class="clear-img" type="image" onclick="clearSlot('div2')" src="static/images/clearbtn.png" alt="Clear" -->
+				<!-- width="20" height="20" align="right"> -->
+		<!-- </div> -->
+		<!-- <div class="perkSlot" id="div3" align="center" ondrop="drop(event, 'div3')" ondragover="allowDrop(event)"> -->
+			<!-- <input class="clear-img" type="image" onclick="clearSlot('div3')" src="static/images/clearbtn.png" alt="Clear" -->
+				<!-- width="20" height="20" align="right"> -->
+		<!-- </div> -->
+		<!-- <div class="perkSlot" id="div4" align="center" ondrop="drop(event, 'div4')" ondragover="allowDrop(event)"> -->
+			<!-- <input class="clear-img" type="image" onclick="clearSlot('div4')" src="static/images/clearbtn.png" alt="Clear" -->
+				<!-- width="20" height="20" align="right"> -->
+		<!-- </div> -->
+	<!-- </div> -->
 	<div class="perksContent">
 		{% for key,perk in Perks['Survivor-Perks'].items() %}
 		<div class="container-perks">
@@ -126,24 +126,24 @@
 				<div class="mainAddonSlots" id="mainAddonSlots-{{ name }}">
 					<div class="addonsSlots" id="addonsSlots-{{ name }}">
 						<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
-							ondrop="drop(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
+							ondrop="dropAddon(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
 							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`, false)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
 						<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
-							ondrop="drop(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
+							ondrop="dropAddon(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
 							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`, false)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
 					</div>
 					<div class="addonsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
 						<div class="addonSlot" id="{{ name + '-temp-slot1' }}" align="center"
-							ondrop="drop(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
+							ondrop="dropAddon(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
 							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot1' }}`, true)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
 						<div class="addonSlot" id="{{ name + '-temp-slot2' }}" align="center"
-							ondrop="drop(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
+							ondrop="dropAddon(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
 							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot2' }}`, true)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
@@ -171,72 +171,115 @@
 
 		{% for name,info in Items.items() %}
 		<div class="subtabcontent" id='{{ name }}'>
-			<div class="addonsMain">
-				<div class="mainAddonSlots" id="mainAddonSlots-{{ name }}">
-					<div class="addonsSlots" id="addonsSlots-{{ name }}">
+			{% if name == 'Toolbox' %}
+			<div class="container-stats">
+				{% for col,stat in Toolbox.items() %}
+				{% if col != 'Additional Effects' %}
+				<button class="stats">
+					<center>
+						<p class="stats-addon">{{ col }}</p>
+					</center>
+					<div class="stats-tabs">
+						<div class="stats-main">
+							<center>
+								<p class="stats-value" value=""
+									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
+								</p>
+							</center>
+							{% for addon,val in stat.items() %}
+							<center>
+								<p class="stats-addons" name="{{ addon }}-stat">{{ val }}</p>
+							</center>
+							{% endfor %}
+						</div>
+						<div class="stats-temp tempSlot hidden" id={{ name + '-temp-stats' }}>
+							<center>
+								<p class="stats-value-temp" value=""
+									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
+								</p>
+							</center>
+							{% for addon,val in stat.items() %}
+							<center>
+								<p class="stats-addons" name="{{ addon }}-stat-temp">{{ val }}</p>
+							</center>
+							{% endfor %}
+						</div>
+					</div>
+				</button>
+				{% endif %}
+				{% endfor %}
+			</div>
+			{% endif %}
+			<div class="itemsMain">
+				<div class="mainItemSlots" id="mainAddonSlots-{{ name }}">
+					<div class="itemsSlots" id="addonsSlots-{{ name }}">
 						<div class="itemSlot" id="{{ name + '-slot0' }}" align="center"
-						    ondrop="drop(event, `{{ name + '-slot0' }}`, false)" ondragover="allowDrop(event)">
+							ondrop="dropItem(event, `{{ name + '-slot0' }}`, false)" ondragover="allowDrop(event)">
 							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-slot0' }}`, false)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
-						<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
-							ondrop="drop(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
-							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`, false)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-						</div>
-						<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
-							ondrop="drop(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
-							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`, false)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+						<div class="smallSlots">
+							<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
+								ondrop="dropAddon(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
+								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`, false)"
+									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							</div>
+							<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
+								ondrop="dropAddon(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
+								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`, false)"
+									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							</div>
 						</div>
 					</div>
-					<div class="addonsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
+					<div class="itemsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
 						<div class="itemSlot" id="{{ name + '-temp-slot0' }}" align="center"
-						    ondrop="drop(event, `{{ name + '-temp-slot0' }}`, true)" ondragover="allowDrop(event)">
+							ondrop="dropItem(event, `{{ name + '-temp-slot0' }}`, true)" ondragover="allowDrop(event)">
 							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-temp-slot0' }}`, true)"
 								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
 						</div>
-						<div class="addonSlot" id="{{ name + '-temp-slot1' }}" align="center"
-							ondrop="drop(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
-							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot1' }}`, true)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-						</div>
-						<div class="addonSlot" id="{{ name + '-temp-slot2' }}" align="center"
-							ondrop="drop(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
-							<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot2' }}`, true)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+						<div class="smallSlots">
+							<div class="addonSlot" id="{{ name + '-temp-slot1' }}" align="center"
+								ondrop="dropAddon(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
+								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot1' }}`, true)"
+									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							</div>
+							<div class="addonSlot" id="{{ name + '-temp-slot2' }}" align="center"
+								ondrop="dropAddon(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
+								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot2' }}`, true)"
+									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							</div>
 						</div>
 					</div>
 					<div class="moveButton">
 						<button class="moveSlots" id="{{ name + '-move' }}" onclick="moveSlot(`{{name}}`)">Compare</button>
 					</div>
 				</div>
-			</div>
-			<div class="itemsContent">
-				{% for rarity,items in info['versions'].items() %}
-				<div class="flex-container">
-					{% for item in items %}
-					<div class="container-items">
-						<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" draggable="true"
-							ondragstart="drag(event)" id={{ item['item-id'] }} credit="u/ambieobambie">
-						<figcaption>
-							<span>{{ item['name'] }}</span>
-						</figcaption>
-						<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
-							<div class="overlay-heading">
-								<span style="font-size: 16px; font-weight: 600;">{{ item['name'] }}</span>
-								<span style="font-size: 13px;">{{ rarity }}</span>
+				<div class="itemsMainContent">
+					<div class="itemsContent">
+						{% for rarity,items in info['versions'].items() %}
+						<div class="flex-container">
+							{% for item in items %}
+							<div class="container-items">
+								<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" draggable="true"
+									ondragstart="drag(event)" id={{ item['item-id'] }} credit="u/ambieobambie">
+								<figcaption>
+									<span>{{ item['name'] }}</span>
+								</figcaption>
+								<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
+									<div class="overlay-heading">
+										<span style="font-size: 16px; font-weight: 600;">{{ item['name'] }}</span>
+										<span style="font-size: 13px;">{{ rarity }}</span>
+									</div>
+									<div class="overlay-content">
+										<p style="font-size: 15px;">{{ item['description'] }}</p>
+									</div>
+								</div>
 							</div>
-							<div class="overlay-content">
-								<p style="font-size: 15px;">{{ item['description'] }}</p>
-							</div>
+							{% endfor %}
 						</div>
+						{% endfor %}
 					</div>
-					{% endfor %}
-				</div>
-				{% endfor %}
-			</div>
-			<div class="addonsContent">
+					<div class="addonsContent">
 				{% for rarity,addons in info['addons'].items() %}
 				<div class="flex-container">
 					{% for addon in addons %}
@@ -259,6 +302,8 @@
 					{% endfor %}
 				</div>
 				{% endfor %}
+			</div>
+				</div>
 			</div>
 		</div>
 		{% endfor %}

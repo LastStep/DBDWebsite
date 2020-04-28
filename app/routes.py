@@ -18,6 +18,9 @@ with open(os.path.join(APP_STATIC, 'Killer_Addons.json'), "r") as f:
 with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
 	items = json.load(f)
 
+with open(os.path.join(APP_STATIC, 'Toolbox.json'), "r") as f:
+	toolbox = json.load(f)
+
 killers = dict()
 for file in os.listdir(APP_Killer_Addons):
 	with open(os.path.join(APP_Killer_Addons, file), "r") as f:
@@ -31,7 +34,8 @@ def home():
 							 Perks={'Survivor-Perks': survivor_perks,
 									'Killer-Perks': killer_perks},
 							 Killer_Addons=killer_addons,
-							 Items=items, css='home.css')
+							 Items=items, 
+							 css='home.css')
 
 
 @app.route("/analysis")
@@ -41,7 +45,9 @@ def analysis():
 									'Killer-Perks': killer_perks},
 							 Killer_Addons=killer_addons,
 							 Killers=killers,
-							 Items=items, css='analysis.css')
+							 Items=items, 
+							 Toolbox=toolbox,
+							 css='analysis.css')
 							 
 							 
 @app.route("/memes")

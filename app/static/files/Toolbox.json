@@ -1,9 +1,11 @@
 {
   "Repair Time": {
-	"Base-Toolbox": "80"
+	"Base-Toolbox": "80",
+	"Static-Toolbox": null
   },
   "Repair Speed": {
 	"Base-Toolbox": "1",
+	"Static-Toolbox": null,
     "Worn-Out-Tools-Toolbox": "+50%",
     "Toolbox-Toolbox": "+50%",
     "Mechanics-Toolbox-Toolbox": "+75%",
@@ -12,19 +14,22 @@
     "Alexs-Toolbox-Toolbox": "+10%"
   },
   "Charges": {
-	"Base-Toolbox": "0",
-	"Worn-Out-Tools-Toolbox": "+16",
-    "Toolbox-Toolbox": "+20",
-    "Mechanics-Toolbox-Toolbox": "+16",
-    "Commodious-Toolbox-Toolbox": "+32",
-    "Engineers-Toolbox-Toolbox": "+16",
-    "Alexs-Toolbox-Toolbox": "+24"
+	"Base-Toolbox": "100",
+	"Static-Toolbox": null,
+	"Worn-Out-Tools-Toolbox": "+16%",
+    "Toolbox-Toolbox": "+20%",
+    "Mechanics-Toolbox-Toolbox": "+16%",
+    "Commodious-Toolbox-Toolbox": "+32%",
+    "Engineers-Toolbox-Toolbox": "+16%",
+    "Alexs-Toolbox-Toolbox": "+24%"
   },
   "Sabotage Time": {
-	"Base-Toolbox": "2.5"
+	"Base-Toolbox": "2.5",
+	"Static-Toolbox": null
   },  
   "Sabotage Speed": {
 	"Base-Toolbox": "100%",
+	"Static-Toolbox": null,
 	"Worn-Out-Tools-Toolbox": "+0%",
     "Toolbox-Toolbox": "+10%",
     "Mechanics-Toolbox-Toolbox": "-10%",

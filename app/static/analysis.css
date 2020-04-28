@@ -30,6 +30,20 @@
 	align-items: center;
 }
 
+.itemsSlots {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.smallSlots {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .mainItemSlots {
 	display: flex;
 	flex-direction: column;
@@ -268,6 +282,19 @@
 	margin-top: 100px;
 }
 
+.itemsMain {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.itemsMainContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 100px;
+}
 .addonsContent, .itemsContent {
 	display: flex;
 	/* flex-wrap: wrap; */
