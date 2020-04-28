@@ -8,6 +8,7 @@ function drag(ev) {
 }
 
 function dropAddon(ev, slot, temp) {
+	ev.preventDefault();
 	var data = ev.dataTransfer.getData("text");
 	var nodeCopy = document.getElementById(data).cloneNode(true);
 	if (nodeCopy.className.startsWith("addon")){
@@ -25,6 +26,7 @@ function dropAddon(ev, slot, temp) {
 }
 
 function dropItem(ev, slot, temp) {
+	ev.preventDefault();
 	var data = ev.dataTransfer.getData("text");
 	var nodeCopy = document.getElementById(data).cloneNode(true);
 	if (nodeCopy.className.startsWith("item")){

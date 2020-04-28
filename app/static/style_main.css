@@ -108,7 +108,7 @@ body {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 40px var(--shadow-radius) var(--ultra-rare-rarity-color), 0 0 80px var(--shadow-radius) var(--ultra-rare-rarity-color);
 }
 
-.overlayItemEvent {
+.overlayItemEvent, .overlayAddonEvent {
 	box-shadow: 0 0 10px var(--shadow-radius) var(--event-rarity-color), 0 0 40px var(--shadow-radius) var(--event-rarity-color), 0 0 80px var(--shadow-radius) var(--event-rarity-color);
 }
 .overlayPerk {
