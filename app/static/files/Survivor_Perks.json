@@ -2,539 +2,539 @@
   "Ace-in-the-Hole": {
     "teachable": "Ace",
     "name": "Ace in the Hole",
-    "description": "Lady Luck always seems to be throwing something good your way.\nWhen retrieving an Item  from a Chest , there is a 100\u00a0% chance that an Add-on  of Very Rare Rarity or lower will be attached to it.\n10/25/50\u00a0% chance to find a second Add-on of Uncommon Rarity or lower.\nAce in the Hole allows you to keep any Add-ons your Item has upon escaping.\n\"Everything that glitters isn't gold. But gold isn't worth a damn in this place, so this should come in handy.\" \u2014 Ace Visconti",
+    "description": "Lady Luck always seems to be throwing something good your way.\nWhen retrieving an Item  from a Chest , there is a 100% chance that an Add-on  of Very Rare Rarity or lower will be attached to it.\n10/25/50% chance to find a second Add-on of Uncommon Rarity or lower.\nAce in the Hole allows you to keep any Add-ons your Item has upon escaping.\n\"Everything that glitters isn't gold. But gold isn't worth a damn in this place, so this should come in handy.\" \u2014 Ace Visconti",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/24/IconPerks_aceInTheHole.png/100px-IconPerks_aceInTheHole.png?version=9a513fd9fa5bab5458bc1f8e2299339a",
     "image_alt": "/static/images/Perks/iconPerks_aceInTheHole.png"
   },
   "Adrenaline": {
     "teachable": "Meg",
     "name": "Adrenaline",
-    "description": "You are fuelled by unexpected energy when on the verge of escape.\nInstantly heal one Health State and sprint at 150\u00a0% of your normal running speed for 5 seconds when the Exit Gates  are powered.\nAdrenaline is on hold if you are disabled when it triggers and will activate upon being freed. \nAdrenaline will wake you up if you are asleep when it triggers.\nAdrenaline ignores Exhaustion.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds.\nYou do not recover from Exhaustion while running.",
+    "description": "You are fuelled by unexpected energy when on the verge of escape.\nInstantly heal one Health State and sprint at 150% of your normal running speed for 5 seconds when the Exit Gates  are powered.\nAdrenaline is on hold if you are disabled when it triggers and will activate upon being freed. \nAdrenaline will wake you up if you are asleep when it triggers.\nAdrenaline ignores Exhaustion.\nCauses the Exhausted  Status Effect for 60/50/40seconds.\nYou do not recover from Exhaustion while running.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f7/IconPerks_adrenaline.png/100px-IconPerks_adrenaline.png?version=6a56214a68c24212c5a77486ee0aca7d",
     "image_alt": "/static/images/Perks/iconPerks_adrenaline.png"
   },
   "Aftercare": {
     "teachable": "Jeff",
     "name": "Aftercare",
-    "description": "Unlocks potential in one's Aura-reading ability.\nYou see the Aura  of every Survivor that:\n\nYou rescued from a Hook  or who rescued you from one.\nYou completed a Healing action on or who completed one on you.\nThey also see your Aura.\nThis occurs for up to 1/2/3\u00a0Survivor(s).\nAll effects of Aftercare are reset when you are hooked by the Killer.\n\"'A Mercy that Rips the Storm.'Oil work to honour my best buddies who happen to be the best musicians I know. Their first album is still my favourite. It got me through a dark time in my life.\" \u2014 Jeff, oil on canvas, 16x16",
+    "description": "Unlocks potential in one's Aura-reading ability.\nYou see the Aura  of every Survivor that:\n\nYou rescued from a Hook  or who rescued you from one.\nYou completed a Healing action on or who completed one on you.\nThey also see your Aura.\nThis occurs for up to 1/2/3Survivor(s).\nAll effects of Aftercare are reset when you are hooked by the Killer.\n\"'A Mercy that Rips the Storm.'Oil work to honour my best buddies who happen to be the best musicians I know. Their first album is still my favourite. It got me through a dark time in my life.\" \u2014 Jeff, oil on canvas, 16x16",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0d/IconPerks_aftercare.png/100px-IconPerks_aftercare.png?version=2e98beeda94f3614e230849c7bc6a7e3",
     "image_alt": "/static/images/Perks/iconPerks_aftercare.png"
   },
   "Alert": {
     "teachable": "Feng",
     "name": "Alert",
-    "description": "Your acute senses are on high alert.\nWhen the Killer performs a Pallet Break or Generator Damage action, their Aura  is revealed to you for 3/4/5\u00a0seconds.\n\"I have true sight.\" \u2014 Feng Min",
+    "description": "Your acute senses are on high alert.\nWhen the Killer performs a Pallet Break or Generator Damage action, their Aura  is revealed to you for 3/4/5seconds.\n\"I have true sight.\" \u2014 Feng Min",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/71/IconPerks_alert.png/100px-IconPerks_alert.png?version=24d6151f25edfcd6cca6fe396b4e10a4",
     "image_alt": "/static/images/Perks/iconPerks_alert.png"
   },
   "Any-Means-Necessary": {
     "teachable": "Yui",
     "name": "Any Means Necessary",
-    "description": "You stand up for yourself, using whatever's on hand to gain an advantage.\nPress and hold the Active Ability button for 4 seconds while standing beside a dropped Pallet  to reset it to its upright position.\nAny Means Necessary has a cool-down of 140/130/120\u00a0seconds.\n\"I'll hit you with everything I've got. Then I'll do it again.\" \u2014 Yui Kimura",
+    "description": "You stand up for yourself, using whatever's on hand to gain an advantage.\nPress and hold the Active Ability button for 4 seconds while standing beside a dropped Pallet  to reset it to its upright position.\nAny Means Necessary has a cool-down of 140/130/120seconds.\n\"I'll hit you with everything I've got. Then I'll do it again.\" \u2014 Yui Kimura",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/79/IconPerks_anyMeansNecessary.png/100px-IconPerks_anyMeansNecessary.png?version=d6e716a1339733d154ae2dd0f5771e76",
     "image_alt": "/static/images/Perks/iconPerks_anyMeansNecessary.png"
   },
   "Autodidact": {
     "teachable": "Adam",
     "name": "Autodidact",
-    "description": "You start the Trial with a -25\u00a0% progression penalty for Skill Checks  to heal Survivors .\nFor every successful Skill Check completed while healing a Survivor, you receive a Token for a maximum of 3/4/5\u00a0Tokens.\nEach Token grants you a +15\u00a0% bonus progression for a successful Skill Check while healing Survivors.\nGreat Skill Checks cannot be performed while using Autodidact.\nAutodidact is not active when using a Med-Kit  to heal.\n\"There's no limit to what you can achieve, as long as you back it up with hard work.\" \u2014 Adam Francis",
+    "description": "You start the Trial with a -25% progression penalty for Skill Checks  to heal Survivors .\nFor every successful Skill Check completed while healing a Survivor, you receive a Token for a maximum of 3/4/5Tokens.\nEach Token grants you a +15% bonus progression for a successful Skill Check while healing Survivors.\nGreat Skill Checks cannot be performed while using Autodidact.\nAutodidact is not active when using a Med-Kit  to heal.\n\"There's no limit to what you can achieve, as long as you back it up with hard work.\" \u2014 Adam Francis",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/96/IconPerks_autodidact.png/100px-IconPerks_autodidact.png?version=56921bd90817a2a964f7d769e441f1d9",
     "image_alt": "/static/images/Perks/iconPerks_autodidact.png"
   },
   "Babysitter": {
     "teachable": "Steve",
     "name": "Babysitter",
-    "description": "While you have a reputation for being self-centred, you risk it all to help those in need.\nWhen you unhook a Survivor, the unhooked Survivor leaves no Scratch Marks or Blood Trail for the next 4/6/8\u00a0seconds.\nBoth you and the Killer see each other's Aura  for 4 seconds.\n\"I promised to keep you shitheads safe, and that's exactly what I plan on doing.\" \u2014 Steve Harrington",
+    "description": "While you have a reputation for being self-centred, you risk it all to help those in need.\nWhen you unhook a Survivor, the unhooked Survivor leaves no Scratch Marks or Blood Trail for the next 4/6/8seconds.\nBoth you and the Killer see each other's Aura  for 4 seconds.\n\"I promised to keep you shitheads safe, and that's exactly what I plan on doing.\" \u2014 Steve Harrington",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/db/IconPerks_babysitter.png/100px-IconPerks_babysitter.png?version=15adc1c49ef767767a1f1515624c437d",
     "image_alt": "/static/images/Perks/iconPerks_babySitter.png"
   },
   "Balanced-Landing": {
     "teachable": "Nea",
     "name": "Balanced Landing",
-    "description": "Your agility is incomparable.\nCat-like reflexes reduce your stagger duration from falls by 75\u00a0% and muffle your grunts from falling by 100\u00a0%.\nUpon landing, start sprinting at 150\u00a0% of your normal running speed for a maximum of 3 seconds if not exhausted.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds.\nBalanced Landing cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"I've jumped from higher places.\" \u2014 Nea Karlsson",
+    "description": "Your agility is incomparable.\nCat-like reflexes reduce your stagger duration from falls by 75% and muffle your grunts from falling by 100%.\nUpon landing, start sprinting at 150% of your normal running speed for a maximum of 3 seconds if not exhausted.\nCauses the Exhausted  Status Effect for 60/50/40seconds.\nBalanced Landing cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"I've jumped from higher places.\" \u2014 Nea Karlsson",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5e/IconPerks_balancedLanding.png/100px-IconPerks_balancedLanding.png?version=32bf8a7722781b61cc22bb6ecba89294",
     "image_alt": "/static/images/Perks/iconPerks_balancedLanding.png"
   },
   "Better-Together": {
     "teachable": "Nancy",
     "name": "Better Together",
-    "description": "You seek justice and uncover the truth no matter what obstacle stands in your way.\nThe Aura  of the Generator you are currently repairing is revealed to all other Survivors located within 32 metres.\nIf the Killer downs a Survivor while you are repairing a Generator , you see the Auras off all other Survivors for 8/9/10\u00a0seconds.\n\"Let's burn that lab to the ground.\" \u2014 Nancy Wheeler",
+    "description": "You seek justice and uncover the truth no matter what obstacle stands in your way.\nThe Aura  of the Generator you are currently repairing is revealed to all other Survivors located within 32 metres.\nIf the Killer downs a Survivor while you are repairing a Generator , you see the Auras off all other Survivors for 8/9/10seconds.\n\"Let's burn that lab to the ground.\" \u2014 Nancy Wheeler",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/02/IconPerks_betterTogether.png/100px-IconPerks_betterTogether.png?version=1eb4bba546a89d8f6922ec65318d1c39",
     "image_alt": "/static/images/Perks/iconPerks_betterTogether.png"
   },
   "Boil-Over": {
     "teachable": "Kate",
     "name": "Boil Over",
-    "description": "You are a battler and do everything to escape a foe's grasp.\nYour Struggle Effects on the Killer are increased by 25/50/75\u00a0%.\nYou obscure the Killer's ability to the Auras  of Hooks  that are within a range of 10/12/14\u00a0metres.\n\"Buck and Wild,Swing to be free,Your hands just can't keep ahold of me.\"\u2014 Kate Denson's \"Boil Over\"",
+    "description": "You are a battler and do everything to escape a foe's grasp.\nYour Struggle Effects on the Killer are increased by 25/50/75%.\nYou obscure the Killer's ability to the Auras  of Hooks  that are within a range of 10/12/14metres.\n\"Buck and Wild,Swing to be free,Your hands just can't keep ahold of me.\"\u2014 Kate Denson's \"Boil Over\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/IconPerks_boilOver.png/100px-IconPerks_boilOver.png?version=f760081691765f4aea69186b46f202eb",
     "image_alt": "/static/images/Perks/iconPerks_boilOver.png"
   },
   "Bond": {
     "teachable": "Dwight",
     "name": "Bond",
-    "description": "Unlocks potential in one's Aura-reading ability.\nAllies' Auras  are revealed to you when they are within a range of 20/28/36\u00a0metres.\n\"We have to work as a team, I need you to survive so that I can survive!\" \u2014 Dwight Fairfield",
+    "description": "Unlocks potential in one's Aura-reading ability.\nAllies' Auras  are revealed to you when they are within a range of 20/28/36metres.\n\"We have to work as a team, I need you to survive so that I can survive!\" \u2014 Dwight Fairfield",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a0/IconPerks_bond.png/100px-IconPerks_bond.png?version=ab2f39637d2cda50cbef456db835380c",
     "image_alt": "/static/images/Perks/iconPerks_bond.png"
   },
   "Borrowed-Time": {
     "teachable": "Bill",
     "name": "Borrowed Time",
-    "description": "You are fuelled with an unexpected energy when saving an Ally from a Hook within the Killer's Terror Radius.\nAfter unhooking a Survivor within the Killer's Terror Radius, for 15 seconds, any damage taken that would put the unhooked Survivor into the Dying State will instead apply the Deep Wound  Status Effect. The Survivor has 10/15/20\u00a0seconds to mend themselves.\nIf the unhooked Survivor takes any damage while affected by Deep Wound or if its timer ends, the unhooked Survivor is immediately put into the Dying State .\n\"Probably stings like hell, but it ain't gonna kill ya. Up and at 'em soldier. Time to move!\" \u2014 Bill Overbeck\nUnique to\u00a0William \"Bill\" Overbeck\u00a0until Level 35, at which point its Teachable version can then be learned and taught to the other\u00a0Survivors.",
+    "description": "You are fuelled with an unexpected energy when saving an Ally from a Hook within the Killer's Terror Radius.\nAfter unhooking a Survivor within the Killer's Terror Radius, for 15 seconds, any damage taken that would put the unhooked Survivor into the Dying State will instead apply the Deep Wound  Status Effect. The Survivor has 10/15/20seconds to mend themselves.\nIf the unhooked Survivor takes any damage while affected by Deep Wound or if its timer ends, the unhooked Survivor is immediately put into the Dying State .\n\"Probably stings like hell, but it ain't gonna kill ya. Up and at 'em soldier. Time to move!\" \u2014 Bill Overbeck\nUnique toWilliam \"Bill\" Overbeckuntil Level 35, at which point its Teachable version can then be learned and taught to the otherSurvivors.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/IconPerks_borrowedTime.png/100px-IconPerks_borrowedTime.png?version=dff597686eaed7cb7d878fcc6a113d27",
     "image_alt": "/static/images/Perks/iconPerks_borrowedTime.png"
   },
   "Botany-Knowledge": {
     "teachable": "Claudette",
     "name": "Botany Knowledge",
-    "description": "You transform plants found around The Campfire into tinctures that slow down bleeding.\nHealing Speed and Healing Item Efficiency is increased by 11/22/33\u00a0%.\n\"Basic botany knowledge could save your life someday.\" \u2014 Claudette Morel",
+    "description": "You transform plants found around The Campfire into tinctures that slow down bleeding.\nHealing Speed and Healing Item Efficiency is increased by 11/22/33%.\n\"Basic botany knowledge could save your life someday.\" \u2014 Claudette Morel",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1e/IconPerks_botanyKnowledge.png/100px-IconPerks_botanyKnowledge.png?version=5fd9c2632f30c641a4214cb8d20091e2",
     "image_alt": "/static/images/Perks/iconPerks_botanyKnowledge.png"
   },
   "Breakdown": {
     "teachable": "Jeff",
     "name": "Breakdown",
-    "description": "Any time you are unhooked or unhook yourself, the Hook  breaks and the Killer's Aura  is shown to you for 4/5/6\u00a0seconds.\n\"'Charge from the Belly of the Beast.'Here's a sketch/painting on a piece of wood I saw by the side of this road. I felt like it got a story to tell. And it didn't waste its second chance.\" \u2014 Jeff, ink and oil wash on slice of wood, 12x16",
+    "description": "Any time you are unhooked or unhook yourself, the Hook  breaks and the Killer's Aura  is shown to you for 4/5/6seconds.\n\"'Charge from the Belly of the Beast.'Here's a sketch/painting on a piece of wood I saw by the side of this road. I felt like it got a story to tell. And it didn't waste its second chance.\" \u2014 Jeff, ink and oil wash on slice of wood, 12x16",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6c/IconPerks_breakdown.png/100px-IconPerks_breakdown.png?version=e8b56c526c04d3fc4c406c9fd2c2a1b1",
     "image_alt": "/static/images/Perks/iconPerks_breakdown.png"
   },
   "Breakout": {
     "teachable": "Yui",
     "name": "Breakout",
-    "description": "You kick into high gear when someone's in trouble, inspiring them to overcome any obstacle.\nWhen within 6 metres of a carried Survivor, you gain the Haste  Status Effect, moving at an increased speed of 5/6/7\u00a0%.\nThe carried Survivor's wiggle speed is increased by 20\u00a0%.\n\"Come, we\u2019re going to rip our way out of this.\" \u2014 Yui Kimura",
+    "description": "You kick into high gear when someone's in trouble, inspiring them to overcome any obstacle.\nWhen within 6 metres of a carried Survivor, you gain the Haste  Status Effect, moving at an increased speed of 5/6/7%.\nThe carried Survivor's wiggle speed is increased by 20%.\n\"Come, we\u2019re going to rip our way out of this.\" \u2014 Yui Kimura",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/d0/IconPerks_breakout.png/100px-IconPerks_breakout.png?version=1d8200fc039695a8a4260c257435b473",
     "image_alt": "/static/images/Perks/iconPerks_breakout"
   },
   "Buckle-Up": {
     "teachable": "Ash",
     "name": "Buckle Up",
-    "description": "Unlocks potential in one's Aura-reading ability. \nThe recovery progress of dying Survivors can be determined by the intensity of their Auras  at a distance of up to 48 metres.\nWhen you heal a Survivor from the Dying State  to Injured , both the healed Survivor and yourself see the Killer's Aura for a duration of 4/5/6\u00a0seconds.\n\"Ghost beaters never leave a man behind.\" \u2014 Ash Williams",
+    "description": "Unlocks potential in one's Aura-reading ability. \nThe recovery progress of dying Survivors can be determined by the intensity of their Auras  at a distance of up to 48 metres.\nWhen you heal a Survivor from the Dying State  to Injured , both the healed Survivor and yourself see the Killer's Aura for a duration of 4/5/6seconds.\n\"Ghost beaters never leave a man behind.\" \u2014 Ash Williams",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/74/IconPerks_buckleUp.png/100px-IconPerks_buckleUp.png?version=914de173c8d516cefc6d1186f0937e23",
     "image_alt": "/static/images/Perks/iconPerks_buckleUp.png"
   },
   "Calm-Spirit": {
     "teachable": "Jake",
     "name": "Calm Spirit",
-    "description": "Animals seem to trust you as they often stay calm in your presence.\nReduces chances of alerting Crows  by 80/90/100\u00a0%.\nYour calm spirit can overcome the urge to scream.",
+    "description": "Animals seem to trust you as they often stay calm in your presence.\nReduces chances of alerting Crows  by 80/90/100%.\nYour calm spirit can overcome the urge to scream.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/6c/IconPerks_calmSpirit.png/100px-IconPerks_calmSpirit.png?version=0c18f15e67a035f0f524fa962f1e91fc",
     "image_alt": "/static/images/Perks/iconPerks_calmSpirit.png"
   },
   "Camaraderie": {
     "teachable": "Steve",
     "name": "Camaraderie",
-    "description": "Life has taught you the importance of friendship which has given you strength.\nWhile you are on the Hook  in the Struggle Phase, Camaraderie activates.\nIf another Survivor is within 16 metres of your Hook while Camaraderie is activated, the Struggle Phase timer is paused for 26/30/34\u00a0seconds.\n\"So, remember once you get in there... pretend like you don't care. There you go, you're learning my friend. You're learning.\" \u2014 Steve Harrington",
+    "description": "Life has taught you the importance of friendship which has given you strength.\nWhile you are on the Hook  in the Struggle Phase, Camaraderie activates.\nIf another Survivor is within 16 metres of your Hook while Camaraderie is activated, the Struggle Phase timer is paused for 26/30/34seconds.\n\"So, remember once you get in there... pretend like you don't care. There you go, you're learning my friend. You're learning.\" \u2014 Steve Harrington",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1d/IconPerks_camaraderie.png/100px-IconPerks_camaraderie.png?version=59810e9a1d153f569308a6313d11b080",
     "image_alt": "/static/images/Perks/iconPerks_camaraderie.png"
   },
   "Dance-With-Me": {
     "teachable": "Kate",
     "name": "Dance With Me",
-    "description": "When performing a fast vault or leaving a Locker  in a sprint, you leave no Scratch Marks for 3 seconds.\nDance With Me has a cool-down of 60/50/40\u00a0seconds.\n\"Another show's off and runnin',Dance with me, cuz there's a storm a commin'Follow my boots, try to keep up,Dance with me, until sun up.\"\u2014 Kate Denson's \"Dance With Me\"",
+    "description": "When performing a fast vault or leaving a Locker  in a sprint, you leave no Scratch Marks for 3 seconds.\nDance With Me has a cool-down of 60/50/40seconds.\n\"Another show's off and runnin',Dance with me, cuz there's a storm a commin'Follow my boots, try to keep up,Dance with me, until sun up.\"\u2014 Kate Denson's \"Dance With Me\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/17/IconPerks_danceWithMe.png/100px-IconPerks_danceWithMe.png?version=c4d9a79c0f4af97ef8d994ac07c5b067",
     "image_alt": "/static/images/Perks/iconPerks_danceWithMe.png"
   },
   "Dark-Sense": {
     "teachable": "All",
     "name": "Dark Sense",
-    "description": "Unlocks potential in one's Aura-reading abilities.\nEach time a Generator  is completed, the Killer's Aura is revealed to you for 5 seconds.\nWhen the last Generator is powered, the Killer's Aura is revealed to you for 5/7/10\u00a0seconds.\n\"Take it from an old-timer: Slow down, don't rush and try not to worry so much! The best way to beat him is to know how he thinks.\" \u2014 Murf, The Lost Tapes",
+    "description": "Unlocks potential in one's Aura-reading abilities.\nEach time a Generator  is completed, the Killer's Aura is revealed to you for 5 seconds.\nWhen the last Generator is powered, the Killer's Aura is revealed to you for 5/7/10seconds.\n\"Take it from an old-timer: Slow down, don't rush and try not to worry so much! The best way to beat him is to know how he thinks.\" \u2014 Murf, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/92/IconPerks_darkSense.png/100px-IconPerks_darkSense.png?version=a9bee4f6ae394ed74816ff97fccd918f",
     "image_alt": "/static/images/Perks/iconPerks_darkSense.png"
   },
   "Dead-Hard": {
     "teachable": "David",
     "name": "Dead Hard",
-    "description": "Activate-able Perk.\nYou can take a beating. When Injured, tap into your adrenaline bank and dash forward quickly to avoid damage.\n\nPress the Active Ability button while running to dash forward.\nDuring the dash, you avoid damage.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds.\nDead Hard cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"We were walkin' through t'ginnel one night when a beer bottle flew past me, then another, and another. I thought to myself \"Gonna 'ave some fun 'ere lads, let's get stuck in!\". It were a right dust up, I swear down!\" \u2014 David King",
+    "description": "Activate-able Perk.\nYou can take a beating. When Injured, tap into your adrenaline bank and dash forward quickly to avoid damage.\n\nPress the Active Ability button while running to dash forward.\nDuring the dash, you avoid damage.\nCauses the Exhausted  Status Effect for 60/50/40seconds.\nDead Hard cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"We were walkin' through t'ginnel one night when a beer bottle flew past me, then another, and another. I thought to myself \"Gonna 'ave some fun 'ere lads, let's get stuck in!\". It were a right dust up, I swear down!\" \u2014 David King",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/75/IconPerks_deadHard.png/100px-IconPerks_deadHard.png?version=71d72b496123ae68660abf65fd5c4abd",
     "image_alt": "/static/images/Perks/iconPerks_DeadHard.png"
   },
   "Decisive-Strike": {
     "teachable": "Laurie",
     "name": "Decisive Strike",
-    "description": "Using whatever is at hand, you stab at your aggressor in an ultimate attempt to escape.\nAfter being unhooked or unhooking yourself, Decisive Strike will become active and usable for 40/50/60\u00a0seconds. \nWhile Decisive Strike is active, when grabbed by the Killer, succeed a Skill Check  to automatically escape the Killer's grasp and stun them for 5 seconds.\n\nSucceeding or failing the Skill Check will disable Decisive Strike.\nSuccessfully stunning the Killer will result in you becoming the Obsession.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"There's nothing to be scared of.\" \u2014 Laurie Strode",
+    "description": "Using whatever is at hand, you stab at your aggressor in an ultimate attempt to escape.\nAfter being unhooked or unhooking yourself, Decisive Strike will become active and usable for 40/50/60seconds. \nWhile Decisive Strike is active, when grabbed by the Killer, succeed a Skill Check  to automatically escape the Killer's grasp and stun them for 5 seconds.\n\nSucceeding or failing the Skill Check will disable Decisive Strike.\nSuccessfully stunning the Killer will result in you becoming the Obsession.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"There's nothing to be scared of.\" \u2014 Laurie Strode",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ee/IconPerks_decisiveStrike.png/100px-IconPerks_decisiveStrike.png?version=e6c32876d734e4eb2fd10a82bcafba1f",
     "image_alt": "/static/images/Perks/iconPerks_decisiveStrike.png"
   },
   "Deliverance": {
     "teachable": "Adam",
     "name": "Deliverance",
-    "description": "After performing a Safe Hook Rescue on another Survivor, the Perk activates.\nYou now have a 100\u00a0% chance to unhook yourself during the escape attempt.\nA successful Deliverance from the Hook  triggers the Broken  Status Effect for 100/80/60\u00a0seconds.\n\"I was raised by a strict man who taught me how to make the best of a bad situation.\" \u2014 Adam Francis",
+    "description": "After performing a Safe Hook Rescue on another Survivor, the Perk activates.\nYou now have a 100% chance to unhook yourself during the escape attempt.\nA successful Deliverance from the Hook  triggers the Broken  Status Effect for 100/80/60seconds.\n\"I was raised by a strict man who taught me how to make the best of a bad situation.\" \u2014 Adam Francis",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7e/IconPerks_deliverance.png/100px-IconPerks_deliverance.png?version=2393c35d88e20f3427d8d49a7268d020",
     "image_alt": "/static/images/Perks/iconPerks_deliverance.png"
   },
   "Detective's-Hunch": {
     "teachable": "Tapp",
     "name": "Detective's Hunch",
-    "description": "Unlocks potential in one's Aura-reading ability.\nAfter a Generator is completed, the Auras  of Generators , Chests  and Totems  within 32/48/64\u00a0metres are revealed to you for 10 seconds.\nIf you are holding a Map  that can track Objectives, Generators revealed by Detective's Hunch are added to the Map.\n\"Are you able to tell us where you were last night?\" \u2014 Detective David Tapp",
+    "description": "Unlocks potential in one's Aura-reading ability.\nAfter a Generator is completed, the Auras  of Generators , Chests  and Totems  within 32/48/64metres are revealed to you for 10 seconds.\nIf you are holding a Map  that can track Objectives, Generators revealed by Detective's Hunch are added to the Map.\n\"Are you able to tell us where you were last night?\" \u2014 Detective David Tapp",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7b/IconPerks_detectivesHunch.png/100px-IconPerks_detectivesHunch.png?version=944811f0ae382401e2902101fcf0b236",
     "image_alt": "/static/images/Perks/iconPerks_detectivesHunch.png"
   },
   "Distortion": {
     "teachable": "Jeff",
     "name": "Distortion",
-    "description": "You start the Trial with 3 Tokens.\nWhen your Aura  would be shown to the Killer, the Perk activates and a Token is consumed.\nFor the next 6/8/10\u00a0seconds while the Perk is activated, your Aura and Scratch Marks will not be shown to the Killer.\nDistortion does not activate when you are in the Dying State  or affected by Traps.\n\"'Death Fooled by the Cloak of Falcon Feathers.'Sketch inspired by a few sleepless nights during winter. Exploration of Norse mythology: bravery can conceal your flaws, even when you are at your most vulnerable.\" \u2014 Jeff, pencil on tone paper, 12x12",
+    "description": "You start the Trial with 3 Tokens.\nWhen your Aura  would be shown to the Killer, the Perk activates and a Token is consumed.\nFor the next 6/8/10seconds while the Perk is activated, your Aura and Scratch Marks will not be shown to the Killer.\nDistortion does not activate when you are in the Dying State  or affected by Traps.\n\"'Death Fooled by the Cloak of Falcon Feathers.'Sketch inspired by a few sleepless nights during winter. Exploration of Norse mythology: bravery can conceal your flaws, even when you are at your most vulnerable.\" \u2014 Jeff, pencil on tone paper, 12x12",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/41/IconPerks_distortion.png/100px-IconPerks_distortion.png?version=6ea446d336209f8b61fdea735562733d",
     "image_alt": "/static/images/Perks/iconPerks_distortion.png"
   },
   "Diversion": {
     "teachable": "Adam",
     "name": "Diversion",
-    "description": "Activate-able Perk.\nStanding within the Killer's Terror Radius while not in a Chase for 45 seconds activates Diversion.\n\nOnce Diversion is activated, press the Active Ability button while crouched and motionless to throw a pebble, which creates a distraction for the Killer at a distance of 10/15/20\u00a0metres.\nThe distraction consists of:\n\nA Loud Noise Notification\nScratch Marks\nDiversion's timer resets once the ability has been activated.\n\"There's what is easy and then there's what is right. If you confuse the two, there's no telling what you become.\" \u2014 Adam Francis",
+    "description": "Activate-able Perk.\nStanding within the Killer's Terror Radius while not in a Chase for 45 seconds activates Diversion.\n\nOnce Diversion is activated, press the Active Ability button while crouched and motionless to throw a pebble, which creates a distraction for the Killer at a distance of 10/15/20metres.\nThe distraction consists of:\n\nA Loud Noise Notification\nScratch Marks\nDiversion's timer resets once the ability has been activated.\n\"There's what is easy and then there's what is right. If you confuse the two, there's no telling what you become.\" \u2014 Adam Francis",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a6/IconPerks_diversion.png/100px-IconPerks_diversion.png?version=c763e15f0e199b2bfaa0c8d5a975eb56",
     "image_alt": "/static/images/Perks/iconPerks_diversion.png"
   },
   "Déjà-Vu": {
     "teachable": "All",
     "name": "D\u00e9j\u00e0 Vu",
-    "description": "Unlocks potential in one's Aura-reading ability. Paranoia paired with your horror of failure helps prepare you from repeating the same mistakes.\nThe Auras of 3 Generators  in closest proximity to each other are revealed to you for 30/45/60\u00a0seconds, at the start of the Trial and each time a Generator is completed.\nIf you are holding a Map  that can track Objectives, Generators revealed by D\u00e9j\u00e0 Vu are added to the Map.",
+    "description": "Unlocks potential in one's Aura-reading ability. Paranoia paired with your horror of failure helps prepare you from repeating the same mistakes.\nThe Auras of 3 Generators  in closest proximity to each other are revealed to you for 30/45/60seconds, at the start of the Trial and each time a Generator is completed.\nIf you are holding a Map  that can track Objectives, Generators revealed by D\u00e9j\u00e0 Vu are added to the Map.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/89/IconPerks_dejaVu.png/100px-IconPerks_dejaVu.png?version=891062b480380843f269969dde76e04c",
     "image_alt": "/static/images/Perks/iconPerks_dejaVu.png"
   },
   "Empathy": {
     "teachable": "Claudette",
     "name": "Empathy",
-    "description": "Unlocks potential in one's Aura-reading ability.\nDying  or Injured  Allies' Auras  are revealed to you when within 64/96/128\u00a0metres of range.\nEmpathy does not reveal Auras of Allies when they are in the Killer's direct contact.",
+    "description": "Unlocks potential in one's Aura-reading ability.\nDying  or Injured  Allies' Auras  are revealed to you when within 64/96/128metres of range.\nEmpathy does not reveal Auras of Allies when they are in the Killer's direct contact.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/ae/IconPerks_empathy.png/100px-IconPerks_empathy.png?version=c7052dd6f27c661d3463adcbc5fb1abc",
     "image_alt": "/static/images/Perks/iconPerks_empathy.png"
   },
   "Fixated": {
     "teachable": "Nancy",
     "name": "Fixated",
-    "description": "When you have a goal in mind, there's no turning back; better to ask forgiveness than permission.\nYou can see your own Scratch Marks at all times.\nWhile uninjured, you walk 10/15/20\u00a0% faster.\n\"I wanna finish what we started. I want to kill it.\" \u2014 Nancy Wheeler",
+    "description": "When you have a goal in mind, there's no turning back; better to ask forgiveness than permission.\nYou can see your own Scratch Marks at all times.\nWhile uninjured, you walk 10/15/20% faster.\n\"I wanna finish what we started. I want to kill it.\" \u2014 Nancy Wheeler",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/7/7c/IconPerks_fixated.png/100px-IconPerks_fixated.png?version=58cea5f3ee9dc9d1f4907fd71fdc0534",
     "image_alt": "/static/images/Perks/iconPerks_fixated.png"
   },
   "Flip-Flop": {
     "teachable": "Ash",
     "name": "Flip-Flop",
-    "description": "You have an uncanny ability to escape the inevitable.\nWhile in the Dying State , 50\u00a0% of your recovery progression is converted into wiggle progression when you are picked up by the Killer, up to a maximum of 40/45/50\u00a0% total wiggle progression.\n\"Catch ya on the flip-flop.\" \u2014 Ash Williams",
+    "description": "You have an uncanny ability to escape the inevitable.\nWhile in the Dying State , 50% of your recovery progression is converted into wiggle progression when you are picked up by the Killer, up to a maximum of 40/45/50% total wiggle progression.\n\"Catch ya on the flip-flop.\" \u2014 Ash Williams",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/31/IconPerks_flip-Flop.png/100px-IconPerks_flip-Flop.png?version=20b6016cb9d1ce26d31126bc7ba8ba51",
     "image_alt": "/static/images/Perks/iconPerks_flipFlop.png"
   },
   "For-the-People": {
     "teachable": "Zarina",
     "name": "For the People",
-    "description": "You risk life and injury for others.\nFor the People is only active while at full health.\nPress the Active Ability button while healing another Survivor without a Med-Kit  to instantly heal them from Dying  to Injured , or from Injured to Healthy .\nYou become Injured and receive the Broken  Status Effect for 110/100/90\u00a0seconds.\nYou become the Obsession .\nDecreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"We can write our own story and decide how it really ends.\" \u2014 Zarina Kassir",
+    "description": "You risk life and injury for others.\nFor the People is only active while at full health.\nPress the Active Ability button while healing another Survivor without a Med-Kit  to instantly heal them from Dying  to Injured , or from Injured to Healthy .\nYou become Injured and receive the Broken  Status Effect for 110/100/90seconds.\nYou become the Obsession .\nDecreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"We can write our own story and decide how it really ends.\" \u2014 Zarina Kassir",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/31/IconPerks_forThePeople.png/100px-IconPerks_forThePeople.png?version=f647413915f8ee6e093e71571331a51e",
     "image_alt": "/static/images/Perks/iconPerks_forThePeople.png"
   },
   "Head-On": {
     "teachable": "Jane",
     "name": "Head On",
-    "description": "When your mind is set, there better be no one standing in your way.\nWhile standing in a Locker  for 3 seconds, Head On activates.\nWhile Head On is activated, performing a rushed action to leave a Locker stuns the Killer for 3 seconds if they are standing within range.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds if the stun was successful.\nYou do not recover from Exhaustion while running.\nHead On cannot be used when Exhausted or when you have accrued Stillness Crows .\n\"People are remembered for the challenges they overcome. You can run away and forget what you're capable of or you can face your fears and remind the world of who you are.\" \u2014 Jane Romero",
+    "description": "When your mind is set, there better be no one standing in your way.\nWhile standing in a Locker  for 3 seconds, Head On activates.\nWhile Head On is activated, performing a rushed action to leave a Locker stuns the Killer for 3 seconds if they are standing within range.\nCauses the Exhausted  Status Effect for 60/50/40seconds if the stun was successful.\nYou do not recover from Exhaustion while running.\nHead On cannot be used when Exhausted or when you have accrued Stillness Crows .\n\"People are remembered for the challenges they overcome. You can run away and forget what you're capable of or you can face your fears and remind the world of who you are.\" \u2014 Jane Romero",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cb/IconPerks_headOn.png/100px-IconPerks_headOn.png?version=b5ffb7b7b9d83e6f3772cc1971336e28",
     "image_alt": "/static/images/Perks/iconPerks_headOn.png"
   },
   "Hope": {
     "teachable": "All",
     "name": "Hope",
-    "description": "The growing odds of a successful escape fill you with hope and give you wings.\nAs soon as the Exit Gates  are powered, you gain a 5/6/7\u00a0% Haste  Status Effect for 120 seconds.\n\"Buckle up, fuckos! Let's roll.\" \u2014 Nikki, The Lost Tapes",
+    "description": "The growing odds of a successful escape fill you with hope and give you wings.\nAs soon as the Exit Gates  are powered, you gain a 5/6/7% Haste  Status Effect for 120 seconds.\n\"Buckle up, fuckos! Let's roll.\" \u2014 Nikki, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/18/IconPerks_hope.png/100px-IconPerks_hope.png?version=5b5775cf8d1977912ba3dcf5510b12fa",
     "image_alt": "/static/images/Perks/iconPerks_hope.png"
   },
   "Inner-Strength": {
     "teachable": "Nancy",
     "name": "Inner Strength",
-    "description": "You look inwards and trust your instincts when you feel lost and alone.\nEach time you cleanse a Totem , Inner Strength activates.\nWhile Inner Strength is activated, hiding inside a Locker  for 10/9/8\u00a0seconds when in the Injured State  or afflicted by the Deep Wound  Status Effect will automatically heal you one Health State.\nInner Strength does not activate if you are afflicted by the Broken  Status Effect.\n\"All this time I've been trying so hard to pretend like everything's fine, but it's not.\" \u2014 Nancy Wheeler",
+    "description": "You look inwards and trust your instincts when you feel lost and alone.\nEach time you cleanse a Totem , Inner Strength activates.\nWhile Inner Strength is activated, hiding inside a Locker  for 10/9/8seconds when in the Injured State  or afflicted by the Deep Wound  Status Effect will automatically heal you one Health State.\nInner Strength does not activate if you are afflicted by the Broken  Status Effect.\n\"All this time I've been trying so hard to pretend like everything's fine, but it's not.\" \u2014 Nancy Wheeler",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/47/IconPerks_innerStrength.png/100px-IconPerks_innerStrength.png?version=5d3f4f385e9a8d6875983ec54f8b59aa",
     "image_alt": "/static/images/Perks/iconPerks_innerStrength.png"
   },
   "Iron-Will": {
     "teachable": "Jake",
     "name": "Iron Will",
-    "description": "You're able to concentrate and enter a meditative-like state to numb some pain.\nGrunts of Pain caused by injuries are reduced by 50/75/100\u00a0%.",
+    "description": "You're able to concentrate and enter a meditative-like state to numb some pain.\nGrunts of Pain caused by injuries are reduced by 50/75/100%.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/58/IconPerks_ironWill.png/100px-IconPerks_ironWill.png?version=07bea6be41dac17be92cfd906f9f6f9b",
     "image_alt": "/static/images/Perks/iconPerks_ironWill.png"
   },
   "Kindred": {
     "teachable": "All",
     "name": "Kindred",
-    "description": "Unlocks potential in one's Aura-reading ability.\nWhile you are on the Hook, all Survivor Auras are revealed to all Survivors.If the Killer is within a range of 8/12/16\u00a0metres, their Aura is also revealed to all Survivors.\nWhile any other Survivor is on the Hook, all Survivor Auras are revealed to you.If the Killer is within a range of 8/12/16\u00a0metres, their Aura is also revealed to you.\n\"Be kind to one another. We're all in this together.\" \u2014 Sujan, The Lost Tapes",
+    "description": "Unlocks potential in one's Aura-reading ability.\nWhile you are on the Hook, all Survivor Auras are revealed to all Survivors.If the Killer is within a range of 8/12/16metres, their Aura is also revealed to all Survivors.\nWhile any other Survivor is on the Hook, all Survivor Auras are revealed to you.If the Killer is within a range of 8/12/16metres, their Aura is also revealed to you.\n\"Be kind to one another. We're all in this together.\" \u2014 Sujan, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a8/IconPerks_kindred.png/100px-IconPerks_kindred.png?version=5ffe59dd2574933105294c66d1f17a67",
     "image_alt": "/static/images/Perks/iconPerks_kindred.png"
   },
   "Leader": {
     "teachable": "Dwight",
     "name": "Leader",
-    "description": "You're able to organise a team to cooperate more efficiently.\nIncreases the other Survivors' Healing, Sabotage, Unhooking, Cleansing, Exit Gate Opening, and Chest Searching speeds by 15/20/25\u00a0% when they are within a range of 8 metres from you.\nSurvivors can only be affected by one Leader effect at a time.\nThis effect persists on other Survivors for 15 seconds after leaving Leader's range.",
+    "description": "You're able to organise a team to cooperate more efficiently.\nIncreases the other Survivors' Healing, Sabotage, Unhooking, Cleansing, Exit Gate Opening, and Chest Searching speeds by 15/20/25% when they are within a range of 8 metres from you.\nSurvivors can only be affected by one Leader effect at a time.\nThis effect persists on other Survivors for 15 seconds after leaving Leader's range.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/3d/IconPerks_leader.png/100px-IconPerks_leader.png?version=b437f71accfa05d292b803face36307e",
     "image_alt": "/static/images/Perks/iconPerks_leader.png"
   },
   "Left-Behind": {
     "teachable": "Bill",
     "name": "Left Behind",
-    "description": "You'll get the job done... No matter the cost.\nWhen you are the last Survivor remaining in the Trial, the Aura  of the Hatch  is revealed to you within a range of 24/28/32\u00a0metres.\n\"I'm not horse-shittin' around. I'm doing this alone!\" \u2014 Bill Overbeck",
+    "description": "You'll get the job done... No matter the cost.\nWhen you are the last Survivor remaining in the Trial, the Aura  of the Hatch  is revealed to you within a range of 24/28/32metres.\n\"I'm not horse-shittin' around. I'm doing this alone!\" \u2014 Bill Overbeck",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c3/IconPerks_leftBehind.png/100px-IconPerks_leftBehind.png?version=21a27479798f3329def9b405fa4ccc18",
     "image_alt": "/static/images/Perks/iconPerks_leftBehind.png"
   },
   "Lightweight": {
     "teachable": "All",
     "name": "Lightweight",
-    "description": "Your running is light and soft, making your tracks harder to follow. \nScratch Marks stay visible 1/2/3\u00a0seconds less than normal.\n\"Take it slow, he knows where you've been... just like I've always said: 'live slow and die old'\" \u2014 Dylan, The Lost Tapes",
+    "description": "Your running is light and soft, making your tracks harder to follow. \nScratch Marks stay visible 1/2/3seconds less than normal.\n\"Take it slow, he knows where you've been... just like I've always said: 'live slow and die old'\" \u2014 Dylan, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/67/IconPerks_lightweight.png/100px-IconPerks_lightweight.png?version=ab33796b1eb5e5cf93cbe7d2fc106dfe",
     "image_alt": "/static/images/Perks/iconPerks_lightweight.png"
   },
   "Lithe": {
     "teachable": "Feng",
     "name": "Lithe",
-    "description": "After performing a rushed vault, break into a sprint at 150\u00a0% of your normal running speed for a maximum of 3 seconds.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds.\nLithe cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"U mad?\" \u2014 Feng Min",
+    "description": "After performing a rushed vault, break into a sprint at 150% of your normal running speed for a maximum of 3 seconds.\nCauses the Exhausted  Status Effect for 60/50/40seconds.\nLithe cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.\n\"U mad?\" \u2014 Feng Min",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cc/IconPerks_lithe.png/100px-IconPerks_lithe.png?version=71d688da1db2e663d4ff74e56941f35a",
     "image_alt": "/static/images/Perks/iconPerks_lithe.png"
   },
   "Lucky-Break": {
     "teachable": "Yui",
     "name": "Lucky Break",
-    "description": "You've had your share of scrapes and bruises, but luck's always on your side.\nLucky Break activates any time you are injured.\nWhile Lucky Break is active, you won't leave trails of blood for a total of 120/150/180\u00a0seconds.\nLucky Break becomes permanently deactivated for the remainder of the Trial once the total duration has elapsed.\n\"That's not enough to beat me. Not even close.\" \u2014 Yui Kimura",
+    "description": "You've had your share of scrapes and bruises, but luck's always on your side.\nLucky Break activates any time you are injured.\nWhile Lucky Break is active, you won't leave trails of blood for a total of 120/150/180seconds.\nLucky Break becomes permanently deactivated for the remainder of the Trial once the total duration has elapsed.\n\"That's not enough to beat me. Not even close.\" \u2014 Yui Kimura",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a7/IconPerks_luckyBreak.png/100px-IconPerks_luckyBreak.png?version=a7fab596894a77c0ae08b1ab1876e16c",
     "image_alt": "/static/images/Perks/iconPerks_luckyBreak.png"
   },
   "Mettle-of-Man": {
     "teachable": "Ash",
     "name": "Mettle of Man",
-    "description": "Evil has a way of always finding you. \nAfter you earn 3 Protection Hit Score Events, Mettle of Man activates. \nOnce activated, the next occasion that would put you into the Dying State  from the Injured State  is ignored. \nThe next time you heal back to full health, your Aura will be revealed to the Killer when you are farther than 12/14/16\u00a0metres from the Killer.\nMettle of Man will deactivate the next time you are put into the Dying State.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"Evil has a bullseye on my back the size of Tiger Stadium.\" \u2014 Ash Williams",
+    "description": "Evil has a way of always finding you. \nAfter you earn 3 Protection Hit Score Events, Mettle of Man activates. \nOnce activated, the next occasion that would put you into the Dying State  from the Injured State  is ignored. \nThe next time you heal back to full health, your Aura will be revealed to the Killer when you are farther than 12/14/16metres from the Killer.\nMettle of Man will deactivate the next time you are put into the Dying State.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"Evil has a bullseye on my back the size of Tiger Stadium.\" \u2014 Ash Williams",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/52/IconPerks_mettleOfMan.png/100px-IconPerks_mettleOfMan.png?version=64eaf11e9eb5310e17acbe0ae2914e66",
     "image_alt": "/static/images/Perks/iconPerks_mettleOfMan.png"
   },
   "No-Mither": {
     "teachable": "David",
     "name": "No Mither",
-    "description": "You are affected by the Broken  Status Effect for the duration of the Trial. Your thick blood coagulates practically instantly.\n\nYou do not leave Pools of Blood .\nGrunts of Pain caused by injuries are reduced by 0/25/50\u00a0% at any time.\nGrants the ability to fully recover from the Dying State .\n\"I lost it. Just lamped him one. They went and banned me didn't they. Went t'pub afterwards, had a few pints and moved on to the next chapter. I couldn't be mithered with it all anyway, you know what I mean? Can't be arsed.\" \u2014 David King",
+    "description": "You are affected by the Broken  Status Effect for the duration of the Trial. Your thick blood coagulates practically instantly.\n\nYou do not leave Pools of Blood .\nGrunts of Pain caused by injuries are reduced by 0/25/50% at any time.\nGrants the ability to fully recover from the Dying State .\n\"I lost it. Just lamped him one. They went and banned me didn't they. Went t'pub afterwards, had a few pints and moved on to the next chapter. I couldn't be mithered with it all anyway, you know what I mean? Can't be arsed.\" \u2014 David King",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f5/IconPerks_noMither.png/100px-IconPerks_noMither.png?version=486537b89e5340248f3aed37a138fd81",
     "image_alt": "/static/images/Perks/iconPerks_NoMither.png"
   },
   "No-One-Left-Behind": {
     "teachable": "All",
     "name": "No One Left Behind",
-    "description": "It is inconceivable to leave someone behind.\nOnce at least one Exit Gate  has been opened, gain 50/75/100\u00a0% more Bloodpoints  for actions in the Altruism Category and perform them 30/40/50\u00a0% quicker.\nThe Auras  of all other Survivors are revealed to you.\n\"... yeah, no shit. But I believe we can outsmart and overthrow him if we work together. Don't be predictable and selfish!\" \u2014 Clyde, The Lost Tapes",
+    "description": "It is inconceivable to leave someone behind.\nOnce at least one Exit Gate  has been opened, gain 50/75/100% more Bloodpoints  for actions in the Altruism Category and perform them 30/40/50% quicker.\nThe Auras  of all other Survivors are revealed to you.\n\"... yeah, no shit. But I believe we can outsmart and overthrow him if we work together. Don't be predictable and selfish!\" \u2014 Clyde, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b0/IconPerks_noOneLeftBehind.png/100px-IconPerks_noOneLeftBehind.png?version=9751726ffc8188c8a4668ee4789ffd13",
     "image_alt": "/static/images/Perks/iconPerks_noOneLeftBehind.png"
   },
   "Object-of-Obsession": {
     "teachable": "Laurie",
     "name": "Object of Obsession",
-    "description": "A supernatural bond links you to the Killer.\nIf you are looking in the Killer's direction, your link will reveal your Auras  to each other.\nThis effect applies only if you are outside of the Killer's Terror Radius.\nAs the Killer's Obsession , this effect applies to a maximum range of 56/64/72\u00a0metres. Otherwise, it applies to a maximum range of 44/56/64\u00a0metres.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"He was watching me!\" \u2014 Laurie Strode",
+    "description": "A supernatural bond links you to the Killer.\nIf you are looking in the Killer's direction, your link will reveal your Auras  to each other.\nThis effect applies only if you are outside of the Killer's Terror Radius.\nAs the Killer's Obsession , this effect applies to a maximum range of 56/64/72metres. Otherwise, it applies to a maximum range of 44/56/64metres.\nIncreases your chances of being the Obsession.\nThe Killer can only be obsessed with one Survivor at a time.\n\"He was watching me!\" \u2014 Laurie Strode",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/2b/IconPerks_objectOfObsession.png/100px-IconPerks_objectOfObsession.png?version=d2c14ead0c7416cec797df39946175fd",
     "image_alt": "/static/images/Perks/iconPerks_objectOfObsession.png"
   },
   "Off-the-Record": {
     "teachable": "Zarina",
     "name": "Off the Record",
-    "description": "You've learnt that a quiet approach is sometimes best.\nOnce you are unhooked or escape from the Hook , Off the Record  activates for 60/70/80\u00a0seconds.\nWhile Off the Record is active, your Aura  will not be shown to the Killer and Grunts of Pain caused by injuries are reduced by 100\u00a0%.\n\"Trust me, I investigate thoroughly and discreetly.\" \u2014 Zarina Kassir",
+    "description": "You've learnt that a quiet approach is sometimes best.\nOnce you are unhooked or escape from the Hook , Off the Record  activates for 60/70/80seconds.\nWhile Off the Record is active, your Aura  will not be shown to the Killer and Grunts of Pain caused by injuries are reduced by 100%.\n\"Trust me, I investigate thoroughly and discreetly.\" \u2014 Zarina Kassir",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9e/IconPerks_offTheRecord.png/100px-IconPerks_offTheRecord.png?version=dbad4151e5b41e53f3137a42b2d5f9a1",
     "image_alt": "/static/images/Perks/iconPerks_offTheRecord.png"
   },
   "Open-Handed": {
     "teachable": "Ace",
     "name": "Open-Handed",
-    "description": "Strengthens the potential of you and your team's Aura-reading abilities.\nIncreases Aura-reading ranges by 4/6/8\u00a0metres. \n\"Paying attention is what kept me alive through the years. That, and my good looks of course.\" \u2014 Ace Visconti",
+    "description": "Strengthens the potential of you and your team's Aura-reading abilities.\nIncreases Aura-reading ranges by 4/6/8metres. \n\"Paying attention is what kept me alive through the years. That, and my good looks of course.\" \u2014 Ace Visconti",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/5d/IconPerks_open-Handed.png/100px-IconPerks_open-Handed.png?version=e743b90182008fed8317eb3e67f5e248",
     "image_alt": "/static/images/Perks/iconPerks_openHanded.png"
   },
   "Pharmacy": {
     "teachable": "Quentin",
     "name": "Pharmacy",
-    "description": "You have a knack for finding medicine.\nSearches through Chests  are 40/60/80\u00a0% faster and the noises they cause along with their hearing distance are reduced by 8 metres. \nPharmacy guarantees an Emergency Med-Kit  on your first completed Chest Search.\n\"Adrenaline, it's going to keep us awake. I stole it from one of the Nurse's carts.\" \u2014 Quentin Smith",
+    "description": "You have a knack for finding medicine.\nSearches through Chests  are 40/60/80% faster and the noises they cause along with their hearing distance are reduced by 8 metres. \nPharmacy guarantees an Emergency Med-Kit  on your first completed Chest Search.\n\"Adrenaline, it's going to keep us awake. I stole it from one of the Nurse's carts.\" \u2014 Quentin Smith",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f1/IconPerks_pharmacy.png/100px-IconPerks_pharmacy.png?version=d2bc0bef651a1a9fa46002a9711f526b",
     "image_alt": "/static/images/Perks/iconPerks_pharmacy.png"
   },
   "Plunderer's-Instinct": {
     "teachable": "All",
     "name": "Plunderer's Instinct",
-    "description": "Unlocks potential in one's Aura-reading ability.\nThe Auras  of Chests  are revealed to you when standing within 16/24/32\u00a0metres of range.\nGrants a considerably better chance at finding an Item  of a higher Rarity from Chests .\n\"The pioneers used to loot these babies for hours.\" \u2014 Aizeyu, The Lost Tapes",
+    "description": "Unlocks potential in one's Aura-reading ability.\nThe Auras  of Chests  are revealed to you when standing within 16/24/32metres of range.\nGrants a considerably better chance at finding an Item  of a higher Rarity from Chests .\n\"The pioneers used to loot these babies for hours.\" \u2014 Aizeyu, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/2/28/IconPerks_plunderersInstinct.png/100px-IconPerks_plunderersInstinct.png?version=301e1f3e5788f7792deb1714cf632d9a",
     "image_alt": "/static/images/Perks/iconPerks_plunderersInstinct.png"
   },
   "Poised": {
     "teachable": "Jane",
     "name": "Poised",
-    "description": "Achieving goals boosts your confidence.\nAfter a Generator  is completed, you leave no Scratch Marks for 6/8/10\u00a0seconds.\n\"Ok, stay calm. Don't overthink it and just keep moving forward: you got this.\" \u2014 Jane Romero",
+    "description": "Achieving goals boosts your confidence.\nAfter a Generator  is completed, you leave no Scratch Marks for 6/8/10seconds.\n\"Ok, stay calm. Don't overthink it and just keep moving forward: you got this.\" \u2014 Jane Romero",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/52/IconPerks_poised.png/100px-IconPerks_poised.png?version=412363d8ea71cd484b773a6672afcf21",
     "image_alt": "/static/images/Perks/iconPerks_poised.png"
   },
   "Premonition": {
     "teachable": "All",
     "name": "Premonition",
-    "description": "You have the undeniable capability to sense danger.\nGet an auditory warning when looking in the direction of the Killer in a 45\u00b0 cone within a range of 36 metres.\nPremonition has a cool-down of 60/45/30\u00a0seconds each time it activates.\nPremonition trumps any of the Killer's stealth abilities.\n\"I have a bad feeling about this!\"",
+    "description": "You have the undeniable capability to sense danger.\nGet an auditory warning when looking in the direction of the Killer in a 45\u00b0 cone within a range of 36 metres.\nPremonition has a cool-down of 60/45/30seconds each time it activates.\nPremonition trumps any of the Killer's stealth abilities.\n\"I have a bad feeling about this!\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/3/39/IconPerks_premonition.png/100px-IconPerks_premonition.png?version=fa0e0910675bde43a878638ed625518b",
     "image_alt": "/static/images/Perks/iconPerks_premonition.png"
   },
   "Prove-Thyself": {
     "teachable": "Dwight",
     "name": "Prove Thyself",
-    "description": "For each Survivor other than you, gain a stack-able 15\u00a0% Repair speed buff awarded to all repairing Survivors within a range of 4 metres up to a maximum of 45\u00a0%.\nGain 50/75/100\u00a0% more Bloodpoints for cooperative Actions.\nProve Thyself does not stack with other instances of itself.\n\"Show me what you can do!\" \u2014 Dwight Fairfield",
+    "description": "For each Survivor other than you, gain a stack-able 15% Repair speed buff awarded to all repairing Survivors within a range of 4 metres up to a maximum of 45%.\nGain 50/75/100% more Bloodpoints for cooperative Actions.\nProve Thyself does not stack with other instances of itself.\n"Show me what you can do!" — Dwight Fairfield",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0f/IconPerks_proveThyself.png/100px-IconPerks_proveThyself.png?version=6a8f1fc2241da566970fc19e3776235c",
     "image_alt": "/static/images/Perks/iconPerks_proveThyself.png"
   },
   "Quick-&-Quiet": {
     "teachable": "Meg",
     "name": "Quick & Quiet",
-    "description": "You do not make as much noise as others when quickly vaulting over obstacles or hiding in Lockers .\nThe vault and hide actions' noise detection and audio range is reduced by 100\u00a0%.\nQuick & Quiet can only be triggered once every 30/25/20\u00a0seconds.",
+    "description": "You do not make as much noise as others when quickly vaulting over obstacles or hiding in Lockers .\nThe vault and hide actions' noise detection and audio range is reduced by 100%.\nQuick & Quiet can only be triggered once every 30/25/20seconds.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/14/IconPerks_quickAndQuiet.png/100px-IconPerks_quickAndQuiet.png?version=0c6c29205daaef683d50b521344905a4",
     "image_alt": "/static/images/Perks/iconPerks_quickAndQuiet.png"
   },
   "Red-Herring": {
     "teachable": "Zarina",
     "name": "Red Herring",
-    "description": "You've noticed that people pay attention to whatever makes the loudest noise.\nAfter repairing a Generator  for at least 3 seconds, it will be highlighted to you with a yellow Aura . The Generator stays highlighted until it is fully repairing, or you repair a new Generator, or enter a Locker .\nEntering any Locker will trigger a Loud Noise indicator for the Killer at the highlighted Generator's location.\nRed Herring can only be triggered once every 100/80/60\u00a0seconds.\n\"The news edit out what is burdensome and complex, which is the truth.\" \u2014 Zarina Kassir",
+    "description": "You've noticed that people pay attention to whatever makes the loudest noise.\nAfter repairing a Generator  for at least 3 seconds, it will be highlighted to you with a yellow Aura . The Generator stays highlighted until it is fully repairing, or you repair a new Generator, or enter a Locker .\nEntering any Locker will trigger a Loud Noise indicator for the Killer at the highlighted Generator's location.\nRed Herring can only be triggered once every 100/80/60seconds.\n\"The news edit out what is burdensome and complex, which is the truth.\" \u2014 Zarina Kassir",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/1c/IconPerks_redHerring.png/100px-IconPerks_redHerring.png?version=3a6821178fe26fc171cfc6a0ea877676",
     "image_alt": "/static/images/Perks/iconPerks_redHerring.png"
   },
   "Resilience": {
     "teachable": "All",
     "name": "Resilience",
-    "description": "You are motivated in dire situations.\nGrants 3/6/9\u00a0% increased Repairing, Healing, Sabotage, Unhooking, Vaulting, Cleansing, Gate Opening, and Chest Searching speeds while Injured .\n\"Focus, even in these desperate times.\"",
+    "description": "You are motivated in dire situations.\nGrants 3/6/9% increased Repairing, Healing, Sabotage, Unhooking, Vaulting, Cleansing, Gate Opening, and Chest Searching speeds while Injured .\n\"Focus, even in these desperate times.\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/ee/IconPerks_resilience.png/100px-IconPerks_resilience.png?version=741093c0c82ad65bb13b784000ac6581",
     "image_alt": "/static/images/Perks/iconPerks_resilience.png"
   },
   "Saboteur": {
     "teachable": "Jake",
     "name": "Saboteur",
-    "description": "Unlocks potential in one's Aura-reading ability.\n\nSee Hook  Auras  in a radius of 56 metres from the pick-up spot if a Survivor is being carried.\nUnlocks the ability to sabotage Hooks without a Toolbox .\n\nSabotaging a Hook without a Toolbox takes 2.5 seconds.\nThe Sabotage action has a cool-down of 90/75/60\u00a0seconds.",
+    "description": "Unlocks potential in one's Aura-reading ability.\n\nSee Hook  Auras  in a radius of 56 metres from the pick-up spot if a Survivor is being carried.\nUnlocks the ability to sabotage Hooks without a Toolbox .\n\nSabotaging a Hook without a Toolbox takes 2.5 seconds.\nThe Sabotage action has a cool-down of 90/75/60seconds.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0e/IconPerks_saboteur.png/100px-IconPerks_saboteur.png?version=610dd0ea0d88b3775f10d7c1ab517ed0",
     "image_alt": "/static/images/Perks/iconPerks_saboteur.png"
   },
   "Second-Wind": {
     "teachable": "Steve",
     "name": "Second Wind",
-    "description": "You have learnt to avoid awkward situations with parents. Part of you still thinks your best option is to run away and hope things will take care of themselves.\nWhen you have healed other Survivors for the equivalent of one Health State , Second Wind activates.\nWhile Second Wind is activated, the next time you are unhooked or unhook yourself, you are affected by the Broken  Status Effect. \nAfter a total duration of 34/32/30\u00a0seconds, Second Wind automatically heals you from Injured  to the Healthy State . \nSecond Wind deactivates once you are completely healed or if you are put into the Dying State  before Second Wind successfully triggers.\nYou will lose the Broken Status Effect once Second Wind deactivates.\nSecond Wind does not activate if you are already afflicted by the Broken Status Effect.\n\"Yeah, that's a no.\" \u2014 Steve Harrington",
+    "description": "You have learnt to avoid awkward situations with parents. Part of you still thinks your best option is to run away and hope things will take care of themselves.\nWhen you have healed other Survivors for the equivalent of one Health State , Second Wind activates.\nWhile Second Wind is activated, the next time you are unhooked or unhook yourself, you are affected by the Broken  Status Effect. \nAfter a total duration of 34/32/30seconds, Second Wind automatically heals you from Injured  to the Healthy State . \nSecond Wind deactivates once you are completely healed or if you are put into the Dying State  before Second Wind successfully triggers.\nYou will lose the Broken Status Effect once Second Wind deactivates.\nSecond Wind does not activate if you are already afflicted by the Broken Status Effect.\n\"Yeah, that's a no.\" \u2014 Steve Harrington",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/97/IconPerks_secondWind.png/100px-IconPerks_secondWind.png?version=2c03f3febe78c4cc8f9fba85bb354315",
     "image_alt": "/static/images/Perks/iconPerks_secondWind.png"
   },
   "Self-Care": {
     "teachable": "Claudette",
     "name": "Self-Care",
-    "description": "Unlocks the ability to heal yourself without a Med-Kit  at 50\u00a0% of the normal Healing speed.\nIncreases the efficiency of Med-Kit self-heal by 10/15/20\u00a0%.",
+    "description": "Unlocks the ability to heal yourself without a Med-Kit  at 50% of the normal Healing speed.\nIncreases the efficiency of Med-Kit self-heal by 10/15/20%.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/f1/IconPerks_selfCare.png/100px-IconPerks_selfCare.png?version=78f891819ca0debd9f9982957dab0e76",
     "image_alt": "/static/images/Perks/iconPerks_selfCare.png"
   },
   "Slippery-Meat": {
     "teachable": "All",
     "name": "Slippery Meat",
-    "description": "You have developed an efficient way to get out of Bear Traps  and Hooks .\nGrants up to 3 extra escape attempts on the Hook.\nThe odds of freeing yourself from Bear Traps are increased by 15/20/25\u00a0%.",
+    "description": "You have developed an efficient way to get out of Bear Traps  and Hooks .\nGrants up to 3 extra escape attempts on the Hook.\nThe odds of freeing yourself from Bear Traps are increased by 15/20/25%.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/03/IconPerks_slipperyMeat.png/100px-IconPerks_slipperyMeat.png?version=6671a416d0e5b1d653a128c97adb6ffc",
     "image_alt": "/static/images/Perks/iconPerks_slipperyMeat.png"
   },
   "Small-Game": {
     "teachable": "All",
     "name": "Small Game",
-    "description": "You have the undeniable capability to sense danger.\nGet an auditory warning when looking in the direction of Killer Traps and Totems in a 45\u00b0 cone within a range of 8/10/12\u00a0metres.\nSmall Game has a cool-down of 15/12/10\u00a0seconds each time it activates.\nOnly works on Traps that are set by Killers.\n\"Nope.\" \u2014 Andy, The Lost Tapes",
+    "description": "You have the undeniable capability to sense danger.\nGet an auditory warning when looking in the direction of Killer Traps and Totems in a 45\u00b0 cone within a range of 8/10/12metres.\nSmall Game has a cool-down of 15/12/10seconds each time it activates.\nOnly works on Traps that are set by Killers.\n\"Nope.\" \u2014 Andy, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/d/dc/IconPerks_smallGame.png/100px-IconPerks_smallGame.png?version=e377df37661d43cfbed5efd25a8c45a5",
     "image_alt": "/static/images/Perks/iconPerks_smallGame.png"
   },
   "Sole-Survivor": {
     "teachable": "Laurie",
     "name": "Sole Survivor",
-    "description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's Aura-reading abilities towards you are disrupted.\nYour Aura  cannot be read by the Killer within a maximum range of 20/22/24\u00a0metres for each killed or sacrificed Survivor.\nIncreases your chances of being the Obsession .\nThe Killer can only be obsessed with one Survivor at a time.\n\"It was the boogeyman.\" \u2014 Laurie Strode",
+    "description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's Aura-reading abilities towards you are disrupted.\nYour Aura  cannot be read by the Killer within a maximum range of 20/22/24metres for each killed or sacrificed Survivor.\nIncreases your chances of being the Obsession .\nThe Killer can only be obsessed with one Survivor at a time.\n\"It was the boogeyman.\" \u2014 Laurie Strode",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8e/IconPerks_soleSurvivor.png/100px-IconPerks_soleSurvivor.png?version=06fc40a91c7ff3b40d68dc1b26d5db41",
     "image_alt": "/static/images/Perks/iconPerks_soleSurvivor.png"
   },
   "Solidarity": {
     "teachable": "Jane",
     "name": "Solidarity",
-    "description": "Sharing painful experiences has the power to heal.\nWhile injured, healing a Survivor without using a Med-Kit  also heals you at a 40/45/50\u00a0% conversion rate.\n\"Showing up when things get rough, listening to people's problems, and supporting those in need; that's how you become stronger, that's how you grow.\" \u2014 Jane Romero",
+    "description": "Sharing painful experiences has the power to heal.\nWhile injured, healing a Survivor without using a Med-Kit  also heals you at a 40/45/50% conversion rate.\n\"Showing up when things get rough, listening to people's problems, and supporting those in need; that's how you become stronger, that's how you grow.\" \u2014 Jane Romero",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9e/IconPerks_solidarity.png/100px-IconPerks_solidarity.png?version=1dd04bdb76f85f1cee8537b23e587828",
     "image_alt": "/static/images/Perks/iconPerks_solidarity.png"
   },
   "Spine-Chill": {
     "teachable": "All",
     "name": "Spine Chill",
-    "description": "An unnatural tingle warns you of impending doom.\nGet notified when the Killer is looking directly in your direction and standing within a range of 36 metres.\nWhen Spine Chill is active, Skill Check  trigger odds are increased by 10\u00a0% with success zones reduced by 10\u00a0% and your Repair, Heal and Sabotage speeds are increased by 2/4/6\u00a0%.\n\"There is a voice that doesn't use words. Listen..\" \u2014 Sassy, The Lost Tapes",
+    "description": "An unnatural tingle warns you of impending doom.\nGet notified when the Killer is looking directly in your direction and standing within a range of 36 metres.\nWhen Spine Chill is active, Skill Check  trigger odds are increased by 10% with success zones reduced by 10% and your Repair, Heal and Sabotage speeds are increased by 2/4/6%.\n\"There is a voice that doesn't use words. Listen..\" \u2014 Sassy, The Lost Tapes",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/57/IconPerks_spineChill.png/100px-IconPerks_spineChill.png?version=e05f7da36bc685dd1b4fe3268a6c3c84",
     "image_alt": "/static/images/Perks/iconPerks_spineChill.png"
   },
   "Sprint-Burst": {
     "teachable": "Meg",
     "name": "Sprint Burst",
-    "description": "When starting to run, break into a sprint at 150\u00a0% of your normal running speed for a maximum of 3 seconds.\nCauses the Exhausted  Status Effect for 60/50/40\u00a0seconds.\nSprint Burst cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.",
+    "description": "When starting to run, break into a sprint at 150% of your normal running speed for a maximum of 3 seconds.\nCauses the Exhausted  Status Effect for 60/50/40seconds.\nSprint Burst cannot be used when Exhausted.\nYou do not recover from Exhaustion while running.",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/e/e4/IconPerks_sprintBurst.png/100px-IconPerks_sprintBurst.png?version=ca76b7190137866043f0bdc5a9c0fe02",
     "image_alt": "/static/images/Perks/iconPerks_sprintBurst.png"
   },
   "Stake-Out": {
     "teachable": "Tapp",
     "name": "Stake Out",
-    "description": "Getting close to the Killer  fills you with determination.\nFor each 15 seconds you are standing within the Killer's Terror Radius and are not in a Chase, you gain a Token up to a maximum of 2/3/4\u00a0Tokens.\nWhen Stake Out has at least 1 Token, Good Skill Checks  are considered Great Skill Checks and consume 1 Token.\nGreat Skill Checks grant an additional Progression bonus of 1\u00a0%.\n\"I had you, I had you on your knees. You're runnin' scared because we had you. We're gonna close this case!\" \u2014 Detective David Tapp",
+    "description": "Getting close to the Killer fills you with determination.\nFor each 15 seconds you are standing within the Killer's Terror Radius and are not in a Chase, you gain a Token up to a maximum of 2/3/4 Tokens.\nWhen Stake Out has at least 1 Token, Good Skill Checks are considered Great Skill Checks and consume 1 Token.\nGreat Skill Checks grant an additional Progression bonus of 1%.\n"I had you, I had you on your knees. You're runnin' scared because we had you. We're gonna close this case!" — Detective David Tapp",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cd/IconPerks_stakeOut.png/100px-IconPerks_stakeOut.png?version=61498cca54afecafb5327ac25aec6569",
     "image_alt": "/static/images/Perks/iconPerks_stakeOut.png"
   },
   "Streetwise": {
     "teachable": "Nea",
     "name": "Streetwise",
-    "description": "Long nights out taught you to do a lot with what you've got.\nReduces Item  Consumption rate by 15/20/25\u00a0% for you and Allies within a range of 8 metres.\nOnce out of range, this effect persists for 15 seconds.\n\"You're doing it wrong! Let me show you how it's done.\" \u2014 Nea Karlsson",
+    "description": "Long nights out taught you to do a lot with what you've got.\nReduces Item  Consumption rate by 15/20/25% for you and Allies within a range of 8 metres.\nOnce out of range, this effect persists for 15 seconds.\n\"You're doing it wrong! Let me show you how it's done.\" \u2014 Nea Karlsson",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/ff/IconPerks_streetwise.png/100px-IconPerks_streetwise.png?version=385d33e837db2bd89f0809ed2f75c29c",
     "image_alt": "/static/images/Perks/iconPerks_streetwise.png"
   },
   "Technician": {
     "teachable": "Feng",
     "name": "Technician",
-    "description": "You are apt at handling machinery with the greatest care and precision.\nThe noises caused by your Repairs and their hearing distance are reduced by 8 metres.\nOn a failed Repair Skill Check , there is a 30/40/50\u00a0% chance that the Generator  Explosion will be prevented.\n\"I'm gonna stealth this one.\" \u2014 Feng Min",
+    "description": "You are apt at handling machinery with the greatest care and precision.\nThe noises caused by your Repairs and their hearing distance are reduced by 8 metres.\nOn a failed Repair Skill Check , there is a 30/40/50% chance that the Generator  Explosion will be prevented.\n\"I'm gonna stealth this one.\" \u2014 Feng Min",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/6/62/IconPerks_technician.png/100px-IconPerks_technician.png?version=1221da42fbd0a0bdd98e7333d32f48bb",
     "image_alt": "/static/images/Perks/iconPerks_technician.png"
   },
   "Tenacity": {
     "teachable": "Tapp",
     "name": "Tenacity",
-    "description": "There is nothing stopping you.\nYour ferocious tenacity in dire situations allows you to crawl 30/40/50\u00a0% faster and recover at the same time.\n\"What the hell is this? I'm taking this bastard down!\" \u2014 Detective David Tapp",
+    "description": "There is nothing stopping you.\nYour ferocious tenacity in dire situations allows you to crawl 30/40/50% faster and recover at the same time.\n\"What the hell is this? I'm taking this bastard down!\" \u2014 Detective David Tapp",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/9/9d/IconPerks_tenacity.png/100px-IconPerks_tenacity.png?version=3206c2b4179515ed4e5b1e22d126a1c9",
     "image_alt": "/static/images/Perks/iconPerks_tenacity.png"
   },
   "This-Is-Not-Happening": {
     "teachable": "All",
     "name": "This Is Not Happening",
-    "description": "You perform at your best when you are under extreme stress.\nGreat Skill Check  success zones when repairing, healing and sabotaging get 10/20/30\u00a0% bigger when you are Injured .",
+    "description": "You perform at your best when you are under extreme stress.\nGreat Skill Check  success zones when repairing, healing and sabotaging get 10/20/30% bigger when you are Injured .",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/5/58/IconPerks_thisIsNotHappening.png/100px-IconPerks_thisIsNotHappening.png?version=57b15b459b87fe7137e71888371a938f",
     "image_alt": "/static/images/Perks/iconPerks_thisIsNotHappening.png"
   },
   "Unbreakable": {
     "teachable": "Bill",
     "name": "Unbreakable",
-    "description": "Past battles have taught you a thing or two about survival. \nGrants the ability to fully recover from the Dying State  once per Trial.\nIncreases the Dying State Recovery speed by 25/30/35\u00a0%.\n\"Goddammit, I am seriously FUBAR!\" \u2014 Bill Overbeck",
+    "description": "Past battles have taught you a thing or two about survival. \nGrants the ability to fully recover from the Dying State  once per Trial.\nIncreases the Dying State Recovery speed by 25/30/35%.\n\"Goddammit, I am seriously FUBAR!\" \u2014 Bill Overbeck",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/4a/IconPerks_unbreakable.png/100px-IconPerks_unbreakable.png?version=4415a804c00fd2a2a51df7fa989b1130",
     "image_alt": "/static/images/Perks/iconPerks_unbreakable.png"
   },
   "Up-the-Ante": {
     "teachable": "Ace",
     "name": "Up the Ante",
-    "description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you.\nFor each other Survivor still alive, grant a 1/2/3\u00a0% Luck  Bonus to all remaining Survivors.\n\"What can I say? I'm just a very lucky guy... I'm sure some of it will rub off on you.\" \u2014 Ace Visconti",
+    "description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you.\nFor each other Survivor still alive, grant a 1/2/3% Luck  Bonus to all remaining Survivors.\n\"What can I say? I'm just a very lucky guy... I'm sure some of it will rub off on you.\" \u2014 Ace Visconti",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/a/a3/IconPerks_upTheAnte.png/100px-IconPerks_upTheAnte.png?version=05cdf761163838fd8961f5f8e45a3e50",
     "image_alt": "/static/images/Perks/iconPerks_upTheAnte.png"
   },
   "Urban-Evasion": {
     "teachable": "Nea",
     "name": "Urban Evasion",
-    "description": "Years of evading the cops taught you a thing or two about stealth.\nYour Movement speed while crouching is increased by 90/95/100\u00a0%.\n\"The paint is still fresh but I'm long gone.\" \u2014 Nea Karlsson",
+    "description": "Years of evading the cops taught you a thing or two about stealth.\nYour Movement speed while crouching is increased by 90/95/100%.\n\"The paint is still fresh but I'm long gone.\" \u2014 Nea Karlsson",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/c7/IconPerks_urbanEvasion.png/100px-IconPerks_urbanEvasion.png?version=a730344f173ba3f748f57a99a12cb3a0",
     "image_alt": "/static/images/Perks/iconPerks_urbanEvasion.png"
   },
   "Vigil": {
     "teachable": "Quentin",
     "name": "Vigil",
-    "description": "You look over your friends even in dire situations.\nYou and your Allies within a range of 8 metres recover from Exhaustion , Haemorrhage , Mangled , Hindered  and Blindness  Status Effects 10/15/20\u00a0% faster.\nOnce out of range, this effect persists for 15 seconds.\n\"I'm gonna be here when you wake up. You're gonna make it.\" \u2014 Quentin Smith",
+    "description": "You look over your friends even in dire situations.\nYou and your Allies within a range of 8 metres recover from Exhaustion , Haemorrhage , Mangled , Hindered  and Blindness  Status Effects 10/15/20% faster.\nOnce out of range, this effect persists for 15 seconds.\n\"I'm gonna be here when you wake up. You're gonna make it.\" \u2014 Quentin Smith",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/4/46/IconPerks_vigil.png/100px-IconPerks_vigil.png?version=39dc3c9da7b48fc6da498aaf0df833c7",
     "image_alt": "/static/images/Perks/iconPerks_vigil.png"
   },
   "Wake-Up!": {
     "teachable": "Quentin",
     "name": "Wake Up!",
-    "description": "Unlocks potential in one's Aura-reading ability.\nOnce all Generators  are powered, Exit Gates  are revealed to you when within a range of 128 metres.\nWhile opening the Exit Gates, reveal your Aura  to other Survivors within a range of 128 metres.\nWhile Wake Up! is active, you open Exit Gates 5/10/15\u00a0% faster.\n\"Ok, look. If we survive the next 24 hours, then I'll take you out on a real date.\" \u2014 Quentin Smith",
+    "description": "Unlocks potential in one's Aura-reading ability.\nOnce all Generators  are powered, Exit Gates  are revealed to you when within a range of 128 metres.\nWhile opening the Exit Gates, reveal your Aura  to other Survivors within a range of 128 metres.\nWhile Wake Up! is active, you open Exit Gates 5/10/15% faster.\n\"Ok, look. If we survive the next 24 hours, then I'll take you out on a real date.\" \u2014 Quentin Smith",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/f/fd/IconPerks_wakeUp.png/100px-IconPerks_wakeUp.png?version=c69db5c7a0816559f00ae3be4122b199",
     "image_alt": "/static/images/Perks/iconPerks_wakeUp.png"
   },
   "We'll-Make-It": {
     "teachable": "All",
     "name": "We'll Make It",
-    "description": "Helping others heightens your morale.\nFor each Survivor you rescue from a Hook, gain an additional 100\u00a0% speed increase to healing up others for 30/60/90\u00a0seconds.\nCumulative Healing Speed bonuses cannot exceed 100\u00a0%.\n\"I'm confident we can all escape in one piece if we help each other.\"",
+    "description": "Helping others heightens your morale.\nFor each Survivor you rescue from a Hook, gain an additional 100% speed increase to healing up others for 30/60/90seconds.\nCumulative Healing Speed bonuses cannot exceed 100%.\n\"I'm confident we can all escape in one piece if we help each other.\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/8/8a/IconPerks_wellMakeIt.png/100px-IconPerks_wellMakeIt.png?version=f44f3b8c379c1d035197e7f4f03ef848",
     "image_alt": "/static/images/Perks/iconPerks_wellMakeIt.png"
   },
   "We're-Gonna-Live-Forever": {
     "teachable": "David",
     "name": "We're Gonna Live Forever",
-    "description": "Your few friends deserve the best protection.\nEach time you perform a Safe Hook Rescue or take a Protection Hit for a Survivor, gain a stack-able 25\u00a0% Bonus to all Bloodpoint gains up to a maximum of 50/75/100\u00a0%.\nThe Bonus Bloodpoints are only awarded post-Trial.\n\"Come on then, let's 'ave it! I don't give a shit pal.\" \u2014 David King",
+    "description": "Your few friends deserve the best protection.\nEach time you perform a Safe Hook Rescue or take a Protection Hit for a Survivor, gain a stack-able 25% Bonus to all Bloodpoint gains up to a maximum of 50/75/100%.\nThe Bonus Bloodpoints are only awarded post-Trial.\n\"Come on then, let's 'ave it! I don't give a shit pal.\" \u2014 David King",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/b/b8/IconPerks_wereGonnaLiveForever.png/100px-IconPerks_wereGonnaLiveForever.png?version=4414cf8e8afbeadbefc7b2fd9361326c",
     "image_alt": "/static/images/Perks/iconPerks_WereGonnaLiveForever.png"
   },
   "Windows-of-Opportunity": {
     "teachable": "Kate",
     "name": "Windows of Opportunity",
-    "description": "Unlocks potential in one's Aura-reading ability.\nAuras of Pallets  and Vaults are revealed to you when within a range of 20 metres.\nWindows of Opportunity has a cool-down of 30/25/20\u00a0seconds when vaulting or dropping a Pallet during a Chase.\n\"Rise and shine, work hard, carve out your name,Take aim, pull the trigger, hit the bulls eye for fame,Know the value of faith, an' family, and don't you complain,Open wide, your windows of opportunity\"\u2014 Kate Denson's \"Windows of Opportunity\"",
+    "description": "Unlocks potential in one's Aura-reading ability.\nAuras of Pallets  and Vaults are revealed to you when within a range of 20 metres.\nWindows of Opportunity has a cool-down of 30/25/20seconds when vaulting or dropping a Pallet during a Chase.\n\"Rise and shine, work hard, carve out your name,Take aim, pull the trigger, hit the bulls eye for fame,Know the value of faith, an' family, and don't you complain,Open wide, your windows of opportunity\"\u2014 Kate Denson's \"Windows of Opportunity\"",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/1/17/IconPerks_windowsOfOpportunity.png/100px-IconPerks_windowsOfOpportunity.png?version=1aa34145beeb21f079b5a3a3e52a158b",
     "image_alt": "/static/images/Perks/iconPerks_windowsOfOpportunity.png"
   }
