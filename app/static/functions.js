@@ -40,12 +40,8 @@ function dropItem(ev, slot, temp) {
 	}
 }
 
-var addonIds = [];
-var addonTempIds = [];
-var itemIds = [];
-var itemTempIds = [];
+var [addonIds, addonTempIds, itemIds, itemTempIds] = [[],[],[],[]];
 var prevKiller = '';
-
 var activeItemSubTab = '';
 var valToolbox = [];
 
