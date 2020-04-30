@@ -13,15 +13,14 @@ function dropAddon(ev, slot, temp) {
 	var nodeCopy = document.getElementById(data).cloneNode(true);
 	if (nodeCopy.className.startsWith("addon")){
 		clearSlot(slot, temp);
-		ev.preventDefault();
 		document.getElementById(slot).appendChild(nodeCopy);
 		checkRepeat(ev, nodeCopy.id);
 		if (temp) {
-			imgTempIds.push(nodeCopy.id);
+			addonTempIds.push(nodeCopy.id);
 		} else {
-			imgIds.push(nodeCopy.id);
+			addonIds.push(nodeCopy.id);
 		}
-		calcAddon(temp);
+		calcAddon(temp, "addon");
 	}
 }
 
@@ -31,34 +30,48 @@ function dropItem(ev, slot, temp) {
 	var nodeCopy = document.getElementById(data).cloneNode(true);
 	if (nodeCopy.className.startsWith("item")){
 		clearSlot(slot, temp);
-		ev.preventDefault();
 		document.getElementById(slot).appendChild(nodeCopy);
 		if (temp) {
-			imgTempIds.push(nodeCopy.id);
+			itemTempIds.push(nodeCopy.id);
 		} else {
-			imgIds.push(nodeCopy.id);
+			itemIds.push(nodeCopy.id);
 		}
-		calcAddon(temp);
+		calcAddon(temp, "item");
 	}
 }
 
-var imgIds = [];
-var imgTempIds = [];
+var addonIds = [];
+var addonTempIds = [];
+var itemIds = [];
+var itemTempIds = [];
 var prevKiller = '';
+
+var activeItemSubTab = '';
+var valToolbox = [];
+
 //Calculate Addon
-function calcAddon(temp) {
-	if (temp) {
-		var ele1 = document.getElementsByName(imgTempIds[0] + "-stat-temp");
-		var ele2 = document.getElementsByName(imgTempIds[1] + "-stat-temp");
-	} else {
-		var ele1 = document.getElementsByName(imgIds[0] + "-stat");
-		var ele2 = document.getElementsByName(imgIds[1] + "-stat");
+function calcAddon(temp, type) {
+	if (type === 'addon') {
+		if (temp) {
+			var ele1 = document.getElementsByName(addonTempIds[0] + "-stat-temp");
+			var ele2 = document.getElementsByName(addonTempIds[1] + "-stat-temp");
+		} else {
+			var ele1 = document.getElementsByName(addonIds[0] + "-stat");
+			var ele2 = document.getElementsByName(addonIds[1] + "-stat");
+		}
+	}
+	else {
+		if (temp) {
+			var ele1 = document.getElementsByName(itemTempIds[0] + "-stat-temp");
+			// var ele2 = document.getElementsByName(itemTempIds[1] + "-stat-temp");
+		} else {
+			var ele1 = document.getElementsByName(itemIds[0] + "-stat");
+			// var ele2 = document.getElementsByName(itemIds[1] + "-stat");
+		}		
 	}
 	for (i = 0; i < ele1.length; i++) {
-
 		var elem = ele1[i].parentNode.parentNode;
 		var val1 = ele1[i].textContent;
-
 		try {
 			var val2 = ele2[i].textContent;
 			var val = '';
@@ -76,8 +89,12 @@ function calcAddon(temp) {
 			assignVal(elem, val, temp);
 		} catch (TypeError) {
 			assignVal(elem, val1, temp);
+			if (type === 'item') {
+				manageItems(val1);
+			}
 		}
 	}
+	assignItems(temp);
 }
 
 function assignVal(elem, val, temp) {
@@ -97,7 +114,7 @@ function assignVal(elem, val, temp) {
 		}
 		assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
 	} else if (val !== 'None' && val.slice(-1) === '%') {
-		elem.textContent = Number((Math.round((+elemVal + +elemVal * +val.slice(0, -1) / 100) * 200) / 200).toPrecision(4));
+		elem.textContent = getPreciseValue(+elemVal + +elemVal * +val.slice(0, -1) / 100);
 		if (staticVal !== 'None') {
 			elem.textContent = +elem.textContent + +staticVal;
 			elemVal = +elemVal + +staticVal;
@@ -156,7 +173,7 @@ function assignDefaultVal(elem, temp) {
 			}
 			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal.slice(0, -1));
 		} else if (val1 !== 'None' && val1.slice(-1) === '%') {
-			statElem.textContent = Number((Math.round((+elemVal + +elemDefVal * -val1.slice(0, -1) / 100) * 200) / 200).toPrecision(4));
+			statElem.textContent = getPreciseValue(+elemVal + +elemDefVal * -val1.slice(0, -1) / 100);
 			if (staticVal !== 'None') {
 				elemDefVal = +elemDefVal + +staticVal;
 			}
@@ -190,9 +207,11 @@ function clearSlot(slot, temp) {
 		if (elems[i].nodeName !== "INPUT") {
 			assignDefaultVal(elems[i].id, temp);
 			if (temp) {
-				imgTempIds = imgTempIds.filter(item => item !== elems[i].id);
+				addonTempIds = addonTempIds.filter(item => item !== elems[i].id);
+				itemTempIds = itemTempIds.filter(item => item !== elems[i].id);
 			} else {
-				imgIds = imgIds.filter(item => item !== elems[i].id);
+				addonIds = addonIds.filter(item => item !== elems[i].id);
+				itemIds = itemIds.filter(item => item !== elems[i].id);
 			}
 			elems[i].parentNode.removeChild(elems[i])
 			i--;
@@ -250,6 +269,46 @@ function checkRepeat(ev, addonId) {
 	}
 }
 
+//Items Functions
+function manageItems(val) {
+	if (activeItemSubTab === 'Toolbox') {
+		valToolbox.push(val);
+	}
+}
+
+function assignItems(temp) {
+	if (activeItemSubTab === 'Toolbox') {
+		funcToolbox(temp, ...valToolbox);
+	}	
+}
+
+function funcToolbox(temp, repairSpeed, charge, saboSpeed) {
+	if (temp) {
+		var ele = document.querySelectorAll("#Toolbox-temp-stats > center:nth-child(1) > p");
+	}
+	else {
+		var ele = document.querySelectorAll("#Toolbox-stats > center:nth-child(1) > p");
+	}
+	var [baseRepairTime, baseCharge, baseSaboTime] = [80, 80, 2.5];
+	
+	charge = +charge.slice(0, -1);
+	repairSpeed = +repairSpeed.slice(0, -1)/100;
+	var baseRepairSpeed = baseCharge/baseRepairTime;
+	var finalRepairTime = getPreciseValue(charge/(baseRepairSpeed*(1 + repairSpeed)) + (baseCharge - charge)/										baseRepairSpeed);
+	eleRepairTime = ele[0];
+	eleRepairTime.textContent = finalRepairTime;
+	assignColor(eleRepairTime, finalRepairTime, baseRepairTime);
+	
+	saboSpeed = +saboSpeed.slice(0, -1)/100;
+	var baseSaboSpeed = 100/baseSaboTime;
+	var finalSaboTime = getPreciseValue(100/(baseSaboSpeed*(1 + saboSpeed)));
+	eleSaboTime = ele[ele.length - 2];
+	console.log(eleSaboTime);
+	eleSaboTime.textContent = finalSaboTime;
+	assignColor(eleSaboTime, finalSaboTime, baseSaboTime);
+	valToolbox = [];
+}
+
 
 function calcVal(ele, val1, val2) {
 	var val;
@@ -279,6 +338,7 @@ function openTab(evt, sectionName) {
 	document.getElementById(sectionName).style.display = "block";
 	evt.currentTarget.className += " active";
 }
+
 //Switch subtabs
 function openSubTab(evt, sectionName, scrollValue) {
 	var i, subtabcontent, subtablinks;
@@ -296,6 +356,7 @@ function openSubTab(evt, sectionName, scrollValue) {
 		elem.scrollIntoView(true);
 	}
 	evt.currentTarget.className += " active";
+	activeItemSubTab = evt.currentTarget.innerText;
 }
 
 //Pop Image
@@ -321,4 +382,9 @@ window.onload = function () {
 	for (var elem of elems) {
 		elem.click();
 	}
+}
+
+//Math Functions
+function getPreciseValue(val) {
+	return Number((Math.round(val * 200) / 200).toPrecision(4))
 }

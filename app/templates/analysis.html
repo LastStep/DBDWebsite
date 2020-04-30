@@ -69,7 +69,7 @@
 						<p class="stats-addon">{{ col }}</p>
 					</center>
 					<div class="stats-tabs">
-						<div class="stats-main">
+						<div class="stats-main" id={{ name + '-stats' }}>
 							<center>
 								<p class="stats-value" value=""
 									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
@@ -180,7 +180,7 @@
 						<p class="stats-addon">{{ col }}</p>
 					</center>
 					<div class="stats-tabs">
-						<div class="stats-main">
+						<div class="stats-main" id={{ name + '-stats' }}>
 							<center>
 								<p class="stats-value" value=""
 									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">

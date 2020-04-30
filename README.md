@@ -12,3 +12,10 @@
 4) Images Credit on Hover maybe
 5) Update Doc addons image and effect
 6) Alert Notification if Website is not Opened in a Desktop Browser 
+
+
+# In-Process
+
+1) Make function for all items in calcAddon
+2) Sabo function
+3) Clear slot on items not changing back the val
