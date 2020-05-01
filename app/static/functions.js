@@ -68,6 +68,7 @@ function calcAddon(temp, type) {
 	for (i = 0; i < ele1.length; i++) {
 		var elem = ele1[i].parentNode.parentNode;
 		var val1 = ele1[i].textContent;
+		if (val1 === 'default') { continue; }
 		try {
 			var val2 = ele2[i].textContent;
 			var val = '';
@@ -162,7 +163,10 @@ function assignDefaultVal(elem, temp) {
 		elemDefVal = statElem.getAttribute("value");
 		staticVal = statElem.parentNode.parentNode.getElementsByClassName('stats-addons')[1].textContent;
 
-		if (elemVal.slice(-1) === '%' && val1 !== 'None') {
+		if (val1 === 'default') {
+			statElem.textContent = elemDefVal;
+			assignColor(statElem, elemDefVal, elemDefVal);
+		} else if (elemVal.slice(-1) === '%' && val1 !== 'None') {
 			statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + '%';
 			if (staticVal !== 'None') {
 				elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
@@ -291,17 +295,17 @@ function funcToolbox(temp, repairSpeed, charge, saboSpeed) {
 	repairSpeed = +repairSpeed.slice(0, -1)/100;
 	var baseRepairSpeed = baseCharge/baseRepairTime;
 	var finalRepairTime = getPreciseValue(charge/(baseRepairSpeed*(1 + repairSpeed)) + (baseCharge - charge)/										baseRepairSpeed);
-	eleRepairTime = ele[0];
+	var eleRepairTime = ele[0];
 	eleRepairTime.textContent = finalRepairTime;
 	assignColor(eleRepairTime, finalRepairTime, baseRepairTime);
 	
 	saboSpeed = +saboSpeed.slice(0, -1)/100;
 	var baseSaboSpeed = 100/baseSaboTime;
 	var finalSaboTime = getPreciseValue(100/(baseSaboSpeed*(1 + saboSpeed)));
-	eleSaboTime = ele[ele.length - 2];
-	console.log(eleSaboTime);
+	var eleSaboTime = ele[ele.length - 2];
 	eleSaboTime.textContent = finalSaboTime;
 	assignColor(eleSaboTime, finalSaboTime, baseSaboTime);
+	
 	valToolbox = [];
 }
 

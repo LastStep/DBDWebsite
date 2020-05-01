@@ -17,5 +17,3 @@
 # In-Process
 
 1) Make function for all items in calcAddon
-2) Sabo function
-3) Clear slot on items not changing back the val

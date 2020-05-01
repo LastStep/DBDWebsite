@@ -359,7 +359,7 @@
   "Prove-Thyself": {
     "teachable": "Dwight",
     "name": "Prove Thyself",
-    "description": "For each Survivor other than you, gain a stack-able 15% Repair speed buff awarded to all repairing Survivors within a range of 4 metres up to a maximum of 45%.\nGain 50/75/100% more Bloodpoints for cooperative Actions.\nProve Thyself does not stack with other instances of itself.\n"Show me what you can do!" — Dwight Fairfield",
+    "description": "For each Survivor other than you, gain a stack-able 15% Repair speed buff awarded to all repairing Survivors within a range of 4 metres up to a maximum of 45%.\nGain 50/75/100% more Bloodpoints for cooperative Actions.\nProve Thyself does not stack with other instances of itself.\n\"Show me what you can do!\" — Dwight Fairfield",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/0/0f/IconPerks_proveThyself.png/100px-IconPerks_proveThyself.png?version=6a8f1fc2241da566970fc19e3776235c",
     "image_alt": "/static/images/Perks/iconPerks_proveThyself.png"
   },
@@ -450,7 +450,7 @@
   "Stake-Out": {
     "teachable": "Tapp",
     "name": "Stake Out",
-    "description": "Getting close to the Killer fills you with determination.\nFor each 15 seconds you are standing within the Killer's Terror Radius and are not in a Chase, you gain a Token up to a maximum of 2/3/4 Tokens.\nWhen Stake Out has at least 1 Token, Good Skill Checks are considered Great Skill Checks and consume 1 Token.\nGreat Skill Checks grant an additional Progression bonus of 1%.\n"I had you, I had you on your knees. You're runnin' scared because we had you. We're gonna close this case!" — Detective David Tapp",
+    "description": "Getting close to the Killer fills you with determination.\nFor each 15 seconds you are standing within the Killer's Terror Radius and are not in a Chase, you gain a Token up to a maximum of 2/3/4 Tokens.\nWhen Stake Out has at least 1 Token, Good Skill Checks are considered Great Skill Checks and consume 1 Token.\nGreat Skill Checks grant an additional Progression bonus of 1%.\n\"I had you, I had you on your knees. You're runnin' scared because we had you. We're gonna close this case!\" — Detective David Tapp",
     "image": "https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/thumb/c/cd/IconPerks_stakeOut.png/100px-IconPerks_stakeOut.png?version=61498cca54afecafb5327ac25aec6569",
     "image_alt": "/static/images/Perks/iconPerks_stakeOut.png"
   },

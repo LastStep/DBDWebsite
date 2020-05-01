@@ -1,7 +1,13 @@
 {
   "Repair Time": {
 	"Base-Toolbox": "80",
-	"Static-Toolbox": null
+	"Static-Toolbox": null,
+    "Worn-Out-Tools-Toolbox": "default",
+    "Toolbox-Toolbox": "default",
+    "Mechanics-Toolbox-Toolbox": "default",
+    "Commodious-Toolbox-Toolbox": "default",
+    "Engineers-Toolbox-Toolbox": "default",
+    "Alexs-Toolbox-Toolbox": "default"
   },
   "Repair Speed": {
 	"Base-Toolbox": "1",
@@ -25,7 +31,13 @@
   },
   "Sabotage Time": {
 	"Base-Toolbox": "2.5",
-	"Static-Toolbox": null
+	"Static-Toolbox": null,
+    "Worn-Out-Tools-Toolbox": "default",
+    "Toolbox-Toolbox": "default",
+    "Mechanics-Toolbox-Toolbox": "default",
+    "Commodious-Toolbox-Toolbox": "default",
+    "Engineers-Toolbox-Toolbox": "default",
+    "Alexs-Toolbox-Toolbox": "default"
   },  
   "Sabotage Speed": {
 	"Base-Toolbox": "100%",
