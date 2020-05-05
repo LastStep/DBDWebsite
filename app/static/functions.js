@@ -43,7 +43,7 @@ function dropItem(ev, slot, temp) {
 var [addonIds, addonTempIds, itemIds, itemTempIds] = [[],[],[],[]];
 var prevKiller = '';
 var activeItemSubTab = '';
-var valToolbox = [];
+var valItems = [];
 
 //Calculate Addon
 function calcAddon(temp, type) {
@@ -87,11 +87,12 @@ function calcAddon(temp, type) {
 		} catch (TypeError) {
 			assignVal(elem, val1, temp);
 			if (type === 'item') {
-				manageItems(val1);
+				valItems.push(val1);
 			}
 		}
 	}
 	assignItems(temp);
+	valItems = [];
 }
 
 function assignVal(elem, val, temp) {
@@ -270,16 +271,13 @@ function checkRepeat(ev, addonId) {
 }
 
 //Items Functions
-function manageItems(val) {
-	if (activeItemSubTab === 'Toolbox') {
-		valToolbox.push(val);
-	}
-}
-
 function assignItems(temp) {
 	if (activeItemSubTab === 'Toolbox') {
-		funcToolbox(temp, ...valToolbox);
-	}	
+		return funcToolbox(temp, ...valItems);
+	}
+	if (activeItemSubTab === 'Med-Kit') {
+		return funcMedkit(temp, valItems[0], valItems[1]);
+	}
 }
 
 function funcToolbox(temp, repairSpeed, charge, saboSpeed) {
@@ -305,10 +303,32 @@ function funcToolbox(temp, repairSpeed, charge, saboSpeed) {
 	var eleSaboTime = ele[ele.length - 2];
 	eleSaboTime.textContent = finalSaboTime;
 	assignColor(eleSaboTime, finalSaboTime, baseSaboTime);
-	
-	valToolbox = [];
 }
 
+function funcMedkit(temp, healingSpeedAlt, healingSpeedSlf) {
+	if (temp) {
+		var ele = document.querySelectorAll("#Med-Kit-temp-stats > center:nth-child(1) > p");
+	}
+	else {
+		var ele = document.querySelectorAll("#Med-Kit-stats > center:nth-child(1) > p");
+	}
+	var baseHealingTime = 16;
+	var baseHealingSpeed = 100/baseHealingTime;
+	
+	healingSpeedAlt = +healingSpeedAlt.slice(0, -1)/100;
+	var finalHealingTimeAlt = getPreciseValue(100/(baseHealingSpeed*(1 + healingSpeedAlt)));
+	var eleHealingAlt = ele[0];
+	eleHealingAlt.textContent = finalHealingTimeAlt;
+	assignColor(eleHealingAlt, finalHealingTimeAlt, baseHealingTime);
+	
+	if (healingSpeedSlf != 'None') {
+		healingSpeedSlf = +healingSpeedSlf.slice(0, -1)/100;
+		var finalHealingTimeSlf = getPreciseValue(100/(baseHealingSpeed*(1 + healingSpeedSlf)));
+		var eleHealingSlf = ele[2];
+		eleHealingSlf.textContent = finalHealingTimeSlf;
+		assignColor(eleHealingSlf, finalHealingTimeSlf, baseHealingTime);
+	}	
+}
 
 function calcVal(ele, val1, val2) {
 	var val;
@@ -347,6 +367,26 @@ function openSubTab(evt, sectionName, scrollValue) {
 		subtabcontent[i].style.display = "none";
 	}
 	subtablinks = document.getElementsByClassName("subtablinks");
+	for (i = 0; i < subtablinks.length; i++) {
+		subtablinks[i].className = subtablinks[i].className.replace(" active", "");
+	}
+	elem = document.getElementById(sectionName);
+	elem.style.display = "block";
+	if (scrollValue) {
+		elem.scrollIntoView(true);
+	}
+	evt.currentTarget.className += " active";
+	activeItemSubTab = evt.currentTarget.innerText;
+}
+
+//Switch subsubtabs
+function openSubSubTab(evt, sectionName, scrollValue) {
+	var i, subtabcontent, subtablinks;
+	subtabcontent = document.getElementsByClassName("subsubTabContent");
+	for (i = 0; i < subtabcontent.length; i++) {
+		subtabcontent[i].style.display = "none";
+	}
+	subtablinks = document.getElementsByClassName("subsubTabLinks");
 	for (i = 0; i < subtablinks.length; i++) {
 		subtablinks[i].className = subtablinks[i].className.replace(" active", "");
 	}

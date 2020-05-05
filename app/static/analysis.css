@@ -295,7 +295,7 @@
 	justify-content: space-between;
 	margin-top: 100px;
 }
-.addonsContent, .itemsContent {
+.subsubTabContent, .AddonsContent, .ItemsContent {
 	display: flex;
 	/* flex-wrap: wrap; */
 	flex-direction: column;
@@ -405,7 +405,7 @@
 	text-align: center;
 }
 
-.subtab {
+.subtab, .subsubtab {
 	margin-left: -200px;
 	/* border: 1px solid #ccc; */
 	color: white;
@@ -418,7 +418,7 @@
 	/* pointer-events: none; */
 }
 
-.subtab button {
+.subtab button, .subsubtab button {
 	background-color: inherit;
 	/* float: left; */
 	/* border: 1px solid #ccc; */
@@ -440,7 +440,7 @@
 	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
 }
 
-.subtab button.active {
+.subtab button.active, .subsubtab button.active {
 	color: var(--color3);
 	background: var(--color2);
 	box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2);

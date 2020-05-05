@@ -1,0 +1,74 @@
+{
+  "Healing Time (Altruism)": {
+    "Base-Med-Kit": "16",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": "default",
+    "First-Aid-Kit-Med-Kit": "default",
+    "Emergency-Med-Kit-Med-Kit": "default",
+    "Ranger-Med-Kit-Med-Kit": "default",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": "default"
+  },
+  "Healing Speed (Altruism)": {
+    "Base-Med-Kit": "1",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": "+25%",
+    "First-Aid-Kit-Med-Kit": "+35%",
+    "Emergency-Med-Kit-Med-Kit": "+50%",
+    "Ranger-Med-Kit-Med-Kit": "+50%",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": "+35%"
+  },
+  "Healing Time (Self)": {
+    "Base-Med-Kit": "16",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": "default",
+    "First-Aid-Kit-Med-Kit": "default",
+    "Emergency-Med-Kit-Med-Kit": "default",
+    "Ranger-Med-Kit-Med-Kit": "default",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": "default"
+  },
+  "Healing Speed (Self)": {
+    "Base-Med-Kit": "1",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": null,
+    "First-Aid-Kit-Med-Kit": null,
+    "Emergency-Med-Kit-Med-Kit": "+50%",
+    "Ranger-Med-Kit-Med-Kit": null,
+    "All-Hallows-Eve-Lunchbox-Med-Kit": null
+  },
+  "Charges": {
+    "Base-Med-Kit": "100",
+    "Static-Med-Kit": "-100",
+    "Camping-Aid-Kit-Med-Kit": "+16%",
+    "First-Aid-Kit-Med-Kit": "+24%",
+    "Emergency-Med-Kit-Med-Kit": "+16%",
+    "Ranger-Med-Kit-Med-Kit": "+32%",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": "+24%"
+  },
+  "Skill Check Chance % (Altruism)": {
+    "Base-Med-Kit": "15%",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": null,
+    "First-Aid-Kit-Med-Kit": null,
+    "Emergency-Med-Kit-Med-Kit": null,
+    "Ranger-Med-Kit-Med-Kit": "+15%",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": null  
+  },
+  "Skill Check Chance % (Self)": {
+    "Base-Med-Kit": "12.5%",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": null,
+    "First-Aid-Kit-Med-Kit": null,
+    "Emergency-Med-Kit-Med-Kit": null,
+    "Ranger-Med-Kit-Med-Kit": "+15%",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": null 
+  },
+  "Great Skill Check Extra %": {
+    "Base-Med-Kit": "2%",
+    "Static-Med-Kit": null,
+    "Camping-Aid-Kit-Med-Kit": null,
+    "First-Aid-Kit-Med-Kit": null,
+    "Emergency-Med-Kit-Med-Kit": null,
+    "Ranger-Med-Kit-Med-Kit": "+5%",
+    "All-Hallows-Eve-Lunchbox-Med-Kit": null  
+  }
+}

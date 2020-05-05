@@ -171,9 +171,9 @@
 
 		{% for name,info in Items.items() %}
 		<div class="subtabcontent" id='{{ name }}'>
-			{% if name == 'Toolbox' %}
+			{% if name == 'Med-Kit' or name == 'Toolbox' %}
 			<div class="container-stats">
-				{% for col,stat in Toolbox.items() %}
+				{% for col,stat in ItemsStats[name].items() %}
 				{% if col != 'Additional Effects' %}
 				<button class="stats">
 					<center>
@@ -211,6 +211,7 @@
 			</div>
 			{% endif %}
 			<div class="itemsMain">
+				{% if name not in ['Map', 'Key', 'Flashlight'] %}
 				<div class="mainItemSlots" id="mainAddonSlots-{{ name }}">
 					<div class="itemsSlots" id="addonsSlots-{{ name }}">
 						<div class="itemSlot" id="{{ name + '-slot0' }}" align="center"
@@ -254,8 +255,19 @@
 						<button class="moveSlots" id="{{ name + '-move' }}" onclick="moveSlot(`{{name}}`)">Compare</button>
 					</div>
 				</div>
+				{% endif %}
+				
+				<!-- <div class="subsubtab"> -->
+					<!-- {% for name in ['Items', 'Addons'] %} -->
+					<!-- <button class="subsubTabLinks" onclick="openSubSubTab(event, '{{ name }}Content', false); clearSlots('{{ name }}')"> -->
+						<!-- <span>{{ name }}</span> -->
+						<!-- <img class="lozad" data-src={{ info['image'] }} height="80" width="80"> -->
+					<!-- </button> -->
+					<!-- {% endfor %} -->
+				<!-- </div> -->
+		
 				<div class="itemsMainContent">
-					<div class="itemsContent">
+					<div class="subsubTabContent" id="ItemsContent">
 						{% for rarity,items in info['versions'].items() %}
 						<div class="flex-container">
 							{% for item in items %}
@@ -279,30 +291,30 @@
 						</div>
 						{% endfor %}
 					</div>
-					<div class="addonsContent">
-				{% for rarity,addons in info['addons'].items() %}
-				<div class="flex-container">
-					{% for addon in addons %}
-					<div class="container-addons">
-						<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} height="80" width="80" draggable="true"
-							ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
-						<figcaption>
-							<span>{{ addon['addon-name'] }}</span>
-						</figcaption>
-						<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
-							<div class="overlay-heading">
-								<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
-								<span style="font-size: 13px;">{{ rarity }}</span>
-							</div>
-							<div class="overlay-content">
-								<p style="font-size: 15px;">{{ addon['addon-description'] }}</p>
+					<div class="subsubTabContent" id="AddonsContent">
+						{% for rarity,addons in info['addons'].items() %}
+						<div class="flex-container">
+						{% for addon in addons %}
+						<div class="container-addons">
+							<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} height="80" width="80" draggable="true"
+								ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
+							<figcaption>
+								<span>{{ addon['addon-name'] }}</span>
+							</figcaption>
+							<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
+								<div class="overlay-heading">
+									<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
+									<span style="font-size: 13px;">{{ rarity }}</span>
+								</div>
+								<div class="overlay-content">
+									<p style="font-size: 15px;">{{ addon['addon-description'] }}</p>
+								</div>
 							</div>
 						</div>
+						{% endfor %}
 					</div>
 					{% endfor %}
 				</div>
-				{% endfor %}
-			</div>
 				</div>
 			</div>
 		</div>

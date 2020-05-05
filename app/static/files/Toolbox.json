@@ -21,7 +21,7 @@
   },
   "Charges": {
 	"Base-Toolbox": "100",
-	"Static-Toolbox": null,
+	"Static-Toolbox": "-100",
 	"Worn-Out-Tools-Toolbox": "+16%",
     "Toolbox-Toolbox": "+20%",
     "Mechanics-Toolbox-Toolbox": "+16%",

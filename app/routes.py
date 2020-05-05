@@ -21,6 +21,9 @@ with open(os.path.join(APP_STATIC, 'Items.json'), "r") as f:
 with open(os.path.join(APP_STATIC, 'Toolbox.json'), "r") as f:
 	toolbox = json.load(f)
 
+with open(os.path.join(APP_STATIC, 'Med-kit.json'), "r") as f:
+	medkit = json.load(f)
+	
 killers = dict()
 for file in os.listdir(APP_Killer_Addons):
 	with open(os.path.join(APP_Killer_Addons, file), "r") as f:
@@ -46,7 +49,8 @@ def analysis():
 							 Killer_Addons=killer_addons,
 							 Killers=killers,
 							 Items=items, 
-							 Toolbox=toolbox,
+							 ItemsStats={'Toolbox': toolbox,
+									     'Med-Kit': medkit},
 							 css='analysis.css')
 							 
 							 
