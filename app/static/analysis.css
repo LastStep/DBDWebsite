@@ -5,7 +5,6 @@
 	--shadow-radius: 5px;
 }
 
-
 /* Slots */
 .perksSlots {
 	display: flex;
@@ -58,7 +57,8 @@
 	align-items: center;
 }
 
-.perkSlot, .addonSlot {
+.perkSlot,
+.addonSlot {
 	float: left;
 	width: 100px;
 	height: 100px;
@@ -68,7 +68,9 @@
 	border: 1px solid white;
 	position: relative;
 	border-radius: 25px;
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
 	align-items: center;
 }
 
@@ -82,7 +84,9 @@
 	border: 1px solid white;
 	position: relative;
 	border-radius: 25px;
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
 	align-items: center;
 }
 
@@ -103,13 +107,13 @@
 }
 
 .perkSlot button {
-	background: url('/static/images/clearbtn.png');
+	background: url("/static/images/clearbtn.png");
 	cursor: pointer;
 	border: none;
 }
 
 .addonSlot button {
-	background: url('/static/images/clearbtn.png');
+	background: url("/static/images/clearbtn.png");
 	cursor: pointer;
 	border: none;
 }
@@ -119,15 +123,15 @@
 }
 
 .moveButton button {
-  background-color: #000000;
-  border: none;
-  border-radius: 20px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 13px;
-  outline: none;
+	background-color: #000000;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 13px;
+	outline: none;
 }
 
 #itemSlotMain {
@@ -140,7 +144,9 @@
 	border: 1px solid white;
 	position: relative;
 	border-radius: 25px;
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
 	align-items: center;
 }
 
@@ -155,7 +161,7 @@
 .tempSlot {
 	visibility: hidden;
 	max-height: 0;
-	transition: max-height .3s, visibility .5s;
+	transition: max-height 0.3s, visibility 0.5s;
 }
 
 /*.tempSlot > .addonSlot{
@@ -171,7 +177,7 @@
 }*/
 
 .tempSlot * {
-	transition: visibility .2s, opacity .5s ease;
+	transition: visibility 0.2s, opacity 0.5s ease;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -284,8 +290,9 @@
 
 .itemsMain {
 	display: flex;
-	/* flex-direction: column; */
+	/*flex-direction: column;*/
 	justify-content: space-between;
+	/* align-items: flex-start; */
 	margin-top: 0px;
 }
 
@@ -295,7 +302,10 @@
 	justify-content: space-between;
 	margin-top: 100px;
 }
-.subsubTabContent, .AddonsContent, .addonsContent, .ItemsContent {
+
+.AddonsContent,
+.addonsContent,
+.ItemsContent {
 	display: flex;
 	/* flex-wrap: wrap; */
 	flex-direction: column;
@@ -304,21 +314,31 @@
 	width: 800px;
 }
 
-.container-addons, .container-items {
+.subsubTabContent {
+	display: none;
+	padding: 6px 12px;
+	/* border: 1px solid #ccc; */
+	border-top: none;
+	animation: fadeEffect 0.2s;
+}
+
+.container-addons,
+.container-items {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
 }
 
-.container-addons img, .container-items img {
+.container-addons img,
+.container-items img {
 	pointer-events: auto;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	height: 80px;
 	width: 80px;
 }
 
 /* .container-addons:hover img, .container-items:hover img { */
-	/* transform: scale(1.6); */
+/* transform: scale(1.6); */
 /* } */
 
 .container-stats {
@@ -342,7 +362,9 @@
 }
 
 .stats:hover {
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
 }
 
 .stats-addons {
@@ -372,7 +394,7 @@
 	pointer-events: none;
 }
 
-.flex-container>div {
+.flex-container > div {
 	/* background-color: rgb(121, 167, 51); */
 	background-color: transparent;
 	width: 18%;
@@ -398,14 +420,14 @@
 	flex-wrap: wrap;
 }
 
-.perksContent>div {
+.perksContent > div {
 	background-color: transparent;
 	width: 32%;
 	margin: 5px;
 	text-align: center;
 }
 
-.subtab, .subsubtab {
+.subtab {
 	margin-left: -200px;
 	/* border: 1px solid #ccc; */
 	color: white;
@@ -418,7 +440,20 @@
 	/* pointer-events: none; */
 }
 
-.subtab button, .subsubtab button {
+.itemsAddonsContainer {
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 100%;
+}
+
+.subsubtab {
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+	list-style-type: none;
+}
+
+.subtab button {
 	background-color: inherit;
 	/* float: left; */
 	/* border: 1px solid #ccc; */
@@ -429,21 +464,43 @@
 	/* outline: none; */
 	cursor: pointer;
 	padding: 5px 0px;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	font-size: 15px;
 	color: white;
 }
 
-.subtablinks:hover {
-	color: var(--color3);
-	background: var(--color1);
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color1), 0 0 40px var(--shadow-radius) var(--color1), 0 0 80px var(--shadow-radius) var(--color1);
+.subsubtab button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	border-radius: 25px;
+	width: 250px;
+	cursor: pointer;
+	padding: 5px 0px;
+	transition: transform 0.5s ease;
+	font-size: 15px;
+	color: white;
 }
 
-.subtab button.active, .subsubtab button.active {
+.subtablinks:hover,
+.subsubTabLinks:hover {
+	color: var(--color3);
+	background: var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
+}
+
+.subtab button.active,
+.subsubtab button.active {
 	color: var(--color3);
 	background: var(--color2);
-	box-shadow: 0 0 10px var(--shadow-radius) var(--color2), 0 0 40px var(--shadow-radius) var(--color2), 0 0 80px var(--shadow-radius) var(--color2);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color2),
+		0 0 40px var(--shadow-radius) var(--color2),
+		0 0 80px var(--shadow-radius) var(--color2);
 }
 
 .subtablinks {
@@ -485,7 +542,7 @@
 	max-width: 500px;
 }
 
-.container-items {
+/* .container-items {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
@@ -493,9 +550,9 @@
 
 .container-items img {
 	pointer-events: auto;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	min-height: 80;
-}
+} */
 
 .shiftLeft {
 	left: -50%;

@@ -1,10 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
 <ul class="tab">
-	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')">Survivor Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Perks')">Killer Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" id="defaultOpen">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Items')">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')" data-tab-open="">Survivor Perks</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Perks')" data-tab-open="">Killer Perks</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')"  data-tab-open="default">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Items')" data-tab-open="">Items</button>
 
 </ul>
 
@@ -128,7 +128,7 @@
 	observer.observe();
 </script>
 <script>
-	document.getElementById("defaultOpen").click();
+	document.querySelector("button[data-tab-open=default]").click()
 </script>
 <script type="text/javascript">
 	$("[class^='container-']").mouseenter(function(){
