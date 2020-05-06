@@ -162,10 +162,12 @@
 	<div class="itemsTab">
 		<ul class="subtab">
 			{% for name,info in Items.items() %}
+			{% if name == 'Med-Kit' or name == 'Toolbox' %}
 			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', false); clearSlots('{{ name }}')">
 				<span>{{ name }}</span>
 				<img class="lozad" data-src={{ info['image'] }} height="80" width="80">
 			</button>
+			{% endif %}
 			{% endfor %}
 		</ul>
 
