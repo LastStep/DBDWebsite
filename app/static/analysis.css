@@ -45,9 +45,14 @@
 
 .mainItemSlots {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.mainItemSlotsBox {
+	display: flex;
+	flex-direction: row;
 }
 
 .itemSlots {
@@ -161,23 +166,12 @@
 .tempSlot {
 	visibility: hidden;
 	max-height: 0;
-	transition: max-height 0.3s, visibility 0.5s;
+	max-width: 0;
+	transition: max-height 0.3s, max-width 0.3s, visibility 0.2s;
 }
-
-/*.tempSlot > .addonSlot{
-	height: 0;
-	width: 0;
-	transition: height .5s, width .5s, opacity 1s;
-}
-
-.tempSlot > .itemSlot{
-	height: 0;
-	width: 0;
-	transition: height .5s, width .5s, opacity 1s;
-}*/
 
 .tempSlot * {
-	transition: visibility 0.2s, opacity 0.5s ease;
+	transition: visibility 0.2s, opacity 0.2s ease;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -185,27 +179,13 @@
 .fade {
 	visibility: visible;
 	max-height: 500px;
+	max-width: 500px;
 }
 
 .fade * {
 	visibility: visible;
 	opacity: 1;
 }
-
-/*.fade .addonSlot {
-	height: 100px;
-	width: 100px;
-}
-
-.fade .itemSlot {
-	height: 140px;
-	width: 140px;
-}
-
-.fade > img {
-	height: 20px;
-	width: 20px;
-}*/
 
 .addon-image {
 	position: relative;
@@ -299,8 +279,7 @@
 .itemsMainContent {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	margin-top: 100px;
+	/* justify-content: space-between; */
 }
 
 .AddonsContent,
@@ -441,16 +420,21 @@
 }
 
 .itemsAddonsContainer {
-	margin-top: 30px;
-	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 60px; */
 	width: 100%;
+	justify-content: center;
 }
 
 .subsubtab {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	background-color: transparent;
 	list-style-type: none;
+	/* max-width: max-content; */
+	max-height: max-content;
 }
 
 .subtab button {
@@ -470,19 +454,23 @@
 }
 
 .subsubtab button {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 	background-color: inherit;
-	border: none;
+	margin-right: 20px;
+	/* border-top: none;
+	border-right: none;
+	border-width: 5px;
+	border-left-width: 3px;
+	border-left-style: double;
+	border-bottom-style: double; */
 	outline: none;
-	border-radius: 25px;
-	width: 250px;
 	cursor: pointer;
-	padding: 5px 0px;
-	transition: transform 0.5s ease;
-	font-size: 15px;
+	padding: 14px 10px;
+	font-size: 17px;
 	color: white;
+	border-radius: 20px;
 }
 
 .subtablinks:hover,
@@ -524,6 +512,12 @@
 	/* border: 1px solid #ccc; */
 	border-top: none;
 	animation: fadeEffect 0.2s;
+}
+
+.itemsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .killerTab {

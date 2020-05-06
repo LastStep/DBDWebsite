@@ -2,8 +2,8 @@
 {% block content %}
 <ul class="tab">
 	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')" data-tab-open="">Survivor Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" data-tab-open="default">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')" data-tab-open="">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" data-tab-open="">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')" data-tab-open="default">Items</button>
 
 </ul>
 
@@ -170,89 +170,93 @@
 		</ul>
 
 		{% for name,info in Items.items() %}
+		{% if name == 'Med-Kit' or name == 'Toolbox' %}
 		<div class="subtabcontent" id='{{ name }}'>
-			{% if name == 'Med-Kit' or name == 'Toolbox' %}
-			<div class="container-stats">
-				{% for col,stat in ItemsStats[name].items() %}
-				{% if col != 'Additional Effects' %}
-				<button class="stats">
-					<center>
-						<p class="stats-addon">{{ col }}</p>
-					</center>
-					<div class="stats-tabs">
-						<div class="stats-main" id={{ name + '-stats' }}>
-							<center>
-								<p class="stats-value" value=""
-									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
-								</p>
-							</center>
-							{% for addon,val in stat.items() %}
-							<center>
-								<p class="stats-addons" name="{{ addon }}-stat">{{ val }}</p>
-							</center>
-							{% endfor %}
-						</div>
-						<div class="stats-temp tempSlot hidden" id={{ name + '-temp-stats' }}>
-							<center>
-								<p class="stats-value-temp" value=""
-									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
-								</p>
-							</center>
-							{% for addon,val in stat.items() %}
-							<center>
-								<p class="stats-addons" name="{{ addon }}-stat-temp">{{ val }}</p>
-							</center>
-							{% endfor %}
-						</div>
-					</div>
-				</button>
-				{% endif %}
-				{% endfor %}
-			</div>
-			{% endif %}
-			<div class="itemsMain">
-				{% if name not in ['Map', 'Key', 'Flashlight'] %}
-				<div class="mainItemSlots" id="mainAddonSlots-{{ name }}">
-					<div class="itemsSlots" id="addonsSlots-{{ name }}">
-						<div class="itemSlot" id="{{ name + '-slot0' }}" align="center"
-							ondrop="dropItem(event, `{{ name + '-slot0' }}`, false)" ondragover="allowDrop(event)">
-							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-slot0' }}`, false)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-						</div>
-						<div class="smallSlots">
-							<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
-								ondrop="dropAddon(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
-								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`, false)"
-									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+			<div class="itemsContainer">
+				<div class="container-stats">
+					{% for col,stat in ItemsStats[name].items() %}
+					{% if col != 'Additional Effects' %}
+					<button class="stats">
+						<center>
+							<p class="stats-addon">{{ col }}</p>
+						</center>
+						<div class="stats-tabs">
+							<div class="stats-main" id={{ name + '-stats' }}>
+								<center>
+									<p class="stats-value" value=""
+										onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
+									</p>
+								</center>
+								{% for addon,val in stat.items() %}
+								<center>
+									<p class="stats-addons" name="{{ addon }}-stat">{{ val }}</p>
+								</center>
+								{% endfor %}
 							</div>
-							<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
-								ondrop="dropAddon(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
-								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`, false)"
-									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							<div class="stats-temp tempSlot hidden" id={{ name + '-temp-stats' }}>
+								<center>
+									<p class="stats-value-temp" value=""
+										onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
+									</p>
+								</center>
+								{% for addon,val in stat.items() %}
+								<center>
+									<p class="stats-addons" name="{{ addon }}-stat-temp">{{ val }}</p>
+								</center>
+								{% endfor %}
 							</div>
 						</div>
-					</div>
-					<div class="itemsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
-						<div class="itemSlot" id="{{ name + '-temp-slot0' }}" align="center"
-							ondrop="dropItem(event, `{{ name + '-temp-slot0' }}`, true)" ondragover="allowDrop(event)">
-							<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-temp-slot0' }}`, true)"
-								src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
-						</div>
-						<div class="smallSlots">
-							<div class="addonSlot" id="{{ name + '-temp-slot1' }}" align="center"
-								ondrop="dropAddon(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
-								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot1' }}`, true)"
-									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+					</button>
+					{% endif %}
+					{% endfor %}
+				</div>
+
+				<div class="itemsMain">
+					{% if name not in ['Map', 'Key', 'Flashlight'] %}
+					<div class="mainItemSlots" id="mainAddonSlots-{{ name }}">
+						<div class="mainItemSlotsBox">
+							<div class="itemsSlots" id="addonsSlots-{{ name }}">
+								<div class="itemSlot" id="{{ name + '-slot0' }}" align="center"
+									ondrop="dropItem(event, `{{ name + '-slot0' }}`, false)" ondragover="allowDrop(event)">
+									<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-slot0' }}`, false)"
+										src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+								</div>
+								<div class="smallSlots">
+									<div class="addonSlot" id="{{ name + '-slot1' }}" align="center"
+										ondrop="dropAddon(event, `{{ name + '-slot1' }}`, false)" ondragover="allowDrop(event)">
+										<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot1' }}`, false)"
+											src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+									</div>
+									<div class="addonSlot" id="{{ name + '-slot2' }}" align="center"
+										ondrop="dropAddon(event, `{{ name + '-slot2' }}`, false)" ondragover="allowDrop(event)">
+										<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-slot2' }}`, false)"
+											src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+									</div>
+								</div>
 							</div>
-							<div class="addonSlot" id="{{ name + '-temp-slot2' }}" align="center"
-								ondrop="dropAddon(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
-								<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot2' }}`, true)"
-									src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+							<div class="itemsSlots tempSlot" id="addonsSlots-temp-{{ name }}">
+								<div class="itemSlot" id="{{ name + '-temp-slot0' }}" align="center"
+									ondrop="dropItem(event, `{{ name + '-temp-slot0' }}`, true)" ondragover="allowDrop(event)">
+									<input class="clear-img-item" type="image" onclick="clearSlot(`{{ name + '-temp-slot0' }}`, true)"
+										src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+								</div>
+								<div class="smallSlots">
+									<div class="addonSlot" id="{{ name + '-temp-slot1' }}" align="center"
+										ondrop="dropAddon(event, `{{ name + '-temp-slot1' }}`, true)" ondragover="allowDrop(event)">
+										<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot1' }}`, true)"
+											src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+									</div>
+									<div class="addonSlot" id="{{ name + '-temp-slot2' }}" align="center"
+										ondrop="dropAddon(event, `{{ name + '-temp-slot2' }}`, true)" ondragover="allowDrop(event)">
+										<input class="clear-img" type="image" onclick="clearSlot(`{{ name + '-temp-slot2' }}`, true)"
+											src="static/images/clearbtn.png" alt="Clear" width="20" height="20" align="right">
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="moveButton">
-						<button class="moveSlots" id="{{ name + '-move' }}" onclick="moveSlot(`{{name}}`)">Compare</button>
+						<div class="moveButton">
+							<button class="moveSlots" id="{{ name + '-move' }}" onclick="moveSlot(`{{name}}`)">Compare</button>
+						</div>
 					</div>
 				</div>
 				<div class="itemsAddonsContainer">
@@ -260,7 +264,7 @@
 						{% for subname in ['Items', 'Addons'] %}
 						<button class="subsubTabLinks" onclick="openSubSubTab(event, '{{ name }}-{{ subname }}Content', false)" data-tab-open="">
 							<span>{{ subname }}</span>
-							<img class="lozad" data-src={{ info['image'] }} height="80" width="80">
+							<!-- <img class="lozad" data-src={{ info['image'] }} height="80" width="80"> -->
 						</button>
 						{% endfor %}
 					</ul>
@@ -318,6 +322,7 @@
 				{% endif %}
 			</div>
 		</div>
+		{% endif %}
 		{% endfor %}
 	</div>
 </div>
