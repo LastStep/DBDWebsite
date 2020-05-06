@@ -31,7 +31,7 @@
 
 .itemsSlots {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -52,7 +52,9 @@
 
 .mainItemSlotsBox {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: space-between;
+
 }
 
 .itemSlots {
@@ -65,10 +67,10 @@
 .perkSlot,
 .addonSlot {
 	float: left;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	margin: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: top right bottom left;
 	border: 1px solid white;
 	position: relative;
@@ -81,10 +83,10 @@
 
 .itemSlot {
 	float: left;
-	width: 140px;
-	height: 140px;
+	width: 110px;
+	height: 110px;
 	margin: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	padding: top right bottom left;
 	border: 1px solid white;
 	position: relative;
@@ -99,16 +101,16 @@
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 25px;
-	width: 100px;
-	height: 100px;
+	width: 100%;
+	height: 100%;
 }
 
 .itemSlot img {
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 25px;
-	width: 140px;
-	height: 140px;
+	width: 100%;
+	height: 100%;
 }
 
 .perkSlot button {
@@ -198,14 +200,14 @@
 	position: absolute;
 	z-index: 2;
 	top: -12px;
-	left: 90px;
+	left: 70px;
 }
 
 .clear-img-item {
 	position: absolute;
 	z-index: 2;
 	top: -12px;
-	left: 130px;
+	left: 100px;
 }
 
 /* Tabs */
@@ -302,18 +304,24 @@
 }
 
 .container-addons,
-.container-items {
+.container-items-items, .container-items-addons {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
 }
 
-.container-addons img,
-.container-items img {
+.container-addons img {
 	pointer-events: auto;
 	transition: transform 0.5s ease;
 	height: 80px;
 	width: 80px;
+}
+
+.container-items-items img, .container-items-addons img {
+	pointer-events: auto;
+	transition: transform 0.5s ease;
+	height: 60px;
+	width: 60px;
 }
 
 /* .container-addons:hover img, .container-items:hover img { */
@@ -333,7 +341,7 @@
 	border-radius: 25px;
 	width: 250px;
 	cursor: pointer;
-	padding: 20px 20px;
+	padding: 10px 10px;
 	font-size: 15px;
 	color: white;
 	position: relative;
@@ -365,7 +373,7 @@
 	/* display: none; */
 }
 
-.flex-container {
+.flex-container, .flex-container-items {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
@@ -379,6 +387,15 @@
 	width: 18%;
 	margin: 5px;
 	margin-bottom: 30px;
+	text-align: center;
+}
+
+.flex-container-items > div {
+	/* background-color: rgb(121, 167, 51); */
+	background-color: transparent;
+	width: 18%;
+	margin: 5px;
+	margin-bottom: 5px;
 	text-align: center;
 }
 

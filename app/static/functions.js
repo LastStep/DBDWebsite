@@ -95,8 +95,10 @@ function calcAddon(temp, type) {
 			}
 		}
 	}
-	assignItems(temp);
-	valItems = [];
+	if (type === "item") {
+		assignItems(temp);
+		valItems = [];
+	}
 }
 
 function assignVal(elem, val, temp) {
@@ -349,7 +351,7 @@ function funcMedkit(temp, healingSpeedAlt, healingSpeedSlf) {
 	}
 	var baseHealingTime = 16;
 	var baseHealingSpeed = 100 / baseHealingTime;
-
+	
 	healingSpeedAlt = +healingSpeedAlt.slice(0, -1) / 100;
 	var finalHealingTimeAlt = getPreciseValue(
 		100 / (baseHealingSpeed * (1 + healingSpeedAlt))

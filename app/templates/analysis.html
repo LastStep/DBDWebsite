@@ -273,10 +273,10 @@
 					<div class="itemsMainContent">
 						<div class="subsubTabContent" id="{{ name }}-ItemsContent">
 							{% for rarity,items in info['versions'].items() %}
-							<div class="flex-container">
+							<div class="flex-container-items">
 								{% for item in items %}
-								<div class="container-items">
-									<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" draggable="true"
+								<div class="container-items-items">
+									<img class="item-image lozad" data-src={{ item['image-alt'] }} draggable="true"
 										ondragstart="drag(event)" id={{ item['item-id'] }} credit="u/ambieobambie">
 									<figcaption>
 										<span>{{ item['name'] }}</span>
@@ -297,10 +297,10 @@
 						</div>
 						<div class="subsubTabContent" id="{{ name }}-AddonsContent">
 							{% for rarity,addons in info['addons'].items() %}
-							<div class="flex-container">
+							<div class="flex-container-items">
 							{% for addon in addons %}
-							<div class="container-addons">
-								<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} height="80" width="80" draggable="true"
+							<div class="container-items-addons">
+								<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} draggable="true"
 									ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
 								<figcaption>
 									<span>{{ addon['addon-name'] }}</span>
