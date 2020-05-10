@@ -58,10 +58,8 @@ function calcAddon(temp, type) {
 	} else {
 		if (temp) {
 			var ele1 = document.getElementsByName(itemTempIds[0] + "-stat-temp");
-			// var ele2 = document.getElementsByName(itemTempIds[1] + "-stat-temp");
 		} else {
 			var ele1 = document.getElementsByName(itemIds[0] + "-stat");
-			// var ele2 = document.getElementsByName(itemIds[1] + "-stat");
 		}
 	}
 	for (i = 0; i < ele1.length; i++) {
@@ -108,27 +106,26 @@ function assignVal(elem, val, temp) {
 		elem = elem.getElementsByClassName("stats-value")[0];
 	}
 	elemVal = elem.getAttribute("value");
-	staticVal = elem.parentNode.parentNode.getElementsByClassName(
-		"stats-addons"
-	)[1].textContent;
+	staticVal = elem.parentNode.parentNode.getElementsByClassName("stats-addons")[1].textContent;
 
 	if (elemVal.slice(-1) === "%" && val !== "None") {
 		elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + "%";
-		if (staticVal !== "None") {
-			elem.textContent =
-				+elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
+		if (staticVal !== "None" && staticVal !== "speed") {
+			elem.textContent = +elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 			elemVal = +elemVal.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 		}
 		assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
 	} else if (val !== "None" && val.slice(-1) === "%") {
-		elem.textContent = getPreciseValue(
-			+elemVal + (+elemVal * +val.slice(0, -1)) / 100
-		);
-		if (staticVal !== "None") {
+		elem.textContent = getPreciseValue(+elemVal + (+elemVal * +val.slice(0, -1)) / 100);
+		if (staticVal !== "None" && staticVal !== "speed") {
 			elem.textContent = +elem.textContent + +staticVal;
 			elemVal = +elemVal + +staticVal;
 		}
 		assignColor(elem, +elem.textContent, +elemVal);
+		if (staticVal === "speed") {
+			elem.setAttribute("hiddenval", elem.textContent);
+			elem.textContent = getSpeedPercent(+elem.textContent);
+		}
 	} else if (
 		isNaN(parseFloat(elemVal)) === false &&
 		isNaN(parseFloat(val)) === false
@@ -176,37 +173,36 @@ function assignDefaultVal(elem, temp) {
 		}
 		elemVal = statElem.textContent;
 		elemDefVal = statElem.getAttribute("value");
-		staticVal = statElem.parentNode.parentNode.getElementsByClassName(
-			"stats-addons"
-		)[1].textContent;
+		staticVal = statElem.parentNode.parentNode.getElementsByClassName("stats-addons")[1].textContent;
+		if (staticVal === "speed") {
+			elemVal = statElem.getAttribute("hiddenval");
+		}
 
 		if (val1 === "default") {
 			statElem.textContent = elemDefVal;
 			assignColor(statElem, elemDefVal, elemDefVal);
 		} else if (elemVal.slice(-1) === "%" && val1 !== "None") {
 			statElem.textContent = +elemVal.slice(0, -1) + -val1.slice(0, -1) + "%";
-			if (staticVal !== "None") {
+			if (staticVal !== "None" && staticVal !== "speed") {
 				elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
 			}
-			assignColor(
-				statElem,
-				+statElem.textContent.slice(0, -1),
-				elemDefVal.slice(0, -1)
-			);
+			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal.slice(0, -1));
 		} else if (val1 !== "None" && val1.slice(-1) === "%") {
-			statElem.textContent = getPreciseValue(
-				+elemVal + (+elemDefVal * -val1.slice(0, -1)) / 100
-			);
-			if (staticVal !== "None") {
+			statElem.textContent = getPreciseValue(+elemVal + (+elemDefVal * -val1.slice(0, -1)) / 100);
+			if (staticVal !== "None" && staticVal !== "speed") {
 				elemDefVal = +elemDefVal + +staticVal;
 			}
 			assignColor(statElem, +statElem.textContent, elemDefVal);
+			if (staticVal === "speed") {
+				statElem.setAttribute("hiddenval", statElem.textContent);
+				statElem.textContent = getSpeedPercent(+statElem.textContent);
+			}
 		} else if (
 			isNaN(parseFloat(elemVal)) === false &&
 			isNaN(parseFloat(val1)) === false
 		) {
 			statElem.textContent = +elemVal + -val1;
-			if (staticVal !== "None") {
+			if (staticVal !== "None" && staticVal !== "speed") {
 				elemDefVal = +elemDefVal + +staticVal;
 			}
 			assignColor(statElem, +statElem.textContent, elemDefVal);
@@ -375,6 +371,8 @@ function calcVal(ele, val1, val2) {
 	var val;
 	if (val2 === "None") {
 		val = val1;
+	} else if (val2 === "speed") {
+		val = getSpeedPercent(val1);
 	} else if (val1.slice(-1) === "%") {
 		val = +val1.slice(0, -1) + +val2.slice(0, -1) + "%";
 	} else {
@@ -468,4 +466,14 @@ window.onload = function () {
 //Math Functions
 function getPreciseValue(val) {
 	return Number((Math.round(val * 200) / 200).toPrecision(4));
+}
+
+function getSpeedPercent(val) {
+	var baseSpeed = 4;
+	return getPreciseValue((+val*100)/4) + "%";
+}
+
+function getSpeedNumber(val) {
+	var baseSpeed = 4;
+	return getPreciseValue((+val.slice(-1)*4)/100);
 }

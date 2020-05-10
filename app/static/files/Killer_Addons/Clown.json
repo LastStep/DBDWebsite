@@ -1,8 +1,8 @@
 {
   "Reload Movement Speed": {
-    "Base-Clown": "40.25%",
-    "Static-Clown": null,
-    "Smelly-Inner-Soles-Clown": "13.25%",
+    "Base-Clown": "1.61",
+    "Static-Clown": "speed",
+    "Smelly-Inner-Soles-Clown": "33%",
     "Robin-Feather-Clown": null,
     "Fingerless-Parade-Gloves-Clown": null,
     "Ether-5-Vol%-Clown": null,
@@ -11,7 +11,7 @@
     "Starling-Feather-Clown": null,
     "Solvent-Jug-Clown": null,
     "Kerosene-Can-Clown": null,
-    "VHS-Porn-Clown": "26.50%",
+    "VHS-Porn-Clown": "66%",
     "Sulphuric-Acid-Vial-Clown": null,
     "Flask-of-Bleach-Clown": null,
     "Ether-10-Vol%-Clown": null,

@@ -1,7 +1,7 @@
 {
   "Chainsaw Sprint Speed": {
-    "Base-Hillbilly": "230%",
-    "Static-Hillbilly": null,
+    "Base-Hillbilly": "9.2",
+    "Static-Hillbilly": "speed",
     "Vegetable-Oil-Hillbilly": null,
     "Spark-Plug-Hillbilly": null,
     "Chainsaw-File-Hillbilly": null,

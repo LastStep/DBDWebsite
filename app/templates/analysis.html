@@ -2,8 +2,8 @@
 {% block content %}
 <ul class="tab">
 	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')" data-tab-open="">Survivor Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" data-tab-open="">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')" data-tab-open="default">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')" data-tab-open="default">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Survivor-Items')" data-tab-open="">Items</button>
 
 </ul>
 
@@ -71,7 +71,7 @@
 					<div class="stats-tabs">
 						<div class="stats-main" id={{ name + '-stats' }}>
 							<center>
-								<p class="stats-value" value=""
+								<p class="stats-value" value="" hiddenval=""
 									onclick="calcVal(this, `{{stat['Base-'+name]}}`, `{{stat['Static-'+name]}}`); this.onclick=null;">
 								</p>
 							</center>

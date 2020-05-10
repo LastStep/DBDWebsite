@@ -1,7 +1,7 @@
 {
 	"Chainsaw Speed": {
-		"Base-Cannibal": "115%",
-		"Static-Cannibal": null,
+		"Base-Cannibal": "4.6",
+		"Static-Cannibal": "speed",
 		"Vegetable-Oil-Cannibal": null,
 		"Spark-Plug-Cannibal": null,
 		"Chainsaw-File-Cannibal": null,

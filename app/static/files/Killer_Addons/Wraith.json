@@ -1,7 +1,7 @@
 {
   "Cloaked Movement Speed": {
-    "Base-Wraith": "126%",
-    "Static-Wraith": null,
+    "Base-Wraith": "5.06",
+    "Static-Wraith": "speed",
     "The-Serpent-Soot-Wraith": null,
     "The-Hound-Soot-Wraith": null,
     "The-Ghost-Soot-Wraith": null,

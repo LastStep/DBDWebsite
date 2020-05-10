@@ -24,8 +24,8 @@
     "Iridescent-Head-Huntress": null
   },
   "Wind-Up Movement Speed": {
-    "Base-Huntress": "80%",
-    "Static-Huntress": null,
+    "Base-Huntress": "3.2",
+    "Static-Huntress": "speed",
     "Coarse-Stone-Huntress": null,
     "Berus-Toxin-Huntress": null,
     "Bandaged-Haft-Huntress": null,

@@ -1,8 +1,8 @@
 # To-Fix
 
-1) Move Slots Button Image
-2) Fog gif covers only part of Overlay heading
-
+1) Fog gif covers only part of Overlay heading
+2) Spirit Reappearance Speed calc fix
+3) Pig Ambush Charge calc fix
 
 # To-Finish/Add
 
@@ -10,10 +10,5 @@
 2) Item Analysis Indexing and Backend
 3) Verifying Addons Calculations
 4) Images Credit on Hover maybe
-5) Update Doc addons image and effect
-6) Alert Notification if Website is not Opened in a Desktop Browser 
+5) Alert Notification if Website is not Opened in a Desktop Browser 
 
-
-# In-Process
-
-1) Make function for all items in calcAddon
