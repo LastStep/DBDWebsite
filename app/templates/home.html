@@ -3,8 +3,8 @@
 <ul class="tab">
 	<button class="tablinks" onclick="openTab(event, 'Survivor-Perks')" data-tab-open="">Survivor Perks</button>
 	<button class="tablinks" onclick="openTab(event, 'Killer-Perks')" data-tab-open="">Killer Perks</button>
-	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')"  data-tab-open="default">Killer Addons</button>
-	<button class="tablinks" onclick="openTab(event, 'Items')" data-tab-open="">Items</button>
+	<button class="tablinks" onclick="openTab(event, 'Killer-Addons')"  data-tab-open="">Killer Addons</button>
+	<button class="tablinks" onclick="openTab(event, 'Items')" data-tab-open="default">Items</button>
 
 </ul>
 
@@ -80,7 +80,7 @@
 <div class="tabcontent" id="Items">
 	<ul class="subtab">
 		{% for name,info in Items.items() %}
-		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', true); dimElem(event, 'subtablinks');">
+		<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', true); dimElem(event, 'subtablinks'); openDefault(event, '{{ name }}');">
 			<img class="lozad" data-src={{ info.image }} height="125" width="125">
 			<figcaption>{{ name }}</figcaption>
 		</button>
@@ -92,28 +92,62 @@
 			<h2>{{ name }}</h2>
 			<p>{{ info['description'] }}</p>
 		</center>
-		{% for rarity,items in info['versions'].items() %}
-		<h3>
-			<center>{{ rarity }}</center>
-		</h3>
-		<div class="flex-container" id={{ rarity }}>
-			{% for item in items %}
-			<div class="container-items">
-				<img class="item-image lozad" data-src={{ item["image-alt"] }} height="80" width="80" id={{ item['item-id'] }} credit="u/ambieobambie">
-				<figcaption>{{ item.name }}</figcaption>
-				<div class="overlay {{ 'overlayItem' + ''.join(rarity.split()) }}">
+		<ul class="subsubtab">
+			{% for subname in ['Items', 'Addons'] %}
+			<button class="subsubTabLinks" onclick="openSubSubTab(event, '{{ name }}-{{ subname }}Content', false)">
+				<span>{{ subname }}</span>
+			</button>
+			{% endfor %}
+		</ul>
+		<div class="subsubTabContent" id="{{ name }}-ItemsContent">
+			{% for rarity,items in info['versions'].items() %}
+			<h3><center>{{ rarity }}</center></h3>
+			<div class="flex-container-items">
+				{% for item in items %}
+				<div class="container-items-items">
+					<img class="item-image lozad" data-src={{ item['image-alt'] }} height="80" width="80" id={{ item['item-id'] }} credit="u/ambieobambie">
+					<figcaption>
+						<span>{{ item['name'] }}</span>
+					</figcaption>
+					<div class="overlay {{ 'overlayItem' + ''.join(rarity.split()) }}">
+						<div class="overlay-heading">
+							<span style="font-size: 16px; font-weight: 600;">{{ item['name'] }}</span>
+							<span style="font-size: 13px;">{{ rarity }}</span>
+						</div>
+						<div class="overlay-content">
+							<p style="font-size: 15px;">{{ item['description'] }}</p>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="subsubTabContent" id="{{ name }}-AddonsContent">
+			{% for rarity,addons in info['addons'].items() %}
+			<h3><center>{{ rarity }}</center></h3>
+			<div class="flex-container-items">
+			{% for addon in addons %}
+			<div class="container-items-addons">
+				<img class="addon-image lozad" data-src={{ addon['addon-image-alt'] }} draggable="true"
+					ondragstart="drag(event)" id={{ addon['addon-id'] }} credit="u/ambieobambie">
+				<figcaption>
+					<span>{{ addon['addon-name'] }}</span>
+				</figcaption>
+				<div class="overlay {{ 'overlayAddon' + ''.join(rarity.split()) }}">
 					<div class="overlay-heading">
-						<span style="font-size: 16px; font-weight: 600;">{{ item.name }}</span>
+						<span style="font-size: 16px; font-weight: 600;">{{ addon['addon-name'] }}</span>
 						<span style="font-size: 13px;">{{ rarity }}</span>
 					</div>
 					<div class="overlay-content">
-						<p style="font-size: 15px;">{{ item.description }}</p>
+						<p style="font-size: 15px;">{{ addon['addon-description'] }}</p>
 					</div>
 				</div>
 			</div>
 			{% endfor %}
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</div>
 	{% endfor %}
 </div>
@@ -131,7 +165,7 @@
 	document.querySelector("button[data-tab-open=default]").click()
 </script>
 <script type="text/javascript">
-	$("[class^='container-']").mouseenter(function(){
+	$("[class^='container-perks'], [class^='container-addons'], [class^='container-items']").mouseenter(function(){
 		var f = $(this).find('.overlay');
 		var coords = f[0].getBoundingClientRect()
 		var screenWidth = $(window).width();
@@ -151,7 +185,7 @@
 			f.removeClass("shiftUp shiftLeft");
 		}
 	});
-	$("[class^='container-']").mouseleave(function(){
+	$("[class^='container-perks'], [class^='container-addons'], [class^='container-items']").mouseleave(function(){
 		var f = $(this).find('.overlay');
 		f.removeClass("shiftLeft shiftUp");
 	})

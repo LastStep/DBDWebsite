@@ -54,7 +54,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
 
 .itemSlots {
@@ -304,7 +303,8 @@
 }
 
 .container-addons,
-.container-items-items, .container-items-addons {
+.container-items-items,
+.container-items-addons {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
@@ -317,7 +317,8 @@
 	width: 80px;
 }
 
-.container-items-items img, .container-items-addons img {
+.container-items-items img,
+.container-items-addons img {
 	pointer-events: auto;
 	transition: transform 0.5s ease;
 	height: 60px;
@@ -373,7 +374,8 @@
 	/* display: none; */
 }
 
-.flex-container, .flex-container-items {
+.flex-container,
+.flex-container-items {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;

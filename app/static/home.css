@@ -7,7 +7,24 @@
 	pointer-events: none;
 }
 
-.flex-container>div {
+.flex-container-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-between;
+	pointer-events: none;
+}
+
+.flex-container > div {
+	/* background-color: rgb(121, 167, 51); */
+	background-color: transparent;
+	width: 32%;
+	margin: 5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.flex-container-items > div {
 	/* background-color: rgb(121, 167, 51); */
 	background-color: transparent;
 	width: 32%;
@@ -54,20 +71,26 @@
 }
 
 /* Addons */
-.container-addons {
+.container-addons,
+.container-items-items,
+.container-items-addons {
 	position: relative;
 	display: inline-block;
 	pointer-events: none;
 }
 
-.container-addons img {
+.container-addons img,
+.container-items-items img,
+.container-items-addons img {
 	pointer-events: auto;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	height: 80px;
 	width: 80px;
 }
 
-.container-addons:hover img {
+.container-addons:hover img,
+.container-items-items:hover img,
+.container-items-addons:hover img {
 	transform: scale(1.6);
 }
 
@@ -80,12 +103,18 @@
 
 .container-items img {
 	pointer-events: auto;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	min-height: 80;
 }
 
 .container-items:hover img {
 	transform: scale(1.6);
+}
+
+.container-items-addons {
+	position: relative;
+	display: inline-block;
+	pointer-events: none;
 }
 
 /* Tabs */
@@ -160,7 +189,7 @@
 	outline: none;
 	cursor: pointer;
 	padding: 14px 16px;
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	font-size: 17px;
 	color: white;
 }
@@ -184,9 +213,8 @@
 }
 
 .subtablinks img {
-	transition: transform .5s ease;
+	transition: transform 0.5s ease;
 	min-height: 125;
-
 }
 
 .subtablinks:hover img {
@@ -202,6 +230,61 @@
 }
 
 .subtabcontent {
+	display: none;
+	padding: 6px 12px;
+	/* border: 1px solid #ccc; */
+	border-top: none;
+	animation: fadeEffect 0.2s;
+}
+
+.subsubtab {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: transparent;
+	list-style-type: none;
+	/* max-width: max-content; */
+	max-height: max-content;
+}
+
+.subsubtab button {
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	background-color: inherit;
+	margin-right: 20px;
+	width: 120px;
+	/* border-top: none;
+	border-right: none;
+	border-width: 5px;
+	border-left-width: 3px;
+	border-left-style: double;
+	border-bottom-style: double; */
+	outline: none;
+	cursor: pointer;
+	padding: 14px 10px;
+	font-size: 17px;
+	color: white;
+	border-radius: 20px;
+}
+
+.subsubTabLinks:hover {
+	color: var(--color3);
+	background: var(--color1);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color1),
+		0 0 40px var(--shadow-radius) var(--color1),
+		0 0 80px var(--shadow-radius) var(--color1);
+}
+
+.subsubtab button.active {
+	color: var(--color3);
+	background: var(--color2);
+	box-shadow: 0 0 10px var(--shadow-radius) var(--color2),
+		0 0 40px var(--shadow-radius) var(--color2),
+		0 0 80px var(--shadow-radius) var(--color2);
+}
+
+.subsubTabContent {
 	display: none;
 	padding: 6px 12px;
 	/* border: 1px solid #ccc; */

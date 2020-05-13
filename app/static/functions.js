@@ -106,17 +106,22 @@ function assignVal(elem, val, temp) {
 		elem = elem.getElementsByClassName("stats-value")[0];
 	}
 	elemVal = elem.getAttribute("value");
-	staticVal = elem.parentNode.parentNode.getElementsByClassName("stats-addons")[1].textContent;
+	staticVal = elem.parentNode.parentNode.getElementsByClassName(
+		"stats-addons"
+	)[1].textContent;
 
 	if (elemVal.slice(-1) === "%" && val !== "None") {
 		elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + "%";
 		if (staticVal !== "None" && staticVal !== "speed") {
-			elem.textContent = +elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
+			elem.textContent =
+				+elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 			elemVal = +elemVal.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 		}
 		assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
 	} else if (val !== "None" && val.slice(-1) === "%") {
-		elem.textContent = getPreciseValue(+elemVal + (+elemVal * +val.slice(0, -1)) / 100);
+		elem.textContent = getPreciseValue(
+			+elemVal + (+elemVal * +val.slice(0, -1)) / 100
+		);
 		if (staticVal !== "None" && staticVal !== "speed") {
 			elem.textContent = +elem.textContent + +staticVal;
 			elemVal = +elemVal + +staticVal;
@@ -173,7 +178,9 @@ function assignDefaultVal(elem, temp) {
 		}
 		elemVal = statElem.textContent;
 		elemDefVal = statElem.getAttribute("value");
-		staticVal = statElem.parentNode.parentNode.getElementsByClassName("stats-addons")[1].textContent;
+		staticVal = statElem.parentNode.parentNode.getElementsByClassName(
+			"stats-addons"
+		)[1].textContent;
 		if (staticVal === "speed") {
 			elemVal = statElem.getAttribute("hiddenval");
 		}
@@ -186,9 +193,15 @@ function assignDefaultVal(elem, temp) {
 			if (staticVal !== "None" && staticVal !== "speed") {
 				elemDefVal = +elemDefVal.slice(0, -1) + +staticVal;
 			}
-			assignColor(statElem, +statElem.textContent.slice(0, -1), elemDefVal.slice(0, -1));
+			assignColor(
+				statElem,
+				+statElem.textContent.slice(0, -1),
+				elemDefVal.slice(0, -1)
+			);
 		} else if (val1 !== "None" && val1.slice(-1) === "%") {
-			statElem.textContent = getPreciseValue(+elemVal + (+elemDefVal * -val1.slice(0, -1)) / 100);
+			statElem.textContent = getPreciseValue(
+				+elemVal + (+elemDefVal * -val1.slice(0, -1)) / 100
+			);
 			if (staticVal !== "None" && staticVal !== "speed") {
 				elemDefVal = +elemDefVal + +staticVal;
 			}
@@ -347,7 +360,7 @@ function funcMedkit(temp, healingSpeedAlt, healingSpeedSlf) {
 	}
 	var baseHealingTime = 16;
 	var baseHealingSpeed = 100 / baseHealingTime;
-	
+
 	healingSpeedAlt = +healingSpeedAlt.slice(0, -1) / 100;
 	var finalHealingTimeAlt = getPreciseValue(
 		100 / (baseHealingSpeed * (1 + healingSpeedAlt))
@@ -418,6 +431,13 @@ function openSubTab(evt, sectionName, scrollValue) {
 	activeItemSubTab = evt.currentTarget.innerText;
 }
 
+// Open Items section as default section
+function openDefault(evt, sectionName) {
+	elem = document.getElementById(sectionName);
+	elemsubtablink = elem.getElementsByClassName("subsubTabLinks")[0];
+	elemsubtablink.click();
+}
+
 //Switch subsubtabs
 function openSubSubTab(evt, sectionName, scrollValue) {
 	var i, tabcontent, tablinks;
@@ -470,10 +490,10 @@ function getPreciseValue(val) {
 
 function getSpeedPercent(val) {
 	var baseSpeed = 4;
-	return getPreciseValue((+val*100)/4) + "%";
+	return getPreciseValue((+val * 100) / 4) + "%";
 }
 
 function getSpeedNumber(val) {
 	var baseSpeed = 4;
-	return getPreciseValue((+val.slice(-1)*4)/100);
+	return getPreciseValue((+val.slice(-1) * 4) / 100);
 }

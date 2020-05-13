@@ -163,7 +163,7 @@
 		<ul class="subtab">
 			{% for name,info in Items.items() %}
 			{% if name == 'Med-Kit' or name == 'Toolbox' %}
-			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', false); clearSlots('{{ name }}')">
+			<button class="subtablinks" onclick="openSubTab(event, '{{ name }}', false); clearSlots('{{ name }}');  openDefault(event, '{{ name }}')">
 				<span>{{ name }}</span>
 				<img class="lozad" data-src={{ info['image'] }} height="80" width="80">
 			</button>
@@ -264,9 +264,8 @@
 				<div class="itemsAddonsContainer">
 					<ul class="subsubtab">
 						{% for subname in ['Items', 'Addons'] %}
-						<button class="subsubTabLinks" onclick="openSubSubTab(event, '{{ name }}-{{ subname }}Content', false)" data-tab-open="">
+						<button class="subsubTabLinks" onclick="openSubSubTab(event, '{{ name }}-{{ subname }}Content', false)">
 							<span>{{ subname }}</span>
-							<!-- <img class="lozad" data-src={{ info['image'] }} height="80" width="80"> -->
 						</button>
 						{% endfor %}
 					</ul>
@@ -316,9 +315,9 @@
 								</div>
 							</div>
 							{% endfor %}
+							</div>
+							{% endfor %}
 						</div>
-						{% endfor %}
-					</div>
 					</div>
 				</div>
 				{% endif %}
@@ -362,7 +361,7 @@
 			f.removeClass("shiftUp shiftLeft");
 		}
 	});
-	$("[class^='container-']").mouseleave(function(){
+	$("[class^='container-perks'], [class^='container-addons'], [class^='container-items']").mouseleave(function(){
 		var f = $(this).find('.overlay');
 		f.removeClass("shiftLeft shiftUp");
 	})
