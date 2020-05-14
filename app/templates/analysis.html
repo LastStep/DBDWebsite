@@ -327,43 +327,4 @@
 		{% endfor %}
 	</div>
 </div>
-<script>
-	var elems = document.getElementsByClassName('overlay-content')
-	for (i = 0; i < elems.length; i++) {
-		elems[i].innerHTML = elems[i].innerHTML.split('\n').slice(1, -1).join('<br>');
-	}
-</script>
-<script>
-	const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-	observer.observe();
-</script>
-<script>
-	document.querySelector("button[data-tab-open=default]").click()
-</script>
-<script type="text/javascript">
-	$("[class^='container-perks'], [class^='container-addons'], [class^='container-items']").mouseenter(function(){
-		var f = $(this).find('.overlay');
-		var coords = f[0].getBoundingClientRect()
-		var screenWidth = $(window).width();
-		var screenHeight = $(window).height();
-		if(coords.right > screenWidth && coords.bottom < screenHeight){
-			f.addClass("shiftLeft");
-			f.removeClass("shiftUp");
-		}
-		else if(coords.bottom > screenHeight && coords.right < screenWidth){
-			f.addClass("shiftUp");
-			f.removeClass("shiftLeft")
-		}
-		else if(coords.bottom > screenHeight && coords.right > screenWidth){
-			f.addClass("shiftUp shiftLeft");
-		}
-		else{
-			f.removeClass("shiftUp shiftLeft");
-		}
-	});
-	$("[class^='container-perks'], [class^='container-addons'], [class^='container-items']").mouseleave(function(){
-		var f = $(this).find('.overlay');
-		f.removeClass("shiftLeft shiftUp");
-	})
-</script>
 {% endblock content %}
