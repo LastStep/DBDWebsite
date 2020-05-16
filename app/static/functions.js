@@ -65,9 +65,7 @@ function calcAddon(temp, type) {
 	for (i = 0; i < ele1.length; i++) {
 		var elem = ele1[i].parentNode.parentNode;
 		var val1 = ele1[i].textContent;
-		if (val1 === "default") {
-			continue;
-		}
+		if (val1 === "default") { continue; }
 		try {
 			var val2 = ele2[i].textContent;
 			var val = "";
@@ -100,28 +98,26 @@ function calcAddon(temp, type) {
 }
 
 function assignVal(elem, val, temp) {
+	if (val === "None") {
+		return
+	}
 	if (temp) {
 		elem = elem.getElementsByClassName("stats-value-temp")[0];
 	} else {
 		elem = elem.getElementsByClassName("stats-value")[0];
 	}
 	elemVal = elem.getAttribute("value");
-	staticVal = elem.parentNode.parentNode.getElementsByClassName(
-		"stats-addons"
-	)[1].textContent;
+	staticVal = elem.parentNode.parentNode.getElementsByClassName("stats-addons")[1].textContent;
 
 	if (elemVal.slice(-1) === "%" && val !== "None") {
 		elem.textContent = +elemVal.slice(0, -1) + +val.slice(0, -1) + "%";
 		if (staticVal !== "None" && staticVal !== "speed") {
-			elem.textContent =
-				+elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
+			elem.textContent = +elem.textContent.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 			elemVal = +elemVal.slice(0, -1) + +staticVal.slice(0, -1) + "%";
 		}
 		assignColor(elem, +elem.textContent.slice(0, -1), +elemVal.slice(0, -1));
 	} else if (val !== "None" && val.slice(-1) === "%") {
-		elem.textContent = getPreciseValue(
-			+elemVal + (+elemVal * +val.slice(0, -1)) / 100
-		);
+		elem.textContent = getPreciseValue(+elemVal + (+elemVal * +val.slice(0, -1)) / 100);
 		if (staticVal !== "None" && staticVal !== "speed") {
 			elem.textContent = +elem.textContent + +staticVal;
 			elemVal = +elemVal + +staticVal;
@@ -170,7 +166,7 @@ function assignDefaultVal(elem, temp) {
 	}
 	for (j = 0; j < ele1.length; j++) {
 		parentElem = ele1[j].parentNode.parentNode;
-		var val1 = ele1[j].textContent;
+		var val1 = ele1[j].textContent;		
 		if (temp) {
 			statElem = parentElem.getElementsByClassName("stats-value-temp")[0];
 		} else {
@@ -184,6 +180,8 @@ function assignDefaultVal(elem, temp) {
 		if (staticVal === "speed") {
 			elemVal = statElem.getAttribute("hiddenval");
 		}
+		
+		if (val1 === "None") { continue; }
 
 		if (val1 === "default") {
 			statElem.textContent = elemDefVal;
