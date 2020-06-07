@@ -10,5 +10,6 @@
 2) Item Analysis Indexing and Backend
 3) Verifying Addons Calculations
 4) Images Credit on Hover maybe
-5) Alert Notification if Website is not Opened in a Desktop Browser 
+5) Alert Notification if Website is not Opened in a Desktop Browser
+6)  https://forum.deadbydaylight.com/en/discussion/159033/killer-main-by-hack
 
