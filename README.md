@@ -1,3 +1,5 @@
+# Updated till Patch Version 3.7.2
+
 # To-Fix
 
 1) Fog gif covers only part of Overlay heading
